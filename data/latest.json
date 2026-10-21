@@ -1,7 +1,7 @@
 {
  "status": "partial",
  "title": "Indian Market News Brief — 21 Oct 2026 — Nifty 50",
- "generated_at": "2026-10-21T11:20:55.642868+05:30",
+ "generated_at": "2026-10-21T11:32:32.107777+05:30",
  "window_start": "2026-10-20T15:00:00+05:30",
  "cutoff": "2026-10-21T08:00:00+05:30",
  "quick_read": "AI summary not available for this run.",
@@ -35,22 +35,6 @@
     {
      "name": "BusinessLine Markets",
      "url": "https://www.thehindubusinessline.com/markets/oyo-parent-prism-to-nearly-halve-ipo-fresh-issue-size-to-up-to-3350-cr-sources/article71604229.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Bajaj Finance vs IREDA vs Reliance's Jio Financial: Top financial stock to buy after Q2 results 2026 for best returns?",
-   "time": "2026-10-20T17:50:06+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Q2 results 2026 date: Bajaj Finance and IREDA declared their September 2026 quarter results on Monday, 19 October 2026",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/bajaj-finance-vs-ireda-vs-reliances-jio-financial-top-financial-stock-to-buy-after-q2-results-2026-for-best-returns-11792493516210.html"
     }
    ]
   },
@@ -245,6 +229,22 @@
      "url": "https://www.livemint.com/market/us-yields-ease-off-lows-as-stocks-rally-11792521918675.html"
     }
    ]
+  },
+  {
+   "headline": "Dollar dips as traders weigh Iran, AI risks",
+   "time": "2026-10-21T00:18:17+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "GLOBAL-FOREX/ (UPDATE 5):FOREX-Dollar dips as traders weigh Iran, AI risks",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/dollar-dips-as-traders-weigh-iran-ai-risks-11792522097761.html"
+    }
+   ]
   }
  ],
  "factor_status": {
@@ -290,6 +290,7 @@
   "Source unavailable: Moneycontrol Business",
   "SEBI: 30 items skipped because no publish time was given",
   "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "First run: SEBI and PIB publish no times, so only items new since the previous run are shown from now on.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
   "AI summaries unavailable this run. Showing headlines only."
  ],
@@ -332,16 +333,16 @@
   },
   "Moneycontrol Top News": {
    "ok": false,
-   "error": "not well-formed (invalid token): line 6, column 305"
+   "error": "mismatched tag: line 18, column 5"
   },
   "Moneycontrol Business": {
    "ok": false,
-   "error": "not well-formed (invalid token): line 6, column 305"
+   "error": "mismatched tag: line 18, column 5"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 21,
+   "in_window": 20,
    "no_time": 0
   },
   "Business Standard Markets": {
