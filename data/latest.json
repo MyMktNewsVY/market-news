@@ -1,1 +1,360 @@
-{"status":"none","title":"","generated_at":null,"window_start":null,"cutoff":null,"quick_read":"","stories":[],"factor_status":{},"gaps":[]}
+{
+ "status": "partial",
+ "title": "Indian Market News Brief — 21 Oct 2026 — Nifty 50",
+ "generated_at": "2026-10-21T11:20:55.642868+05:30",
+ "window_start": "2026-10-20T15:00:00+05:30",
+ "cutoff": "2026-10-21T08:00:00+05:30",
+ "quick_read": "AI summary not available for this run.",
+ "stories": [
+  {
+   "headline": "CAMS eyes 20% share of revenue from non-core businesses in 2-3 years",
+   "time": "2026-10-20T16:43:04+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "CAMS has expanded into payments, alternative investment fund services, KYC registration, insurance repositories, analytics and a product for Digital Personal Data Protection compliance",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/cams-eyes-20-share-of-revenue-from-non-core-businesses-in-2-3-years/article71604199.ece"
+    }
+   ]
+  },
+  {
+   "headline": "OYO-parent PRISM to nearly halve IPO fresh issue size to up to ₹3,350 cr: Sources",
+   "time": "2026-10-20T16:48:35+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Reduction in the issue size follows continued strong cash generation and an improving balance-sheet position, which lowered the amount of capital the company needs to raise compared with what was originally envisaged, sources said.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/oyo-parent-prism-to-nearly-halve-ipo-fresh-issue-size-to-up-to-3350-cr-sources/article71604229.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Bajaj Finance vs IREDA vs Reliance's Jio Financial: Top financial stock to buy after Q2 results 2026 for best returns?",
+   "time": "2026-10-20T17:50:06+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Q2 results 2026 date: Bajaj Finance and IREDA declared their September 2026 quarter results on Monday, 19 October 2026",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/bajaj-finance-vs-ireda-vs-reliances-jio-financial-top-financial-stock-to-buy-after-q2-results-2026-for-best-returns-11792493516210.html"
+    }
+   ]
+  },
+  {
+   "headline": "Eternal share: What to expect from Zomato parent’s Q2 results 2026 as Blinkit growth stays strong",
+   "time": "2026-10-20T18:21:23+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Brokerages expect Eternal, parent of Zomato and Blinkit, to report strong September-quarter growth, with improved margins, market-share gains and rapid Blinkit expansion.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/eternal-share-what-to-expect-from-zomato-parent-s-q2-results-2026-as-blinkit-growth-stays-strong-11792497152335.html"
+    }
+   ]
+  },
+  {
+   "headline": "Gem, jewellery exporters heave a sigh of relief as the US puts off punitive tax",
+   "time": "2026-10-20T18:51:01+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Exporters eye Christmas orders as gold price declines, supporting festive demand and buying",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/economy/gem-jewellery-exporters-heave-a-sigh-of-relief-as-the-us-puts-off-punitive-tax/article71604247.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Jio IPO has lenders, brokerages pushing retail participation with loans, marketing reach out",
+   "time": "2026-10-20T19:18:53+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "After attracting global institutions as anchor investors, Jio Platforms is next targeting retail buyers in India’s largest IPO. Non-banks and brokerages are into a marketing overdrive and offering short-term financing amidst strong grey-market interest.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/india-jio-ipo-lenders-brokerages-push-retail-participation-with-loans-marketing-11792473742375.html"
+    }
+   ]
+  },
+  {
+   "headline": "Mutual funds raise stake in KRN Heat Exchanger; Union MF enters with five schemes",
+   "time": "2026-10-20T19:25:35+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "The number of mutual fund schemes holding the company’s shares rose to 30 in the September quarter from 26 in June",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/mutual-funds-raise-stake-in-krn-heat-exchanger-union-mf-enters-with-five-schemes/article71604360.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Big-ticket IPOs have struggled to deliver bumper listing gains. Can Mukesh Ambani backed Reliance Jio buck the trend?",
+   "time": "2026-10-20T19:57:56+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Several of India’s biggest IPOs, including those of Hyundai Motor India, LIC and Paytm, delivered weak or modest listing gains. Jio Platforms may break that pattern: anchor investors showed strong demand and its grey market premium points to a potential premium.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/bigticket-ipos-have-struggled-to-deliver-bumper-listing-gains-can-mukesh-ambani-backed-reliance-jio-buck-the-trend-11792505293980.html"
+    }
+   ]
+  },
+  {
+   "headline": "Wall Street rebounds from lows as upbeat earnings, falling oil prices lift sentiment; Micron, Intel up 2%",
+   "time": "2026-10-20T20:51:19+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "US stocks recovered from early losses as strong corporate earnings and falling oil prices offset concerns about AI-related shares. Major indexes rose, while chip stocks posted modest gains. Investors are watching upcoming company results for signs that heavy AI investment is sustainable.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/wall-street-rebounds-from-lows-as-upbeat-earnings-falling-oil-prices-lift-sentiment-micron-intel-up-2-11792507459852.html"
+    }
+   ]
+  },
+  {
+   "headline": "Indian govt’s price correction of ethanol from maize may help balance distortion",
+   "time": "2026-10-20T22:07:15+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Grain-based distilleries upset with Rs3/litre cut in purchase price, but sugar sector welcomes the decision",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/economy/agri-business/indian-govts-price-correction-of-ethanol-from-maize-may-help-balance-distortion/article71604610.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Inflows in gold ETFs continue to be net positive for the 13th week in a row",
+   "time": "2026-10-20T22:08:24+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Investors find the current level attractive as the yellow metal hovers below $4,200 an ounce with $4,000 as the floor",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/gold/inflows-in-gold-etfs-continue-to-be-net-positive-for-the-13th-week-in-a-row/article71603284.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Braze stock surges over 50% after Salesforce announces $5.66 billion acquisition",
+   "time": "2026-10-20T22:51:01+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Salesforce agreed to acquire Braze for about $5.66 billion, offering $47.50 per share—a 58.1% premium. Braze shares surged 52% to $45.59. The all-cash deal, expected to close in fiscal 2028 pending approvals, would expand Salesforce’s AI-powered marketing and customer engagement capabilities.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/braze-stock-surges-over-50-after-salesforce-announces-5-66-billion-acquisition-11792516251172.html"
+    }
+   ]
+  },
+  {
+   "headline": "Global stocks fall as AI spending concerns resurface, oil prices surge",
+   "time": "2026-10-20T23:14:12+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Global equities declined as concerns over AI infrastructure spending resurfaced after a weak South Korean IPO, while Brent crude topped $111 amid renewed geopolitical risks",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/global-stocks-fall-as-ai-spending-concerns-resurface-oil-prices-surge-126102000915_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Dividend, stock split, buyback: Last chance to buy today - VRL Logistics, JSW Dulux, Angel One shares",
+   "time": "2026-10-20T23:55:50+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Investors will track several corporate actions on October 21. VRL Logistics moved its buyback record date to October 22, 2026; JSW Dulux set the same date for its proposed 1:10 stock split. Tips Music announced a ₹6.50 interim dividend, while Angel One declared ₹1.40 per share.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/dividend-stock-split-buyback-last-chance-to-buy-today-vrl-logistics-jsw-dulux-angel-one-shares-11792511128048.html"
+    }
+   ]
+  },
+  {
+   "headline": "US yields ease off lows as stocks rally",
+   "time": "2026-10-21T00:15:18+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "USA-BONDS/ (UPDATE 1, GRAPHICS):TREASURIES-US yields ease off lows as stocks rally",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/us-yields-ease-off-lows-as-stocks-rally-11792521918675.html"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "unverified",
+  "2": "unverified",
+  "3": "unverified",
+  "4": "unverified",
+  "5": "unverified",
+  "6": "unverified",
+  "7": "unverified",
+  "8": "unverified",
+  "9": "unverified",
+  "10": "unverified",
+  "11": "unverified",
+  "12": "unverified",
+  "13": "unverified",
+  "14": "unverified",
+  "15": "unverified",
+  "16": "unverified",
+  "17": "unverified",
+  "18": "unverified",
+  "19": "unverified",
+  "20": "unverified",
+  "21": "unverified",
+  "22": "unverified",
+  "23": "unverified",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "unverified",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "unverified",
+  "31": "unverified",
+  "32": "unverified",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "unverified"
+ },
+ "gaps": [
+  "Source unavailable: Moneycontrol Top News",
+  "Source unavailable: Moneycontrol Business",
+  "SEBI: 30 items skipped because no publish time was given",
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "AI summaries unavailable this run. Showing headlines only."
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0
+  },
+  "SEBI": {
+   "ok": true,
+   "total": 30,
+   "in_window": 0,
+   "no_time": 30
+  },
+  "US Federal Reserve": {
+   "ok": true,
+   "total": 20,
+   "in_window": 0,
+   "no_time": 0
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 0,
+   "no_time": 20
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 0,
+   "no_time": 0
+  },
+  "Moneycontrol Top News": {
+   "ok": false,
+   "error": "not well-formed (invalid token): line 6, column 305"
+  },
+  "Moneycontrol Business": {
+   "ok": false,
+   "error": "not well-formed (invalid token): line 6, column 305"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 21,
+   "no_time": 0
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 6,
+   "no_time": 0
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 6,
+   "no_time": 0
+  }
+ }
+}
