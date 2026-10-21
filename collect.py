@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
 IST = timezone(timedelta(hours=5, minutes=30))
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.environ.get("GEMINI_MODEL", "").strip()
 KEY = os.environ.get("GEMINI_API_KEY", "")
 MAX_STORIES, MAX_CANDIDATES = 15, 110
 BANNED = re.compile(r"\b(buy|sell|target price|guaranteed)\b", re.I)
@@ -34,7 +34,13 @@ def fetch(url):
     with urllib.request.urlopen(req, timeout=25) as r: return r.read()
 
 def parse_feed(raw):
-    root = ET.fromstring(raw); out = []
+    try: root = ET.fromstring(raw)
+    except ET.ParseError:
+        txt = raw.decode("utf-8", "ignore")
+        txt = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", txt)
+        txt = re.sub(r"&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)", "&amp;", txt)
+        root = ET.fromstring(txt.encode("utf-8"))
+    out = []
     for it in root.iter():
         tag = it.tag.split("}")[-1]
         if tag not in ("item", "entry"): continue
@@ -47,7 +53,7 @@ def parse_feed(raw):
                     "time": parse_time(t), "snippet": clean(desc)[:400]})
     return out
 
-def collect(sources, start, cutoff):
+def collect(sources, start, cutoff, seen, bootstrap, new_seen):
     items, status = [], {}
     for s in sources:
         try:
@@ -55,7 +61,13 @@ def collect(sources, start, cutoff):
             n_all, n_in, n_notime = len(feed), 0, 0
             for f in feed:
                 if not f["title"] or not f["link"]: continue
-                if f["time"] is None: n_notime += 1; continue
+                if f["time"] is None:
+                    n_notime += 1
+                    if s["kind"] == "official":
+                        new_seen.add(f["link"])
+                        if not bootstrap and f["link"] not in seen:
+                            n_in += 1; items.append({**f, "source": s["name"], "kind": s["kind"]})
+                    continue
                 if start <= f["time"] <= cutoff:
                     n_in += 1; items.append({**f, "source": s["name"], "kind": s["kind"]})
             status[s["name"]] = {"ok": True, "total": n_all, "in_window": n_in, "no_time": n_notime}
@@ -66,7 +78,9 @@ def collect(sources, start, cutoff):
     return items, status
 
 def group(items):
-    items.sort(key=lambda x: x["time"]); groups = []
+    now = datetime.now(IST)
+    for it in items: it["ts"] = it["time"] or now
+    items.sort(key=lambda x: x["ts"]); groups = []
     for it in items:
         key = it["title"].lower()
         for g in groups:
@@ -80,8 +94,20 @@ def group(items):
         g["label"] = ("Official source" if g["official"] else
                       "Confirmed by 2 or more outlets" if len(srcs) > 1 else
                       "Single source, not independently confirmed")
-    groups.sort(key=lambda g: (-g["official"], -g["n_sources"], g["members"][0]["time"]))
+    groups.sort(key=lambda g: (-g["official"], -g["n_sources"], g["members"][0]["ts"]))
     return groups[:MAX_CANDIDATES]
+
+def pick_model():
+    if MODEL: return MODEL
+    req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200", headers={"x-goog-api-key": KEY})
+    with urllib.request.urlopen(req, timeout=30) as r: models = json.load(r).get("models", [])
+    def ver(n):
+        m = re.search(r"gemini-(\d+(?:\.\d+)?)", n); return float(m.group(1)) if m else 0
+    for bad in (("lite","image","tts","audio","live","thinking","exp","preview","8b","latest"), ("lite","image","tts","audio","live","8b")):
+        c = [m["name"].split("/")[-1] for m in models if "generateContent" in m.get("supportedGenerationMethods", [])
+             and "flash" in m["name"] and not any(b in m["name"] for b in bad)]
+        if c: c.sort(key=lambda n: (ver(n), n), reverse=True); return c[0]
+    raise RuntimeError("No Gemini flash model available for this key")
 
 def ask_gemini(groups, names):
     lines = []
@@ -99,7 +125,8 @@ def ask_gemini(groups, names):
       '"stories":[{"id":0,"factors":[1],"summary":"...","impact":"...","sectors":["Banks"]}]}\n\nITEMS:\n' + "\n".join(lines))
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}).encode()
-    req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent",
+    model = pick_model(); log("Using Gemini model:", model)
+    req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
         data=body, headers={"Content-Type": "application/json", "x-goog-api-key": KEY})
     with urllib.request.urlopen(req, timeout=120) as r: resp = json.load(r)
     return json.loads(resp["candidates"][0]["content"]["parts"][0]["text"])
@@ -109,12 +136,19 @@ def main():
     names = json.load(open("factors.json"))
     start, cutoff, now = window()
     log("Window:", start.isoformat(), "->", cutoff.isoformat())
-    items, status = collect(cfg, start, cutoff)
+    seen_path = "data/seen.json"
+    bootstrap = not os.path.exists(seen_path)
+    seen = set(json.load(open(seen_path))) if not bootstrap else set()
+    new_seen = set()
+    items, status = collect(cfg, start, cutoff, seen, bootstrap, new_seen)
+    if bootstrap: log("First run: remembering current SEBI/PIB items; only new ones will appear from the next run.")
     if not any(v["ok"] for v in status.values()):
         log("No source could be reached. Keeping the previous report."); sys.exit(1)
     groups = group(items); log(f"{len(items)} items -> {len(groups)} distinct stories")
     gaps = [f"Source unavailable: {k}" for k, v in status.items() if not v["ok"]]
     gaps += [f"{k}: {v['no_time']} items skipped because no publish time was given" for k, v in status.items() if v.get("no_time")]
+    if bootstrap: gaps.append("First run: SEBI and PIB publish no times, so only items new since the previous run are shown from now on.")
+    elif any(m["time"] is None for g in groups for m in g["members"]): gaps.append("SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.")
     gaps.append("Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.")
     stories, quick, ai_ok = [], "", False
     if groups and KEY:
@@ -123,7 +157,7 @@ def main():
             for s in res.get("stories", [])[:MAX_STORIES]:
                 g = groups[s["id"]]; txt = s.get("summary", "") + " " + s.get("impact", "")
                 if BANNED.search(txt): gaps.append(f"Removed AI text with trading language: {g['title'][:60]}"); s["impact"] = "Explanation withheld."
-                stories.append({"headline": g["title"], "time": g["members"][0]["time"].isoformat(),
+                stories.append({"headline": g["title"], "time": (next((m["time"] for m in g["members"] if m["time"]), None) or None) and next(m["time"] for m in g["members"] if m["time"]).isoformat(),
                   "factors": [names[f-1] for f in s.get("factors", []) if 1 <= f <= 36],
                   "factor_ids": [f for f in s.get("factors", []) if 1 <= f <= 36],
                   "summary": s.get("summary", ""), "confirmation": g["label"], "impact": s.get("impact", ""),
@@ -136,7 +170,7 @@ def main():
     if not ai_ok:
         for g in groups[:MAX_STORIES]:
             m = g["members"][0]
-            stories.append({"headline": g["title"], "time": m["time"].isoformat(), "factors": [], "factor_ids": [],
+            stories.append({"headline": g["title"], "time": m["time"].isoformat() if m["time"] else None, "factors": [], "factor_ids": [],
               "summary": m["snippet"] or "Headline only.", "confirmation": g["label"],
               "impact": "AI explanation not available for this story.", "sectors": [],
               "sources": [{"name": x["source"], "url": x["link"]} for x in g["members"][:3]]})
@@ -160,6 +194,7 @@ def main():
     idx["reports"] = [r for r in idx["reports"] if r["date"] != date] + [{"date": date, "file": f"data/reports/{date}.json"}]
     idx["reports"].sort(key=lambda r: r["date"], reverse=True)
     json.dump(idx, open("data/index.json", "w"), indent=1)
+    json.dump(sorted((seen | new_seen))[-3000:], open(seen_path, "w"))
     log(f"Report written: {len(stories)} stories, AI={'yes' if ai_ok else 'no'}")
 
 if __name__ == "__main__": main()
