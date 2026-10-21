@@ -1,11 +1,38 @@
 {
  "status": "ok",
  "title": "Indian Market News Brief — 21 Oct 2026 — Nifty 50",
- "generated_at": "2026-10-21T11:41:56.372224+05:30",
+ "generated_at": "2026-10-21T11:58:43.753219+05:30",
  "window_start": "2026-10-20T15:00:00+05:30",
  "cutoff": "2026-10-21T08:00:00+05:30",
- "quick_read": "Supportive factors include positive GIFT Nifty signals and robust festive sales growth of 25-30% in consumer durables. Pressures stem from elevated crude oil prices near $110 per barrel and compressed interest margins for banking heavyweights. Key market events include the opening of Reliance Jio's ₹30,213 crore IPO and regulatory adjustments in government ethanol procurement pricing.",
+ "quick_read": "Supportive global cues, positive GIFT Nifty signals, and strong festive consumer durables demand offer baseline market support. However, volatile global crude prices near $109/bbl due to Middle East geopolitical risks remain a key headwind. Investors are parsing key heavyweight events including HDFC Bank Q2 margin developments and the opening of the massive Reliance Jio IPO.",
  "stories": [
+  {
+   "headline": "Reliance Jio IPO: Massive ₹30,213 cr issue opens for subscription today | Latest GMP, review, listing price prediction",
+   "time": "2026-10-21T07:56:17+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    20,
+    21,
+    31
+   ],
+   "summary": "Reliance Jio Platforms' mega ₹30,213 crore IPO opens for subscription with a price band set at ₹1,065–₹1,119 per share. The issue consists of a fresh issue of 27 crore shares. Strong demand from anchor investors and positive grey market trends precede the opening.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "The large offering could absorb significant market liquidity while influencing valuation benchmarks for Reliance Industries and the telecom sector.",
+   "sectors": [
+    "Telecom",
+    "Index Heavyweights"
+   ],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/reliance-jio-ipo-massive-30-213-cr-issue-opens-for-subscription-today-latest-gmp-review-listing-price-prediction-11792548066016.html"
+    }
+   ]
+  },
   {
    "headline": "HDFC Bank has green shoots beyond Q2",
    "time": "2026-10-21T06:00:27+05:30",
@@ -19,9 +46,9 @@
     20,
     21
    ],
-   "summary": "HDFC Bank reported a drop in Net Interest Margin to a 12-quarter low during the September quarter. However, the lender sustained growth in core operating profit alongside an improvement in asset quality. Faster growth in higher-yielding loan segments is expected to assist margin recovery.",
+   "summary": "HDFC Bank's Net Interest Margin (NIM) dropped to a 12-quarter low in Q2, though core operating profit grew and asset quality showed improvement. Management expects faster growth in higher-yielding loans to assist margin recovery.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Mixed quarterly metrics may cause short-term price volatility for the stock, though resilient asset quality could limit downside pressure.",
+   "impact": "Mixed operational cues may lead to near-term stock volatility, though steady asset quality could limit downside risks for banking heavyweights.",
    "sectors": [
     "Banking",
     "Financial Services"
@@ -34,132 +61,29 @@
    ]
   },
   {
-   "headline": "Reliance Jio IPO: Massive ₹30,213 cr issue opens for subscription today | Latest GMP, review, listing price prediction",
-   "time": "2026-10-21T07:56:17+05:30",
-   "factors": [
-    "Foreign investment",
-    "Heavyweight stocks",
-    "Corporate events"
-   ],
-   "factor_ids": [
-    18,
-    21,
-    31
-   ],
-   "summary": "Reliance Jio Platforms has opened its ₹30,213 crore initial public offering for subscription with a price band set at ₹1,065 to ₹1,119 per share. Non-banking financial companies and brokerages are actively offering short-term financing to encourage retail participation. The anchor book previously attracted strong demand from global institutions.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Massive primary market fundraising could influence liquidity across the broader market and impact trading sentiment in parent firm Reliance Industries.",
-   "sectors": [
-    "Telecommunications",
-    "Financial Services"
-   ],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/reliance-jio-ipo-massive-30-213-cr-issue-opens-for-subscription-today-latest-gmp-review-listing-price-prediction-11792548066016.html"
-    }
-   ]
-  },
-  {
    "headline": "Oil prices rise on Red Sea shipping risks, threats to Saudi oil sites",
    "time": "2026-10-21T07:45:39+05:30",
    "factors": [
     "Geopolitics and trade",
-    "Crude oil",
-    "External balances"
+    "Crude oil"
    ],
    "factor_ids": [
     6,
-    8,
-    32
+    8
    ],
-   "summary": "Brent crude futures advanced 0.78% to $109.64 per barrel due to escalating Red Sea shipping risks and potential security threats to Saudi oil facilities. US West Texas Intermediate crude also gained 0.78% to reach $98.58 per barrel. Geopolitical tensions continue to disrupt global supply expectations.",
+   "summary": "Brent crude futures rose to $109.64 per barrel and WTI reached $98.58 amid escalating Red Sea shipping risks and security threats to Saudi energy infrastructure.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Rising crude prices could elevate domestic input costs and pressure net oil-importing economies like India.",
+   "impact": "Elevated oil prices could heighten domestic inflation concerns and pressure margins for oil-consuming sectors like paints, auto, and aviation.",
    "sectors": [
+    "Energy",
     "Oil & Gas",
-    "Paints",
-    "Automobiles"
+    "Aviation",
+    "Paints"
    ],
    "sources": [
     {
      "name": "Business Standard Markets",
      "url": "https://www.business-standard.com/markets/commodities/oil-prices-rise-on-red-sea-shipping-risks-threats-to-saudi-oil-sites-126102100052_1.html"
-    }
-   ]
-  },
-  {
-   "headline": "Indian govt’s price correction of ethanol from maize may help balance distortion",
-   "time": "2026-10-20T22:07:15+05:30",
-   "factors": [
-    "Government policy",
-    "Regulation"
-   ],
-   "factor_ids": [
-    15,
-    17
-   ],
-   "summary": "The Indian government reduced the purchase price of maize-based ethanol by ₹3 per litre to address market distortions. Grain-based distilleries expressed concern over the margin impact, while the sugar sector welcomed the policy adjustment.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "The price cut may weigh on earnings for grain-based ethanol producers while providing relative operational stability to sugar manufacturers.",
-   "sectors": [
-    "Sugar",
-    "Agro-chemicals"
-   ],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/economy/agri-business/indian-govts-price-correction-of-ethanol-from-maize-may-help-balance-distortion/article71604610.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Eternal share: What to expect from Zomato parent’s Q2 results 2026 as Blinkit growth stays strong",
-   "time": "2026-10-20T18:21:23+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    20,
-    21
-   ],
-   "summary": "Brokerage estimates point to strong September-quarter revenue growth for Eternal, the parent entity of Zomato and Blinkit. Expected performance is backed by rapid quick-commerce expansion through Blinkit, market share gains, and sequential margin improvements.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Upbeat earnings projections may maintain positive trading momentum in consumer-tech and platform stocks.",
-   "sectors": [
-    "Consumer Technology",
-    "Retail"
-   ],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/eternal-share-what-to-expect-from-zomato-parent-s-q2-results-2026-as-blinkit-growth-stays-strong-11792497152335.html"
-    }
-   ]
-  },
-  {
-   "headline": "Consumer durables demand mixed; prefer LG, Polycab India: Motilal Oswal",
-   "time": "2026-10-21T07:22:48+05:30",
-   "factors": [
-    "Inflation and consumption",
-    "Corporate earnings"
-   ],
-   "factor_ids": [
-    11,
-    20
-   ],
-   "summary": "Consumer durables demand accelerated during Navratri, delivering 25% to 30% year-on-year sales growth after a slower start during Ganesh Chaturthi. Motilal Oswal highlighted a recovery in festive consumption trends across urban markets.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Strong seasonal sales figures could provide fundamental support to consumer electronics and durable manufacturers.",
-   "sectors": [
-    "Consumer Durables",
-    "Electricals"
-   ],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/consumer-durables-demand-mixed-prefer-lg-electronics-polycab-india-motilal-oswal-126102100068_1.html"
     }
    ]
   },
@@ -174,17 +98,93 @@
     6,
     15
    ],
-   "summary": "The US delayed the implementation of punitive import taxes on Indian gem and jewellery exporters. Exporters are witnessing steady Christmas order flows, aided by softer domestic gold prices that are helping sustain festive demand.",
+   "summary": "The US government has deferred punitive tariffs on Indian gem and jewellery exporters. The relief comes as lower domestic gold prices boost demand ahead of Christmas order cycles.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "The tax postponement removes an immediate trade hurdle, potentially benefiting export-focused jewellery firms.",
+   "impact": "The tax deferral could support export volumes and earnings visibility for gem and jewellery manufacturers.",
    "sectors": [
     "Gems & Jewellery",
-    "Consumer Discretionary"
+    "Exports"
    ],
    "sources": [
     {
      "name": "BusinessLine Markets",
      "url": "https://www.thehindubusinessline.com/economy/gem-jewellery-exporters-heave-a-sigh-of-relief-as-the-us-puts-off-punitive-tax/article71604247.ece"
+    }
+   ]
+  },
+  {
+   "headline": "OYO-parent PRISM to nearly halve IPO fresh issue size to up to ₹3,350 cr: Sources",
+   "time": "2026-10-20T16:48:35+05:30",
+   "factors": [
+    "Foreign investment",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    18,
+    31
+   ],
+   "summary": "OYO parent PRISM plans to reduce its IPO fresh issue size by nearly half to up to ₹3,350 crore. Sources attribute the decision to consistent cash generation and improved balance sheet metrics.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Lower external capital raising requirements may enhance market perception regarding capital discipline in the primary market.",
+   "sectors": [
+    "Hospitality",
+    "Consumer Services"
+   ],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/oyo-parent-prism-to-nearly-halve-ipo-fresh-issue-size-to-up-to-3350-cr-sources/article71604229.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Consumer durables demand mixed; prefer LG, Polycab India: Motilal Oswal",
+   "time": "2026-10-21T07:22:48+05:30",
+   "factors": [
+    "Inflation and consumption",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    11,
+    20
+   ],
+   "summary": "Consumer durables sales expanded 25-30% year-on-year during the Navratri period after a slow start during Ganesh Chaturthi, according to Motilal Oswal research.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Strong festive demand could bolster third-quarter earnings expectations for consumer durable manufacturers and retailers.",
+   "sectors": [
+    "Consumer Durables",
+    "Retail"
+   ],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/consumer-durables-demand-mixed-prefer-lg-electronics-polycab-india-motilal-oswal-126102100068_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Indian govt’s price correction of ethanol from maize may help balance distortion",
+   "time": "2026-10-20T22:07:15+05:30",
+   "factors": [
+    "Government policy",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    15,
+    20
+   ],
+   "summary": "The Indian government reduced the purchase price of maize-based ethanol by ₹3 per litre. The move faced opposition from grain-based distilleries while receiving support from the sugar industry.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Margin pressures may rise for grain-based ethanol producers, whereas sugar sector players could experience balanced market dynamics.",
+   "sectors": [
+    "Sugar",
+    "Distilleries",
+    "Agriculture"
+   ],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/economy/agri-business/indian-govts-price-correction-of-ethanol-from-maize-may-help-balance-distortion/article71604610.ece"
     }
    ]
   },
@@ -199,11 +199,11 @@
     1,
     24
    ],
-   "summary": "GIFT Nifty futures were trading around the 23,031 mark, indicating a gain of approximately 96 points or 0.41% relative to the prior close. Asian benchmarks traded with mild gains, tracking overnight movements in global equities.",
+   "summary": "GIFT Nifty traded around the 23,031 level, up 96 points or 0.41% over the previous futures close, pointing to a firm start for Indian equities. Asian indices traded higher in tandem.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Points toward a positive opening sentiment for domestic equity indices.",
+   "impact": "Positive early signals from offshore futures may support bullish momentum for benchmark Nifty 50 and Sensex indices at open.",
    "sectors": [
-    "Broad Market"
+    "Index Heavyweights"
    ],
    "sources": [
     {
@@ -223,17 +223,68 @@
     20,
     31
    ],
-   "summary": "Computer Age Management Services (CAMS) plans to expand non-core businesses to generate 20% of overall revenue within two to three years. The company has extended operations into payments, AIF servicing, insurance repositories, analytics, and DPDP compliance products.",
+   "summary": "Computer Age Management Services (CAMS) targets a 20% revenue share from non-core segments within 2-3 years. The firm has expanded into payments, AIF services, KYC registration, analytics, and data protection compliance.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Diversification beyond core mutual fund transfer agency business could enhance medium-term revenue stability.",
+   "impact": "Revenue diversification away from traditional mutual fund transfer operations may improve long-term business resilience.",
    "sectors": [
-    "Financial Technology",
-    "Capital Markets"
+    "Financial Services",
+    "IT Enabled Services"
    ],
    "sources": [
     {
      "name": "BusinessLine Markets",
      "url": "https://www.thehindubusinessline.com/markets/cams-eyes-20-share-of-revenue-from-non-core-businesses-in-2-3-years/article71604199.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Dividend, stock split, buyback: Last chance to buy today - VRL Logistics, JSW Dulux, Angel One shares",
+   "time": "2026-10-20T23:55:50+05:30",
+   "factors": [
+    "Corporate events"
+   ],
+   "factor_ids": [
+    31
+   ],
+   "summary": "Corporate action record dates today include VRL Logistics' buyback date adjustment to October 22, JSW Dulux's 1:10 stock split, a ₹6.50 interim dividend for Tips Music, and a ₹1.40 dividend for Angel One.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Scheduled stock splits, dividends, and buyback adjustments are likely to trigger stock-specific trading activity.",
+   "sectors": [
+    "Logistics",
+    "Paints",
+    "Broking",
+    "Media"
+   ],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/dividend-stock-split-buyback-last-chance-to-buy-today-vrl-logistics-jsw-dulux-angel-one-shares-11792511128048.html"
+    }
+   ]
+  },
+  {
+   "headline": "Wall Street rebounds from lows as upbeat earnings, falling oil prices lift sentiment; Micron, Intel up 2%",
+   "time": "2026-10-20T20:51:19+05:30",
+   "factors": [
+    "Global markets",
+    "Crude oil",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    1,
+    8,
+    20
+   ],
+   "summary": "US equity markets rebounded as upbeat corporate earnings and declining oil prices offset concerns surrounding AI infrastructure spending. Major indexes and semiconductor stocks closed higher.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Stabilization in US equities could support risk appetite and offer positive sentiment for domestic IT stocks.",
+   "sectors": [
+    "Information Technology"
+   ],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/wall-street-rebounds-from-lows-as-upbeat-earnings-falling-oil-prices-lift-sentiment-micron-intel-up-2-11792507459852.html"
     }
    ]
   }
@@ -247,7 +298,7 @@
   "6": "found",
   "7": "none",
   "8": "found",
-  "9": "none",
+  "9": "unverified",
   "10": "none",
   "11": "found",
   "12": "none",
@@ -255,7 +306,7 @@
   "14": "none",
   "15": "found",
   "16": "none",
-  "17": "found",
+  "17": "none",
   "18": "found",
   "19": "none",
   "20": "found",
@@ -270,7 +321,7 @@
   "29": "unverified",
   "30": "unverified",
   "31": "found",
-  "32": "found",
+  "32": "none",
   "33": "unverified",
   "34": "unverified",
   "35": "unverified",
@@ -279,7 +330,6 @@
  "gaps": [
   "SEBI: 30 items skipped because no publish time was given",
   "PIB (Govt of India): 20 items skipped because no publish time was given",
-  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar."
  ],
  "sources_checked": {
@@ -287,67 +337,73 @@
    "ok": true,
    "total": 10,
    "in_window": 0,
-   "no_time": 0
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-21T10:45:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
    "total": 10,
    "in_window": 0,
-   "no_time": 0
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-19T17:20:00+05:30"
   },
   "SEBI": {
    "ok": true,
    "total": 30,
    "in_window": 0,
-   "no_time": 30
+   "no_time": 30,
+   "fresh": true,
+   "newest": null
   },
   "US Federal Reserve": {
    "ok": true,
    "total": 20,
    "in_window": 0,
-   "no_time": 0
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-16T20:30:00+05:30"
   },
   "PIB (Govt of India)": {
    "ok": true,
    "total": 20,
-   "in_window": 1,
-   "no_time": 20
+   "in_window": 0,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
   },
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
    "in_window": 0,
-   "no_time": 0
-  },
-  "Moneycontrol Top News": {
-   "ok": true,
-   "total": 18,
-   "in_window": 0,
-   "no_time": 0
-  },
-  "Moneycontrol Business": {
-   "ok": true,
-   "total": 15,
-   "in_window": 0,
-   "no_time": 0
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-21T11:40:30+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 20,
-   "no_time": 0
+   "in_window": 18,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-21T11:45:24+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
    "in_window": 6,
-   "no_time": 0
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-21T11:51:44+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
    "in_window": 6,
-   "no_time": 0
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-21T11:56:30+05:30"
   }
  }
 }
