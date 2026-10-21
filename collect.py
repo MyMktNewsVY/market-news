@@ -39,7 +39,22 @@ def parse_feed(raw):
         txt = raw.decode("utf-8", "ignore")
         txt = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", txt)
         txt = re.sub(r"&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)", "&amp;", txt)
-        root = ET.fromstring(txt.encode("utf-8"))
+        try: root = ET.fromstring(txt.encode("utf-8"))
+        except ET.ParseError: return parse_loose(raw)
+    return read_items(root)
+
+def parse_loose(raw):
+    txt = raw.decode("utf-8", "ignore"); out = []
+    def tag(block, name):
+        m = re.search(rf"<{name}[^>]*>(.*?)</{name}>", block, re.S | re.I)
+        return re.sub(r"^<!\[CDATA\[|\]\]>$", "", m.group(1).strip()) if m else ""
+    for b in re.findall(r"<item[ >].*?</item>", txt, re.S | re.I):
+        out.append({"title": clean(tag(b, "title")), "link": tag(b, "link"), "time": parse_time(tag(b, "pubDate")),
+                    "snippet": clean(tag(b, "description"))[:400]})
+    if not out: raise ValueError("feed unreadable")
+    return out
+
+def read_items(root):
     out = []
     for it in root.iter():
         tag = it.tag.split("}")[-1]
@@ -59,6 +74,8 @@ def collect(sources, start, cutoff, seen, bootstrap, new_seen):
         try:
             feed = parse_feed(fetch(s["url"]))
             n_all, n_in, n_notime = len(feed), 0, 0
+            ts = [f["time"] for f in feed if f["time"]]
+            rng = f", newest {max(ts).strftime('%d %b %H:%M')}, oldest {min(ts).strftime('%d %b %H:%M')}" if ts else ""
             for f in feed:
                 if not f["title"] or not f["link"]: continue
                 if f["time"] is None:
@@ -71,7 +88,7 @@ def collect(sources, start, cutoff, seen, bootstrap, new_seen):
                 if start <= f["time"] <= cutoff:
                     n_in += 1; items.append({**f, "source": s["name"], "kind": s["kind"]})
             status[s["name"]] = {"ok": True, "total": n_all, "in_window": n_in, "no_time": n_notime}
-            log(f"OK   {s['name']}: {n_all} items, {n_in} in window, {n_notime} without time")
+            log(f"OK   {s['name']}: {n_all} items, {n_in} in window, {n_notime} without time{rng}")
         except Exception as e:
             status[s["name"]] = {"ok": False, "error": str(e)[:120]}
             log(f"FAIL {s['name']}: {e}")
@@ -97,8 +114,8 @@ def group(items):
     groups.sort(key=lambda g: (-g["official"], -g["n_sources"], g["members"][0]["ts"]))
     return groups[:MAX_CANDIDATES]
 
-def pick_model():
-    if MODEL: return MODEL
+def pick_models():
+    if MODEL: return [MODEL]
     req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200", headers={"x-goog-api-key": KEY})
     with urllib.request.urlopen(req, timeout=30) as r: models = json.load(r).get("models", [])
     def ver(n):
@@ -106,7 +123,7 @@ def pick_model():
     for bad in (("lite","image","tts","audio","live","thinking","exp","preview","8b","latest"), ("lite","image","tts","audio","live","8b")):
         c = [m["name"].split("/")[-1] for m in models if "generateContent" in m.get("supportedGenerationMethods", [])
              and "flash" in m["name"] and not any(b in m["name"] for b in bad)]
-        if c: c.sort(key=lambda n: (ver(n), n), reverse=True); return c[0]
+        if c: c.sort(key=lambda n: (ver(n), n), reverse=True); return c[:4]
     raise RuntimeError("No Gemini flash model available for this key")
 
 def ask_gemini(groups, names):
@@ -125,11 +142,18 @@ def ask_gemini(groups, names):
       '"stories":[{"id":0,"factors":[1],"summary":"...","impact":"...","sectors":["Banks"]}]}\n\nITEMS:\n' + "\n".join(lines))
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}).encode()
-    model = pick_model(); log("Using Gemini model:", model)
-    req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-        data=body, headers={"Content-Type": "application/json", "x-goog-api-key": KEY})
-    with urllib.request.urlopen(req, timeout=120) as r: resp = json.load(r)
-    return json.loads(resp["candidates"][0]["content"]["parts"][0]["text"])
+    last = None
+    for model in pick_models():
+        log("Trying Gemini model:", model)
+        req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+            data=body, headers={"Content-Type": "application/json", "x-goog-api-key": KEY})
+        try:
+            with urllib.request.urlopen(req, timeout=100) as r: resp = json.load(r)
+            out = json.loads(resp["candidates"][0]["content"]["parts"][0]["text"])
+            log("Gemini answered using", model); return out
+        except Exception as e:
+            last = e; log(f"  {model} failed: {e}")
+    raise RuntimeError(f"All Gemini models failed: {last}")
 
 def main():
     cfg = json.load(open("sources.json"))["sources"]
