@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0f4c43"><link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg">
+<title>Indian Market News Brief</title>
+<style>
+:root{--bg:#eef1ee;--card:#fff;--ink:#14201c;--mute:#5b6b65;--line:#d5ddd8;--brand:#0f4c43;--gold:#b7791f;--red:#a63d2f;--ok:#2f6b3a}
+@media(prefers-color-scheme:dark){:root{--bg:#101815;--card:#18221e;--ink:#e8efeb;--mute:#9bb0a7;--line:#2c3a34;--brand:#7fd1bd;--gold:#e0b04f;--red:#e88a7c;--ok:#7fc58c}}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif;padding-bottom:76px}
+header{background:#0f4c43;color:#f4f1e6;padding:14px 16px;padding-top:calc(14px + env(safe-area-inset-top,0px))}
+header h1{font:700 20px/1.2 Georgia,serif;margin:0}header p{margin:2px 0 0;font-size:13px;opacity:.85}
+main{padding:14px;max-width:720px;margin:auto}
+h2{font:700 19px Georgia,serif;margin:6px 0 10px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:12px}
+.warn{border-left:5px solid var(--gold)}.bad{border-left:5px solid var(--red)}
+.s{border-left:4px solid var(--brand)}.s h3{margin:0 0 4px;font-size:17px}
+.m{color:var(--mute);font-size:13px}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:99px;border:1px solid var(--line);margin-right:4px}
+.f{color:var(--ok)}.n{color:var(--mute)}.u{color:var(--gold)}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
+nav button{flex:1;border:0;background:none;color:var(--mute);padding:12px 2px;font-size:12px}
+nav button.on{color:var(--brand);font-weight:700;box-shadow:inset 0 3px 0 var(--brand)}
+button.go{background:var(--brand);color:#fff;border:0;border-radius:8px;padding:10px 14px;font-size:15px}
+@media(prefers-color-scheme:dark){button.go{color:#101815}}
+a{color:var(--brand)}button:focus-visible,a:focus-visible{outline:3px solid var(--gold)}
+.foot{font-size:12px;color:var(--mute);margin-top:18px}
+</style></head><body>
+<header><h1>Indian Market News Brief</h1><p>Nifty 50 research aid. No buy or sell advice.</p></header>
+<main id="v"></main>
+<nav id="nav"></nav>
+<script>
+const FACTORS=["Global markets","US monetary policy","Global bond yields","US dollar","China and global growth","Geopolitics and trade","Rupee","Crude oil","Other commodities","GDP and growth","Inflation and consumption","RBI monetary policy","Banking and liquidity","Indian bond market","Government policy","Politics and elections","Regulation","Foreign investment","Domestic investment","Corporate earnings","Heavyweight stocks","Valuation","Sector rotation","Technical trends","Momentum indicators","Market breadth","Price and volume","Derivatives positioning","Volatility","Market structure","Corporate events","External balances","FDI and remittances","Seasonal factors","Event calendar","Investor psychology"];
+const STAT={found:["Material development found","f"],none:["Checked, no material development found","n"],unverified:["Not verified","u"]};
+const TABS=[["today","Today"],["report","Report"],["cover","Coverage"],["events","Events"],["hist","History"],["status","Status"]];
+let D={r:null,e:[],h:[],err:null},tab="today";
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const ist=d=>d?new Date(d).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"})+" IST":"not available";
+const day=d=>new Date(d).toLocaleDateString("en-CA",{timeZone:"Asia/Kolkata"});
+async function load(){
+ try{const j=async u=>{const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(u+" "+r.status);return r.json()};
+  D.r=await j("data/latest.json");D.e=(await j("data/events.json")).events||[];D.h=(await j("data/index.json")).reports||[];D.err=null}
+ catch(x){D.err=x.message}
+ draw()}
+function stale(){const r=D.r;return !r||!r.generated_at||day(r.generated_at)!==day(new Date())}
+function today(){const r=D.r;let h="<h2>Today</h2>";
+ if(D.err)h+=`<div class="box bad"><b>Could not load data.</b><br>${esc(D.err)}<br>Check your internet connection and tap Refresh.</div>`;
+ if(!r||r.status==="none"){return h+`<div class="box warn"><b>No report yet.</b><br>The first report appears after the daily 8:00 AM run is set up. That is the next build step.</div><button class="go" onclick="load()">Refresh</button>`}
+ if(stale())h+=`<div class="box warn"><b>This is not today's report.</b><br>Latest report was generated ${ist(r.generated_at)}. Treat it as old.</div>`;
+ h+=`<div class="box"><b>${esc(r.title)}</b><div class="m">Covers ${ist(r.window_start)} to ${ist(r.cutoff)}<br>Generated ${ist(r.generated_at)}</div><p>${esc(r.quick_read)}</p><button class="go" onclick="go('report')">Open full report</button></div>`;
+ return h}
+function report(){const r=D.r;if(!r||!r.stories||!r.stories.length)return `<h2>Report</h2><div class="box warn">No stories available yet.</div>`;
+ let h=`<h2>${esc(r.title)}</h2><div class="m">${r.stories.length} of maximum 15 stories</div>`;
+ r.stories.forEach((s,i)=>{h+=`<div class="box s"><h3>${i+1}. ${esc(s.headline)}</h3><div class="m">${ist(s.time)} · ${esc((s.factors||[]).join(", "))}</div><p>${esc(s.summary)}</p>
+ <p><span class="tag">${esc(s.confirmation||"unconfirmed")}</span></p><p><b>Possible Nifty effect:</b> ${esc(s.impact)}</p>
+ <p class="m"><b>Sectors and stocks:</b> ${esc((s.sectors||[]).join(", "))}</p>
+ ${(s.sources||[]).map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a>`).join(" · ")}</div>`});
+ if((r.gaps||[]).length)h+=`<div class="box warn"><b>Verification gaps</b><ul>${r.gaps.map(g=>`<li>${esc(g)}</li>`).join("")}</ul></div>`;
+ return h+`<p class="foot">Information and research aid only. Market reactions depend on expectations, positioning, valuation and follow-through.</p>`}
+function cover(){const fs=(D.r&&D.r.factor_status)||{};
+ return `<h2>Coverage checklist</h2><p class="m">Every factor must show a status. A missing status counts as Not verified.</p>`+FACTORS.map((n,i)=>{const [t,c]=STAT[fs[i+1]]||STAT.unverified;return `<div class="box" style="padding:10px 14px"><b>${i+1}. ${n}</b><br><span class="${c}">${t}</span></div>`}).join("")}
+function events(){const up=D.e.filter(e=>e.date);
+ let h="<h2>Events</h2>";if(!D.e.length)return h+`<div class="box warn">No verified events yet. Events are added only when the date is confirmed from an official source.</div>`;
+ return h+D.e.map(e=>{let rem="Date not verified. No reminder set.";if(e.date&&e.verified){const d=new Date(e.date+"T00:00:00Z");d.setUTCDate(d.getUTCDate()-2);rem="Reminder on "+d.toISOString().slice(0,10)}
+ return `<div class="box"><b>${esc(e.name)}</b><div class="m">${esc(e.date||"date not verified")} ${esc(e.time||"")}</div><div>${rem}</div><div class="m">${esc(e.why||"")}</div>${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">Official source</a>`:""}${e.outcome?`<p><b>Outcome:</b> ${esc(e.outcome)}</p>`:""}</div>`}).join("")}
+function hist(){let h="<h2>Report history</h2>";if(!D.h.length)return h+`<div class="box warn">No saved reports yet.</div>`;
+ return h+D.h.map(x=>`<div class="box"><b>${esc(x.date)}</b><br><a href="${esc(x.file)}" target="_blank">Open JSON</a></div>`).join("")}
+function status(){const r=D.r;let n=("Notification" in window)?Notification.permission:"unsupported";
+ return `<h2>Status</h2><div class="box"><b>Last report</b><br>${r&&r.generated_at?ist(r.generated_at):"none yet"}</div>
+ <div class="box"><b>Notifications:</b> ${n}<p class="m">Android needs one permission. Phone alerts that arrive while the app is closed need the next build step.</p>
+ <button class="go" onclick="notif()">Allow and test notification</button></div>
+ <div class="box"><b>Report time</b><p class="m">8:00 AM IST cutoff. Coverage: previous day 3:00 PM to 8:00 AM IST.</p></div>
+ <button class="go" onclick="load()">Refresh</button>`}
+async function notif(){if(!("Notification" in window))return alert("This browser does not support notifications.");
+ const p=await Notification.requestPermission();if(p==="granted"){const g=await navigator.serviceWorker.ready;g.showNotification("Market Brief",{body:"Test notification works.",icon:"icon.svg"})}draw()}
+function go(t){tab=t;draw();scrollTo(0,0)}
+function draw(){$("#v").innerHTML={today,report,cover,events,hist,status}[tab]();
+ $("#nav").innerHTML=TABS.map(([k,l])=>`<button class="${k===tab?"on":""}" onclick="go('${k}')">${l}</button>`).join("")}
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js");
+load();
+</script></body></html>
