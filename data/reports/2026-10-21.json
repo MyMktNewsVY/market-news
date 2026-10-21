@@ -1,148 +1,111 @@
 {
- "status": "partial",
+ "status": "ok",
  "title": "Indian Market News Brief — 21 Oct 2026 — Nifty 50",
- "generated_at": "2026-10-21T11:32:32.107777+05:30",
+ "generated_at": "2026-10-21T11:41:56.372224+05:30",
  "window_start": "2026-10-20T15:00:00+05:30",
  "cutoff": "2026-10-21T08:00:00+05:30",
- "quick_read": "AI summary not available for this run.",
+ "quick_read": "Supportive factors include positive GIFT Nifty signals and robust festive sales growth of 25-30% in consumer durables. Pressures stem from elevated crude oil prices near $110 per barrel and compressed interest margins for banking heavyweights. Key market events include the opening of Reliance Jio's ₹30,213 crore IPO and regulatory adjustments in government ethanol procurement pricing.",
  "stories": [
   {
-   "headline": "CAMS eyes 20% share of revenue from non-core businesses in 2-3 years",
-   "time": "2026-10-20T16:43:04+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "CAMS has expanded into payments, alternative investment fund services, KYC registration, insurance repositories, analytics and a product for Digital Personal Data Protection compliance",
+   "headline": "HDFC Bank has green shoots beyond Q2",
+   "time": "2026-10-21T06:00:27+05:30",
+   "factors": [
+    "Banking and liquidity",
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    13,
+    20,
+    21
+   ],
+   "summary": "HDFC Bank reported a drop in Net Interest Margin to a 12-quarter low during the September quarter. However, the lender sustained growth in core operating profit alongside an improvement in asset quality. Faster growth in higher-yielding loan segments is expected to assist margin recovery.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/cams-eyes-20-share-of-revenue-from-non-core-businesses-in-2-3-years/article71604199.ece"
-    }
-   ]
-  },
-  {
-   "headline": "OYO-parent PRISM to nearly halve IPO fresh issue size to up to ₹3,350 cr: Sources",
-   "time": "2026-10-20T16:48:35+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Reduction in the issue size follows continued strong cash generation and an improving balance-sheet position, which lowered the amount of capital the company needs to raise compared with what was originally envisaged, sources said.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/oyo-parent-prism-to-nearly-halve-ipo-fresh-issue-size-to-up-to-3350-cr-sources/article71604229.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Eternal share: What to expect from Zomato parent’s Q2 results 2026 as Blinkit growth stays strong",
-   "time": "2026-10-20T18:21:23+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Brokerages expect Eternal, parent of Zomato and Blinkit, to report strong September-quarter growth, with improved margins, market-share gains and rapid Blinkit expansion.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "Mixed quarterly metrics may cause short-term price volatility for the stock, though resilient asset quality could limit downside pressure.",
+   "sectors": [
+    "Banking",
+    "Financial Services"
+   ],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/eternal-share-what-to-expect-from-zomato-parent-s-q2-results-2026-as-blinkit-growth-stays-strong-11792497152335.html"
+     "url": "https://www.livemint.com/market/mark-to-market/hdfc-bank-q2-quarterly-results-review-11792465354169.html"
     }
    ]
   },
   {
-   "headline": "Gem, jewellery exporters heave a sigh of relief as the US puts off punitive tax",
-   "time": "2026-10-20T18:51:01+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Exporters eye Christmas orders as gold price declines, supporting festive demand and buying",
+   "headline": "Reliance Jio IPO: Massive ₹30,213 cr issue opens for subscription today | Latest GMP, review, listing price prediction",
+   "time": "2026-10-21T07:56:17+05:30",
+   "factors": [
+    "Foreign investment",
+    "Heavyweight stocks",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    18,
+    21,
+    31
+   ],
+   "summary": "Reliance Jio Platforms has opened its ₹30,213 crore initial public offering for subscription with a price band set at ₹1,065 to ₹1,119 per share. Non-banking financial companies and brokerages are actively offering short-term financing to encourage retail participation. The anchor book previously attracted strong demand from global institutions.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/economy/gem-jewellery-exporters-heave-a-sigh-of-relief-as-the-us-puts-off-punitive-tax/article71604247.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Jio IPO has lenders, brokerages pushing retail participation with loans, marketing reach out",
-   "time": "2026-10-20T19:18:53+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "After attracting global institutions as anchor investors, Jio Platforms is next targeting retail buyers in India’s largest IPO. Non-banks and brokerages are into a marketing overdrive and offering short-term financing amidst strong grey-market interest.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "Massive primary market fundraising could influence liquidity across the broader market and impact trading sentiment in parent firm Reliance Industries.",
+   "sectors": [
+    "Telecommunications",
+    "Financial Services"
+   ],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/india-jio-ipo-lenders-brokerages-push-retail-participation-with-loans-marketing-11792473742375.html"
+     "url": "https://www.livemint.com/market/stock-market-news/reliance-jio-ipo-massive-30-213-cr-issue-opens-for-subscription-today-latest-gmp-review-listing-price-prediction-11792548066016.html"
     }
    ]
   },
   {
-   "headline": "Mutual funds raise stake in KRN Heat Exchanger; Union MF enters with five schemes",
-   "time": "2026-10-20T19:25:35+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "The number of mutual fund schemes holding the company’s shares rose to 30 in the September quarter from 26 in June",
+   "headline": "Oil prices rise on Red Sea shipping risks, threats to Saudi oil sites",
+   "time": "2026-10-21T07:45:39+05:30",
+   "factors": [
+    "Geopolitics and trade",
+    "Crude oil",
+    "External balances"
+   ],
+   "factor_ids": [
+    6,
+    8,
+    32
+   ],
+   "summary": "Brent crude futures advanced 0.78% to $109.64 per barrel due to escalating Red Sea shipping risks and potential security threats to Saudi oil facilities. US West Texas Intermediate crude also gained 0.78% to reach $98.58 per barrel. Geopolitical tensions continue to disrupt global supply expectations.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "Rising crude prices could elevate domestic input costs and pressure net oil-importing economies like India.",
+   "sectors": [
+    "Oil & Gas",
+    "Paints",
+    "Automobiles"
+   ],
    "sources": [
     {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/mutual-funds-raise-stake-in-krn-heat-exchanger-union-mf-enters-with-five-schemes/article71604360.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Big-ticket IPOs have struggled to deliver bumper listing gains. Can Mukesh Ambani backed Reliance Jio buck the trend?",
-   "time": "2026-10-20T19:57:56+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Several of India’s biggest IPOs, including those of Hyundai Motor India, LIC and Paytm, delivered weak or modest listing gains. Jio Platforms may break that pattern: anchor investors showed strong demand and its grey market premium points to a potential premium.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/bigticket-ipos-have-struggled-to-deliver-bumper-listing-gains-can-mukesh-ambani-backed-reliance-jio-buck-the-trend-11792505293980.html"
-    }
-   ]
-  },
-  {
-   "headline": "Wall Street rebounds from lows as upbeat earnings, falling oil prices lift sentiment; Micron, Intel up 2%",
-   "time": "2026-10-20T20:51:19+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "US stocks recovered from early losses as strong corporate earnings and falling oil prices offset concerns about AI-related shares. Major indexes rose, while chip stocks posted modest gains. Investors are watching upcoming company results for signs that heavy AI investment is sustainable.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/wall-street-rebounds-from-lows-as-upbeat-earnings-falling-oil-prices-lift-sentiment-micron-intel-up-2-11792507459852.html"
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/commodities/oil-prices-rise-on-red-sea-shipping-risks-threats-to-saudi-oil-sites-126102100052_1.html"
     }
    ]
   },
   {
    "headline": "Indian govt’s price correction of ethanol from maize may help balance distortion",
    "time": "2026-10-20T22:07:15+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Grain-based distilleries upset with Rs3/litre cut in purchase price, but sugar sector welcomes the decision",
+   "factors": [
+    "Government policy",
+    "Regulation"
+   ],
+   "factor_ids": [
+    15,
+    17
+   ],
+   "summary": "The Indian government reduced the purchase price of maize-based ethanol by ₹3 per litre to address market distortions. Grain-based distilleries expressed concern over the margin impact, while the sugar sector welcomed the policy adjustment.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "The price cut may weigh on earnings for grain-based ethanol producers while providing relative operational stability to sugar manufacturers.",
+   "sectors": [
+    "Sugar",
+    "Agro-chemicals"
+   ],
    "sources": [
     {
      "name": "BusinessLine Markets",
@@ -151,148 +114,173 @@
    ]
   },
   {
-   "headline": "Inflows in gold ETFs continue to be net positive for the 13th week in a row",
-   "time": "2026-10-20T22:08:24+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Investors find the current level attractive as the yellow metal hovers below $4,200 an ounce with $4,000 as the floor",
+   "headline": "Eternal share: What to expect from Zomato parent’s Q2 results 2026 as Blinkit growth stays strong",
+   "time": "2026-10-20T18:21:23+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Brokerage estimates point to strong September-quarter revenue growth for Eternal, the parent entity of Zomato and Blinkit. Expected performance is backed by rapid quick-commerce expansion through Blinkit, market share gains, and sequential margin improvements.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/gold/inflows-in-gold-etfs-continue-to-be-net-positive-for-the-13th-week-in-a-row/article71603284.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Braze stock surges over 50% after Salesforce announces $5.66 billion acquisition",
-   "time": "2026-10-20T22:51:01+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Salesforce agreed to acquire Braze for about $5.66 billion, offering $47.50 per share—a 58.1% premium. Braze shares surged 52% to $45.59. The all-cash deal, expected to close in fiscal 2028 pending approvals, would expand Salesforce’s AI-powered marketing and customer engagement capabilities.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "Upbeat earnings projections may maintain positive trading momentum in consumer-tech and platform stocks.",
+   "sectors": [
+    "Consumer Technology",
+    "Retail"
+   ],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/braze-stock-surges-over-50-after-salesforce-announces-5-66-billion-acquisition-11792516251172.html"
+     "url": "https://www.livemint.com/market/stock-market-news/eternal-share-what-to-expect-from-zomato-parent-s-q2-results-2026-as-blinkit-growth-stays-strong-11792497152335.html"
     }
    ]
   },
   {
-   "headline": "Global stocks fall as AI spending concerns resurface, oil prices surge",
-   "time": "2026-10-20T23:14:12+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Global equities declined as concerns over AI infrastructure spending resurfaced after a weak South Korean IPO, while Brent crude topped $111 amid renewed geopolitical risks",
+   "headline": "Consumer durables demand mixed; prefer LG, Polycab India: Motilal Oswal",
+   "time": "2026-10-21T07:22:48+05:30",
+   "factors": [
+    "Inflation and consumption",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    11,
+    20
+   ],
+   "summary": "Consumer durables demand accelerated during Navratri, delivering 25% to 30% year-on-year sales growth after a slower start during Ganesh Chaturthi. Motilal Oswal highlighted a recovery in festive consumption trends across urban markets.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "Strong seasonal sales figures could provide fundamental support to consumer electronics and durable manufacturers.",
+   "sectors": [
+    "Consumer Durables",
+    "Electricals"
+   ],
    "sources": [
     {
      "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/global-stocks-fall-as-ai-spending-concerns-resurface-oil-prices-surge-126102000915_1.html"
+     "url": "https://www.business-standard.com/markets/news/consumer-durables-demand-mixed-prefer-lg-electronics-polycab-india-motilal-oswal-126102100068_1.html"
     }
    ]
   },
   {
-   "headline": "Dividend, stock split, buyback: Last chance to buy today - VRL Logistics, JSW Dulux, Angel One shares",
-   "time": "2026-10-20T23:55:50+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Investors will track several corporate actions on October 21. VRL Logistics moved its buyback record date to October 22, 2026; JSW Dulux set the same date for its proposed 1:10 stock split. Tips Music announced a ₹6.50 interim dividend, while Angel One declared ₹1.40 per share.",
+   "headline": "Gem, jewellery exporters heave a sigh of relief as the US puts off punitive tax",
+   "time": "2026-10-20T18:51:01+05:30",
+   "factors": [
+    "Geopolitics and trade",
+    "Government policy"
+   ],
+   "factor_ids": [
+    6,
+    15
+   ],
+   "summary": "The US delayed the implementation of punitive import taxes on Indian gem and jewellery exporters. Exporters are witnessing steady Christmas order flows, aided by softer domestic gold prices that are helping sustain festive demand.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "The tax postponement removes an immediate trade hurdle, potentially benefiting export-focused jewellery firms.",
+   "sectors": [
+    "Gems & Jewellery",
+    "Consumer Discretionary"
+   ],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/dividend-stock-split-buyback-last-chance-to-buy-today-vrl-logistics-jsw-dulux-angel-one-shares-11792511128048.html"
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/economy/gem-jewellery-exporters-heave-a-sigh-of-relief-as-the-us-puts-off-punitive-tax/article71604247.ece"
     }
    ]
   },
   {
-   "headline": "US yields ease off lows as stocks rally",
-   "time": "2026-10-21T00:15:18+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "USA-BONDS/ (UPDATE 1, GRAPHICS):TREASURIES-US yields ease off lows as stocks rally",
+   "headline": "Stock market outlook today, 21 Oct: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+   "time": "2026-10-21T06:58:03+05:30",
+   "factors": [
+    "Global markets",
+    "Technical trends"
+   ],
+   "factor_ids": [
+    1,
+    24
+   ],
+   "summary": "GIFT Nifty futures were trading around the 23,031 mark, indicating a gain of approximately 96 points or 0.41% relative to the prior close. Asian benchmarks traded with mild gains, tracking overnight movements in global equities.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "Points toward a positive opening sentiment for domestic equity indices.",
+   "sectors": [
+    "Broad Market"
+   ],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/us-yields-ease-off-lows-as-stocks-rally-11792521918675.html"
+     "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-19-oct-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-11792543474837.html"
     }
    ]
   },
   {
-   "headline": "Dollar dips as traders weigh Iran, AI risks",
-   "time": "2026-10-21T00:18:17+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "GLOBAL-FOREX/ (UPDATE 5):FOREX-Dollar dips as traders weigh Iran, AI risks",
+   "headline": "CAMS eyes 20% share of revenue from non-core businesses in 2-3 years",
+   "time": "2026-10-20T16:43:04+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    20,
+    31
+   ],
+   "summary": "Computer Age Management Services (CAMS) plans to expand non-core businesses to generate 20% of overall revenue within two to three years. The company has extended operations into payments, AIF servicing, insurance repositories, analytics, and DPDP compliance products.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "Diversification beyond core mutual fund transfer agency business could enhance medium-term revenue stability.",
+   "sectors": [
+    "Financial Technology",
+    "Capital Markets"
+   ],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/dollar-dips-as-traders-weigh-iran-ai-risks-11792522097761.html"
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/cams-eyes-20-share-of-revenue-from-non-core-businesses-in-2-3-years/article71604199.ece"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "unverified",
-  "2": "unverified",
-  "3": "unverified",
-  "4": "unverified",
+  "1": "found",
+  "2": "none",
+  "3": "none",
+  "4": "none",
   "5": "unverified",
-  "6": "unverified",
-  "7": "unverified",
-  "8": "unverified",
-  "9": "unverified",
-  "10": "unverified",
-  "11": "unverified",
-  "12": "unverified",
-  "13": "unverified",
-  "14": "unverified",
-  "15": "unverified",
-  "16": "unverified",
-  "17": "unverified",
-  "18": "unverified",
-  "19": "unverified",
-  "20": "unverified",
-  "21": "unverified",
-  "22": "unverified",
-  "23": "unverified",
-  "24": "unverified",
+  "6": "found",
+  "7": "none",
+  "8": "found",
+  "9": "none",
+  "10": "none",
+  "11": "found",
+  "12": "none",
+  "13": "found",
+  "14": "none",
+  "15": "found",
+  "16": "none",
+  "17": "found",
+  "18": "found",
+  "19": "none",
+  "20": "found",
+  "21": "found",
+  "22": "none",
+  "23": "none",
+  "24": "found",
   "25": "unverified",
   "26": "unverified",
   "27": "unverified",
   "28": "unverified",
   "29": "unverified",
   "30": "unverified",
-  "31": "unverified",
-  "32": "unverified",
+  "31": "found",
+  "32": "found",
   "33": "unverified",
   "34": "unverified",
   "35": "unverified",
-  "36": "unverified"
+  "36": "none"
  },
  "gaps": [
-  "Source unavailable: Moneycontrol Top News",
-  "Source unavailable: Moneycontrol Business",
   "SEBI: 30 items skipped because no publish time was given",
   "PIB (Govt of India): 20 items skipped because no publish time was given",
-  "First run: SEBI and PIB publish no times, so only items new since the previous run are shown from now on.",
-  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "AI summaries unavailable this run. Showing headlines only."
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar."
  ],
  "sources_checked": {
   "RBI press releases": {
@@ -322,7 +310,7 @@
   "PIB (Govt of India)": {
    "ok": true,
    "total": 20,
-   "in_window": 0,
+   "in_window": 1,
    "no_time": 20
   },
   "Economic Times Markets": {
@@ -332,12 +320,16 @@
    "no_time": 0
   },
   "Moneycontrol Top News": {
-   "ok": false,
-   "error": "mismatched tag: line 18, column 5"
+   "ok": true,
+   "total": 18,
+   "in_window": 0,
+   "no_time": 0
   },
   "Moneycontrol Business": {
-   "ok": false,
-   "error": "mismatched tag: line 18, column 5"
+   "ok": true,
+   "total": 15,
+   "in_window": 0,
+   "no_time": 0
   },
   "Mint Markets": {
    "ok": true,
