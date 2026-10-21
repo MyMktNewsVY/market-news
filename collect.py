@@ -73,6 +73,9 @@ def collect(sources, start, cutoff, seen, bootstrap, new_seen):
     for s in sources:
         try:
             feed = parse_feed(fetch(s["url"]))
+            if s.get("shift_minutes"):
+                for f in feed:
+                    if f["time"]: f["time"] += timedelta(minutes=s["shift_minutes"])
             n_all, n_in, n_notime = len(feed), 0, 0
             ts = [f["time"] for f in feed if f["time"]]
             rng = f", newest {max(ts).strftime('%d %b %H:%M')}, oldest {min(ts).strftime('%d %b %H:%M')}" if ts else ""
@@ -87,7 +90,10 @@ def collect(sources, start, cutoff, seen, bootstrap, new_seen):
                     continue
                 if start <= f["time"] <= cutoff:
                     n_in += 1; items.append({**f, "source": s["name"], "kind": s["kind"]})
-            status[s["name"]] = {"ok": True, "total": n_all, "in_window": n_in, "no_time": n_notime}
+            newest = max(ts) if ts else None
+            fresh = s["kind"] == "official" or (newest is not None and newest >= cutoff - timedelta(days=2))
+            status[s["name"]] = {"ok": True, "total": n_all, "in_window": n_in, "no_time": n_notime, "fresh": fresh,
+                                 "newest": newest.isoformat() if newest else None}
             log(f"OK   {s['name']}: {n_all} items, {n_in} in window, {n_notime} without time{rng}")
         except Exception as e:
             status[s["name"]] = {"ok": False, "error": str(e)[:120]}
@@ -170,6 +176,7 @@ def main():
         log("No source could be reached. Keeping the previous report."); sys.exit(1)
     groups = group(items); log(f"{len(items)} items -> {len(groups)} distinct stories")
     gaps = [f"Source unavailable: {k}" for k, v in status.items() if not v["ok"]]
+    gaps += [f"Source feed looks outdated, not counted as checked: {k} (newest item {v['newest'] or 'unknown'})" for k, v in status.items() if v["ok"] and not v["fresh"]]
     gaps += [f"{k}: {v['no_time']} items skipped because no publish time was given" for k, v in status.items() if v.get("no_time")]
     if bootstrap: gaps.append("First run: SEBI and PIB publish no times, so only items new since the previous run are shown from now on.")
     elif any(m["time"] is None for g in groups for m in g["members"]): gaps.append("SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.")
@@ -201,7 +208,7 @@ def main():
     tagged = {f for s in stories for f in s["factor_ids"]}
     covered = {}
     for s in cfg:
-        if status[s["name"]]["ok"]:
+        if status[s["name"]]["ok"] and status[s["name"]]["fresh"]:
             for f in s["factors"]: covered[f] = True
     fs = {str(i): ("found" if i in tagged else "none" if covered.get(i) else "unverified") for i in range(1, 37)}
     if not ai_ok:

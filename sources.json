@@ -1,13 +1,112 @@
-{"sources":[
-{"name":"RBI press releases","kind":"official","url":"https://rbi.org.in/pressreleases_rss.xml","factors":[7,12,13,14,17,32]},
-{"name":"RBI notifications","kind":"official","url":"https://rbi.org.in/notifications_rss.xml","factors":[12,13,17]},
-{"name":"SEBI","kind":"official","url":"https://www.sebi.gov.in/sebirss.xml","factors":[17,31]},
-{"name":"US Federal Reserve","kind":"official","url":"https://www.federalreserve.gov/feeds/press_all.xml","factors":[2,3,4]},
-{"name":"PIB (Govt of India)","kind":"official","url":"https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3","factors":[10,11,15,16]},
-{"name":"Economic Times Markets","kind":"reputable","url":"https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms","factors":[1,18,19,20,21,22,23,31,36]},
-{"name":"Moneycontrol Top News","kind":"reputable","url":"https://www.moneycontrol.com/rss/MCtopnews.xml","factors":[1,6,7,8,20,21,31]},
-{"name":"Moneycontrol Business","kind":"reputable","url":"https://www.moneycontrol.com/rss/business.xml","factors":[9,10,11,15,20]},
-{"name":"Mint Markets","kind":"reputable","url":"https://www.livemint.com/rss/markets","factors":[1,18,19,20,21,23]},
-{"name":"Business Standard Markets","kind":"reputable","url":"https://www.business-standard.com/rss/markets-106.rss","factors":[1,18,20,21,23]},
-{"name":"BusinessLine Markets","kind":"reputable","url":"https://www.thehindubusinessline.com/markets/feeder/default.rss","factors":[1,7,8,14,20]}
-]}
+{
+"sources": [
+{
+"name": "RBI press releases",
+"kind": "official",
+"url": "https://rbi.org.in/pressreleases_rss.xml",
+"factors": [
+7,
+12,
+13,
+14,
+17,
+32
+],
+"shift_minutes": -330
+},
+{
+"name": "RBI notifications",
+"kind": "official",
+"url": "https://rbi.org.in/notifications_rss.xml",
+"factors": [
+12,
+13,
+17
+],
+"shift_minutes": -330
+},
+{
+"name": "SEBI",
+"kind": "official",
+"url": "https://www.sebi.gov.in/sebirss.xml",
+"factors": [
+17,
+31
+]
+},
+{
+"name": "US Federal Reserve",
+"kind": "official",
+"url": "https://www.federalreserve.gov/feeds/press_all.xml",
+"factors": [
+2,
+3,
+4
+]
+},
+{
+"name": "PIB (Govt of India)",
+"kind": "official",
+"url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+"factors": [
+10,
+11,
+15,
+16
+]
+},
+{
+"name": "Economic Times Markets",
+"kind": "reputable",
+"url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+"factors": [
+1,
+18,
+19,
+20,
+21,
+22,
+23,
+31,
+36
+]
+},
+{
+"name": "Mint Markets",
+"kind": "reputable",
+"url": "https://www.livemint.com/rss/markets",
+"factors": [
+1,
+18,
+19,
+20,
+21,
+23
+]
+},
+{
+"name": "Business Standard Markets",
+"kind": "reputable",
+"url": "https://www.business-standard.com/rss/markets-106.rss",
+"factors": [
+1,
+18,
+20,
+21,
+23
+]
+},
+{
+"name": "BusinessLine Markets",
+"kind": "reputable",
+"url": "https://www.thehindubusinessline.com/markets/feeder/default.rss",
+"factors": [
+1,
+7,
+8,
+14,
+20
+]
+}
+]
+}
