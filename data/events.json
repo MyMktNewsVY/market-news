@@ -4,11 +4,11 @@
   {
    "name": "US Fed (FOMC) rate decision",
    "date": "2026-10-28",
-   "time": "11:30 PM IST (2:00 PM New York)",
-   "why": "US interest-rate decision and press conference. Can move global markets, the dollar and foreign flows into India.",
+   "time": "2:00 PM New York time (late night in India)",
+   "why": "US interest-rate decision. Can move global markets, the dollar and foreign flows into India.",
    "url": "https://www.chicagofed.org/utilities/about-us/federal-reserve-calendars",
    "verified": true,
-   "note": "Meeting 27 to 28 Oct. The decision comes on the second day, which is late night in India.",
+   "note": "From the official page: october 27–28",
    "source_id": "fomc",
    "checked_on": "2026-10-22"
   },
@@ -24,33 +24,34 @@
    "checked_on": "2026-10-22"
   },
   {
-   "name": "India CPI inflation (October data)",
+   "name": "India CPI inflation",
    "date": "2026-11-12",
    "why": "India retail inflation. Key input for RBI rate expectations.",
-   "url": "https://www.mospi.gov.in/uploads/latestreleasesfiles/1791801549227-Press%20Release%20for%20the%20month%20of%20September,%202026.pdf",
+   "url": "https://www.mospi.gov.in/uploads/documents/releaseCalender/1770293210621-ADVANCE%20RELEASE%20CALENDAR%202026-27%20FINAL%2005.02.2026.pdf",
    "verified": true,
-   "note": "MoSPI says 12 Nov (Thursday) or the next working day.",
+   "note": "MoSPI advance release calendar 2026-27 lists the 12th of each month. Check MoSPI if it falls on a weekend.",
    "source_id": "in_cpi",
    "checked_on": "2026-10-22"
   },
   {
-   "name": "RBI policy decision (MPC meeting 2 to 4 Dec)",
+   "name": "RBI policy decision",
    "date": "2026-12-04",
+   "time": "",
    "why": "RBI repo rate and stance decision. Directly affects banks, rate-sensitive sectors and bond yields.",
    "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62422",
    "verified": true,
-   "note": "RBI announced the meeting dates 2, 3 and 4 Dec. The decision usually comes on the last day.",
+   "note": "From the official page: december 2, 3 and 4, 2026",
    "source_id": "rbi_mpc",
    "checked_on": "2026-10-22"
   },
   {
-   "name": "US Fed (FOMC) rate decision with projections",
+   "name": "US Fed (FOMC) rate decision",
    "date": "2026-12-09",
-   "time": "12:30 AM IST on 10 Dec (2:00 PM New York)",
-   "why": "US rate decision plus the Fed's new economic projections.",
+   "time": "2:00 PM New York time (late night in India)",
+   "why": "US interest-rate decision. Can move global markets, the dollar and foreign flows into India.",
    "url": "https://www.chicagofed.org/utilities/about-us/federal-reserve-calendars",
    "verified": true,
-   "note": "Meeting 8 to 9 Dec. The date shown is the US date.",
+   "note": "From the official page: december 8–9*",
    "source_id": "fomc",
    "checked_on": "2026-10-22"
   },
@@ -66,23 +67,54 @@
    "checked_on": "2026-10-22"
   },
   {
-   "name": "India CPI inflation (November data)",
+   "name": "India CPI inflation",
    "date": "2026-12-12",
-   "why": "India retail inflation for November.",
+   "why": "India retail inflation. Key input for RBI rate expectations.",
    "url": "https://www.mospi.gov.in/uploads/documents/releaseCalender/1770293210621-ADVANCE%20RELEASE%20CALENDAR%202026-27%20FINAL%2005.02.2026.pdf",
    "verified": true,
-   "note": "MoSPI calendar says 12 Dec, which is a Saturday. Release may move to the next working day, so check MoSPI.",
+   "note": "MoSPI advance release calendar 2026-27 lists the 12th of each month. Check MoSPI if it falls on a weekend.",
    "source_id": "in_cpi",
    "checked_on": "2026-10-22"
   },
   {
-   "name": "RBI policy decision (MPC meeting 3 to 5 Feb)",
+   "name": "India CPI inflation",
+   "date": "2027-01-12",
+   "why": "India retail inflation. Key input for RBI rate expectations.",
+   "url": "https://www.mospi.gov.in/uploads/documents/releaseCalender/1770293210621-ADVANCE%20RELEASE%20CALENDAR%202026-27%20FINAL%2005.02.2026.pdf",
+   "verified": true,
+   "note": "MoSPI advance release calendar 2026-27 lists the 12th of each month. Check MoSPI if it falls on a weekend.",
+   "source_id": "in_cpi",
+   "checked_on": "2026-10-22"
+  },
+  {
+   "name": "RBI policy decision",
    "date": "2027-02-05",
-   "why": "RBI repo rate and stance decision, the last meeting of this financial year.",
+   "time": "",
+   "why": "RBI repo rate and stance decision. Directly affects banks, rate-sensitive sectors and bond yields.",
    "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62422",
    "verified": true,
-   "note": "RBI announced the meeting dates 3, 4 and 5 Feb 2027. The decision usually comes on the last day.",
+   "note": "From the official page: february 3, 4 and 5, 2027",
    "source_id": "rbi_mpc",
+   "checked_on": "2026-10-22"
+  },
+  {
+   "name": "India CPI inflation",
+   "date": "2027-02-12",
+   "why": "India retail inflation. Key input for RBI rate expectations.",
+   "url": "https://www.mospi.gov.in/uploads/documents/releaseCalender/1770293210621-ADVANCE%20RELEASE%20CALENDAR%202026-27%20FINAL%2005.02.2026.pdf",
+   "verified": true,
+   "note": "MoSPI advance release calendar 2026-27 lists the 12th of each month. Check MoSPI if it falls on a weekend.",
+   "source_id": "in_cpi",
+   "checked_on": "2026-10-22"
+  },
+  {
+   "name": "India CPI inflation",
+   "date": "2027-03-12",
+   "why": "India retail inflation. Key input for RBI rate expectations.",
+   "url": "https://www.mospi.gov.in/uploads/documents/releaseCalender/1770293210621-ADVANCE%20RELEASE%20CALENDAR%202026-27%20FINAL%2005.02.2026.pdf",
+   "verified": true,
+   "note": "MoSPI advance release calendar 2026-27 lists the 12th of each month. Check MoSPI if it falls on a weekend.",
+   "source_id": "in_cpi",
    "checked_on": "2026-10-22"
   }
  ],
@@ -96,8 +128,9 @@
    "checked_on": "2026-10-22"
   },
   "us_cpi": {
-   "ok": true,
-   "checked_on": "2026-10-22"
+   "ok": false,
+   "checked_on": "2026-10-22",
+   "error": "HTTP Error 403: Forbidden"
   },
   "in_cpi": {
    "ok": true,
