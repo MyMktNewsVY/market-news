@@ -101,6 +101,22 @@ def collect(sources, start, cutoff, seen, bootstrap, new_seen):
             log(f"FAIL {s['name']}: {e}")
     return items, status
 
+FLOWKEY = re.compile(r"\b(FIIs?|DIIs?|FPIs?|foreign (?:institutional|portfolio)|institutional investors)\b", re.I)
+
+def enrich(groups):
+    n = 0
+    for g in groups:
+        if n >= 6: break
+        if not FLOWKEY.search(g["title"]): continue
+        m = g["members"][0]; n += 1
+        try:
+            raw = fetch(m["link"]).decode("utf-8", "ignore")
+            raw = re.sub(r"(?is)<(script|style).*?</\1>", " ", raw)
+            txt = clean(raw); k = FLOWKEY.search(txt)
+            m["extra"] = txt[max(0, k.start() - 100): k.start() + 1300] if k else ""
+            log(f"Read article for FII/DII check: {m['source']} ({len(m['extra'])} chars)")
+        except Exception as e: log(f"Could not read article for FII/DII check: {m['source']}: {str(e)[:60]}")
+
 def group(items):
     now = datetime.now(IST)
     for it in items: it["ts"] = it["time"] or now
@@ -218,7 +234,7 @@ def ask_gemini(groups, names):
     lines = []
     for i, g in enumerate(groups):
         m = g["members"][0]
-        lines.append(f"[{i}] ({g['label']}; {m['source']}) {g['title']} :: {m['snippet']}")
+        lines.append(f"[{i}] ({g['label']}; {m['source']}) {g['title']} :: {m['snippet']}" + (f" || ARTICLE: {m['extra']}" if m.get("extra") else ""))
     prompt = ("You help an Indian equity trader understand news affecting the Nifty 50.\n"
       "From the numbered items, choose up to 15 that are genuinely material for Indian markets, ranked by credibility, "
       "surprise vs expectations, time sensitivity and likely effect. Fewer is fine. Skip trivia and weak rumours.\n"
@@ -268,7 +284,9 @@ def main():
     if bootstrap: log("First run: remembering current SEBI/PIB items; only new ones will appear from the next run.")
     if not any(v["ok"] for v in status.values()):
         log("No source could be reached. Keeping the previous report."); sys.exit(1)
-    groups = group(items); log(f"{len(items)} items -> {len(groups)} distinct stories")
+    groups = group(items)
+    if KEY: enrich(groups)
+    log(f"{len(items)} items -> {len(groups)} distinct stories")
     gaps = [f"Source unavailable: {k}" for k, v in status.items() if not v["ok"]]
     gaps += [f"Source feed looks outdated, not counted as checked: {k} (newest item {v['newest'] or 'unknown'})" for k, v in status.items() if v["ok"] and not v["fresh"]]
     gaps += [f"{k}: {v['no_time']} items skipped because no publish time was given" for k, v in status.items() if v.get("no_time")]
@@ -282,7 +300,7 @@ def main():
             for f in res.get("flows", [])[:8]:
                 try:
                     g = groups[f["id"]]; m = g["members"][0]; amt = abs(float(f["amount_crore"]))
-                    txt = " ".join(x["title"] + " " + x["snippet"] for x in g["members"])
+                    txt = " ".join(x["title"] + " " + x["snippet"] + " " + x.get("extra", "") for x in g["members"])
                     vals = {float(n.replace(",", "").rstrip(".")) for n in re.findall(r"\d[\d,]*\.?\d*", txt) if n.replace(",", "").rstrip(".")}
                     if f["who"] in ("FII", "DII") and f["direction"] in ("bought", "sold") and any(abs(v - amt) < 0.01 for v in vals):
                         reported.append({"who": f["who"], "direction": f["direction"], "amount": amt, "headline": g["title"],

@@ -45,11 +45,11 @@ async function load(){
  try{const j=async u=>{const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(u+" "+r.status);return r.json()};
   try{D.f=await j("data/fii_dii.json")}catch(x){D.f=null}
   try{D.m=await j("data/markets.json")}catch(x){D.m=null}
-  D.r=await j("data/latest.json");D.e=(await j("data/events.json")).events||[];D.h=(await j("data/index.json")).reports||[];D.err=null;D.at=new Date()}
+  D.r=await j("data/latest.json");const ev=await j("data/events.json");D.e=ev.events||[];D.ev=ev.verified_on||"";D.h=(await j("data/index.json")).reports||[];D.err=null;D.at=new Date()}
  catch(x){D.err=x.message}
  draw()}
 function stale(){const r=D.r;return !r||!r.generated_at||day(r.generated_at)!==day(new Date())}
-function today(){const r=D.r;let h="<h2>Today</h2>"+(D.at?`<div class="m">Checked ${ist(D.at)}</div>`:"");
+function today(){const r=D.r;let h="<h2>Today</h2>"+(D.at?`<div class="m">Checked ${ist(D.at)}</div>`:"")+remBox();
  if(D.err)h+=`<div class="box bad"><b>Could not load data.</b><br>${esc(D.err)}<br>Check your internet connection and tap Refresh.</div>`;
  if(!r||r.status==="none"){return h+`<div class="box warn"><b>No report yet.</b><br>The first report appears after the daily 8:00 AM run is set up. That is the next build step.</div><button class="go" onclick="load()">Refresh</button>`}
  if(stale())h+=`<div class="box warn"><b>This is not today's report.</b><br>Latest report was generated ${ist(r.generated_at)}. Treat it as old.</div>`;
@@ -65,31 +65,15 @@ function report(){const r=D.r;if(!r||!r.stories||!r.stories.length)return `<h2>R
  return h+`<p class="foot">Information and research aid only. Market reactions depend on expectations, positioning, valuation and follow-through.</p>`}
 function cover(){const fs=(D.r&&D.r.factor_status)||{};
  return `<h2>Coverage checklist</h2><p class="m">Every factor must show a status. A missing status counts as Not verified.</p>`+FACTORS.map((n,i)=>{const [t,c]=STAT[fs[i+1]]||STAT.unverified;return `<div class="box" style="padding:10px 14px"><b>${i+1}. ${n}</b><br><span class="${c}">${t}</span></div>`}).join("")}
-function manual(){try{return JSON.parse(localStorage.getItem("mb_fii")||"[]")}catch(x){return []}}
-function saveManual(v){try{localStorage.setItem("mb_fii",JSON.stringify(v))}catch(x){alert("This browser could not save the entry.")}}
-function addFii(){const d=$("#fd").value,fa=parseFloat($("#fa").value),da=parseFloat($("#da").value);
- if(!d||isNaN(fa)||isNaN(da))return alert("Enter the date and both amounts.");
- const sg=id=>$(id).value==="sold"?-1:1,v=manual().filter(e=>e.date!==d);
- v.push({date:d,fii:sg("#fs")*Math.abs(fa),dii:sg("#ds")*Math.abs(da)});saveManual(v);draw()}
-function rmFii(d){saveManual(manual().filter(e=>e.date!==d));draw()}
 function fii(){const f=D.f||{},off=f.history||[],fmt=v=>(v<0?"-":"+")+Math.abs(v).toLocaleString("en-IN",{maximumFractionDigits:0}),lab=v=>v>0?"Net buyer":v<0?"Net seller":"Flat";
- let rows=off.map(e=>({date:e.date,fii:e.fii.net,dii:e.dii.net,fb:e.fii.buy,fs:e.fii.sell,db:e.dii.buy,ds:e.dii.sell,m:false}));
- manual().forEach(e=>{if(!rows.some(r=>r.date===e.date))rows.push({date:e.date,fii:e.fii,dii:e.dii,m:true})});
- rows.sort((p,q)=>q.date.localeCompare(p.date));
- let h="<h2>FII / DII</h2>";
- if(!rows.length)h+=`<div class="box warn"><b>Not verified.</b><br>NSE figures could not be retrieved automatically. ${esc(f.note||"")} You can add them below.</div>`;
- else{const L=rows[0];
-  if(f.status!=="ok")h+=`<div class="box warn">${esc(f.note||"")} Showing the latest figures available.</div>`;
-  h+=`<div class="m">${L.m?"Entered by you":"Provisional NSE cash market"} · ${esc(L.date)} · Rs crore</div>`;
-  [["FII / FPI","fii","fb","fs"],["DII","dii","db","ds"]].forEach(([n,k,b,s])=>{h+=`<div class="box ${L[k]<0?"bad":"s"}"><b>${n}: ${lab(L[k])}</b><div style="font:700 26px Georgia,serif">${fmt(L[k])} Cr</div>${L.m?"":`<div class="m">Bought ${L[b].toLocaleString("en-IN")} · Sold ${L[s].toLocaleString("en-IN")}</div>`}</div>`});
-  h+=`<div class="box"><b>Recent days (net, Rs crore)</b><table style="width:100%;border-collapse:collapse;margin-top:6px"><tr class="m"><td>Date</td><td>FII</td><td>DII</td><td></td></tr>`+rows.slice(0,10).map(e=>`<tr><td>${esc(e.date)}</td><td>${fmt(e.fii)}</td><td>${fmt(e.dii)}</td><td class="m">${e.m?`you <a href="#" onclick="rmFii('${e.date}');return false">remove</a>`:""}</td></tr>`).join("")+`</table></div>`}
+ let h="<h2>FII / DII</h2>";const L=off[0];
+ if(!L)h+=`<div class="box warn"><b>Official figures: not verified.</b><br>NSE does not allow our automatic check, so none are shown. News reports are listed below when we find them.</div>`;
+ else{if(f.status!=="ok")h+=`<div class="box warn">${esc(f.note||"")} Showing the latest figures available.</div>`;
+  h+=`<div class="m">Provisional NSE cash market · ${esc(L.date)} · Rs crore</div>`;
+  [["FII / FPI","fii"],["DII","dii"]].forEach(([n,k])=>{const x=L[k];h+=`<div class="box ${x.net<0?"bad":"s"}"><b>${n}: ${lab(x.net)}</b><div style="font:700 26px Georgia,serif">${fmt(x.net)} Cr</div><div class="m">Bought ${x.buy.toLocaleString("en-IN")} · Sold ${x.sell.toLocaleString("en-IN")}</div></div>`})}
  if((f.reported||[]).length)h+=`<div class="box warn"><b>Reported in the news, not checked against NSE</b>`+f.reported.map(r=>`<p>${esc(r.who)} ${r.direction} about Rs ${r.amount.toLocaleString("en-IN")} crore<br><span class="m">${esc(r.outlet)}${r.published?" · "+ist(r.published):""}</span><br><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.headline)}</a></p>`).join("")+`</div>`;
- const t=new Date().toLocaleDateString("en-CA",{timeZone:"Asia/Kolkata"});
- h+=`<div class="box"><b>Add figures yourself</b><p class="m">Use NSE's FII/DII page. Saved only on this device.</p>
- <p>Date <input id="fd" type="date" value="${t}"></p>
- <p>FII <select id="fs"><option value="bought">bought</option><option value="sold">sold</option></select> <input id="fa" type="number" step="any" min="0" placeholder="Rs crore" style="width:8em"></p>
- <p>DII <select id="ds"><option value="bought">bought</option><option value="sold">sold</option></select> <input id="da" type="number" step="any" min="0" placeholder="Rs crore" style="width:8em"></p>
- <button class="go" onclick="addFii()">Save</button></div><p class="foot">Institutional flow is context only, not a signal.${f.updated?" Last automatic check "+ist(f.updated)+".":""}</p>`;
+ else h+=`<div class="box"><b>News reports</b><p class="m">No FII/DII buying or selling figures were found in this morning's news. This is normal on some days.</p></div>`;
+ h+=`<div class="box"><b>Official figures</b><p class="m">NSE publishes them after market close, about 6 to 8:30 PM IST.</p><a href="https://www.nseindia.com/reports/fii-dii" target="_blank" rel="noopener">Open the NSE FII/DII page</a></div><p class="foot">Institutional flow is context only, not a signal.</p>`;
  return h}
 function mkt(){const m=D.m;let h="<h2>Markets</h2>";
  if(!m)return h+`<div class="box warn"><b>Not verified.</b><br>Market data has not been retrieved yet.</div>`;
@@ -98,10 +82,13 @@ function mkt(){const m=D.m;let h="<h2>Markets</h2>";
   if(!x.ok){h+=`<div class="box"><b>${esc(x.name)}</b><br><span class="u">Not verified</span></div>`;return}
   h+=`<div class="box ${x.d5<0?"bad":"s"}" style="padding:10px 14px"><b>${esc(x.name)}</b> <span class="m">close ${esc(x.date)}</span><div style="font:700 20px Georgia,serif">${x.last.toLocaleString("en-IN",{maximumFractionDigits:2})}</div><div>Day ${sg(x.d1,x.unit)} · ${x.sessions} sessions ${sg(x.d5,x.unit)} <b>(${esc(x.trend)})</b></div></div>`})});
  return h+`<p class="foot">Source: ${esc(m.source)}. Last completed session. The trend word is a simple rule on the ${5}-session change, not a forecast. Checked ${ist(m.updated)}.</p>`}
-function events(){const up=D.e.filter(e=>e.date);
- let h="<h2>Events</h2>";if(!D.e.length)return h+`<div class="box warn">No verified events yet. Events are added only when the date is confirmed from an official source.</div>`;
- return h+D.e.map(e=>{let rem="Date not verified. No reminder set.";if(e.date&&e.verified){const d=new Date(e.date+"T00:00:00Z");d.setUTCDate(d.getUTCDate()-2);rem="Reminder on "+d.toISOString().slice(0,10)}
- return `<div class="box"><b>${esc(e.name)}</b><div class="m">${esc(e.date||"date not verified")} ${esc(e.time||"")}</div><div>${rem}</div><div class="m">${esc(e.why||"")}</div>${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">Official source</a>`:""}${e.outcome?`<p><b>Outcome:</b> ${esc(e.outcome)}</p>`:""}</div>`}).join("")}
+function evDays(e){const t=Date.parse(new Date().toLocaleDateString("en-CA",{timeZone:"Asia/Kolkata"})+"T00:00:00+05:30");return Math.round((Date.parse(e.date+"T00:00:00+05:30")-t)/86400000)}
+function evList(){return D.e.filter(e=>e.date&&e.verified&&evDays(e)>=0).sort((p,q)=>p.date.localeCompare(q.date))}
+function remBox(){const r=evList().filter(e=>evDays(e)<=2);return r.length?`<div class="box warn"><b>Coming up</b>`+r.map(e=>`<p>${esc(e.name)}<br><span class="m">${evDays(e)===0?"Today":evDays(e)===1?"Tomorrow":"In 2 days"} · ${fd(e.date)}${e.time?" · "+esc(e.time):""}</span></p>`).join("")+`</div>`:""}
+function events(){let h="<h2>Events</h2>";const up=evList();
+ if(!up.length)return h+`<div class="box warn">No upcoming verified events. The calendar needs updating${D.ev?" (last checked "+fd(D.ev)+")":""}.</div>`;
+ return h+up.map(e=>{const d=evDays(e),w=d===0?"Today":d===1?"Tomorrow":"In "+d+" days";
+  return `<div class="box ${d<=2?"warn":""}"><b>${esc(e.name)}</b>${d<=2?` <span class="tag">Reminder</span>`:""}<div class="m">${fd(e.date)}${e.time?" · "+esc(e.time):""} · ${w}</div><p>${esc(e.why||"")}</p>${e.note?`<p class="m">${esc(e.note)}</p>`:""}${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">Official source</a>`:""}</div>`}).join("")+`<p class="foot">Only dates found in official or published schedules are listed. Reminders show 2 days before. Calendar last checked ${D.ev?fd(D.ev):"unknown"}.</p>`}
 let HC={},HO=null;
 const fd=d=>new Date(d+"T00:00:00+05:30").toLocaleDateString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",year:"numeric"});
 function hist(){let h="<h2>Past reports</h2>";if(!D.h.length)return h+`<div class="box warn">No saved reports yet.</div>`;
