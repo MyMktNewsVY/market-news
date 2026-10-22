@@ -18,7 +18,7 @@ h2{font:700 19px Georgia,serif;margin:6px 0 10px}
 .tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:99px;border:1px solid var(--line);margin-right:4px}
 .f{color:var(--ok)}.n{color:var(--mute)}.u{color:var(--gold)}
 nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
-nav button{flex:1;border:0;background:none;color:var(--mute);padding:12px 2px;font-size:12px}
+nav button{flex:1;border:0;background:none;color:var(--mute);padding:12px 0;font-size:11px}
 nav button.on{color:var(--brand);font-weight:700;box-shadow:inset 0 3px 0 var(--brand)}
 button.go{background:var(--brand);color:#fff;border:0;border-radius:8px;padding:10px 14px;font-size:15px}
 @media(prefers-color-scheme:dark){button.go{color:#101815}}
@@ -31,19 +31,20 @@ a{color:var(--brand)}button:focus-visible,a:focus-visible{outline:3px solid var(
 <script>
 const FACTORS=["Global markets","US monetary policy","Global bond yields","US dollar","China and global growth","Geopolitics and trade","Rupee","Crude oil","Other commodities","GDP and growth","Inflation and consumption","RBI monetary policy","Banking and liquidity","Indian bond market","Government policy","Politics and elections","Regulation","Foreign investment","Domestic investment","Corporate earnings","Heavyweight stocks","Valuation","Sector rotation","Technical trends","Momentum indicators","Market breadth","Price and volume","Derivatives positioning","Volatility","Market structure","Corporate events","External balances","FDI and remittances","Seasonal factors","Event calendar","Investor psychology"];
 const STAT={found:["Material development found","f"],none:["Checked, no material development found","n"],unverified:["Not verified","u"]};
-const TABS=[["today","Today"],["report","Report"],["cover","Coverage"],["events","Events"],["hist","History"],["status","Status"]];
-let D={r:null,e:[],h:[],err:null},tab="today";
+const TABS=[["today","Today"],["report","Report"],["cover","Coverage"],["fii","FII/DII"],["events","Events"],["hist","History"],["status","Status"]];
+let D={r:null,e:[],h:[],f:null,err:null,at:null},tab="today";
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const ist=d=>d?new Date(d).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"})+" IST":"not available";
 const day=d=>new Date(d).toLocaleDateString("en-CA",{timeZone:"Asia/Kolkata"});
 async function load(){
  try{const j=async u=>{const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(u+" "+r.status);return r.json()};
-  D.r=await j("data/latest.json");D.e=(await j("data/events.json")).events||[];D.h=(await j("data/index.json")).reports||[];D.err=null}
+  try{D.f=await j("data/fii_dii.json")}catch(x){D.f=null}
+  D.r=await j("data/latest.json");D.e=(await j("data/events.json")).events||[];D.h=(await j("data/index.json")).reports||[];D.err=null;D.at=new Date()}
  catch(x){D.err=x.message}
  draw()}
 function stale(){const r=D.r;return !r||!r.generated_at||day(r.generated_at)!==day(new Date())}
-function today(){const r=D.r;let h="<h2>Today</h2>";
+function today(){const r=D.r;let h="<h2>Today</h2>"+(D.at?`<div class="m">Checked ${ist(D.at)}</div>`:"");
  if(D.err)h+=`<div class="box bad"><b>Could not load data.</b><br>${esc(D.err)}<br>Check your internet connection and tap Refresh.</div>`;
  if(!r||r.status==="none"){return h+`<div class="box warn"><b>No report yet.</b><br>The first report appears after the daily 8:00 AM run is set up. That is the next build step.</div><button class="go" onclick="load()">Refresh</button>`}
  if(stale())h+=`<div class="box warn"><b>This is not today's report.</b><br>Latest report was generated ${ist(r.generated_at)}. Treat it as old.</div>`;
@@ -52,13 +53,22 @@ function today(){const r=D.r;let h="<h2>Today</h2>";
 function report(){const r=D.r;if(!r||!r.stories||!r.stories.length)return `<h2>Report</h2><div class="box warn">No stories available yet.</div>`;
  let h=`<h2>${esc(r.title)}</h2><div class="m">${r.stories.length} of maximum 15 stories</div>`;
  r.stories.forEach((s,i)=>{h+=`<div class="box s"><h3>${i+1}. ${esc(s.headline)}</h3><div class="m">${ist(s.time)} · ${esc((s.factors||[]).join(", "))}</div><p>${esc(s.summary)}</p>
- <p><span class="tag">${esc(s.confirmation||"unconfirmed")}</span></p><p><b>Possible Nifty effect:</b> ${esc(s.impact)}</p>
+ <p><span class="tag">${esc(s.confirmation||"unconfirmed")}</span></p>${(s.unverified_figures||[]).length?`<p class="u"><b>Check these figures against the source:</b> ${esc(s.unverified_figures.join(", "))}</p>`:""}<p><b>Possible Nifty effect:</b> ${esc(s.impact)}</p>
  <p class="m"><b>Sectors and stocks:</b> ${esc((s.sectors||[]).join(", "))}</p>
  ${(s.sources||[]).map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a>`).join(" · ")}</div>`});
  if((r.gaps||[]).length)h+=`<div class="box warn"><b>Verification gaps</b><ul>${r.gaps.map(g=>`<li>${esc(g)}</li>`).join("")}</ul></div>`;
  return h+`<p class="foot">Information and research aid only. Market reactions depend on expectations, positioning, valuation and follow-through.</p>`}
 function cover(){const fs=(D.r&&D.r.factor_status)||{};
  return `<h2>Coverage checklist</h2><p class="m">Every factor must show a status. A missing status counts as Not verified.</p>`+FACTORS.map((n,i)=>{const [t,c]=STAT[fs[i+1]]||STAT.unverified;return `<div class="box" style="padding:10px 14px"><b>${i+1}. ${n}</b><br><span class="${c}">${t}</span></div>`}).join("")}
+function fii(){const f=D.f;let h="<h2>FII / DII</h2>";
+ if(!f||!f.latest)return h+`<div class="box warn"><b>Not verified.</b><br>NSE FII/DII figures have not been retrieved yet. ${esc(f&&f.note||"")}</div>`;
+ const L=f.latest,fmt=v=>(v<0?"-":"+")+Math.abs(v).toLocaleString("en-IN",{maximumFractionDigits:0}),lab=v=>v>0?"Net buyer":v<0?"Net seller":"Flat";
+ if(f.status!=="ok")h+=`<div class="box warn">${esc(f.note)} Showing the last verified figures.</div>`;
+ h+=`<div class="m">Provisional NSE cash market, ${esc(L.date)}, Rs crore. Published after market close.</div>`;
+ [["FII / FPI","fii"],["DII","dii"]].forEach(([n,k])=>{const x=L[k];h+=`<div class="box ${x.net<0?"bad":"s"}"><b>${n}: ${lab(x.net)}</b><div style="font-size:24px;font:700 26px Georgia,serif">${fmt(x.net)} Cr</div><div class="m">Bought ${x.buy.toLocaleString("en-IN")} · Sold ${x.sell.toLocaleString("en-IN")}</div></div>`});
+ h+=`<div class="box"><b>Recent days (net, Rs crore)</b><table style="width:100%;border-collapse:collapse;margin-top:6px"><tr class="m"><td>Date</td><td>FII</td><td>DII</td></tr>`+
+ (f.history||[]).slice(0,10).map(e=>`<tr><td>${esc(e.date)}</td><td>${fmt(e.fii.net)} ${e.fii.net<0?"(sold)":"(bought)"}</td><td>${fmt(e.dii.net)} ${e.dii.net<0?"(sold)":"(bought)"}</td></tr>`).join("")+`</table></div><p class="foot">Last retrieved ${ist(f.updated)}. Institutional flow is context only, not a signal.</p>`;
+ return h}
 function events(){const up=D.e.filter(e=>e.date);
  let h="<h2>Events</h2>";if(!D.e.length)return h+`<div class="box warn">No verified events yet. Events are added only when the date is confirmed from an official source.</div>`;
  return h+D.e.map(e=>{let rem="Date not verified. No reminder set.";if(e.date&&e.verified){const d=new Date(e.date+"T00:00:00Z");d.setUTCDate(d.getUTCDate()-2);rem="Reminder on "+d.toISOString().slice(0,10)}
@@ -74,8 +84,9 @@ function status(){const r=D.r;let n=("Notification" in window)?Notification.perm
 async function notif(){if(!("Notification" in window))return alert("This browser does not support notifications.");
  const p=await Notification.requestPermission();if(p==="granted"){const g=await navigator.serviceWorker.ready;g.showNotification("Market Brief",{body:"Test notification works.",icon:"icon.svg"})}draw()}
 function go(t){tab=t;draw();scrollTo(0,0)}
-function draw(){$("#v").innerHTML={today,report,cover,events,hist,status}[tab]();
+function draw(){$("#v").innerHTML={today,report,cover,fii,events,hist,status}[tab]();
  $("#nav").innerHTML=TABS.map(([k,l])=>`<button class="${k===tab?"on":""}" onclick="go('${k}')">${l}</button>`).join("")}
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js");
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)load()});
 load();
 </script></body></html>

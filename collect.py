@@ -1,5 +1,5 @@
 """Indian Market News Agent - daily collector. Standard library only."""
-import json, os, re, sys, difflib, urllib.request, email.utils, html
+import json, os, re, sys, difflib, urllib.request, email.utils, html, http.cookiejar
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
@@ -13,7 +13,8 @@ def log(*a): print(*a, flush=True)
 
 def window(now=None):
     now = (now or datetime.now(IST)).astimezone(IST)
-    cutoff = now.replace(hour=8, minute=0, second=0, microsecond=0)
+    cfg = json.load(open("settings.json")) if os.path.exists("settings.json") else {}
+    cutoff = now.replace(hour=cfg.get("cutoff_hour", 8), minute=cfg.get("cutoff_minute", 0), second=0, microsecond=0)
     start = (cutoff - timedelta(days=1)).replace(hour=15)
     return start, cutoff, now
 
@@ -132,6 +133,44 @@ def pick_models():
         if c: c.sort(key=lambda n: (ver(n), n), reverse=True); return c[:4]
     raise RuntimeError("No Gemini flash model available for this key")
 
+def nums(text):
+    out = set()
+    for n in re.findall(r"\d[\d,]*\.?\d*", text or ""):
+        n = n.replace(",", "").rstrip(".")
+        if n and not (n.isdigit() and int(n) < 10): out.add(n)
+    return out
+
+def fii_dii():
+    """NSE provisional FII/DII cash-market figures. Never raises."""
+    path = "data/fii_dii.json"
+    old = json.load(open(path)) if os.path.exists(path) else {"history": []}
+    try:
+        h = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
+             "Accept-Language": "en-US,en;q=0.9", "Referer": "https://www.nseindia.com/reports/fii-dii"}
+        op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+        op.open(urllib.request.Request("https://www.nseindia.com/", headers=h), timeout=25).read()
+        data = json.load(op.open(urllib.request.Request("https://www.nseindia.com/api/fiidiiTradeReact",
+                headers={**h, "Accept": "application/json"}), timeout=25))
+        num = lambda v: float(str(v).replace(",", ""))
+        row = {}
+        for r in data:
+            cat = "fii" if "FII" in str(r.get("category", "")).upper() else "dii" if "DII" in str(r.get("category", "")).upper() else None
+            if cat: row[cat] = {"buy": num(r["buyValue"]), "sell": num(r["sellValue"]), "net": num(r["netValue"])}; d = r["date"]
+        if "fii" not in row or "dii" not in row: raise ValueError("FII or DII row missing")
+        date = datetime.strptime(d, "%d-%b-%Y").strftime("%Y-%m-%d")
+        entry = {"date": date, **row}
+        hist = [e for e in old.get("history", []) if e["date"] != date] + [entry]
+        hist.sort(key=lambda e: e["date"], reverse=True)
+        out = {"status": "ok", "source": "NSE provisional cash market (Rs crore)", "updated": datetime.now(IST).isoformat(),
+               "latest": hist[0], "history": hist[:30], "note": ""}
+        log("FII/DII OK:", date, "FII net", row["fii"]["net"], "DII net", row["dii"]["net"])
+    except Exception as e:
+        log("FII/DII FAIL:", e)
+        hist = old.get("history", [])
+        out = {"status": "not_verified", "source": "NSE provisional cash market (Rs crore)", "updated": datetime.now(IST).isoformat(),
+               "latest": hist[0] if hist else None, "history": hist, "note": f"NSE data could not be retrieved this run ({str(e)[:80]})."}
+    json.dump(out, open(path, "w"), ensure_ascii=False, indent=1)
+
 def ask_gemini(groups, names):
     lines = []
     for i, g in enumerate(groups):
@@ -193,6 +232,7 @@ def main():
                   "factor_ids": [f for f in s.get("factors", []) if 1 <= f <= 36],
                   "summary": s.get("summary", ""), "confirmation": g["label"], "impact": s.get("impact", ""),
                   "sectors": s.get("sectors", []),
+                  "unverified_figures": sorted(nums(txt) - nums(" ".join(m["title"] + " " + m["snippet"] for m in g["members"]))),
                   "sources": [{"name": m["source"], "url": m["link"]} for m in g["members"][:3]]})
         except Exception as e:
             log("AI step failed:", e); gaps.append("AI summaries unavailable this run. Showing headlines only.")
@@ -205,6 +245,12 @@ def main():
               "summary": m["snippet"] or "Headline only.", "confirmation": g["label"],
               "impact": "AI explanation not available for this story.", "sectors": [],
               "sources": [{"name": x["source"], "url": x["link"]} for x in g["members"][:3]]})
+    for s in stories:
+        if s.get("unverified_figures"): gaps.append(f"Check figures {', '.join(s['unverified_figures'][:6])} (not found in the source text we read): {s['headline'][:60]}")
+    if quick:
+        allsrc = nums(" ".join(m["title"] + " " + m["snippet"] for g in groups for m in g["members"]))
+        bad = sorted(nums(quick) - allsrc)
+        if bad: gaps.append(f"Quick read mentions figures not found in any source text we read: {', '.join(bad[:8])}. Verify before relying on it.")
     tagged = {f for s in stories for f in s["factor_ids"]}
     covered = {}
     for s in cfg:
@@ -227,5 +273,6 @@ def main():
     json.dump(idx, open("data/index.json", "w"), indent=1)
     json.dump(sorted((seen | new_seen))[-3000:], open(seen_path, "w"))
     log(f"Report written: {len(stories)} stories, AI={'yes' if ai_ok else 'no'}")
+    fii_dii()
 
 if __name__ == "__main__": main()
