@@ -8,6 +8,9 @@
 *{box-sizing:border-box}html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif;padding-bottom:76px}
 header{background:#0f4c43;color:#f4f1e6;padding:14px 16px;padding-top:calc(14px + env(safe-area-inset-top,0px))}
+header{display:flex;align-items:center;justify-content:space-between;gap:10px}header button{background:none;border:1px solid #f4f1e655;color:#f4f1e6;border-radius:8px;font-size:22px;line-height:1;padding:6px 11px}
+#menu{position:fixed;right:10px;top:calc(60px + env(safe-area-inset-top,0px));background:var(--card);border:1px solid var(--line);border-radius:10px;box-shadow:0 6px 18px #0004;z-index:5;min-width:170px;display:none}
+#menu button{display:block;width:100%;text-align:left;background:none;border:0;color:var(--ink);padding:14px 16px;font-size:16px;border-bottom:1px solid var(--line)}#menu button:last-child{border:0}
 header h1{font:700 20px/1.2 Georgia,serif;margin:0}header p{margin:2px 0 0;font-size:13px;opacity:.85}
 main{padding:14px;max-width:720px;margin:auto}
 h2{font:700 19px Georgia,serif;margin:6px 0 10px}
@@ -17,21 +20,22 @@ h2{font:700 19px Georgia,serif;margin:6px 0 10px}
 .m{color:var(--mute);font-size:13px}
 .tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:99px;border:1px solid var(--line);margin-right:4px}
 .f{color:var(--ok)}.n{color:var(--mute)}.u{color:var(--gold)}
-nav{position:fixed;bottom:0;left:0;right:0;display:flex;overflow-x:auto;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
-nav button{flex:1 0 auto;border:0;background:none;color:var(--mute);padding:12px 11px;font-size:12px;white-space:nowrap}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
+nav button{flex:1;border:0;background:none;color:var(--mute);padding:12px 2px;font-size:12px;white-space:nowrap}
 nav button.on{color:var(--brand);font-weight:700;box-shadow:inset 0 3px 0 var(--brand)}
 button.go{background:var(--brand);color:#fff;border:0;border-radius:8px;padding:10px 14px;font-size:15px}
 @media(prefers-color-scheme:dark){button.go{color:#101815}}
 a{color:var(--brand)}button:focus-visible,a:focus-visible{outline:3px solid var(--gold)}
 .foot{font-size:12px;color:var(--mute);margin-top:18px}
 </style></head><body>
-<header><h1>Indian Market News Brief</h1><p>Nifty 50 research aid. No buy or sell advice.</p></header>
+<header><div><h1>Indian Market News Brief</h1><p>Nifty 50 research aid. No buy or sell advice.</p></div><button aria-label="Menu" aria-expanded="false" onclick="menu()" id="mb">&#9776;</button></header>
+<div id="menu"><button onclick="go('cover')">Coverage checklist</button><button onclick="go('status')">Status</button></div>
 <main id="v"></main>
 <nav id="nav"></nav>
 <script>
 const FACTORS=["Global markets","US monetary policy","Global bond yields","US dollar","China and global growth","Geopolitics and trade","Rupee","Crude oil","Other commodities","GDP and growth","Inflation and consumption","RBI monetary policy","Banking and liquidity","Indian bond market","Government policy","Politics and elections","Regulation","Foreign investment","Domestic investment","Corporate earnings","Heavyweight stocks","Valuation","Sector rotation","Technical trends","Momentum indicators","Market breadth","Price and volume","Derivatives positioning","Volatility","Market structure","Corporate events","External balances","FDI and remittances","Seasonal factors","Event calendar","Investor psychology"];
 const STAT={found:["Material development found","f"],none:["Checked, no material development found","n"],unverified:["Not verified","u"]};
-const TABS=[["today","Today"],["report","Report"],["cover","Coverage"],["fii","FII/DII"],["mkt","Markets"],["events","Events"],["hist","History"],["status","Status"]];
+const TABS=[["today","Today"],["report","Report"],["fii","FII/DII"],["mkt","Markets"],["events","Events"],["hist","History"]];
 let D={r:null,e:[],h:[],f:null,m:null,err:null,at:null},tab="today";
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -98,8 +102,14 @@ function events(){const up=D.e.filter(e=>e.date);
  let h="<h2>Events</h2>";if(!D.e.length)return h+`<div class="box warn">No verified events yet. Events are added only when the date is confirmed from an official source.</div>`;
  return h+D.e.map(e=>{let rem="Date not verified. No reminder set.";if(e.date&&e.verified){const d=new Date(e.date+"T00:00:00Z");d.setUTCDate(d.getUTCDate()-2);rem="Reminder on "+d.toISOString().slice(0,10)}
  return `<div class="box"><b>${esc(e.name)}</b><div class="m">${esc(e.date||"date not verified")} ${esc(e.time||"")}</div><div>${rem}</div><div class="m">${esc(e.why||"")}</div>${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">Official source</a>`:""}${e.outcome?`<p><b>Outcome:</b> ${esc(e.outcome)}</p>`:""}</div>`}).join("")}
-function hist(){let h="<h2>Report history</h2>";if(!D.h.length)return h+`<div class="box warn">No saved reports yet.</div>`;
- return h+D.h.map(x=>`<div class="box"><b>${esc(x.date)}</b><br><a href="${esc(x.file)}" target="_blank">Open JSON</a></div>`).join("")}
+let HC={},HO=null;
+const fd=d=>new Date(d+"T00:00:00+05:30").toLocaleDateString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",year:"numeric"});
+function hist(){let h="<h2>Past reports</h2>";if(!D.h.length)return h+`<div class="box warn">No saved reports yet.</div>`;
+ return h+D.h.map(x=>{const o=HO===x.date,c=HC[x.date];let b="";
+  if(o){if(!c)b=`<p class="m">Loading...</p>`;else if(c.err)b=`<p class="m">Could not load this report.</p>`;
+   else b=(c.stories||[]).length?(c.stories||[]).map(s=>`<p><a href="${esc((s.sources&&s.sources[0]&&s.sources[0].url)||"#")}" target="_blank" rel="noopener">${esc(s.headline)}</a><br><span class="m">${esc((s.sources&&s.sources[0]&&s.sources[0].name)||"")} · ${esc(s.confirmation||"")}</span></p>`).join(""):`<p class="m">No stories in this report.</p>`}
+  return `<div class="box"><button class="go" style="width:100%;text-align:left" onclick="openH('${x.date}')">Report for ${fd(x.date)} ${o?"&#9650;":"&#9660;"}</button>${b}</div>`}).join("")}
+async function openH(d){HO=HO===d?null:d;draw();if(HO&&!HC[d]){const x=D.h.find(r=>r.date===d);try{const r=await fetch(x.file,{cache:"no-store"});HC[d]=await r.json()}catch(e){HC[d]={err:1}}draw()}}
 function status(){const r=D.r;let n=("Notification" in window)?Notification.permission:"unsupported";
  return `<h2>Status</h2><div class="box"><b>Last report</b><br>${r&&r.generated_at?ist(r.generated_at):"none yet"}</div>
  <div class="box"><b>Notifications:</b> ${n}<p class="m">Android needs one permission. Phone alerts that arrive while the app is closed need the next build step.</p>
@@ -108,7 +118,9 @@ function status(){const r=D.r;let n=("Notification" in window)?Notification.perm
  <button class="go" onclick="load()">Refresh</button>`}
 async function notif(){if(!("Notification" in window))return alert("This browser does not support notifications.");
  const p=await Notification.requestPermission();if(p==="granted"){const g=await navigator.serviceWorker.ready;g.showNotification("Market Brief",{body:"Test notification works.",icon:"icon.svg"})}draw()}
-function go(t){tab=t;draw();scrollTo(0,0)}
+function menu(f){const m=$("#menu"),o=f!==undefined?f:m.style.display!=="block";m.style.display=o?"block":"none";$("#mb").setAttribute("aria-expanded",o)}
+function go(t){menu(false);tab=t;draw();scrollTo(0,0)}
+document.addEventListener("click",e=>{if(!e.target.closest("#menu,#mb"))menu(false)});
 function draw(){$("#v").innerHTML={today,report,cover,fii,mkt,events,hist,status}[tab]();
  $("#nav").innerHTML=TABS.map(([k,l])=>`<button class="${k===tab?"on":""}" onclick="go('${k}')">${l}</button>`).join("")}
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js");
