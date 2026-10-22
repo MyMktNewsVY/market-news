@@ -1,5 +1,5 @@
 """Indian Market News Agent - daily collector. Standard library only."""
-import json, os, re, sys, difflib, urllib.request, email.utils, html, http.cookiejar
+import json, os, re, sys, time, difflib, urllib.request, email.utils, html, http.cookiejar
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
@@ -15,7 +15,7 @@ def window(now=None):
     now = (now or datetime.now(IST)).astimezone(IST)
     cfg = json.load(open("settings.json")) if os.path.exists("settings.json") else {}
     cutoff = now.replace(hour=cfg.get("cutoff_hour", 8), minute=cfg.get("cutoff_minute", 0), second=0, microsecond=0)
-    start = (cutoff - timedelta(days=1)).replace(hour=15)
+    start = (cutoff - timedelta(days=1)).replace(hour=15, minute=0)
     return start, cutoff, now
 
 def clean(t): return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", t or ""))).strip()
@@ -187,17 +187,23 @@ def ask_gemini(groups, names):
       '"stories":[{"id":0,"factors":[1],"summary":"...","impact":"...","sectors":["Banks"]}]}\n\nITEMS:\n' + "\n".join(lines))
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}).encode()
-    last = None
-    for model in pick_models():
-        log("Trying Gemini model:", model)
-        req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-            data=body, headers={"Content-Type": "application/json", "x-goog-api-key": KEY})
-        try:
-            with urllib.request.urlopen(req, timeout=100) as r: resp = json.load(r)
-            out = json.loads(resp["candidates"][0]["content"]["parts"][0]["text"])
-            log("Gemini answered using", model); return out
-        except Exception as e:
-            last = e; log(f"  {model} failed: {e}")
+    last, deadline = None, time.time() + 720
+    for rnd in range(3):
+        try: models = pick_models()
+        except Exception as e: last = e; models = []; log("  could not list models:", e)
+        for model in models:
+            if time.time() > deadline: break
+            log("Trying Gemini model:", model)
+            req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                data=body, headers={"Content-Type": "application/json", "x-goog-api-key": KEY})
+            try:
+                with urllib.request.urlopen(req, timeout=100) as r: resp = json.load(r)
+                out = json.loads(resp["candidates"][0]["content"]["parts"][0]["text"])
+                log("Gemini answered using", model); return out
+            except Exception as e:
+                last = e; log(f"  {model} failed: {e}")
+        if rnd < 2 and time.time() < deadline:
+            log("Gemini busy, waiting 45 seconds before trying again"); time.sleep(45)
     raise RuntimeError(f"All Gemini models failed: {last}")
 
 def main():
@@ -205,6 +211,10 @@ def main():
     names = json.load(open("factors.json"))
     start, cutoff, now = window()
     log("Window:", start.isoformat(), "->", cutoff.isoformat())
+    if os.environ.get("ONLY_IF_NEEDED") and os.path.exists("data/latest.json"):
+        lj = json.load(open("data/latest.json"))
+        if lj.get("status") == "ok" and lj.get("cutoff") == cutoff.isoformat():
+            log("Today's report is already complete. Nothing to do."); return
     seen_path = "data/seen.json"
     bootstrap = not os.path.exists(seen_path)
     seen = set(json.load(open(seen_path))) if not bootstrap else set()
@@ -271,7 +281,8 @@ def main():
     idx["reports"] = [r for r in idx["reports"] if r["date"] != date] + [{"date": date, "file": f"data/reports/{date}.json"}]
     idx["reports"].sort(key=lambda r: r["date"], reverse=True)
     json.dump(idx, open("data/index.json", "w"), indent=1)
-    json.dump(sorted((seen | new_seen))[-3000:], open(seen_path, "w"))
+    if ai_ok or not groups: json.dump(sorted((seen | new_seen))[-3000:], open(seen_path, "w"))
+    else: log("AI step failed, so SEBI/PIB items are not marked as seen; a retry will include them.")
     log(f"Report written: {len(stories)} stories, AI={'yes' if ai_ok else 'no'}")
     fii_dii()
 
