@@ -3,6 +3,10 @@ on:
   schedule:
     - cron: "3 2 * * *"
     - cron: "40 2 * * *"
+    - cron: "7 13 * * *"
+    - cron: "11 17 * * *"
+    - cron: "17 21 * * *"
+    - cron: "23 0 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -22,8 +26,13 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ONLY_IF_NEEDED: ${{ github.event_name == 'schedule' && '1' || '' }}
+          MODE: ${{ (github.event_name == 'schedule' && github.event.schedule != '3 2 * * *' && github.event.schedule != '40 2 * * *') && 'pool' || 'report' }}
       - run: |
           git config user.name "report-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data
           git diff --cached --quiet || (git commit -m "Daily report" && git push)
+      - env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -f notify.flag ]; then sleep 100; python collect.py notify; fi
