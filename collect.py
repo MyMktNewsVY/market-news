@@ -219,7 +219,8 @@ def yahoo(sym):
             res = d["chart"]["result"][0]; meta = res["meta"]
             pairs = [(a, b) for a, b in zip(res["timestamp"], res["indicators"]["quote"][0]["close"]) if b is not None]
             reg = meta.get("currentTradingPeriod", {}).get("regular", {})
-            if reg and reg.get("start", 0) <= time.time() < reg.get("end", 0): pairs = pairs[:-1]
+            live = bool(meta.get("regularMarketTime")) and time.time() - meta["regularMarketTime"] < 1200
+            if live or (reg and reg.get("start", 0) <= time.time() < reg.get("end", 0)): pairs = pairs[:-1]
             if len(pairs) < 3: raise ValueError("not enough data")
             off = meta.get("gmtoffset", 0); (t1, last), (t0, prev) = pairs[-1], pairs[-2]
             five = pairs[-6][1] if len(pairs) >= 6 else pairs[0][1]
@@ -269,15 +270,19 @@ def gemini_json(prompt):
     for rnd in range(3):
         try: models = pick_models()
         except Exception as e: last = e; models = []; log("  could not list models:", e)
+        try: pref = json.load(open("data/gemini_model.json"))["model"]
+        except Exception: pref = None
+        if pref in models: models = [pref] + [m for m in models if m != pref]
         for model in models:
             if time.time() > deadline: break
             log("Trying Gemini model:", model)
             req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
                 data=body, headers={"Content-Type": "application/json", "x-goog-api-key": KEY})
             try:
-                with urllib.request.urlopen(req, timeout=100) as r: resp = json.load(r)
+                with urllib.request.urlopen(req, timeout=70) as r: resp = json.load(r)
                 out = json.loads(resp["candidates"][0]["content"]["parts"][0]["text"])
-                log("Gemini answered using", model); return out
+                log("Gemini answered using", model)
+                os.makedirs("data", exist_ok=True); json.dump({"model": model}, open("data/gemini_model.json", "w")); return out
             except Exception as e:
                 last = e; log(f"  {model} failed: {e}")
         if rnd < 2 and time.time() < deadline:
