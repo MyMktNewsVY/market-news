@@ -117,6 +117,20 @@ def enrich(groups):
             log(f"Read article for FII/DII check: {m['source']} ({len(m['extra'])} chars)")
         except Exception as e: log(f"Could not read article for FII/DII check: {m['source']}: {str(e)[:60]}")
 
+STOP = set("the and for with from that this over after amid into says said will may are was has have its new how why what stocks stock market markets shares share today india indian nifty sensex week day report latest here set key top ahead".split())
+
+def toks(s): return {w for w in re.findall(r"[a-z0-9.%]+", s.lower()) if len(w) > 2 and w not in STOP}
+
+def same_event(a, b):
+    A, B = toks(a), toks(b)
+    nA, nB = {w for w in A if w[0].isdigit()}, {w for w in B if w[0].isdigit()}
+    if nA and nB and not (nA & nB): return False
+    inter = A & B
+    if len(A) >= 4 and len(B) >= 4 and len(inter) >= 4 and len(inter) / min(len(A), len(B)) >= 0.6: return True
+    return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio() > 0.62
+
+def outlet(name): return name.split()[0]
+
 def group(items):
     now = datetime.now(IST)
     for it in items: it["ts"] = it["time"] or now
@@ -124,11 +138,11 @@ def group(items):
     for it in items:
         key = it["title"].lower()
         for g in groups:
-            if difflib.SequenceMatcher(None, key, g["title"].lower()).ratio() > 0.62:
+            if same_event(key, g["title"]):
                 g["members"].append(it); break
         else: groups.append({"title": it["title"], "members": [it]})
     for g in groups:
-        srcs = {m["source"] for m in g["members"]}
+        srcs = {outlet(m["source"]) for m in g["members"]}
         g["official"] = any(m["kind"] == "official" for m in g["members"])
         g["n_sources"] = len(srcs)
         g["label"] = ("Official source" if g["official"] else
@@ -246,6 +260,9 @@ def ask_gemini(groups, names):
       '"stories":[{"id":0,"factors":[1],"summary":"...","impact":"...","sectors":["Banks"]}],'
       '"flows":[{"id":0,"who":"FII","direction":"sold","amount_crore":1234.5}]}\n'
       'flows: ONLY when an item explicitly states net buying or selling by FII/FPI or DII in rupees crore. Copy the amount exactly as written. Otherwise use an empty list.\n\nITEMS:\n' + "\n".join(lines))
+    return gemini_json(prompt)
+
+def gemini_json(prompt):
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}).encode()
     last, deadline = None, time.time() + 720
@@ -267,7 +284,44 @@ def ask_gemini(groups, names):
             log("Gemini busy, waiting 45 seconds before trying again"); time.sleep(45)
     raise RuntimeError(f"All Gemini models failed: {last}")
 
+def load_pool():
+    try: return json.load(open("data/pool.json")).get("items", [])
+    except Exception: return []
+
+def pool_run():
+    cfg = json.load(open("sources.json"))["sources"]; now = datetime.now(IST)
+    items, status = collect(cfg, now - timedelta(hours=72), now + timedelta(hours=1), set(), True, set())
+    pool = load_pool(); known = {p["link"] for p in pool}
+    for it in items:
+        if it["link"] not in known:
+            pool.append({"title": it["title"], "link": it["link"], "time": it["time"].isoformat(), "snippet": it["snippet"][:250],
+                         "source": it["source"], "kind": it["kind"]}); known.add(it["link"])
+    pool = [p for p in pool if datetime.fromisoformat(p["time"]) >= now - timedelta(hours=72)]
+    os.makedirs("data", exist_ok=True)
+    json.dump({"updated": now.isoformat(), "items": pool}, open("data/pool.json", "w"), ensure_ascii=False)
+    log(f"Pool updated: {len(pool)} items saved")
+
+def notify():
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    if not topic: log("No NTFY_TOPIC secret set. Skipping phone alert."); return
+    lat = json.load(open("data/latest.json")); n = len(lat.get("stories", []))
+    cut = datetime.fromisoformat(lat["cutoff"]).strftime("%d %b %H:%M")
+    lines = [f"{n} stories covering news up to {cut} IST."]
+    if lat.get("status") != "ok": lines.append("Headlines only. AI summaries were not available.")
+    try:
+        today = datetime.now(IST).date()
+        for e in json.load(open("data/events.json")).get("events", []):
+            d = (datetime.fromisoformat(e["date"]).date() - today).days
+            if e.get("verified") and 0 <= d <= 2: lines.append(f"Coming up: {e['name']} {'today' if d == 0 else 'tomorrow' if d == 1 else 'in 2 days'}.")
+    except Exception as e: log("Event reminders skipped:", e)
+    req = urllib.request.Request("https://ntfy.sh/" + topic, data="\n".join(lines).encode("utf-8"),
+        headers={"Title": "Market Brief is ready", "Click": os.environ.get("APP_URL", "https://mymktnewsvy.github.io/market-news/"), "Tags": "chart_with_upwards_trend"})
+    try: urllib.request.urlopen(req, timeout=20).read(); log("Phone alert sent.")
+    except Exception as e: log("Phone alert failed:", e)
+
 def main():
+    if len(sys.argv) > 1 and sys.argv[1] == "notify": return notify()
+    if os.environ.get("MODE") == "pool": return pool_run()
     cfg = json.load(open("sources.json"))["sources"]
     names = json.load(open("factors.json"))
     start, cutoff, now = window()
@@ -281,6 +335,13 @@ def main():
     seen = set(json.load(open(seen_path))) if not bootstrap else set()
     new_seen = set()
     items, status = collect(cfg, start, cutoff, seen, bootstrap, new_seen)
+    live = {it["link"] for it in items}; added = 0
+    for p in load_pool():
+        try: pt = datetime.fromisoformat(p["time"])
+        except Exception: continue
+        if start <= pt <= cutoff and p["link"] not in live:
+            items.append({**p, "time": pt}); live.add(p["link"]); added += 1
+    log(f"Added {added} items collected earlier by the evening runs")
     if bootstrap: log("First run: remembering current SEBI/PIB items; only new ones will appear from the next run.")
     if not any(v["ok"] for v in status.values()):
         log("No source could be reached. Keeping the previous report."); sys.exit(1)
@@ -356,6 +417,7 @@ def main():
     if ai_ok or not groups: json.dump(sorted((seen | new_seen))[-3000:], open(seen_path, "w"))
     else: log("AI step failed, so SEBI/PIB items are not marked as seen; a retry will include them.")
     log(f"Report written: {len(stories)} stories, AI={'yes' if ai_ok else 'no'}")
+    open("notify.flag", "w").write("1")
     fii_dii(reported)
     try: markets()
     except Exception as e: log("Markets step failed:", e)

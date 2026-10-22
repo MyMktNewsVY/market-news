@@ -8,7 +8,9 @@
    "why": "US interest-rate decision and press conference. Can move global markets, the dollar and foreign flows into India.",
    "url": "https://www.chicagofed.org/utilities/about-us/federal-reserve-calendars",
    "verified": true,
-   "note": "Meeting 27 to 28 Oct. The decision comes on the second day, which is late night in India."
+   "note": "Meeting 27 to 28 Oct. The decision comes on the second day, which is late night in India.",
+   "source_id": "fomc",
+   "checked_on": "2026-10-22"
   },
   {
    "name": "US CPI inflation (October data)",
@@ -17,7 +19,9 @@
    "why": "US inflation reading. Shapes expectations for Fed rates and the dollar.",
    "url": "https://www.bls.gov/news.release/cpi.toc.htm",
    "verified": true,
-   "note": "Date matches the US BLS schedule as published by two sources. Open the link to double-check."
+   "note": "Date matches the US BLS schedule as published by two sources. Open the link to double-check.",
+   "source_id": "us_cpi",
+   "checked_on": "2026-10-22"
   },
   {
    "name": "India CPI inflation (October data)",
@@ -25,7 +29,9 @@
    "why": "India retail inflation. Key input for RBI rate expectations.",
    "url": "https://www.mospi.gov.in/uploads/latestreleasesfiles/1791801549227-Press%20Release%20for%20the%20month%20of%20September,%202026.pdf",
    "verified": true,
-   "note": "MoSPI says 12 Nov (Thursday) or the next working day."
+   "note": "MoSPI says 12 Nov (Thursday) or the next working day.",
+   "source_id": "in_cpi",
+   "checked_on": "2026-10-22"
   },
   {
    "name": "RBI policy decision (MPC meeting 2 to 4 Dec)",
@@ -33,7 +39,9 @@
    "why": "RBI repo rate and stance decision. Directly affects banks, rate-sensitive sectors and bond yields.",
    "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62422",
    "verified": true,
-   "note": "RBI announced the meeting dates 2, 3 and 4 Dec. The decision usually comes on the last day."
+   "note": "RBI announced the meeting dates 2, 3 and 4 Dec. The decision usually comes on the last day.",
+   "source_id": "rbi_mpc",
+   "checked_on": "2026-10-22"
   },
   {
    "name": "US Fed (FOMC) rate decision with projections",
@@ -42,7 +50,9 @@
    "why": "US rate decision plus the Fed's new economic projections.",
    "url": "https://www.chicagofed.org/utilities/about-us/federal-reserve-calendars",
    "verified": true,
-   "note": "Meeting 8 to 9 Dec. The date shown is the US date."
+   "note": "Meeting 8 to 9 Dec. The date shown is the US date.",
+   "source_id": "fomc",
+   "checked_on": "2026-10-22"
   },
   {
    "name": "US CPI inflation (November data)",
@@ -51,7 +61,9 @@
    "why": "US inflation reading before the year-end.",
    "url": "https://www.bls.gov/news.release/cpi.toc.htm",
    "verified": true,
-   "note": "Date matches the US BLS schedule as published by two sources. Open the link to double-check."
+   "note": "Date matches the US BLS schedule as published by two sources. Open the link to double-check.",
+   "source_id": "us_cpi",
+   "checked_on": "2026-10-22"
   },
   {
    "name": "India CPI inflation (November data)",
@@ -59,7 +71,9 @@
    "why": "India retail inflation for November.",
    "url": "https://www.mospi.gov.in/uploads/documents/releaseCalender/1770293210621-ADVANCE%20RELEASE%20CALENDAR%202026-27%20FINAL%2005.02.2026.pdf",
    "verified": true,
-   "note": "MoSPI calendar says 12 Dec, which is a Saturday. Release may move to the next working day, so check MoSPI."
+   "note": "MoSPI calendar says 12 Dec, which is a Saturday. Release may move to the next working day, so check MoSPI.",
+   "source_id": "in_cpi",
+   "checked_on": "2026-10-22"
   },
   {
    "name": "RBI policy decision (MPC meeting 3 to 5 Feb)",
@@ -67,7 +81,27 @@
    "why": "RBI repo rate and stance decision, the last meeting of this financial year.",
    "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62422",
    "verified": true,
-   "note": "RBI announced the meeting dates 3, 4 and 5 Feb 2027. The decision usually comes on the last day."
+   "note": "RBI announced the meeting dates 3, 4 and 5 Feb 2027. The decision usually comes on the last day.",
+   "source_id": "rbi_mpc",
+   "checked_on": "2026-10-22"
   }
- ]
+ ],
+ "sources_status": {
+  "rbi_mpc": {
+   "ok": true,
+   "checked_on": "2026-10-22"
+  },
+  "fomc": {
+   "ok": true,
+   "checked_on": "2026-10-22"
+  },
+  "us_cpi": {
+   "ok": true,
+   "checked_on": "2026-10-22"
+  },
+  "in_cpi": {
+   "ok": true,
+   "checked_on": "2026-10-22"
+  }
+ }
 }

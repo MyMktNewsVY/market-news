@@ -1,0 +1,26 @@
+[
+ {
+  "id": "rbi_mpc",
+  "name": "RBI policy decision",
+  "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62422",
+  "time": "",
+  "what": "Monetary Policy Committee meetings. Use the LAST day of each meeting, which is the day the decision is announced.",
+  "why": "RBI repo rate and stance decision. Directly affects banks, rate-sensitive sectors and bond yields."
+ },
+ {
+  "id": "fomc",
+  "name": "US Fed (FOMC) rate decision",
+  "url": "https://www.chicagofed.org/utilities/about-us/federal-reserve-calendars",
+  "time": "2:00 PM New York time (late night in India)",
+  "what": "FOMC meetings. Use the SECOND day of each meeting, which is the decision day.",
+  "why": "US interest-rate decision. Can move global markets, the dollar and foreign flows into India."
+ },
+ {
+  "id": "us_cpi",
+  "name": "US CPI inflation",
+  "url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+  "time": "8:30 AM New York time",
+  "what": "release dates of the US Consumer Price Index",
+  "why": "US inflation reading. Shapes expectations for Fed rates and the dollar."
+ }
+]

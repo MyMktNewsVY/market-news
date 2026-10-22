@@ -85,7 +85,9 @@ function mkt(){const m=D.m;let h="<h2>Markets</h2>";
 function evDays(e){const t=Date.parse(new Date().toLocaleDateString("en-CA",{timeZone:"Asia/Kolkata"})+"T00:00:00+05:30");return Math.round((Date.parse(e.date+"T00:00:00+05:30")-t)/86400000)}
 function evList(){return D.e.filter(e=>e.date&&e.verified&&evDays(e)>=0).sort((p,q)=>p.date.localeCompare(q.date))}
 function remBox(){const r=evList().filter(e=>evDays(e)<=2);return r.length?`<div class="box warn"><b>Coming up</b>`+r.map(e=>`<p>${esc(e.name)}<br><span class="m">${evDays(e)===0?"Today":evDays(e)===1?"Tomorrow":"In 2 days"} · ${fd(e.date)}${e.time?" · "+esc(e.time):""}</span></p>`).join("")+`</div>`:""}
-function events(){let h="<h2>Events</h2>";const up=evList();
+function events(){let h="<h2>Events</h2>";const up=evList(),age=D.ev?Math.round((Date.now()-Date.parse(D.ev+"T00:00:00+05:30"))/86400000):999;
+ if(age>20)h+=`<div class="box bad"><b>Calendar not refreshed since ${D.ev?fd(D.ev):"unknown"}.</b><br>The automatic 15-day refresh may have failed. Dates below could be out of date.</div>`;
+ if(up.length&&up.length<3)h+=`<div class="box warn">Only ${up.length} upcoming date${up.length>1?"s are":" is"} listed. New official schedules may need adding.</div>`;
  if(!up.length)return h+`<div class="box warn">No upcoming verified events. The calendar needs updating${D.ev?" (last checked "+fd(D.ev)+")":""}.</div>`;
  return h+up.map(e=>{const d=evDays(e),w=d===0?"Today":d===1?"Tomorrow":"In "+d+" days";
   return `<div class="box ${d<=2?"warn":""}"><b>${esc(e.name)}</b>${d<=2?` <span class="tag">Reminder</span>`:""}<div class="m">${fd(e.date)}${e.time?" · "+esc(e.time):""} · ${w}</div><p>${esc(e.why||"")}</p>${e.note?`<p class="m">${esc(e.note)}</p>`:""}${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">Official source</a>`:""}</div>`}).join("")+`<p class="foot">Only dates found in official or published schedules are listed. Reminders show 2 days before. Calendar last checked ${D.ev?fd(D.ev):"unknown"}.</p>`}
@@ -99,8 +101,7 @@ function hist(){let h="<h2>Past reports</h2>";if(!D.h.length)return h+`<div clas
 async function openH(d){HO=HO===d?null:d;draw();if(HO&&!HC[d]){const x=D.h.find(r=>r.date===d);try{const r=await fetch(x.file,{cache:"no-store"});HC[d]=await r.json()}catch(e){HC[d]={err:1}}draw()}}
 function status(){const r=D.r;let n=("Notification" in window)?Notification.permission:"unsupported";
  return `<h2>Status</h2><div class="box"><b>Last report</b><br>${r&&r.generated_at?ist(r.generated_at):"none yet"}</div>
- <div class="box"><b>Notifications:</b> ${n}<p class="m">Android needs one permission. Phone alerts that arrive while the app is closed need the next build step.</p>
- <button class="go" onclick="notif()">Allow and test notification</button></div>
+ <div class="box"><b>Phone alerts</b><p class="m">The free ntfy app sends an alert when a report is ready and when an event is 2 days away. Install it once and subscribe to your private topic.</p></div>
  <div class="box"><b>Report time</b><p class="m">8:00 AM IST cutoff. Coverage: previous day 3:00 PM to 8:00 AM IST.</p></div>
  <button class="go" onclick="load()">Refresh</button>`}
 async function notif(){if(!("Notification" in window))return alert("This browser does not support notifications.");
