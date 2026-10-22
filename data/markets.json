@@ -1,0 +1,261 @@
+{
+ "updated": "2026-10-22T10:36:59.482039+05:30",
+ "source": "Yahoo Finance daily data (free, unofficial, may be delayed)",
+ "groups": [
+  {
+   "name": "India",
+   "items": [
+    {
+     "name": "Nifty 50",
+     "symbol": "^NSEI",
+     "ok": true,
+     "last": 22811.35,
+     "date": "2026-10-21",
+     "d1": -0.34,
+     "d5": 0.39,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed"
+    },
+    {
+     "name": "Sensex",
+     "symbol": "^BSESN",
+     "ok": true,
+     "last": 73709.688,
+     "date": "2026-10-21",
+     "d1": -0.19,
+     "d5": 0.93,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed"
+    },
+    {
+     "name": "Bank Nifty",
+     "symbol": "^NSEBANK",
+     "ok": true,
+     "last": 54976.898,
+     "date": "2026-10-21",
+     "d1": -0.92,
+     "d5": -0.91,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed"
+    },
+    {
+     "name": "India VIX",
+     "symbol": "^INDIAVIX",
+     "ok": true,
+     "last": 15.68,
+     "date": "2026-10-21",
+     "d1": 6.16,
+     "d5": 11.05,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "sharply up"
+    },
+    {
+     "name": "USD/INR",
+     "symbol": "INR=X",
+     "ok": true,
+     "last": 94.716,
+     "date": "2026-10-21",
+     "d1": -0.29,
+     "d5": -0.6,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed"
+    }
+   ]
+  },
+  {
+   "name": "Global indices",
+   "items": [
+    {
+     "name": "S&P 500",
+     "symbol": "^GSPC",
+     "ok": true,
+     "last": 7757.17,
+     "date": "2026-10-21",
+     "d1": 0.58,
+     "d5": 0.5,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed"
+    },
+    {
+     "name": "Dow Jones",
+     "symbol": "^DJI",
+     "ok": true,
+     "last": 52856.09,
+     "date": "2026-10-21",
+     "d1": 0.69,
+     "d5": 2.39,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "up"
+    },
+    {
+     "name": "Nasdaq",
+     "symbol": "^IXIC",
+     "ok": true,
+     "last": 26702.859,
+     "date": "2026-10-21",
+     "d1": 1.05,
+     "d5": 0.04,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed"
+    },
+    {
+     "name": "FTSE 100",
+     "symbol": "^FTSE",
+     "ok": true,
+     "last": 10752.9,
+     "date": "2026-10-21",
+     "d1": 0.19,
+     "d5": 0.26,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed"
+    },
+    {
+     "name": "DAX",
+     "symbol": "^GDAXI",
+     "ok": true,
+     "last": 25645.039,
+     "date": "2026-10-21",
+     "d1": 1.35,
+     "d5": 1.37,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "up"
+    },
+    {
+     "name": "Nikkei 225",
+     "symbol": "^N225",
+     "ok": true,
+     "last": 64621.238,
+     "date": "2026-10-21",
+     "d1": 0.85,
+     "d5": -4.61,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "sharply down"
+    },
+    {
+     "name": "Hang Seng",
+     "symbol": "^HSI",
+     "ok": true,
+     "last": 23651.869,
+     "date": "2026-10-21",
+     "d1": -0.9,
+     "d5": -2.85,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "down"
+    },
+    {
+     "name": "Shanghai",
+     "symbol": "000001.SS",
+     "ok": true,
+     "last": 3713.028,
+     "date": "2026-10-21",
+     "d1": -0.6,
+     "d5": -1.44,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "down"
+    }
+   ]
+  },
+  {
+   "name": "Commodities and rates",
+   "items": [
+    {
+     "name": "Brent crude",
+     "symbol": "BZ=F",
+     "ok": true,
+     "last": 108.82,
+     "date": "2026-10-21",
+     "d1": 0.03,
+     "d5": 2.6,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "up"
+    },
+    {
+     "name": "WTI crude",
+     "symbol": "CL=F",
+     "ok": true,
+     "last": 97.15,
+     "date": "2026-10-21",
+     "d1": -4.56,
+     "d5": 2.17,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "up"
+    },
+    {
+     "name": "Gold",
+     "symbol": "GC=F",
+     "ok": true,
+     "last": 4150.0,
+     "date": "2026-10-21",
+     "d1": 0.18,
+     "d5": 1.02,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "up"
+    },
+    {
+     "name": "Silver",
+     "symbol": "SI=F",
+     "ok": true,
+     "last": 57.422,
+     "date": "2026-10-21",
+     "d1": -0.49,
+     "d5": 3.37,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "sharply up"
+    },
+    {
+     "name": "Copper",
+     "symbol": "HG=F",
+     "ok": true,
+     "last": 6.543,
+     "date": "2026-10-21",
+     "d1": -0.36,
+     "d5": -1.04,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "down"
+    },
+    {
+     "name": "US dollar index",
+     "symbol": "DX-Y.NYB",
+     "ok": true,
+     "last": 101.78,
+     "date": "2026-10-21",
+     "d1": 0.05,
+     "d5": -0.75,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed"
+    },
+    {
+     "name": "US 10-year yield",
+     "symbol": "^TNX",
+     "ok": true,
+     "last": 5.146,
+     "date": "2026-10-21",
+     "d1": 0.029,
+     "d5": -0.044,
+     "unit": "pts",
+     "sessions": 5,
+     "trend": "little changed"
+    }
+   ]
+  }
+ ]
+}

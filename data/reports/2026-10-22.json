@@ -1,31 +1,31 @@
 {
  "status": "ok",
  "title": "Indian Market News Brief — 22 Oct 2026 — Nifty 50",
- "generated_at": "2026-10-22T10:13:59.870487+05:30",
+ "generated_at": "2026-10-22T10:35:31.048164+05:30",
  "window_start": "2026-10-21T15:00:00+05:30",
  "cutoff": "2026-10-22T07:30:00+05:30",
- "quick_read": "Surging crude oil above $110/bbl and 10-year G-sec yields hitting multi-year highs of 7.44% pose immediate pressures on Indian equities and banking stocks. Robust IT sector strength and strong institutional inflows into the mega Jio Platforms IPO provide underlying support. Macro uncertainty remains elevated around currency volatility, high sovereign bond yields, and broader market breadth weakness.",
+ "quick_read": "Supportive factors include resilient gains in large-cap IT stocks and strong institutional demand for major primary market issues, alongside central bank liquidity support via a Rs 50,000 crore repo auction. Pressures stem from crude oil surging to $110 per barrel, pushing benchmark domestic 10-year bond yields to multi-year highs of 7.44% and dragging down banking stocks. Key uncertainties center on Middle East geopolitical friction and currency volatility following foreign exchange policy debates.",
  "stories": [
   {
    "headline": "G-sec yield hits over 3-year high of 7.44% as oil back to $110 a barrel",
    "time": "2026-10-21T19:58:25+05:30",
    "factors": [
     "Crude oil",
-    "Indian bond market",
-    "Inflation and consumption"
+    "Inflation and consumption",
+    "Indian bond market"
    ],
    "factor_ids": [
     8,
-    14,
-    11
+    11,
+    14
    ],
-   "summary": "India's benchmark 10-year government bond yield rose to 7.44%, reaching its highest level since March 2023.\nThe surge in sovereign yields coincided with Brent crude prices climbing back to $110 per barrel.\nAt the previous high in March 2023, domestic consumer price inflation stood at 5.66%.\nRising yields reflect intensifying inflation concerns linked to surging energy prices.",
+   "summary": "India's benchmark 10-year government bond yield rose to 7.44%, its highest level in more than three years.\nThe increase occurred as Brent crude oil prices climbed back to $110 per barrel.\nThe benchmark yield had previously reached 7.44% on March 10, 2023, when CPI inflation was 5.66%.\nRising energy prices are renewing concerns over broader inflationary pressures in the economy.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Higher sovereign yields and elevated oil could increase borrowing costs and pressure interest-rate sensitive sectors like banking and autos.",
+   "impact": "Elevated sovereign yields and crude costs could pressure valuations of rate-sensitive sectors, especially banks and NBFCs.",
    "sectors": [
     "Banks",
-    "Financial Services",
-    "Automobiles"
+    "NBFCs",
+    "Oil & Gas"
    ],
    "unverified_figures": [],
    "sources": [
@@ -40,20 +40,18 @@
    "time": "2026-10-21T19:25:37+05:30",
    "factors": [
     "Banking and liquidity",
-    "Indian bond market",
-    "RBI monetary policy"
+    "Indian bond market"
    ],
    "factor_ids": [
     13,
-    14,
-    12
+    14
    ],
-   "summary": "The Reserve Bank of India rejected all bids at the government's Treasury bill auction amid surging short-term yields.\nThe 10-year benchmark government bond yield settled at 7.44%, up from the previous close of 7.39%.\nThis marked the highest yield on the 10-year bond since November 4, 2022.\nThe rejection underscores central bank discomfort with elevated bidding yields in money markets.",
+   "summary": "The Reserve Bank of India rejected all bids at the government Treasury bill auction amid rising short-term yields.\nThe 10-year benchmark government bond yield settled at 7.44%, up from its previous close of 7.39%.\nThis marked the highest yield on the benchmark bond since November 4, 2022.\nThe auction rejection followed significant upward pressure across the domestic sovereign yield curve.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Tightening short-term liquidity conditions and climbing yields may dampen sentiment for financial stocks and heighten debt market volatility.",
+   "impact": "Official rejection of bids highlights money market yield pressures and may indicate tighter short-term liquidity conditions for lenders.",
    "sectors": [
     "Banks",
-    "Financial Services"
+    "Fixed Income"
    ],
    "unverified_figures": [],
    "sources": [
@@ -76,105 +74,18 @@
     8,
     18
    ],
-   "summary": "The Indian rupee gained 0.5% to 94.46 against the US dollar, driven by inflows linked to the Jio Platforms IPO.\nThe currency reached its strongest level since early September before paring gains in the second half.\nPressure returned as Brent crude breached $110 per barrel and domestic equities weakened.\nForeign primary-market capital flows provided temporary support against broader energy price headwinds.",
+   "summary": "The Indian rupee strengthened 0.5% to 94.46 against the US dollar during trading.\nThe initial currency gains were driven by inflows linked to the Jio Platforms IPO.\nThe rupee touched its strongest mark since early September before paring gains later in the session.\nThe reversal occurred as Brent crude climbed above $110 per barrel and domestic equities weakened.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Volatile currency movements driven by costly crude could weigh on importers, while IPO inflows offer transient rupee stability.",
+   "impact": "Temporary capital inflows may cushion currency weakness, but persistent $110 crude could continue to pressure the rupee and import bills.",
    "sectors": [
-    "Oil & Gas",
-    "Paints",
-    "Aviation"
+    "Forex",
+    "Oil & Gas"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "BusinessLine Markets",
      "url": "https://www.thehindubusinessline.com/markets/forex/rupee-jumps-05-to-9446-on-jio-ipo-linked-inflows-elevated-oil-prices-spur-caution/article71607126.ece"
-    }
-   ]
-  },
-  {
-   "headline": "IT stocks gain ₹77,000 crore in value as banking shares weigh on Nifty",
-   "time": "2026-10-21T21:18:56+05:30",
-   "factors": [
-    "Heavyweight stocks",
-    "Sector rotation",
-    "Indian bond market"
-   ],
-   "factor_ids": [
-    21,
-    23,
-    14
-   ],
-   "summary": "IT stocks added ₹77,000 crore in market value, cushioning Nifty's 0.34% decline on Wednesday.\nConcurrently, banking and financial stocks lost approximately ₹81,000 crore in market value.\nThe sharp fall in banking shares followed a rise in domestic government bond yields.\nThe opposing sectoral moves illustrated pronounced inter-sector rotation within heavyweights.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Rotational flows into IT may cushion index-level drawdowns, but continued pressure on heavy banking components could cap overall market upside.",
-   "sectors": [
-    "Nifty IT",
-    "Nifty Bank",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/it-stocks-gain-77-000-crore-in-value-as-banking-shares-weigh-on-nifty-126102101234_1.html"
-    }
-   ]
-  },
-  {
-   "headline": "Nifty IT surges 2.2% as IT stocks buck market-wide selloff",
-   "time": "2026-10-21T18:11:02+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Sector rotation",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    20,
-    23,
-    21
-   ],
-   "summary": "The Nifty IT index gained 2.2%, bucking a broad-based decline across domestic equities.\nWipro led gains with an advance of 3.3% to ₹188.15.\nInfosys rose 2.88% to ₹1,163.30, while Mphasis increased 2.65% to ₹2,566.30.\nStrength in large-cap IT counters provided pivotal support to headline indices.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Outperformance in defensive, export-oriented IT names may persist if macroeconomic and yield pressures continue to rattle domestic sectors.",
-   "sectors": [
-    "Nifty IT"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/nifty-it-surges-22-as-it-stocks-buck-market-wide-selloff/article71607004.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Reliance Jio IPO subscription status day 1: QIB, NII, Retail, Employees, RIL Shareholders; category wise investor detail",
-   "time": "2026-10-21T19:34:42+05:30",
-   "factors": [
-    "Foreign investment",
-    "Domestic investment",
-    "Corporate events"
-   ],
-   "factor_ids": [
-    18,
-    19,
-    31
-   ],
-   "summary": "Jio Platforms' ₹30,213-crore IPO was subscribed 3.16 times on its opening day.\nDemand was led by Qualified Institutional Buyers (QIBs), who subscribed 9.42 times their quota.\nNon-institutional investors subscribed 1.68 times, RIL shareholders 1.46 times, and retail 0.73 times.\nThe primary market offering is scheduled to remain open until October 23.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Substantial institutional participation may lock up domestic liquidity while supporting overall foreign inflow dynamics.",
-   "sectors": [
-    "Telecommunication",
-    "Oil & Gas"
-   ],
-   "unverified_figures": [
-    "30213"
-   ],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/ipo/reliance-jio-ipo-subscription-status-day-1-qib-nii-retail-employees-ril-shareholders-category-wise-investor-detail-11792584622711.html"
     }
    ]
   },
@@ -189,11 +100,12 @@
     12,
     13
    ],
-   "summary": "The RBI announced an overnight Variable Rate Repo (VRR) auction under the LAF for ₹50,000 crore on October 22, 2026.\nThe auction window was scheduled for 09:30 AM to 10:00 AM, with reversal on October 23, 2026.\nThe central bank cited an assessment of evolving near-term liquidity conditions.\nThe operation aims to address short-term liquidity deficits in the banking system.",
+   "summary": "The Reserve Bank of India announced an overnight Variable Rate Repo auction under the LAF for October 22, 2026.\nThe notified amount for the 1-day operation was fixed at ₹50,000 crore.\nThe operational window was scheduled from 9:30 AM to 10:00 AM, with reversal on October 23, 2026.\nThe intervention was decided following an assessment of near-term liquidity conditions.",
    "confirmation": "Official source",
-   "impact": "Liquidity infusion via VRR could ease overnight money market rates and provide temporary relief to banking sector funding costs.",
+   "impact": "The liquidity injection may help relieve temporary cash deficits in the banking system and stabilize short-term borrowing rates.",
    "sectors": [
-    "Banks"
+    "Banks",
+    "Financial Services"
    ],
    "unverified_figures": [],
    "sources": [
@@ -204,23 +116,53 @@
    ]
   },
   {
+   "headline": "IT stocks gain ₹77,000 crore in value as banking shares weigh on Nifty",
+   "time": "2026-10-21T21:18:56+05:30",
+   "factors": [
+    "Indian bond market",
+    "Heavyweight stocks",
+    "Sector rotation"
+   ],
+   "factor_ids": [
+    14,
+    21,
+    23
+   ],
+   "summary": "IT sector shares added approximately ₹77,000 crore in market valuation during Wednesday's session.\nThe rally in technology stocks cushioned the Nifty index against an overall decline of 0.34%.\nConversely, banking and financial shares shed roughly ₹81,000 crore in market value.\nThe decline in financial equities coincided with an increase in domestic sovereign bond yields.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Rotational movement out of financial heavyweights and into export-focused IT names could dictate broader benchmark performance.",
+   "sectors": [
+    "IT",
+    "Banks",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/it-stocks-gain-77-000-crore-in-value-as-banking-shares-weigh-on-nifty-126102101234_1.html"
+    }
+   ]
+  },
+  {
    "headline": "Slight fall in Nifty, Sensex masks small-caps pain",
    "time": "2026-10-21T21:58:44+05:30",
    "factors": [
+    "Technical trends",
     "Market breadth",
-    "Volatility",
-    "Technical trends"
+    "Volatility"
    ],
    "factor_ids": [
+    24,
     26,
-    29,
-    24
+    29
    ],
-   "summary": "Headline Nifty and Sensex slipped slightly, masking significant weakness in broader markets.\nA total of 388 stocks hit new lows across exchanges during the trading session.\nIndia VIX climbed 6.3% to settle at 15.7, indicating rising market volatility.\nStrong advances in the IT index helped limit losses in the benchmark indices.",
+   "summary": "Headline benchmark indices masked broader underlying weakness across the wider market.\nA total of 388 stocks touched new lows during the trading day.\nThe market volatility index climbed 6.3% to reach 15.7.\nIT shares made notable gains even as small-cap equities experienced persistent selling pressure.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Deteriorating market breadth and surging volatility could heighten risk aversion, especially in mid-cap and small-cap segments.",
+   "impact": "Weak market breadth combined with a rising volatility index suggests heightened risk aversion beyond headline Nifty movements.",
    "sectors": [
-    "Broad Market"
+    "Broad Market",
+    "Small Caps"
    ],
    "unverified_figures": [],
    "sources": [
@@ -231,23 +173,48 @@
    ]
   },
   {
+   "headline": "Jio Platforms IPO fully subscribed, attracts 3.16x demand on day one",
+   "time": "2026-10-21T21:55:08+05:30",
+   "factors": [
+    "Foreign investment",
+    "Market structure",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    18,
+    30,
+    31
+   ],
+   "summary": "Jio Platforms' initial public offering achieved a 3.16 times overall subscription on its first day.\nInvestors placed bids for 62.4 crore shares across all categories.\nQualified Institutional Buyers bid for 46.15 crore shares against the 4.9 crore shares reserved for them.\nInstitutional demand represented approximately nine times the quota allocated to QIBs.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Strong institutional participation may draw liquidity toward primary markets while supporting sentiment around telecommunications and digital assets.",
+   "sectors": [
+    "Telecommunications"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/jio-platforms-ipo-fully-subscribed-attracts-316x-demand-on-day-one/article71608411.ece"
+    }
+   ]
+  },
+  {
    "headline": "Sugar-ethanol curbs put auto industry’s E20 transition to test; OMCs face ₹813-crore potential cost increase",
    "time": "2026-10-21T19:31:47+05:30",
    "factors": [
-    "Government policy",
-    "Crude oil",
-    "Corporate earnings"
+    "Other commodities",
+    "Government policy"
    ],
    "factor_ids": [
-    15,
-    8,
-    20
+    9,
+    15
    ],
-   "summary": "Curbs on sugar-based ethanol are challenging the auto industry's E20 fuel transition targets.\nOil marketing companies face a potential cost increase of ₹813 crore.\nThe cost impact arises from having to replace 100 crore litres of B-heavy ethanol with maize-based ethanol.\nThe substitution could negatively affect the fuel marketing margins of OMCs.",
+   "summary": "Restrictions on sugar-based ethanol have created challenges for the automotive sector's E20 transition.\nOil marketing companies face an estimated potential cost increase of ₹813 crore.\nThe disruption involves substituting 100 crore litres of B-heavy ethanol with maize-based alternatives.\nThis feedstock shift carries potential negative implications for fuel marketing margins.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Margin pressure could weigh on OMCs, while auto manufacturers face regulatory adjustments around fuel blending targets.",
+   "impact": "Margin compression could impact state-run OMCs, while vehicle manufacturers may face operational adjustments under altered blending targets.",
    "sectors": [
-    "Oil & Gas",
+    "Oil Marketing Companies",
     "Automobiles",
     "Sugar"
    ],
@@ -260,78 +227,24 @@
    ]
   },
   {
-   "headline": "IT mid-caps vs large-caps: TCS, Infosys, Wipro vs Persistent, Coforge, Tata Tech - Who leads the Q2 results 2026 race?",
-   "time": "2026-10-21T23:00:20+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Sector rotation"
-   ],
-   "factor_ids": [
-    20,
-    23
-   ],
-   "summary": "Large-cap IT stocks outpaced mid-caps such as Persistent Systems, Coforge, and Mphasis during recent trading.\nLarge-cap firms beat earnings expectations following lower initial hurdle rates.\nPerformance was supported by resilient operating margins and improved forward guidance.\nMid-caps previously led sector growth, but large-caps regained leadership.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Relative valuation comfort and guidance resilience may continue to drive institutional rotation into frontline IT heavyweights.",
-   "sectors": [
-    "Nifty IT"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/it-mid-caps-vs-large-caps-tcs-infosys-wipro-vs-persistent-coforge-tata-tech-who-leads-the-q2-results-2026-race-11792600156200.html"
-    }
-   ]
-  },
-  {
-   "headline": "Treasuries Slide After Middle East Strife Report Spurs Oil Gains",
-   "time": "2026-10-22T01:46:09+05:30",
-   "factors": [
-    "Geopolitics and trade",
-    "Crude oil",
-    "Global bond yields"
-   ],
-   "factor_ids": [
-    6,
-    8,
-    3
-   ],
-   "summary": "US Treasuries fell after reports indicated that conflict in the Middle East is escalating.\nThe geopolitical developments prompted a rise in global crude oil prices.\nElevated energy costs triggered renewed global inflation and bond yield concerns.\nSovereign bond prices declined globally in response to rising yield expectations.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Escalating geopolitical risk and surging crude pose import bill and inflation challenges for Indian equity valuations.",
-   "sectors": [
-    "Oil & Gas",
-    "Banks"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/treasuries-slide-after-middle-east-strife-report-spurs-oil-gains-11792613769755.html"
-    }
-   ]
-  },
-  {
    "headline": "IMF advises India to let rupee move as first defence amid oil shock",
    "time": "2026-10-21T16:07:05+05:30",
    "factors": [
+    "Geopolitics and trade",
     "Rupee",
-    "Crude oil",
-    "RBI monetary policy"
+    "Crude oil"
    ],
    "factor_ids": [
+    6,
     7,
-    8,
-    12
+    8
    ],
-   "summary": "The IMF advised Indian policymakers to allow the rupee to adjust freely as a primary defence against oil shocks.\nAn IMF official noted that exchange rate flexibility should absorb terms-of-trade shocks.\nThe report suggested that foreign exchange market interventions by the RBI offer limited near-term benefits.\nThe advice comes amid elevated crude prices putting pressure on India's trade balance.",
+   "summary": "The IMF recommended that Indian authorities permit the rupee to fluctuate flexibly against external shocks.\nAn official remarked that exchange rate adjustments should serve as the primary buffer against oil price spikes.\nThe fund noted that foreign exchange interventions by the central bank offer limited near-term efficacy.\nThe commentary arrives as elevated crude prices increase pressure on external macroeconomic balances.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Reduced central bank intervention could lead to higher rupee volatility, elevating input cost uncertainty for import-dependent industries.",
+   "impact": "Reduced central bank intervention could expose the currency to higher near-term volatility during prolonged global oil spikes.",
    "sectors": [
-    "Oil & Gas",
-    "Chemicals",
-    "Banks"
+    "Forex",
+    "Macro"
    ],
    "unverified_figures": [],
    "sources": [
@@ -342,55 +255,83 @@
    ]
   },
   {
+   "headline": "Treasuries Slide After Middle East Strife Report Spurs Oil Gains",
+   "time": "2026-10-22T01:46:09+05:30",
+   "factors": [
+    "Global bond yields",
+    "Geopolitics and trade",
+    "Crude oil"
+   ],
+   "factor_ids": [
+    3,
+    6,
+    8
+   ],
+   "summary": "US Treasury prices declined following reports of intensifying conflict in the Middle East.\nThe escalation drove an increase in global crude oil benchmarks.\nBond yields moved higher as energy market disruptions raised concerns about enduring inflation.\nGlobal financial assets reacted to the potential for prolonged restrictive monetary policy.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Higher US yields and heightened geopolitical tensions may dampen global risk appetite and prompt foreign capital caution in emerging markets.",
+   "sectors": [
+    "Global Markets",
+    "Oil & Gas"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/treasuries-slide-after-middle-east-strife-report-spurs-oil-gains-11792613769755.html"
+    }
+   ]
+  },
+  {
+   "headline": "Minutes of the Monetary Policy Committee Meeting, October 5 to 7, 2026",
+   "time": "2026-10-21T17:00:00+05:30",
+   "factors": [
+    "Inflation and consumption",
+    "RBI monetary policy"
+   ],
+   "factor_ids": [
+    11,
+    12
+   ],
+   "summary": "The RBI released the minutes of the Monetary Policy Committee meeting held from October 5 to 7, 2026.\nThe 63rd statutory meeting was chaired by Governor Shri Sanjay Malhotra.\nThe session was attended by all external and internal committee members.\nThe minutes outline member views regarding inflation dynamics and domestic growth projections.",
+   "confirmation": "Official source",
+   "impact": "Policy stances detailed in the minutes could clarify the central bank's trajectory on interest rates and systemic liquidity.",
+   "sectors": [
+    "Banks",
+    "Macro"
+   ],
+   "unverified_figures": [
+    "63"
+   ],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63839"
+    }
+   ]
+  },
+  {
    "headline": "Persistent Systems opens $450 million QIP, sets floor price at ₹5,550 per share",
    "time": "2026-10-21T23:00:51+05:30",
    "factors": [
-    "Corporate events",
-    "Corporate earnings"
+    "Corporate earnings",
+    "Corporate events"
    ],
    "factor_ids": [
-    31,
-    20
+    20,
+    31
    ],
-   "summary": "Persistent Systems launched a Qualified Institutional Placement (QIP) seeking to raise $450 million.\nThe IT solutions firm fixed the floor price for the issue at ₹5,550 per share.\nThe capital raise had received prior approval from the company's board of directors.\nFinal issue pricing will be set in consultation with book-running lead managers.",
+   "summary": "Persistent Systems initiated a Qualified Institutional Placement to raise up to $450 million.\nThe software firm established a floor price of ₹5,550 per equity share for the issue.\nThe capital-raising exercise previously received formal approval from the company's board.\nThe final issue price is to be determined in consultation with the lead managers.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "The sizable equity offering may temporarily absorb secondary market liquidity in the mid-tier IT space.",
+   "impact": "The equity dilution and pricing may influence trading sentiment and relative valuations across mid-cap IT peers.",
    "sectors": [
-    "Nifty IT"
+    "IT"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "BusinessLine Markets",
      "url": "https://www.thehindubusinessline.com/markets/persistent-systems-opens-450-million-qip-sets-floor-price-at-5550-per-share/article71608791.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Jane Street appeal: SAT reserves order on plea for additional Sebi records",
-   "time": "2026-10-21T17:24:44+05:30",
-   "factors": [
-    "Regulation",
-    "Derivatives positioning",
-    "Market structure"
-   ],
-   "factor_ids": [
-    17,
-    28,
-    30
-   ],
-   "summary": "The Securities Appellate Tribunal reserved its order on Jane Street's appeal for additional Sebi records.\nJane Street requested order logs and counterparty trade details from Sebi for its legal defense.\nThe case relates to a July 2025 interim order alleging manipulation in the Bank Nifty index.\nRegulatory scrutiny over institutional trading practices in index derivatives remains active.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Ongoing regulatory developments regarding algorithmic trading and derivatives could influence market volumes and sentiment in Bank Nifty contracts.",
-   "sectors": [
-    "Banks",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/jane-street-appeal-sat-reserves-order-on-plea-for-additional-sebi-records-126102100972_1.html"
     }
    ]
   }
@@ -404,7 +345,7 @@
   "6": "found",
   "7": "found",
   "8": "found",
-  "9": "unverified",
+  "9": "found",
   "10": "none",
   "11": "found",
   "12": "found",
@@ -412,9 +353,9 @@
   "14": "found",
   "15": "found",
   "16": "none",
-  "17": "found",
+  "17": "none",
   "18": "found",
-  "19": "found",
+  "19": "none",
   "20": "found",
   "21": "found",
   "22": "none",
@@ -423,7 +364,7 @@
   "25": "unverified",
   "26": "found",
   "27": "unverified",
-  "28": "found",
+  "28": "unverified",
   "29": "found",
   "30": "found",
   "31": "found",
@@ -436,8 +377,9 @@
  "gaps": [
   "SEBI: 30 items skipped because no publish time was given",
   "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Check figures 30213 (not found in the source text we read): Reliance Jio IPO subscription status day 1: QIB, NII, Retail"
+  "Check figures 63 (not found in the source text we read): Minutes of the Monetary Policy Committee Meeting, October 5 "
  ],
  "sources_checked": {
   "RBI press releases": {
@@ -446,7 +388,7 @@
    "in_window": 4,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-22T09:00:00+05:30"
+   "newest": "2026-10-22T10:25:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
@@ -475,7 +417,7 @@
   "PIB (Govt of India)": {
    "ok": true,
    "total": 20,
-   "in_window": 0,
+   "in_window": 2,
    "no_time": 20,
    "fresh": true,
    "newest": null
@@ -491,10 +433,10 @@
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 24,
+   "in_window": 22,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-22T09:46:15+05:30"
+   "newest": "2026-10-22T10:29:52+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
@@ -502,7 +444,7 @@
    "in_window": 7,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-22T10:00:40+05:30"
+   "newest": "2026-10-22T10:07:55+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
@@ -510,7 +452,7 @@
    "in_window": 16,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-22T10:04:46+05:30"
+   "newest": "2026-10-22T10:19:52+05:30"
   }
  }
 }

@@ -1,7 +1,8 @@
 {
+ "reported": [],
  "status": "not_verified",
  "source": "NSE provisional cash market (Rs crore)",
- "updated": "2026-10-22T10:14:27.228077+05:30",
+ "updated": "2026-10-22T10:36:56.521047+05:30",
  "latest": null,
  "history": [],
  "note": "NSE data could not be retrieved this run (HTTP Error 403: Forbidden)."
