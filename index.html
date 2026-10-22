@@ -25,7 +25,7 @@ nav button{flex:1;border:0;background:none;color:var(--mute);padding:12px 2px;fo
 nav button.on{color:var(--brand);font-weight:700;box-shadow:inset 0 3px 0 var(--brand)}
 button.go{background:var(--brand);color:#fff;border:0;border-radius:8px;padding:10px 14px;font-size:15px}
 @media(prefers-color-scheme:dark){button.go{color:#101815}}
-a{color:var(--brand)}button:focus-visible,a:focus-visible{outline:3px solid var(--gold)}
+a{color:var(--brand)}.golink{display:inline-block;background:var(--brand);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-size:15px}@media(prefers-color-scheme:dark){.golink{color:#101815}}button:focus-visible,a:focus-visible{outline:3px solid var(--gold)}
 .foot{font-size:12px;color:var(--mute);margin-top:18px}
 </style></head><body>
 <header><div><h1>Indian Market News Brief</h1><p>Nifty 50 research aid. No buy or sell advice.</p></div><button aria-label="Menu" aria-expanded="false" onclick="menu()" id="mb">&#9776;</button></header>
@@ -85,12 +85,13 @@ function mkt(){const m=D.m;let h="<h2>Markets</h2>";
 function evDays(e){const t=Date.parse(new Date().toLocaleDateString("en-CA",{timeZone:"Asia/Kolkata"})+"T00:00:00+05:30");return Math.round((Date.parse(e.date+"T00:00:00+05:30")-t)/86400000)}
 function evList(){return D.e.filter(e=>e.date&&e.verified&&evDays(e)>=0).sort((p,q)=>p.date.localeCompare(q.date))}
 function remBox(){const r=evList().filter(e=>evDays(e)<=2);return r.length?`<div class="box warn"><b>Coming up</b>`+r.map(e=>`<p>${esc(e.name)}<br><span class="m">${evDays(e)===0?"Today":evDays(e)===1?"Tomorrow":"In 2 days"} · ${fd(e.date)}${e.time?" · "+esc(e.time):""}</span></p>`).join("")+`</div>`:""}
+function evUpdate(){return `<div class="box"><b>Update events now</b><p class="m">This opens GitHub. Tap Run workflow, then the green Run workflow button. You must be logged into GitHub. The calendar updates in about a minute; then come back and reopen this tab.</p><a class="golink" href="https://github.com/MyMktNewsVY/market-news/actions/workflows/events.yml" target="_blank" rel="noopener">Update events now</a></div>`}
 function events(){let h="<h2>Events</h2>";const up=evList(),age=D.ev?Math.round((Date.now()-Date.parse(D.ev+"T00:00:00+05:30"))/86400000):999;
  if(age>20)h+=`<div class="box bad"><b>Calendar not refreshed since ${D.ev?fd(D.ev):"unknown"}.</b><br>The automatic 15-day refresh may have failed. Dates below could be out of date.</div>`;
  if(up.length&&up.length<3)h+=`<div class="box warn">Only ${up.length} upcoming date${up.length>1?"s are":" is"} listed. New official schedules may need adding.</div>`;
- if(!up.length)return h+`<div class="box warn">No upcoming verified events. The calendar needs updating${D.ev?" (last checked "+fd(D.ev)+")":""}.</div>`;
+ if(!up.length)return h+`<div class="box warn">No upcoming verified events. The calendar needs updating${D.ev?" (last checked "+fd(D.ev)+")":""}.</div>`+evUpdate();
  return h+up.map(e=>{const d=evDays(e),w=d===0?"Today":d===1?"Tomorrow":"In "+d+" days";
-  return `<div class="box ${d<=2?"warn":""}"><b>${esc(e.name)}</b>${d<=2?` <span class="tag">Reminder</span>`:""}<div class="m">${fd(e.date)}${e.time?" · "+esc(e.time):""} · ${w}</div><p>${esc(e.why||"")}</p>${e.note?`<p class="m">${esc(e.note)}</p>`:""}${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">Official source</a>`:""}</div>`}).join("")+`<p class="foot">Only dates found in official or published schedules are listed. Reminders show 2 days before. Calendar last checked ${D.ev?fd(D.ev):"unknown"}.</p>`}
+  return `<div class="box ${d<=2?"warn":""}"><b>${esc(e.name)}</b>${d<=2?` <span class="tag">Reminder</span>`:""}<div class="m">${fd(e.date)}${e.time?" · "+esc(e.time):""} · ${w}</div><p>${esc(e.why||"")}</p>${e.note?`<p class="m">${esc(e.note)}</p>`:""}${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">Official source</a>`:""}</div>`}).join("")+`<p class="foot">Only dates found in official or published schedules are listed. Reminders show 2 days before. Calendar last checked ${D.ev?fd(D.ev):"unknown"}.</p>`+evUpdate()}
 let HC={},HO=null;
 const fd=d=>new Date(d+"T00:00:00+05:30").toLocaleDateString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",year:"numeric"});
 function hist(){let h="<h2>Past reports</h2>";if(!D.h.length)return h+`<div class="box warn">No saved reports yet.</div>`;
