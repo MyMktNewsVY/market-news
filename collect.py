@@ -1,5 +1,5 @@
 """Indian Market News Agent - daily collector. Standard library only."""
-import json, os, re, sys, time, difflib, urllib.request, email.utils, html, http.cookiejar
+import json, os, re, sys, time, difflib, urllib.parse, urllib.request, email.utils, html, http.cookiejar
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
@@ -140,10 +140,11 @@ def nums(text):
         if n and not (n.isdigit() and int(n) < 10): out.add(n)
     return out
 
-def fii_dii():
+def fii_dii(reported=None):
     """NSE provisional FII/DII cash-market figures. Never raises."""
     path = "data/fii_dii.json"
     old = json.load(open(path)) if os.path.exists(path) else {"history": []}
+    reported = reported or old.get("reported", [])
     try:
         h = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
              "Accept-Language": "en-US,en;q=0.9", "Referer": "https://www.nseindia.com/reports/fii-dii"}
@@ -161,15 +162,57 @@ def fii_dii():
         entry = {"date": date, **row}
         hist = [e for e in old.get("history", []) if e["date"] != date] + [entry]
         hist.sort(key=lambda e: e["date"], reverse=True)
-        out = {"status": "ok", "source": "NSE provisional cash market (Rs crore)", "updated": datetime.now(IST).isoformat(),
+        out = {"reported": reported, "status": "ok", "source": "NSE provisional cash market (Rs crore)", "updated": datetime.now(IST).isoformat(),
                "latest": hist[0], "history": hist[:30], "note": ""}
         log("FII/DII OK:", date, "FII net", row["fii"]["net"], "DII net", row["dii"]["net"])
     except Exception as e:
         log("FII/DII FAIL:", e)
         hist = old.get("history", [])
-        out = {"status": "not_verified", "source": "NSE provisional cash market (Rs crore)", "updated": datetime.now(IST).isoformat(),
+        out = {"reported": reported, "status": "not_verified", "source": "NSE provisional cash market (Rs crore)", "updated": datetime.now(IST).isoformat(),
                "latest": hist[0] if hist else None, "history": hist, "note": f"NSE data could not be retrieved this run ({str(e)[:80]})."}
     json.dump(out, open(path, "w"), ensure_ascii=False, indent=1)
+
+MKTS = [("India", [("Nifty 50","^NSEI"),("Sensex","^BSESN"),("Bank Nifty","^NSEBANK"),("India VIX","^INDIAVIX"),("USD/INR","INR=X")]),
+ ("Global indices", [("S&P 500","^GSPC"),("Dow Jones","^DJI"),("Nasdaq","^IXIC"),("FTSE 100","^FTSE"),("DAX","^GDAXI"),("Nikkei 225","^N225"),("Hang Seng","^HSI"),("Shanghai","000001.SS")]),
+ ("Commodities and rates", [("Brent crude","BZ=F"),("WTI crude","CL=F"),("Gold","GC=F"),("Silver","SI=F"),("Copper","HG=F"),("US dollar index","DX-Y.NYB"),("US 10-year yield","^TNX")])]
+
+def trend_word(p):
+    a = abs(p)
+    if a < 1: return "little changed"
+    return ("sharply " if a >= 3 else "") + ("up" if p > 0 else "down")
+
+def yahoo(sym):
+    err = None
+    for host in ("query1", "query2"):
+        try:
+            d = json.loads(fetch(f"https://{host}.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(sym)}?range=1mo&interval=1d"))
+            res = d["chart"]["result"][0]; meta = res["meta"]
+            pairs = [(a, b) for a, b in zip(res["timestamp"], res["indicators"]["quote"][0]["close"]) if b is not None]
+            reg = meta.get("currentTradingPeriod", {}).get("regular", {})
+            if reg and reg.get("start", 0) <= time.time() < reg.get("end", 0): pairs = pairs[:-1]
+            if len(pairs) < 3: raise ValueError("not enough data")
+            off = meta.get("gmtoffset", 0); (t1, last), (t0, prev) = pairs[-1], pairs[-2]
+            five = pairs[-6][1] if len(pairs) >= 6 else pairs[0][1]
+            unit = "pts" if sym == "^TNX" else "%"
+            ch = (lambda a, b: round(a - b, 3)) if unit == "pts" else (lambda a, b: round((a / b - 1) * 100, 2))
+            d5 = ch(last, five)
+            tw = trend_word(d5 * (10 if unit == "pts" else 1) if unit == "pts" else d5)
+            return {"ok": True, "last": round(last, 3), "date": datetime.fromtimestamp(t1 + off, tz=timezone.utc).strftime("%Y-%m-%d"),
+                    "d1": ch(last, prev), "d5": d5, "unit": unit, "sessions": min(5, len(pairs) - 1), "trend": tw}
+        except Exception as e: err = e
+    raise err
+
+def markets():
+    groups = []
+    for gname, items in MKTS:
+        out = []
+        for name, sym in items:
+            try: r = yahoo(sym); log(f"MKT OK   {name}: {r['last']} on {r['date']}, 5-session {r['d5']}{r['unit']}")
+            except Exception as e: r = {"ok": False, "error": str(e)[:80]}; log(f"MKT FAIL {name}: {e}")
+            out.append({"name": name, "symbol": sym, **r})
+        groups.append({"name": gname, "items": out})
+    json.dump({"updated": datetime.now(IST).isoformat(), "source": "Yahoo Finance daily data (free, unofficial, may be delayed)", "groups": groups},
+              open("data/markets.json", "w"), ensure_ascii=False, indent=1)
 
 def ask_gemini(groups, names):
     lines = []
@@ -184,7 +227,9 @@ def ask_gemini(groups, names):
       "Summary: 4-5 short lines, plain English, facts only. Impact: 1-2 lines of possible effect, clearly an interpretation.\n"
       "Factors are numbers 1-36 from this list: " + "; ".join(f"{i+1} {n}" for i, n in enumerate(names)) + "\n"
       'Return ONLY JSON: {"quick_read":"3-4 lines: supportive factors, pressures, uncertainties (not a forecast)",'
-      '"stories":[{"id":0,"factors":[1],"summary":"...","impact":"...","sectors":["Banks"]}]}\n\nITEMS:\n' + "\n".join(lines))
+      '"stories":[{"id":0,"factors":[1],"summary":"...","impact":"...","sectors":["Banks"]}],'
+      '"flows":[{"id":0,"who":"FII","direction":"sold","amount_crore":1234.5}]}\n'
+      'flows: ONLY when an item explicitly states net buying or selling by FII/FPI or DII in rupees crore. Copy the amount exactly as written. Otherwise use an empty list.\n\nITEMS:\n' + "\n".join(lines))
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}).encode()
     last, deadline = None, time.time() + 720
@@ -230,10 +275,19 @@ def main():
     if bootstrap: gaps.append("First run: SEBI and PIB publish no times, so only items new since the previous run are shown from now on.")
     elif any(m["time"] is None for g in groups for m in g["members"]): gaps.append("SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.")
     gaps.append("Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.")
-    stories, quick, ai_ok = [], "", False
+    stories, quick, ai_ok, reported = [], "", False, []
     if groups and KEY:
         try:
             res = ask_gemini(groups, names); quick = clean(res.get("quick_read", "")); ai_ok = True
+            for f in res.get("flows", [])[:8]:
+                try:
+                    g = groups[f["id"]]; m = g["members"][0]; amt = abs(float(f["amount_crore"]))
+                    txt = " ".join(x["title"] + " " + x["snippet"] for x in g["members"])
+                    vals = {float(n.replace(",", "").rstrip(".")) for n in re.findall(r"\d[\d,]*\.?\d*", txt) if n.replace(",", "").rstrip(".")}
+                    if f["who"] in ("FII", "DII") and f["direction"] in ("bought", "sold") and any(abs(v - amt) < 0.01 for v in vals):
+                        reported.append({"who": f["who"], "direction": f["direction"], "amount": amt, "headline": g["title"],
+                                         "outlet": m["source"], "url": m["link"], "published": m["time"].isoformat() if m["time"] else None})
+                except Exception: pass
             for s in res.get("stories", [])[:MAX_STORIES]:
                 g = groups[s["id"]]; txt = s.get("summary", "") + " " + s.get("impact", "")
                 if BANNED.search(txt): gaps.append(f"Removed AI text with trading language: {g['title'][:60]}"); s["impact"] = "Explanation withheld."
@@ -284,6 +338,8 @@ def main():
     if ai_ok or not groups: json.dump(sorted((seen | new_seen))[-3000:], open(seen_path, "w"))
     else: log("AI step failed, so SEBI/PIB items are not marked as seen; a retry will include them.")
     log(f"Report written: {len(stories)} stories, AI={'yes' if ai_ok else 'no'}")
-    fii_dii()
+    fii_dii(reported)
+    try: markets()
+    except Exception as e: log("Markets step failed:", e)
 
 if __name__ == "__main__": main()

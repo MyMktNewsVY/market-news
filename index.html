@@ -17,8 +17,8 @@ h2{font:700 19px Georgia,serif;margin:6px 0 10px}
 .m{color:var(--mute);font-size:13px}
 .tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:99px;border:1px solid var(--line);margin-right:4px}
 .f{color:var(--ok)}.n{color:var(--mute)}.u{color:var(--gold)}
-nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
-nav button{flex:1;border:0;background:none;color:var(--mute);padding:12px 0;font-size:11px}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;overflow-x:auto;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
+nav button{flex:1 0 auto;border:0;background:none;color:var(--mute);padding:12px 11px;font-size:12px;white-space:nowrap}
 nav button.on{color:var(--brand);font-weight:700;box-shadow:inset 0 3px 0 var(--brand)}
 button.go{background:var(--brand);color:#fff;border:0;border-radius:8px;padding:10px 14px;font-size:15px}
 @media(prefers-color-scheme:dark){button.go{color:#101815}}
@@ -31,8 +31,8 @@ a{color:var(--brand)}button:focus-visible,a:focus-visible{outline:3px solid var(
 <script>
 const FACTORS=["Global markets","US monetary policy","Global bond yields","US dollar","China and global growth","Geopolitics and trade","Rupee","Crude oil","Other commodities","GDP and growth","Inflation and consumption","RBI monetary policy","Banking and liquidity","Indian bond market","Government policy","Politics and elections","Regulation","Foreign investment","Domestic investment","Corporate earnings","Heavyweight stocks","Valuation","Sector rotation","Technical trends","Momentum indicators","Market breadth","Price and volume","Derivatives positioning","Volatility","Market structure","Corporate events","External balances","FDI and remittances","Seasonal factors","Event calendar","Investor psychology"];
 const STAT={found:["Material development found","f"],none:["Checked, no material development found","n"],unverified:["Not verified","u"]};
-const TABS=[["today","Today"],["report","Report"],["cover","Coverage"],["fii","FII/DII"],["events","Events"],["hist","History"],["status","Status"]];
-let D={r:null,e:[],h:[],f:null,err:null,at:null},tab="today";
+const TABS=[["today","Today"],["report","Report"],["cover","Coverage"],["fii","FII/DII"],["mkt","Markets"],["events","Events"],["hist","History"],["status","Status"]];
+let D={r:null,e:[],h:[],f:null,m:null,err:null,at:null},tab="today";
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const ist=d=>d?new Date(d).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"})+" IST":"not available";
@@ -40,6 +40,7 @@ const day=d=>new Date(d).toLocaleDateString("en-CA",{timeZone:"Asia/Kolkata"});
 async function load(){
  try{const j=async u=>{const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(u+" "+r.status);return r.json()};
   try{D.f=await j("data/fii_dii.json")}catch(x){D.f=null}
+  try{D.m=await j("data/markets.json")}catch(x){D.m=null}
   D.r=await j("data/latest.json");D.e=(await j("data/events.json")).events||[];D.h=(await j("data/index.json")).reports||[];D.err=null;D.at=new Date()}
  catch(x){D.err=x.message}
  draw()}
@@ -60,15 +61,39 @@ function report(){const r=D.r;if(!r||!r.stories||!r.stories.length)return `<h2>R
  return h+`<p class="foot">Information and research aid only. Market reactions depend on expectations, positioning, valuation and follow-through.</p>`}
 function cover(){const fs=(D.r&&D.r.factor_status)||{};
  return `<h2>Coverage checklist</h2><p class="m">Every factor must show a status. A missing status counts as Not verified.</p>`+FACTORS.map((n,i)=>{const [t,c]=STAT[fs[i+1]]||STAT.unverified;return `<div class="box" style="padding:10px 14px"><b>${i+1}. ${n}</b><br><span class="${c}">${t}</span></div>`}).join("")}
-function fii(){const f=D.f;let h="<h2>FII / DII</h2>";
- if(!f||!f.latest)return h+`<div class="box warn"><b>Not verified.</b><br>NSE FII/DII figures have not been retrieved yet. ${esc(f&&f.note||"")}</div>`;
- const L=f.latest,fmt=v=>(v<0?"-":"+")+Math.abs(v).toLocaleString("en-IN",{maximumFractionDigits:0}),lab=v=>v>0?"Net buyer":v<0?"Net seller":"Flat";
- if(f.status!=="ok")h+=`<div class="box warn">${esc(f.note)} Showing the last verified figures.</div>`;
- h+=`<div class="m">Provisional NSE cash market, ${esc(L.date)}, Rs crore. Published after market close.</div>`;
- [["FII / FPI","fii"],["DII","dii"]].forEach(([n,k])=>{const x=L[k];h+=`<div class="box ${x.net<0?"bad":"s"}"><b>${n}: ${lab(x.net)}</b><div style="font-size:24px;font:700 26px Georgia,serif">${fmt(x.net)} Cr</div><div class="m">Bought ${x.buy.toLocaleString("en-IN")} · Sold ${x.sell.toLocaleString("en-IN")}</div></div>`});
- h+=`<div class="box"><b>Recent days (net, Rs crore)</b><table style="width:100%;border-collapse:collapse;margin-top:6px"><tr class="m"><td>Date</td><td>FII</td><td>DII</td></tr>`+
- (f.history||[]).slice(0,10).map(e=>`<tr><td>${esc(e.date)}</td><td>${fmt(e.fii.net)} ${e.fii.net<0?"(sold)":"(bought)"}</td><td>${fmt(e.dii.net)} ${e.dii.net<0?"(sold)":"(bought)"}</td></tr>`).join("")+`</table></div><p class="foot">Last retrieved ${ist(f.updated)}. Institutional flow is context only, not a signal.</p>`;
+function manual(){try{return JSON.parse(localStorage.getItem("mb_fii")||"[]")}catch(x){return []}}
+function saveManual(v){try{localStorage.setItem("mb_fii",JSON.stringify(v))}catch(x){alert("This browser could not save the entry.")}}
+function addFii(){const d=$("#fd").value,fa=parseFloat($("#fa").value),da=parseFloat($("#da").value);
+ if(!d||isNaN(fa)||isNaN(da))return alert("Enter the date and both amounts.");
+ const sg=id=>$(id).value==="sold"?-1:1,v=manual().filter(e=>e.date!==d);
+ v.push({date:d,fii:sg("#fs")*Math.abs(fa),dii:sg("#ds")*Math.abs(da)});saveManual(v);draw()}
+function rmFii(d){saveManual(manual().filter(e=>e.date!==d));draw()}
+function fii(){const f=D.f||{},off=f.history||[],fmt=v=>(v<0?"-":"+")+Math.abs(v).toLocaleString("en-IN",{maximumFractionDigits:0}),lab=v=>v>0?"Net buyer":v<0?"Net seller":"Flat";
+ let rows=off.map(e=>({date:e.date,fii:e.fii.net,dii:e.dii.net,fb:e.fii.buy,fs:e.fii.sell,db:e.dii.buy,ds:e.dii.sell,m:false}));
+ manual().forEach(e=>{if(!rows.some(r=>r.date===e.date))rows.push({date:e.date,fii:e.fii,dii:e.dii,m:true})});
+ rows.sort((p,q)=>q.date.localeCompare(p.date));
+ let h="<h2>FII / DII</h2>";
+ if(!rows.length)h+=`<div class="box warn"><b>Not verified.</b><br>NSE figures could not be retrieved automatically. ${esc(f.note||"")} You can add them below.</div>`;
+ else{const L=rows[0];
+  if(f.status!=="ok")h+=`<div class="box warn">${esc(f.note||"")} Showing the latest figures available.</div>`;
+  h+=`<div class="m">${L.m?"Entered by you":"Provisional NSE cash market"} · ${esc(L.date)} · Rs crore</div>`;
+  [["FII / FPI","fii","fb","fs"],["DII","dii","db","ds"]].forEach(([n,k,b,s])=>{h+=`<div class="box ${L[k]<0?"bad":"s"}"><b>${n}: ${lab(L[k])}</b><div style="font:700 26px Georgia,serif">${fmt(L[k])} Cr</div>${L.m?"":`<div class="m">Bought ${L[b].toLocaleString("en-IN")} · Sold ${L[s].toLocaleString("en-IN")}</div>`}</div>`});
+  h+=`<div class="box"><b>Recent days (net, Rs crore)</b><table style="width:100%;border-collapse:collapse;margin-top:6px"><tr class="m"><td>Date</td><td>FII</td><td>DII</td><td></td></tr>`+rows.slice(0,10).map(e=>`<tr><td>${esc(e.date)}</td><td>${fmt(e.fii)}</td><td>${fmt(e.dii)}</td><td class="m">${e.m?`you <a href="#" onclick="rmFii('${e.date}');return false">remove</a>`:""}</td></tr>`).join("")+`</table></div>`}
+ if((f.reported||[]).length)h+=`<div class="box warn"><b>Reported in the news, not checked against NSE</b>`+f.reported.map(r=>`<p>${esc(r.who)} ${r.direction} about Rs ${r.amount.toLocaleString("en-IN")} crore<br><span class="m">${esc(r.outlet)}${r.published?" · "+ist(r.published):""}</span><br><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.headline)}</a></p>`).join("")+`</div>`;
+ const t=new Date().toLocaleDateString("en-CA",{timeZone:"Asia/Kolkata"});
+ h+=`<div class="box"><b>Add figures yourself</b><p class="m">Use NSE's FII/DII page. Saved only on this device.</p>
+ <p>Date <input id="fd" type="date" value="${t}"></p>
+ <p>FII <select id="fs"><option value="bought">bought</option><option value="sold">sold</option></select> <input id="fa" type="number" step="any" min="0" placeholder="Rs crore" style="width:8em"></p>
+ <p>DII <select id="ds"><option value="bought">bought</option><option value="sold">sold</option></select> <input id="da" type="number" step="any" min="0" placeholder="Rs crore" style="width:8em"></p>
+ <button class="go" onclick="addFii()">Save</button></div><p class="foot">Institutional flow is context only, not a signal.${f.updated?" Last automatic check "+ist(f.updated)+".":""}</p>`;
  return h}
+function mkt(){const m=D.m;let h="<h2>Markets</h2>";
+ if(!m)return h+`<div class="box warn"><b>Not verified.</b><br>Market data has not been retrieved yet.</div>`;
+ const sg=(v,u)=>(v>0?"+":"")+v+(u==="%"?"%":" pts");
+ m.groups.forEach(g=>{h+=`<h3 style="margin:14px 0 6px">${esc(g.name)}</h3>`;g.items.forEach(x=>{
+  if(!x.ok){h+=`<div class="box"><b>${esc(x.name)}</b><br><span class="u">Not verified</span></div>`;return}
+  h+=`<div class="box ${x.d5<0?"bad":"s"}" style="padding:10px 14px"><b>${esc(x.name)}</b> <span class="m">close ${esc(x.date)}</span><div style="font:700 20px Georgia,serif">${x.last.toLocaleString("en-IN",{maximumFractionDigits:2})}</div><div>Day ${sg(x.d1,x.unit)} · ${x.sessions} sessions ${sg(x.d5,x.unit)} <b>(${esc(x.trend)})</b></div></div>`})});
+ return h+`<p class="foot">Source: ${esc(m.source)}. Last completed session. The trend word is a simple rule on the ${5}-session change, not a forecast. Checked ${ist(m.updated)}.</p>`}
 function events(){const up=D.e.filter(e=>e.date);
  let h="<h2>Events</h2>";if(!D.e.length)return h+`<div class="box warn">No verified events yet. Events are added only when the date is confirmed from an official source.</div>`;
  return h+D.e.map(e=>{let rem="Date not verified. No reminder set.";if(e.date&&e.verified){const d=new Date(e.date+"T00:00:00Z");d.setUTCDate(d.getUTCDate()-2);rem="Reminder on "+d.toISOString().slice(0,10)}
@@ -84,7 +109,7 @@ function status(){const r=D.r;let n=("Notification" in window)?Notification.perm
 async function notif(){if(!("Notification" in window))return alert("This browser does not support notifications.");
  const p=await Notification.requestPermission();if(p==="granted"){const g=await navigator.serviceWorker.ready;g.showNotification("Market Brief",{body:"Test notification works.",icon:"icon.svg"})}draw()}
 function go(t){tab=t;draw();scrollTo(0,0)}
-function draw(){$("#v").innerHTML={today,report,cover,fii,events,hist,status}[tab]();
+function draw(){$("#v").innerHTML={today,report,cover,fii,mkt,events,hist,status}[tab]();
  $("#nav").innerHTML=TABS.map(([k,l])=>`<button class="${k===tab?"on":""}" onclick="go('${k}')">${l}</button>`).join("")}
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js");
 document.addEventListener("visibilitychange",()=>{if(!document.hidden)load()});
