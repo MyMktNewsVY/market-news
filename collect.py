@@ -259,7 +259,7 @@ def ask_gemini(groups, names):
       "surprise vs expectations, time sensitivity and likely effect. Fewer is fine. Skip trivia and weak rumours.\n"
       "RULES: use ONLY facts in the item text; invent no numbers, dates, quotes or consensus; if an item has only a headline, say so. "
       "Never give buy/sell advice or price targets. Use cautious wording (may support, could pressure, mixed, impact uncertain). "
-      "Summary: 4-5 short lines, plain English, facts only. Impact: 1-2 lines of possible effect, clearly an interpretation.\n"
+      "LANGUAGE: write for a reader with basic school-level English who does not know finance jargon. Use short everyday sentences and common words. Avoid words like bearish, bullish, headwinds, tailwinds, liquidity, hawkish, dovish, basis points, yield curve, risk-off, de-rating, volatility, rate-sensitive. Say it plainly instead, for example 'banks and home-loan companies may suffer because loans become costlier' and '0.25 percentage points' instead of 25 basis points. If a finance term is unavoidable, explain it in a few simple words in brackets. Summary: 4-5 short lines of facts only. Impact: 1-2 simple lines saying who may gain or lose and why, clearly a guess and not a fact. quick_read must also be in simple words.\n"
       "Factors are numbers 1-36 from this list: " + "; ".join(f"{i+1} {n}" for i, n in enumerate(names)) + "\n"
       'Return ONLY JSON: {"quick_read":"3-4 lines: supportive factors, pressures, uncertainties (not a forecast)",'
       '"stories":[{"id":0,"factors":[1],"summary":"...","impact":"...","sectors":["Banks"]}],'
