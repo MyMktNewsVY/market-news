@@ -1,7 +1,7 @@
 """Indian Market News Agent - daily collector. Standard library only."""
-import json, os, re, sys, time, difflib, urllib.parse, urllib.request, email.utils, html, http.cookiejar
+import json, os, re, sys, time, calendar, difflib, urllib.parse, urllib.request, email.utils, html, http.cookiejar
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta, timezone, date
 
 IST = timezone(timedelta(hours=5, minutes=30))
 MODEL = os.environ.get("GEMINI_MODEL", "").strip()
@@ -203,6 +203,8 @@ def fii_dii(reported=None):
     json.dump(out, open(path, "w"), ensure_ascii=False, indent=1)
 
 MKTS = [("India", [("Nifty 50","^NSEI"),("Sensex","^BSESN"),("Bank Nifty","^NSEBANK"),("India VIX","^INDIAVIX"),("USD/INR","INR=X")]),
+ ("Sectors (Nifty indices)", [("Nifty Bank","^NSEBANK"),("Nifty IT","^CNXIT"),("Nifty Auto","^CNXAUTO"),("Nifty Pharma","^CNXPHARMA"),("Nifty FMCG","^CNXFMCG"),("Nifty Metal","^CNXMETAL"),("Nifty Energy","^CNXENERGY"),("Nifty Realty","^CNXREALTY"),("Nifty PSU Bank","^CNXPSUBANK")]),
+ ("Large Nifty companies", [("HDFC Bank","HDFCBANK.NS"),("Reliance","RELIANCE.NS"),("ICICI Bank","ICICIBANK.NS"),("Infosys","INFY.NS"),("TCS","TCS.NS"),("Bharti Airtel","BHARTIARTL.NS"),("ITC","ITC.NS"),("L&T","LT.NS"),("SBI","SBIN.NS"),("Axis Bank","AXISBANK.NS")]),
  ("Global indices", [("S&P 500","^GSPC"),("Dow Jones","^DJI"),("Nasdaq","^IXIC"),("FTSE 100","^FTSE"),("DAX","^GDAXI"),("Nikkei 225","^N225"),("Hang Seng","^HSI"),("Shanghai","000001.SS")]),
  ("Commodities and rates", [("Brent crude","BZ=F"),("WTI crude","CL=F"),("Gold","GC=F"),("Silver","SI=F"),("Copper","HG=F"),("US dollar index","DX-Y.NYB"),("US 10-year yield","^TNX")])]
 
@@ -237,6 +239,73 @@ def yahoo(sym):
         except Exception as e: err = e
     raise err
 
+def snapshot():
+    d = json.loads(fetch("https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=1y&interval=1d"))
+    res = d["chart"]["result"][0]; meta = res["meta"]
+    pairs = [(a, b) for a, b in zip(res["timestamp"], res["indicators"]["quote"][0]["close"]) if b is not None]
+    reg = meta.get("currentTradingPeriod", {}).get("regular", {})
+    live = bool(meta.get("regularMarketTime")) and time.time() - meta["regularMarketTime"] < 1200
+    if live or (reg and reg.get("start", 0) <= time.time() < reg.get("end", 0)): pairs = pairs[:-1]
+    cl = [b for _, b in pairs]
+    if len(cl) < 60: raise ValueError("not enough history")
+    sma = lambda n: round(sum(cl[-n:]) / n, 1) if len(cl) >= n else None
+    last, s20, s50, s200 = cl[-1], sma(20), sma(50), sma(200)
+    dl = [cl[i] - cl[i - 1] for i in range(1, len(cl))]
+    ag = sum(max(x, 0) for x in dl[:14]) / 14; al = sum(max(-x, 0) for x in dl[:14]) / 14
+    for x in dl[14:]: ag = (ag * 13 + max(x, 0)) / 14; al = (al * 13 + max(-x, 0)) / 14
+    rsi = 100.0 if al == 0 else 100 - 100 / (1 + ag / al)
+    hi52, lo52 = max(cl), min(cl); read = []
+    a50 = last > s50; a200 = s200 is not None and last > s200
+    if s200 is None: read.append("Not enough history for the 200-day average.")
+    elif a50 and a200: read.append("Price is above both its 50-day and 200-day averages, so the medium and long trends are up.")
+    elif not a50 and not a200: read.append("Price is below both its 50-day and 200-day averages, so the medium and long trends are down.")
+    else: read.append("Price is between its 50-day and 200-day averages, so the trend is mixed.")
+    read.append(f"RSI is {rsi:.0f}. " + ("It has risen fast, and such moves can pause or slip back." if rsi >= 70 else "It has fallen fast, and such moves can pause or bounce." if rsi <= 30 else "Strength is balanced (50 is the middle)."))
+    read.append(f"Price is {abs(last / hi52 - 1) * 100:.1f}% below its 1-year high.")
+    off = meta.get("gmtoffset", 0)
+    return {"date": datetime.fromtimestamp(pairs[-1][0] + off, tz=timezone.utc).strftime("%Y-%m-%d"), "last": round(last, 1), "sma20": s20, "sma50": s50, "sma200": s200,
+            "low20": round(min(cl[-20:]), 1), "high20": round(max(cl[-20:]), 1), "low52": round(lo52, 1), "high52": round(hi52, 1), "rsi": round(rsi, 1), "reading": read}
+
+RES_T = re.compile(r"\b(results?|earnings)\b", re.I)
+RES_W = re.compile(r"\b(today|tomorrow|this week|next week|calendar|list|companies|line-?up|schedule|to announce|announce)\b", re.I)
+
+def results_calendar(groups):
+    arts = []
+    for g in groups:
+        m = g["members"][0]
+        if len(arts) >= 5: break
+        if not (RES_T.search(g["title"]) and RES_W.search(g["title"])) or not m.get("time"): continue
+        try:
+            raw = re.sub(r"(?is)<(script|style).*?</\1>", " ", fetch(m["link"]).decode("utf-8", "ignore"))
+            arts.append({"title": g["title"], "outlet": m["source"], "url": m["link"], "date": m["time"].astimezone(IST).date(), "text": clean(raw)[:6000]})
+        except Exception as e: log(f"Could not read results article from {m['source']}: {str(e)[:60]}")
+    if not arts: log("Results calendar: no results-list articles in this window."); return
+    prompt = ("Below are news articles that list companies that will announce financial results. Return ONLY JSON "
+        '{"items":[{"a":0,"company":"name exactly as written in the article","when":"today or tomorrow or YYYY-MM-DD","evidence":"exact words copied from that article that mention this company"}]}. '
+        "Include only companies the article explicitly says will announce results. Use today or tomorrow only if the article itself says so. Never guess.\n\n"
+        + "\n\n".join(f"ARTICLE {i} (headline: {a['title']}):\n{a['text']}" for i, a in enumerate(arts)))
+    res = gemini_json(prompt); items = []
+    for it in res.get("items", []):
+        try:
+            a = arts[it["a"]]; ev = re.sub(r"\s+", " ", it["evidence"].lower()).strip(); body = re.sub(r"\s+", " ", a["text"].lower())
+            if len(ev) < 6 or ev not in body or it["company"].lower() not in ev: continue
+            w = it["when"].strip().lower()
+            if w == "today" and "today" in (a["title"] + " " + ev).lower(): d = a["date"]
+            elif w == "tomorrow" and "tomorrow" in (a["title"] + " " + ev).lower(): d = a["date"] + timedelta(days=1)
+            else:
+                d = date.fromisoformat(w)
+                if not (str(d.day) in ev and (calendar.month_name[d.month].lower() in ev or calendar.month_abbr[d.month].lower() in ev)): continue
+            items.append({"company": it["company"].strip(), "date": d.isoformat(), "outlet": a["outlet"], "url": a["url"], "headline": a["title"]})
+        except Exception: continue
+    path = "data/results.json"
+    old = json.load(open(path)).get("items", []) if os.path.exists(path) else []
+    keep = {(x["company"].lower(), x["date"]): x for x in old}
+    for x in items: keep[(x["company"].lower(), x["date"])] = x
+    floor = (datetime.now(IST).date() - timedelta(days=1)).isoformat()
+    out = sorted([x for x in keep.values() if x["date"] >= floor], key=lambda x: (x["date"], x["company"]))
+    json.dump({"updated": datetime.now(IST).isoformat(), "items": out}, open(path, "w"), ensure_ascii=False, indent=1)
+    log(f"Results calendar: {len(items)} new entries from {len(arts)} articles, {len(out)} saved")
+
 def markets():
     groups = []
     for gname, items in MKTS:
@@ -246,8 +315,14 @@ def markets():
             except Exception as e: r = {"ok": False, "error": str(e)[:80]}; log(f"MKT FAIL {name}: {e}")
             out.append({"name": name, "symbol": sym, **r})
         groups.append({"name": gname, "items": out})
-    json.dump({"updated": datetime.now(IST).isoformat(), "source": "Yahoo Finance daily data (free, unofficial, may be delayed)", "groups": groups},
+    try: snap = snapshot(); log("Nifty snapshot OK: RSI", snap["rsi"])
+    except Exception as e: snap = None; log("Nifty snapshot FAIL:", e)
+    json.dump({"updated": datetime.now(IST).isoformat(), "source": "Yahoo Finance daily data (free, unofficial, may be delayed)", "groups": groups, "nifty": snap},
               open("data/markets.json", "w"), ensure_ascii=False, indent=1)
+
+def lean_of(t):
+    t = (t or "").strip().lower()
+    return "up" if t.startswith("may help") else "down" if t.startswith("may hurt") else "little" if t.startswith("little effect") else "unclear"
 
 def ask_gemini(groups, names):
     lines = []
@@ -259,9 +334,9 @@ def ask_gemini(groups, names):
       "surprise vs expectations, time sensitivity and likely effect. Fewer is fine. Skip trivia and weak rumours.\n"
       "RULES: use ONLY facts in the item text; invent no numbers, dates, quotes or consensus; if an item has only a headline, say so. "
       "Never give buy/sell advice or price targets. Use cautious wording (may support, could pressure, mixed, impact uncertain). "
-      "LANGUAGE: write for a reader with basic school-level English who does not know finance jargon. Use short everyday sentences and common words. Avoid words like bearish, bullish, headwinds, tailwinds, liquidity, hawkish, dovish, basis points, yield curve, risk-off, de-rating, volatility, rate-sensitive. Say it plainly instead, for example 'banks and home-loan companies may suffer because loans become costlier' and '0.25 percentage points' instead of 25 basis points. If a finance term is unavoidable, explain it in a few simple words in brackets. Summary: 4-5 short lines of facts only. Impact: 1-2 simple lines saying who may gain or lose and why, clearly a guess and not a fact. quick_read must also be in simple words.\n"
+      "LANGUAGE: write for a reader with basic school-level English who does not know finance jargon. Use short everyday sentences and common words. Avoid words like bearish, bullish, headwinds, tailwinds, liquidity, hawkish, dovish, basis points, yield curve, risk-off, de-rating, volatility, rate-sensitive. Say it plainly instead, for example 'banks and home-loan companies may suffer because loans become costlier' and '0.25 percentage points' instead of 25 basis points. If a finance term is unavoidable, explain it in a few simple words in brackets. Summary: 4-5 short lines of facts only. Impact: 1-2 simple sentences saying who may gain or lose and why, clearly a guess and not a fact. The impact MUST start with exactly one of these phrases: 'May help Nifty:', 'May hurt Nifty:', 'Unclear for Nifty:', 'Little effect on Nifty:'. quick_read must also be in simple words.\n"
       "Factors are numbers 1-36 from this list: " + "; ".join(f"{i+1} {n}" for i, n in enumerate(names)) + "\n"
-      'Return ONLY JSON: {"quick_read":"3-4 lines: supportive factors, pressures, uncertainties (not a forecast)",'
+      'Return ONLY JSON: {"quick_read":"3-4 lines: what may help the market, what may hurt it, what is unclear, in simple words (not a forecast)",'
       '"stories":[{"id":0,"factors":[1],"summary":"...","impact":"...","sectors":["Banks"]}],'
       '"flows":[{"id":0,"who":"FII","direction":"sold","amount_crore":1234.5}]}\n'
       'flows: ONLY when an item explicitly states net buying or selling by FII/FPI or DII in rupees crore. Copy the amount exactly as written. Otherwise use an empty list.\n\nITEMS:\n' + "\n".join(lines))
@@ -382,7 +457,7 @@ def main():
                 stories.append({"headline": g["title"], "time": (next((m["time"] for m in g["members"] if m["time"]), None) or None) and next(m["time"] for m in g["members"] if m["time"]).isoformat(),
                   "factors": [names[f-1] for f in s.get("factors", []) if 1 <= f <= 36],
                   "factor_ids": [f for f in s.get("factors", []) if 1 <= f <= 36],
-                  "summary": s.get("summary", ""), "confirmation": g["label"], "impact": s.get("impact", ""),
+                  "summary": s.get("summary", ""), "confirmation": g["label"], "impact": s.get("impact", ""), "lean": lean_of(s.get("impact", "")),
                   "sectors": s.get("sectors", []),
                   "unverified_figures": sorted(nums(txt) - nums(" ".join(m["title"] + " " + m["snippet"] for m in g["members"]))),
                   "sources": [{"name": m["source"], "url": m["link"]} for m in g["members"][:3]]})
@@ -428,6 +503,9 @@ def main():
     log(f"Report written: {len(stories)} stories, AI={'yes' if ai_ok else 'no'}")
     open("notify.flag", "w").write("1")
     fii_dii(reported)
+    if ai_ok:
+        try: results_calendar(groups)
+        except Exception as e: log("Results calendar step failed:", e)
     try: markets()
     except Exception as e: log("Markets step failed:", e)
 

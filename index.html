@@ -26,17 +26,17 @@ nav button.on{color:var(--brand);font-weight:700;box-shadow:inset 0 3px 0 var(--
 button.go{background:var(--brand);color:#fff;border:0;border-radius:8px;padding:10px 14px;font-size:15px}
 @media(prefers-color-scheme:dark){button.go{color:#101815}}
 a{color:var(--brand)}.golink{display:inline-block;background:var(--brand);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-size:15px}@media(prefers-color-scheme:dark){.golink{color:#101815}}button:focus-visible,a:focus-visible{outline:3px solid var(--gold)}
-.foot{font-size:12px;color:var(--mute);margin-top:18px}
+.tag.up{color:var(--ok);border-color:var(--ok)}.tag.down{color:var(--red);border-color:var(--red)}.foot{font-size:12px;color:var(--mute);margin-top:18px}
 </style></head><body>
 <header><div><h1>Indian Market News Brief</h1><p>Nifty 50 research aid. No buy or sell advice.</p></div><button aria-label="Menu" aria-expanded="false" onclick="menu()" id="mb">&#9776;</button></header>
-<div id="menu"><button onclick="go('cover')">Coverage checklist</button><button onclick="go('status')">Status</button></div>
+<div id="menu"><button onclick="go('hist')">History</button><button onclick="go('cover')">Coverage checklist</button><button onclick="go('status')">Status</button></div>
 <main id="v"></main>
 <nav id="nav"></nav>
 <script>
 const FACTORS=["Global markets","US monetary policy","Global bond yields","US dollar","China and global growth","Geopolitics and trade","Rupee","Crude oil","Other commodities","GDP and growth","Inflation and consumption","RBI monetary policy","Banking and liquidity","Indian bond market","Government policy","Politics and elections","Regulation","Foreign investment","Domestic investment","Corporate earnings","Heavyweight stocks","Valuation","Sector rotation","Technical trends","Momentum indicators","Market breadth","Price and volume","Derivatives positioning","Volatility","Market structure","Corporate events","External balances","FDI and remittances","Seasonal factors","Event calendar","Investor psychology"];
 const STAT={found:["Material development found","f"],none:["Checked, no material development found","n"],unverified:["Not verified","u"]};
-const TABS=[["today","Today"],["report","Report"],["fii","FII/DII"],["mkt","Markets"],["events","Events"],["hist","History"]];
-let D={r:null,e:[],h:[],f:null,m:null,err:null,at:null},tab="today";
+const TABS=[["today","Today"],["report","Report"],["fii","FII/DII"],["mkt","Markets"],["events","Events"],["earn","Results"]];
+let D={res:null,r:null,e:[],h:[],f:null,m:null,err:null,at:null},tab="today";
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const ist=d=>d?new Date(d).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"})+" IST":"not available";
@@ -45,20 +45,23 @@ async function load(){
  try{const j=async u=>{const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(u+" "+r.status);return r.json()};
   try{D.f=await j("data/fii_dii.json")}catch(x){D.f=null}
   try{D.m=await j("data/markets.json")}catch(x){D.m=null}
+  try{D.res=await j("data/results.json")}catch(x){D.res=null}
   D.r=await j("data/latest.json");const ev=await j("data/events.json");D.e=ev.events||[];D.ev=ev.verified_on||"";D.h=(await j("data/index.json")).reports||[];D.err=null;D.at=new Date()}
  catch(x){D.err=x.message}
  draw()}
 function stale(){const r=D.r;return !r||!r.generated_at||day(r.generated_at)!==day(new Date())}
+function bal(r){const c={up:0,down:0,unclear:0,little:0};(r.stories||[]).forEach(s=>{if(s.lean)c[s.lean]++});const n=c.up+c.down+c.unclear+c.little;
+ return n?`<div class="box"><b>Balance of today's news</b><div>${c.up} may help · ${c.down} may hurt · ${c.unclear} unclear · ${c.little} little effect</div><p class="m">A simple count of the stories below. It is not a forecast of where Nifty will go.</p></div>`:""}
 function today(){const r=D.r;let h="<h2>Today</h2>"+(D.at?`<div class="m">Checked ${ist(D.at)}</div>`:"")+remBox();
  if(D.err)h+=`<div class="box bad"><b>Could not load data.</b><br>${esc(D.err)}<br>Check your internet connection and tap Refresh.</div>`;
  if(!r||r.status==="none"){return h+`<div class="box warn"><b>No report yet.</b><br>The first report appears after the daily 8:00 AM run is set up. That is the next build step.</div><button class="go" onclick="load()">Refresh</button>`}
  if(stale())h+=`<div class="box warn"><b>This is not today's report.</b><br>Latest report was generated ${ist(r.generated_at)}. Treat it as old.</div>`;
- h+=`<div class="box"><b>${esc(r.title)}</b><div class="m">Covers ${ist(r.window_start)} to ${ist(r.cutoff)}<br>Generated ${ist(r.generated_at)}</div><p>${esc(r.quick_read)}</p><button class="go" onclick="go('report')">Open full report</button></div>`;
+ h+=`<div class="box"><b>${esc(r.title)}</b><div class="m">Covers ${ist(r.window_start)} to ${ist(r.cutoff)}<br>Generated ${ist(r.generated_at)}</div><p>${esc(r.quick_read)}</p><button class="go" onclick="go('report')">Open full report</button></div>`+bal(r);
  return h}
 function report(){const r=D.r;if(!r||!r.stories||!r.stories.length)return `<h2>Report</h2><div class="box warn">No stories available yet.</div>`;
  let h=`<h2>${esc(r.title)}</h2><div class="m">${r.stories.length} of maximum 15 stories</div>`;
  r.stories.forEach((s,i)=>{h+=`<div class="box s"><h3>${i+1}. ${esc(s.headline)}</h3><div class="m">${ist(s.time)} · ${esc((s.factors||[]).join(", "))}</div><p>${esc(s.summary)}</p>
- <p><span class="tag">${esc(s.confirmation||"unconfirmed")}</span></p>${(s.unverified_figures||[]).length?`<p class="u"><b>Check these figures against the source:</b> ${esc(s.unverified_figures.join(", "))}</p>`:""}<p><b>Possible Nifty effect:</b> ${esc(s.impact)}</p>
+ <p>${s.lean?`<span class="tag ${s.lean}">${{up:"May help Nifty",down:"May hurt Nifty",little:"Little effect",unclear:"Unclear"}[s.lean]||""}</span>`:""}<span class="tag">${esc(s.confirmation||"unconfirmed")}</span></p>${(s.unverified_figures||[]).length?`<p class="u"><b>Check these figures against the source:</b> ${esc(s.unverified_figures.join(", "))}</p>`:""}<p><b>Possible effect on Nifty:</b> ${esc(s.impact)}</p>
  <p class="m"><b>Sectors and stocks:</b> ${esc((s.sectors||[]).join(", "))}</p>
  ${(s.sources||[]).map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a>`).join(" · ")}</div>`});
  if((r.gaps||[]).length)h+=`<div class="box warn"><b>Verification gaps</b><ul>${r.gaps.map(g=>`<li>${esc(g)}</li>`).join("")}</ul></div>`;
@@ -77,6 +80,10 @@ function fii(){const f=D.f||{},off=f.history||[],fmt=v=>(v<0?"-":"+")+Math.abs(v
  return h}
 function mkt(){const m=D.m;let h="<h2>Markets</h2>";
  if(!m)return h+`<div class="box warn"><b>Not verified.</b><br>Market data has not been retrieved yet.</div>`;
+ const f0=v=>v==null?"n/a":v.toLocaleString("en-IN",{maximumFractionDigits:0});
+ if(m.nifty){const n=m.nifty;h+=`<div class="box s"><b>Nifty 50 chart numbers</b> <span class="m">close ${esc(n.date)}</span><div style="font:700 22px Georgia,serif">${f0(n.last)}</div>
+  <table style="width:100%;border-collapse:collapse;margin:6px 0"><tr><td>20-day average</td><td>${f0(n.sma20)}</td></tr><tr><td>50-day average</td><td>${f0(n.sma50)}</td></tr><tr><td>200-day average</td><td>${f0(n.sma200)}</td></tr><tr><td>Last 20 days low / high</td><td>${f0(n.low20)} / ${f0(n.high20)}</td></tr><tr><td>1-year low / high</td><td>${f0(n.low52)} / ${f0(n.high52)}</td></tr><tr><td>RSI (strength, 0 to 100)</td><td>${n.rsi}</td></tr></table>
+  ${n.reading.map(x=>`<p>${esc(x)}</p>`).join("")}<p class="m">These describe the past. They do not predict the next move.</p></div>`}
  const sg=(v,u)=>(v>0?"+":"")+v+(u==="%"?"%":" pts");
  m.groups.forEach(g=>{h+=`<h3 style="margin:14px 0 6px">${esc(g.name)}</h3>`;g.items.forEach(x=>{
   if(!x.ok){h+=`<div class="box"><b>${esc(x.name)}</b><br><span class="u">Not verified</span></div>`;return}
@@ -94,6 +101,14 @@ function events(){let h="<h2>Events</h2>";const up=evList(),age=D.ev?Math.round(
   return `<div class="box ${d<=2?"warn":""}"><b>${esc(e.name)}</b>${d<=2?` <span class="tag">Reminder</span>`:""}<div class="m">${fd(e.date)}${e.time?" · "+esc(e.time):""} · ${w}</div><p>${esc(e.why||"")}</p>${e.note?`<p class="m">${esc(e.note)}</p>`:""}${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">Official source</a>`:""}</div>`}).join("")+`<p class="foot">Only dates found in official or published schedules are listed. Reminders show 2 days before. Calendar last checked ${D.ev?fd(D.ev):"unknown"}.</p>`+evUpdate()}
 let HC={},HO=null;
 const fd=d=>new Date(d+"T00:00:00+05:30").toLocaleDateString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",year:"numeric"});
+function earn(){const r=D.res;let h="<h2>Results calendar</h2>";
+ const t=new Date().toLocaleDateString("en-CA",{timeZone:"Asia/Kolkata"});
+ const items=((r&&r.items)||[]).filter(x=>x.date>=t);
+ if(!items.length)h+=`<div class="box warn"><b>No company results found in the news yet.</b><br>We only list companies that a news article says will announce results. Use the official calendars below for the full list.</div>`;
+ else{const days={};items.forEach(x=>{(days[x.date]=days[x.date]||[]).push(x)});
+  Object.keys(days).sort().forEach(d=>{h+=`<div class="box"><b>${d===t?"Today":fd(d)}</b> <span class="m">${d===t?fd(d):""}</span>`+days[d].map(x=>`<div style="padding:4px 0">${esc(x.company)} <span class="m">· <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.outlet)}</a></span></div>`).join("")+`</div>`})}
+ h+=`<div class="box"><b>Full official lists</b><p class="m">Companies tell NSE and BSE their result dates in advance. These are the exchanges' own calendars. I have not tested these links from here.</p><a href="https://www.nseindia.com/companies-listing/corporate-filings-event-calendar" target="_blank" rel="noopener">NSE event calendar</a><br><a href="https://www.bseindia.com/corporates/Forth_Results.aspx" target="_blank" rel="noopener">BSE forthcoming results</a></div><p class="foot">${r&&r.updated?"Last updated "+ist(r.updated)+". ":""}Names come from news articles that list results, and each one links to its article. The list is not complete.</p>`;
+ return h}
 function hist(){let h="<h2>Past reports</h2>";if(!D.h.length)return h+`<div class="box warn">No saved reports yet.</div>`;
  return h+D.h.map(x=>{const o=HO===x.date,c=HC[x.date];let b="";
   if(o){if(!c)b=`<p class="m">Loading...</p>`;else if(c.err)b=`<p class="m">Could not load this report.</p>`;
@@ -110,7 +125,7 @@ async function notif(){if(!("Notification" in window))return alert("This browser
 function menu(f){const m=$("#menu"),o=f!==undefined?f:m.style.display!=="block";m.style.display=o?"block":"none";$("#mb").setAttribute("aria-expanded",o)}
 function go(t){menu(false);tab=t;draw();scrollTo(0,0)}
 document.addEventListener("click",e=>{if(!e.target.closest("#menu,#mb"))menu(false)});
-function draw(){$("#v").innerHTML={today,report,cover,fii,mkt,events,hist,status}[tab]();
+function draw(){$("#v").innerHTML={today,report,cover,fii,mkt,events,earn,hist,status}[tab]();
  $("#nav").innerHTML=TABS.map(([k,l])=>`<button class="${k===tab?"on":""}" onclick="go('${k}')">${l}</button>`).join("")}
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js");
 document.addEventListener("visibilitychange",()=>{if(!document.hidden)load()});
