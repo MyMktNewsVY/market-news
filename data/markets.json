@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T15:36:20.066071+05:30",
+ "updated": "2026-10-23T07:56:12.388416+05:30",
  "source": "Yahoo Finance daily data (free, unofficial, may be delayed)",
  "groups": [
   {
@@ -21,13 +21,13 @@
      "name": "Sensex",
      "symbol": "^BSESN",
      "ok": true,
-     "last": 73748.898,
+     "last": 73249.391,
      "date": "2026-10-22",
-     "d1": 0.05,
-     "d5": 1.33,
+     "d1": -0.62,
+     "d5": 0.64,
      "unit": "%",
      "sessions": 5,
-     "trend": "up"
+     "trend": "little changed"
     },
     {
      "name": "Bank Nifty",
@@ -45,10 +45,10 @@
      "name": "India VIX",
      "symbol": "^INDIAVIX",
      "ok": true,
-     "last": 15.815,
+     "last": 15.76,
      "date": "2026-10-22",
-     "d1": 0.86,
-     "d5": 8.1,
+     "d1": 0.51,
+     "d5": 7.72,
      "unit": "%",
      "sessions": 5,
      "trend": "sharply up"
@@ -57,10 +57,10 @@
      "name": "USD/INR",
      "symbol": "INR=X",
      "ok": true,
-     "last": 94.716,
-     "date": "2026-10-21",
-     "d1": -0.29,
-     "d5": -0.6,
+     "last": 94.312,
+     "date": "2026-10-22",
+     "d1": -0.43,
+     "d5": -0.88,
      "unit": "%",
      "sessions": 5,
      "trend": "little changed"
@@ -74,22 +74,22 @@
      "name": "S&P 500",
      "symbol": "^GSPC",
      "ok": true,
-     "last": 7757.17,
-     "date": "2026-10-21",
-     "d1": 0.58,
-     "d5": 0.5,
+     "last": 7663.43,
+     "date": "2026-10-22",
+     "d1": -1.21,
+     "d5": -1.04,
      "unit": "%",
      "sessions": 5,
-     "trend": "little changed"
+     "trend": "down"
     },
     {
      "name": "Dow Jones",
      "symbol": "^DJI",
      "ok": true,
-     "last": 52856.09,
-     "date": "2026-10-21",
-     "d1": 0.69,
-     "d5": 2.39,
+     "last": 52867.98,
+     "date": "2026-10-22",
+     "d1": 0.02,
+     "d5": 1.32,
      "unit": "%",
      "sessions": 5,
      "trend": "up"
@@ -98,37 +98,37 @@
      "name": "Nasdaq",
      "symbol": "^IXIC",
      "ok": true,
-     "last": 26702.859,
-     "date": "2026-10-21",
-     "d1": 1.05,
-     "d5": 0.04,
+     "last": 26008.859,
+     "date": "2026-10-22",
+     "d1": -2.6,
+     "d5": -2.64,
      "unit": "%",
      "sessions": 5,
-     "trend": "little changed"
+     "trend": "down"
     },
     {
      "name": "FTSE 100",
      "symbol": "^FTSE",
      "ok": true,
-     "last": 10752.9,
-     "date": "2026-10-21",
-     "d1": 0.19,
-     "d5": 0.26,
+     "last": 10725.0,
+     "date": "2026-10-22",
+     "d1": -0.26,
+     "d5": -1.06,
      "unit": "%",
      "sessions": 5,
-     "trend": "little changed"
+     "trend": "down"
     },
     {
      "name": "DAX",
      "symbol": "^GDAXI",
      "ok": true,
-     "last": 25645.039,
-     "date": "2026-10-21",
-     "d1": 1.35,
-     "d5": 1.37,
+     "last": 25371.75,
+     "date": "2026-10-22",
+     "d1": -1.07,
+     "d5": -0.04,
      "unit": "%",
      "sessions": 5,
-     "trend": "up"
+     "trend": "little changed"
     },
     {
      "name": "Nikkei 225",
@@ -235,10 +235,10 @@
      "name": "US dollar index",
      "symbol": "DX-Y.NYB",
      "ok": true,
-     "last": 101.78,
-     "date": "2026-10-21",
-     "d1": 0.05,
-     "d5": -0.75,
+     "last": 101.61,
+     "date": "2026-10-22",
+     "d1": -0.17,
+     "d5": -0.38,
      "unit": "%",
      "sessions": 5,
      "trend": "little changed"
@@ -247,13 +247,13 @@
      "name": "US 10-year yield",
      "symbol": "^TNX",
      "ok": true,
-     "last": 5.146,
-     "date": "2026-10-21",
-     "d1": 0.029,
-     "d5": -0.044,
+     "last": 4.953,
+     "date": "2026-10-22",
+     "d1": -0.193,
+     "d5": -0.136,
      "unit": "pts",
      "sessions": 5,
-     "trend": "little changed"
+     "trend": "down"
     }
    ]
   }

@@ -1,6 +1,10 @@
 {
  "reports": [
   {
+   "date": "2026-10-23",
+   "file": "data/reports/2026-10-23.json"
+  },
+  {
    "date": "2026-10-22",
    "file": "data/reports/2026-10-22.json"
   },
