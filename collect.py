@@ -220,16 +220,20 @@ def yahoo(sym):
             pairs = [(a, b) for a, b in zip(res["timestamp"], res["indicators"]["quote"][0]["close"]) if b is not None]
             reg = meta.get("currentTradingPeriod", {}).get("regular", {})
             live = bool(meta.get("regularMarketTime")) and time.time() - meta["regularMarketTime"] < 1200
-            if live or (reg and reg.get("start", 0) <= time.time() < reg.get("end", 0)): pairs = pairs[:-1]
+            fut = sym.endswith("=F")
+            if not fut and (live or (reg and reg.get("start", 0) <= time.time() < reg.get("end", 0))): pairs = pairs[:-1]
             if len(pairs) < 3: raise ValueError("not enough data")
             off = meta.get("gmtoffset", 0); (t1, last), (t0, prev) = pairs[-1], pairs[-2]
+            if fut and meta.get("regularMarketPrice"): last = meta["regularMarketPrice"]
             five = pairs[-6][1] if len(pairs) >= 6 else pairs[0][1]
             unit = "pts" if sym == "^TNX" else "%"
             ch = (lambda a, b: round(a - b, 3)) if unit == "pts" else (lambda a, b: round((a / b - 1) * 100, 2))
             d5 = ch(last, five)
             tw = trend_word(d5 * (10 if unit == "pts" else 1) if unit == "pts" else d5)
             return {"ok": True, "last": round(last, 3), "date": datetime.fromtimestamp(t1 + off, tz=timezone.utc).strftime("%Y-%m-%d"),
-                    "d1": ch(last, prev), "d5": d5, "unit": unit, "sessions": min(5, len(pairs) - 1), "trend": tw}
+                    "d1": ch(last, prev), "d5": d5, "unit": unit, "sessions": min(5, len(pairs) - 1), "trend": tw, "live": fut,
+                    "asof": datetime.fromtimestamp(meta.get("regularMarketTime", t1), tz=IST).isoformat() if fut else None,
+                    "prev_date": datetime.fromtimestamp(t0 + off, tz=timezone.utc).strftime("%Y-%m-%d")}
         except Exception as e: err = e
     raise err
 
