@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T07:56:12.388416+05:30",
+ "updated": "2026-10-23T10:14:25.917935+05:30",
  "source": "Yahoo Finance daily data (free, unofficial, may be delayed)",
  "groups": [
   {
@@ -15,7 +15,10 @@
      "d5": 0.29,
      "unit": "%",
      "sessions": 5,
-     "trend": "little changed"
+     "trend": "little changed",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     },
     {
      "name": "Sensex",
@@ -27,7 +30,10 @@
      "d5": 0.64,
      "unit": "%",
      "sessions": 5,
-     "trend": "little changed"
+     "trend": "little changed",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     },
     {
      "name": "Bank Nifty",
@@ -39,7 +45,10 @@
      "d5": -0.71,
      "unit": "%",
      "sessions": 5,
-     "trend": "little changed"
+     "trend": "little changed",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     },
     {
      "name": "India VIX",
@@ -51,7 +60,10 @@
      "d5": 7.72,
      "unit": "%",
      "sessions": 5,
-     "trend": "sharply up"
+     "trend": "sharply up",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     },
     {
      "name": "USD/INR",
@@ -63,7 +75,305 @@
      "d5": -0.88,
      "unit": "%",
      "sessions": 5,
-     "trend": "little changed"
+     "trend": "little changed",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    }
+   ]
+  },
+  {
+   "name": "Sectors (Nifty indices)",
+   "items": [
+    {
+     "name": "Nifty Bank",
+     "symbol": "^NSEBANK",
+     "ok": true,
+     "last": 54925.699,
+     "date": "2026-10-22",
+     "d1": -0.09,
+     "d5": -0.71,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "Nifty IT",
+     "symbol": "^CNXIT",
+     "ok": true,
+     "last": 32081.25,
+     "date": "2026-10-22",
+     "d1": -1.05,
+     "d5": 6.33,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "sharply up",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "Nifty Auto",
+     "symbol": "^CNXAUTO",
+     "ok": true,
+     "last": 25011.5,
+     "date": "2026-10-22",
+     "d1": -0.73,
+     "d5": -2.21,
+     "unit": "%",
+     "sessions": 4,
+     "trend": "down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "Nifty Pharma",
+     "symbol": "^CNXPHARMA",
+     "ok": true,
+     "last": 25596.65,
+     "date": "2026-10-22",
+     "d1": 0.12,
+     "d5": -0.55,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "Nifty FMCG",
+     "symbol": "^CNXFMCG",
+     "ok": true,
+     "last": 43105.449,
+     "date": "2026-10-22",
+     "d1": -1.41,
+     "d5": -3.76,
+     "unit": "%",
+     "sessions": 4,
+     "trend": "sharply down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "Nifty Metal",
+     "symbol": "^CNXMETAL",
+     "ok": true,
+     "last": 11798.35,
+     "date": "2026-10-22",
+     "d1": -0.52,
+     "d5": -1.83,
+     "unit": "%",
+     "sessions": 4,
+     "trend": "down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "Nifty Energy",
+     "symbol": "^CNXENERGY",
+     "ok": true,
+     "last": 35101.449,
+     "date": "2026-10-22",
+     "d1": -1.05,
+     "d5": -3.07,
+     "unit": "%",
+     "sessions": 4,
+     "trend": "sharply down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "Nifty Realty",
+     "symbol": "^CNXREALTY",
+     "ok": true,
+     "last": 803.45,
+     "date": "2026-10-22",
+     "d1": -0.3,
+     "d5": -3.05,
+     "unit": "%",
+     "sessions": 4,
+     "trend": "sharply down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "Nifty PSU Bank",
+     "symbol": "^CNXPSUBANK",
+     "ok": true,
+     "last": 8257.4,
+     "date": "2026-10-22",
+     "d1": 0.07,
+     "d5": 2.69,
+     "unit": "%",
+     "sessions": 4,
+     "trend": "up",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    }
+   ]
+  },
+  {
+   "name": "Large Nifty companies",
+   "items": [
+    {
+     "name": "HDFC Bank",
+     "symbol": "HDFCBANK.NS",
+     "ok": true,
+     "last": 694.05,
+     "date": "2026-10-22",
+     "d1": -1.82,
+     "d5": -2.34,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "Reliance",
+     "symbol": "RELIANCE.NS",
+     "ok": true,
+     "last": 1184.5,
+     "date": "2026-10-22",
+     "d1": -2.03,
+     "d5": 0.84,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "ICICI Bank",
+     "symbol": "ICICIBANK.NS",
+     "ok": true,
+     "last": 1398.5,
+     "date": "2026-10-22",
+     "d1": 0.97,
+     "d5": 4.47,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "sharply up",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "Infosys",
+     "symbol": "INFY.NS",
+     "ok": true,
+     "last": 1153.35,
+     "date": "2026-10-22",
+     "d1": -1.25,
+     "d5": 6.01,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "sharply up",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "TCS",
+     "symbol": "TCS.NS",
+     "ok": true,
+     "last": 2529.0,
+     "date": "2026-10-21",
+     "d1": 2.77,
+     "d5": 11.44,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "sharply up",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-19"
+    },
+    {
+     "name": "Bharti Airtel",
+     "symbol": "BHARTIARTL.NS",
+     "ok": true,
+     "last": 1895.0,
+     "date": "2026-10-22",
+     "d1": 0.17,
+     "d5": 5.59,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "sharply up",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "ITC",
+     "symbol": "ITC.NS",
+     "ok": true,
+     "last": 258.9,
+     "date": "2026-10-22",
+     "d1": -1.18,
+     "d5": -0.99,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "L&T",
+     "symbol": "LT.NS",
+     "ok": true,
+     "last": 3638.3,
+     "date": "2026-10-22",
+     "d1": 0.06,
+     "d5": -0.1,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "little changed",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "SBI",
+     "symbol": "SBIN.NS",
+     "ok": true,
+     "last": 970.0,
+     "date": "2026-10-22",
+     "d1": 0.73,
+     "d5": 1.58,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "up",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
+    },
+    {
+     "name": "Axis Bank",
+     "symbol": "AXISBANK.NS",
+     "ok": true,
+     "last": 1212.0,
+     "date": "2026-10-22",
+     "d1": 0.17,
+     "d5": -4.16,
+     "unit": "%",
+     "sessions": 5,
+     "trend": "sharply down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     }
    ]
   },
@@ -80,7 +390,10 @@
      "d5": -1.04,
      "unit": "%",
      "sessions": 5,
-     "trend": "down"
+     "trend": "down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     },
     {
      "name": "Dow Jones",
@@ -92,7 +405,10 @@
      "d5": 1.32,
      "unit": "%",
      "sessions": 5,
-     "trend": "up"
+     "trend": "up",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     },
     {
      "name": "Nasdaq",
@@ -104,7 +420,10 @@
      "d5": -2.64,
      "unit": "%",
      "sessions": 5,
-     "trend": "down"
+     "trend": "down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     },
     {
      "name": "FTSE 100",
@@ -116,7 +435,10 @@
      "d5": -1.06,
      "unit": "%",
      "sessions": 5,
-     "trend": "down"
+     "trend": "down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     },
     {
      "name": "DAX",
@@ -128,7 +450,10 @@
      "d5": -0.04,
      "unit": "%",
      "sessions": 5,
-     "trend": "little changed"
+     "trend": "little changed",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     },
     {
      "name": "Nikkei 225",
@@ -140,7 +465,10 @@
      "d5": -2.36,
      "unit": "%",
      "sessions": 5,
-     "trend": "down"
+     "trend": "down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     },
     {
      "name": "Hang Seng",
@@ -152,7 +480,10 @@
      "d5": -5.67,
      "unit": "%",
      "sessions": 5,
-     "trend": "sharply down"
+     "trend": "sharply down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     },
     {
      "name": "Shanghai",
@@ -164,7 +495,10 @@
      "d5": -1.33,
      "unit": "%",
      "sessions": 5,
-     "trend": "down"
+     "trend": "down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     }
    ]
   },
@@ -175,61 +509,76 @@
      "name": "Brent crude",
      "symbol": "BZ=F",
      "ok": true,
-     "last": 108.82,
-     "date": "2026-10-21",
-     "d1": 0.03,
-     "d5": 2.6,
+     "last": 113.75,
+     "date": "2026-10-23",
+     "d1": 0.51,
+     "d5": 3.54,
      "unit": "%",
      "sessions": 5,
-     "trend": "up"
+     "trend": "sharply up",
+     "live": true,
+     "asof": "2026-10-23T10:01:08+05:30",
+     "prev_date": "2026-10-22"
     },
     {
      "name": "WTI crude",
      "symbol": "CL=F",
      "ok": true,
-     "last": 97.15,
-     "date": "2026-10-21",
-     "d1": -4.56,
-     "d5": 2.17,
+     "last": 100.19,
+     "date": "2026-10-23",
+     "d1": 0.72,
+     "d5": -1.2,
      "unit": "%",
      "sessions": 5,
-     "trend": "up"
+     "trend": "down",
+     "live": true,
+     "asof": "2026-10-23T10:04:23+05:30",
+     "prev_date": "2026-10-22"
     },
     {
      "name": "Gold",
      "symbol": "GC=F",
      "ok": true,
-     "last": 4150.0,
-     "date": "2026-10-21",
-     "d1": 0.18,
-     "d5": 1.02,
+     "last": 4019.5,
+     "date": "2026-10-23",
+     "d1": -1.01,
+     "d5": -3.87,
      "unit": "%",
      "sessions": 5,
-     "trend": "up"
+     "trend": "sharply down",
+     "live": true,
+     "asof": "2026-10-23T10:04:20+05:30",
+     "prev_date": "2026-10-22"
     },
     {
      "name": "Silver",
      "symbol": "SI=F",
      "ok": true,
-     "last": 57.422,
-     "date": "2026-10-21",
-     "d1": -0.49,
-     "d5": 3.37,
+     "last": 53.675,
+     "date": "2026-10-23",
+     "d1": -1.99,
+     "d5": -5.83,
      "unit": "%",
      "sessions": 5,
-     "trend": "sharply up"
+     "trend": "sharply down",
+     "live": true,
+     "asof": "2026-10-23T10:04:21+05:30",
+     "prev_date": "2026-10-22"
     },
     {
      "name": "Copper",
      "symbol": "HG=F",
      "ok": true,
-     "last": 6.543,
-     "date": "2026-10-21",
-     "d1": -0.36,
-     "d5": -1.04,
+     "last": 6.424,
+     "date": "2026-10-23",
+     "d1": 0.97,
+     "d5": -1.64,
      "unit": "%",
      "sessions": 5,
-     "trend": "down"
+     "trend": "down",
+     "live": true,
+     "asof": "2026-10-23T10:03:23+05:30",
+     "prev_date": "2026-10-22"
     },
     {
      "name": "US dollar index",
@@ -241,7 +590,10 @@
      "d5": -0.38,
      "unit": "%",
      "sessions": 5,
-     "trend": "little changed"
+     "trend": "little changed",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     },
     {
      "name": "US 10-year yield",
@@ -253,9 +605,29 @@
      "d5": -0.136,
      "unit": "pts",
      "sessions": 5,
-     "trend": "down"
+     "trend": "down",
+     "live": false,
+     "asof": null,
+     "prev_date": "2026-10-21"
     }
    ]
   }
- ]
+ ],
+ "nifty": {
+  "date": "2026-10-22",
+  "last": 22687.7,
+  "sma20": 22755.8,
+  "sma50": 23441.2,
+  "sma200": 24142.1,
+  "low20": 22231.8,
+  "high20": 23446.8,
+  "low52": 22231.8,
+  "high52": 26328.6,
+  "rsi": 44.0,
+  "reading": [
+   "Price is below both its 50-day and 200-day averages, so the medium and long trends are down.",
+   "RSI is 44. Strength is balanced (50 is the middle).",
+   "Price is 13.8% below its 1-year high."
+  ]
+ }
 }
