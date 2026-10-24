@@ -1,321 +1,376 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 23 Oct 2026 — Nifty 50",
- "generated_at": "2026-10-23T15:52:33.241266+05:30",
- "window_start": "2026-10-22T15:00:00+05:30",
- "cutoff": "2026-10-23T07:30:00+05:30",
- "quick_read": "High crude oil prices above $112 and a drop in US tech stocks may hurt the market. Huge investor cash moving into big new public offers like Jio Platforms is also pulling money away from daily stock trading. However, relaxed trading margin rules by SEBI and good profit numbers from oil companies like HPCL may bring some relief.",
+ "title": "Indian Market News Brief — 24 Oct 2026 — Nifty 50",
+ "generated_at": "2026-10-24T07:51:15.230796+05:30",
+ "window_start": "2026-10-23T15:00:00+05:30",
+ "cutoff": "2026-10-24T07:30:00+05:30",
+ "quick_read": "Higher crude oil prices and lower sales growth targets from major technology companies like Infosys may create pressure on the market. Strong quarterly earnings from automobile and banking companies like Tata Motors CV and IndusInd Bank may provide support. Investors are also watching high interest from buyers in major new public share offerings.",
  "stories": [
   {
-   "headline": "Rupee snaps eight-day rally as oil climbs to highest since May",
-   "time": "2026-10-22T15:44:31+05:30",
+   "headline": "Infosys Q2 Results: Profit rises 6% YoY to Rs 7,823 crore; co lowers revenue guidance",
+   "time": "2026-10-23T16:21:38+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Infosys reported a 6% increase in second-quarter net profit to ₹7,823 crore. However, the company cut its full-year sales growth target to 1-2% from 1.5-3%. Its American shares dropped over 6% following the news. The company declared an interim dividend of ₹26 per share.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Lower growth expectations for Infosys may create selling pressure on technology stocks.",
+   "lean": "down",
+   "sectors": [
+    "IT"
+   ],
+   "unverified_figures": [
+    "26"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/infosys-q2-results-profit-rises-6-yoy-to-rs-7823-crore-co-lowers-revenue-guidance/articleshow/135143193.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Sensex today | Stock Market Highlights: Sensex, Nifty extend losses as crude surges to $114, all sectors close in red",
+   "time": "2026-10-23T16:22:42+05:30",
    "factors": [
     "Crude oil",
-    "Rupee",
-    "Global markets"
+    "Inflation and consumption",
+    "Heavyweight stocks"
    ],
    "factor_ids": [
     8,
-    7,
-    1
+    11,
+    21
    ],
-   "summary": "Crude oil prices rose above $112 per barrel because of growing conflict in the Middle East.\nThe Indian rupee fell 0.4 percent to 94.81 against the US dollar.\nIndian stock markets fell for the third straight day, with the Nifty dropping 123 points.\nHigher oil prices increase the total money India spends on importing fuel from outside countries.\nThis market fall wiped out massive investor wealth across listed Indian companies.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "May hurt Nifty: Higher crude oil costs and a weaker rupee make imports expensive for India, which can increase expenses for companies and reduce profit margins.",
+   "summary": "Indian stock markets fell on Friday as crude oil prices surged to $114 per barrel. Benchmark index Nifty closed lower at 22,600 points. All major industry sectors ended the day with losses. Mid-cap and small-cap shares suffered their worst weekly drop in 20 months.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: High crude oil prices increase fuel and input costs for Indian companies, which can hurt overall corporate profits.",
    "lean": "down",
    "sectors": [
-    "Energy",
     "Oil & Gas",
+    "Automobiles",
     "Paints",
-    "Aviation"
-   ],
-   "unverified_figures": [
-    "112",
-    "123",
-    "94.81"
-   ],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-snaps-eight-day-rally-as-oil-climbs-to-highest-since-may/articleshow/135115702.cms"
-    },
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-snaps-eight-day-rally-as-oil-climbs-to-highest-since-may/article71611038.ece"
-    }
-   ]
-  },
-  {
-   "headline": "US stocks today: Nasdaq slumps 2.5%, S&P 1% as revived AI doubts ignite tech selloff",
-   "time": "2026-10-23T01:45:19+05:30",
-   "factors": [
-    "Global markets",
-    "US monetary policy"
-   ],
-   "factor_ids": [
-    1,
-    2
-   ],
-   "summary": "Major US stock markets fell sharply as investors worried about heavy spending on artificial intelligence.\nThe tech-heavy Nasdaq index dropped 2.5 percent, making its biggest single-day fall since June.\nShares of large technology firms like Meta and Tesla dropped sharply in trading.\nAt the same time, rising crude oil prices added extra pressure on global markets.\nUS Treasury bond prices rose as investors moved money to safer places.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Weak performance in US technology companies often causes Indian IT shares to fall as investors worry about foreign tech spending.",
-   "lean": "down",
-   "sectors": [
-    "IT",
-    "Technology"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-slumps-2-5-sp-1-as-revived-ai-doubts-ignite-tech-selloff/articleshow/135127224.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Jio Platforms IPO dents investor bandwidth for listed stocks; Liquidity shift weighs on markets",
-   "time": "2026-10-22T22:57:56+05:30",
-   "factors": [
-    "Corporate events",
-    "Banking and liquidity",
-    "Domestic investment"
-   ],
-   "factor_ids": [
-    31,
-    13,
-    19
-   ],
-   "summary": "The ₹30,213 crore public offer of Jio Platforms was subscribed over 5 times by day two.\nLarge institutional investors applied for more than 12 times the shares reserved for them.\nMarket experts noted that a large amount of investor cash is shifting into this public issue.\nThis temporary shift of cash is reducing available money for buying daily shares on stock exchanges.\nThe subscription demand is one of the highest seen for big initial public offers in India.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Strong demand for a large business shows investor confidence, but shifting cash into a new issue can reduce buying in other stocks for a few days.",
-   "lean": "unclear",
-   "sectors": [
-    "Telecom",
     "Broad Market"
    ],
    "unverified_figures": [
-    "12",
-    "30213"
+    "20",
+    "22600"
    ],
    "sources": [
     {
      "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/jio-platforms-ipo-dents-investor-bandwidth-for-listed-stocks-liquidity-shift-weighs-on-markets/article71612131.ece"
+     "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-23rd-october-2026/article71611889.ece"
     }
    ]
   },
   {
-   "headline": "MPC minutes: Two more interest rate hikes on cards, maybe even a third",
-   "time": "2026-10-23T00:56:43+05:30",
-   "factors": [
-    "RBI monetary policy",
-    "Indian bond market",
-    "Crude oil"
-   ],
-   "factor_ids": [
-    12,
-    14,
-    8
-   ],
-   "summary": "Indian government bond yields rose above 7.45 percent amid rising global oil prices.\nMarket experts now expect two or three interest rate increases of 0.25 percentage points each by the central bank.\nThese rate hike expectations came after crude oil stayed continuously above $100 per barrel.\nHigher bond yields mean that overall borrowing costs in the country are rising.\nThe Reserve Bank of India has already been tightening its policy to control inflation.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: When borrowing money becomes costlier, banks and home-loan companies may suffer because loans become expensive and businesses expand more slowly.",
-   "lean": "down",
-   "sectors": [
-    "Banks",
-    "Financial Services",
-    "Real Estate"
-   ],
-   "unverified_figures": [
-    "0.25",
-    "7.45"
-   ],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/mpc-minutes-two-more-interest-rate-hikes-on-cards-maybe-even-a-third/articleshow/135131110.cms"
-    }
-   ]
-  },
-  {
-   "headline": "HDFC Bank stock dips 2% on huge volume; trades lower for third straight day",
-   "time": "2026-10-22T15:12:40+05:30",
-   "factors": [
-    "Heavyweight stocks",
-    "Corporate earnings",
-    "Regulation"
-   ],
-   "factor_ids": [
-    21,
-    20,
-    17
-   ],
-   "summary": "Shares of HDFC Bank fell 2 percent on high trading volumes.\nReports say the bank started an internal review into senior executives sharing secret information with outsiders.\nThe stock traded lower for three consecutive trading sessions.\nHDFC Bank is one of the largest stocks in the main Indian market index.\nThe bank has not officially issued a public statement on the executive review.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Negative news or falling share prices in a heavy index stock like HDFC Bank usually pulls down the overall market.",
-   "lean": "down",
-   "sectors": [
-    "Banks",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/hdfc-bank-stock-dips-2-on-huge-volume-trades-lower-for-third-straight-day-126102200723_1.html"
-    }
-   ]
-  },
-  {
-   "headline": "Sebi eases margin rules for trades post EPI",
-   "time": "2026-10-22T17:22:46+05:30",
-   "factors": [
-    "Regulation",
-    "Market structure"
-   ],
-   "factor_ids": [
-    17,
-    30
-   ],
-   "summary": "Market regulator SEBI announced a new directive to ease margin requirements for stock traders.\nThis policy gives relief when clients make an early pay-in of shares for sell trades.\nClearing corporations will not collect extra margin money on subsequent trades up to the early pay-in value.\nThis move aims to free up blocked cash for market participants.\nThe decision lowers operational requirements for trading members and retail investors.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Explanation withheld.",
-   "lean": "unclear",
-   "sectors": [
-    "Capital Markets",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/sebi-eases-margin-requirements-on-trades-backed-by-early-pay-in-of-shares-11792667584844.html"
-    }
-   ]
-  },
-  {
-   "headline": "HPCL Q2 Results: Profit slips 6% YoY to Rs 3,625 crore, revenue jumps 26%",
-   "time": "2026-10-22T17:54:02+05:30",
+   "headline": "Tata Motors CV posts Rs 2,138 crore Q2 profit",
+   "time": "2026-10-24T00:38:33+05:30",
    "factors": [
     "Corporate earnings",
-    "Crude oil"
+    "Heavyweight stocks"
    ],
    "factor_ids": [
     20,
-    8
+    21
    ],
-   "summary": "Hindustan Petroleum Corporation Limited reported a net profit of ₹3,625 crore for the September quarter.\nThis earnings performance shows a recovery from a loss in the previous quarter.\nTotal income from operations climbed 26.1 percent year-on-year.\nHigher refining profits and fuel sales volumes supported the rise in earnings.\nThe company is continuing investments in infrastructure expansion and clean energy projects.",
+   "summary": "Tata Motors Commercial Vehicles division turned profitable with a net profit of ₹1,254 crore in the second quarter. This is a recovery from a net loss in the same period last year. Quarterly revenue jumped 37% to ₹23,930 crore. The company reported better truck demand and higher fleet usage.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong quarterly profit numbers from major oil refining and selling companies boost confidence in energy sector stocks.",
+   "impact": "May help Nifty: Strong profit recovery and revenue growth in automobile stocks may boost trader confidence.",
    "lean": "up",
    "sectors": [
-    "Oil & Gas",
-    "Energy"
+    "Automobiles"
+   ],
+   "unverified_figures": [
+    "1254",
+    "37"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-posts-rs-2138-crore-q2-profit/articleshow/135154453.cms"
+    }
+   ]
+  },
+  {
+   "headline": "IndusInd Bank Q2 Results: Lender posts profit of Rs 1,176 crore vs Rs 445 crore loss a year ago",
+   "time": "2026-10-23T16:13:57+05:30",
+   "factors": [
+    "Banking and liquidity",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    13,
+    20
+   ],
+   "summary": "IndusInd Bank reported a net profit of ₹1,176 crore for the second quarter. This compares to a net loss of ₹445 crore recorded in the same quarter last year. Core interest income rose 4% year-on-year to ₹4,569 crore. Bad loans as a portion of total advances reduced to 2.73%.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Improved profitability and better loan recovery may support banking shares.",
+   "lean": "up",
+   "sectors": [
+    "Banks"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hpcl-q2-results-profit-slips-6-yoy-to-rs-3625-crore-revenue-jumps-26/articleshow/135119002.cms"
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/indusind-bank-q2-results-lender-posts-profit-of-rs-1176-crore-vs-rs-445-crore-loss-a-year-ago/articleshow/135142692.cms"
     }
    ]
   },
   {
-   "headline": "SBI weighs data leak impact, alerts cyber cover provider",
-   "time": "2026-10-23T00:47:39+05:30",
+   "headline": "Jio IPO breaks 12 records: Rs 4.5 lakh crore bids, highest applications and more",
+   "time": "2026-10-23T20:34:30+05:30",
    "factors": [
-    "Heavyweight stocks",
-    "Regulation"
+    "Domestic investment",
+    "Corporate events"
    ],
    "factor_ids": [
-    21,
-    17
+    19,
+    31
    ],
-   "summary": "State Bank of India is checking the impact of a suspected customer data leak.\nThe bank is in the process of alerting its insurance provider to lodge a claim.\nSBI holds a cyber insurance cover worth ₹1,425 crore with Oriental Insurance.\nMeanwhile, the Reserve Bank of India directed financial entities to secure administrative systems on the internet.\nRegulators want banks to enforce stricter security checks after recent data safety incidents.",
+   "summary": "Jio Platforms closed its public share offering with total demand reaching 22.19 times the shares on offer. The offering received over 1.25 crore applications and total bids exceeding ₹4.5 lakh crore. Institutional investors applied for 70.55 times their reserved share. Shares are set to list on October 28.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Concerns over customer data safety and potential regulatory action could briefly pressure shares of India's largest public sector bank.",
+   "impact": "May help Nifty: High investor demand for large new listings shows strong buying interest in Indian markets.",
+   "lean": "up",
+   "sectors": [
+    "Telecom",
+    "Technology"
+   ],
+   "unverified_figures": [
+    "22.19",
+    "70.55"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-breaks-12-records-rs-4-5-lakh-crore-bids-highest-applications-and-more/articleshow/135149311.cms"
+    }
+   ]
+  },
+  {
+   "headline": "India's 10-year bond falls for 10th week in record slump",
+   "time": "2026-10-23T17:36:01+05:30",
+   "factors": [
+    "Global bond yields",
+    "Crude oil",
+    "Indian bond market"
+   ],
+   "factor_ids": [
+    3,
+    8,
+    14
+   ],
+   "summary": "Indian government bonds dropped for a tenth straight week, marking their longest weekly decline in thirty years. Rising crude oil prices and high central bank interest rates weighed on bond prices. The benchmark repo rate stands at 5.5%. Interest rates on 10-year government bonds rose to 7.47%.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Higher borrowing costs for government and businesses can slow economic activity and reduce corporate investment.",
    "lean": "down",
    "sectors": [
     "Banks",
-    "Financial Services"
+    "Financials"
+   ],
+   "unverified_figures": [
+    "7.47"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/indias-10-year-bond-falls-for-10th-week-in-record-slump/articleshow/135145225.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Shriram Finance Q2 profit jumps 59% YoY to Rs 3,677 crore on strong interest income, lower funding costs",
+   "time": "2026-10-23T21:35:28+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Shriram Finance reported a 59.4% year-on-year increase in second-quarter profit to ₹3,677 crore. The gains were driven by higher interest income and lower borrowing costs. Total managed assets grew by 17%. The board declared an interim dividend of ₹6.50 per share.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong profit growth in large non-banking lenders can support financial sector stocks.",
+   "lean": "up",
+   "sectors": [
+    "Financials"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sbi-weighs-data-leak-impact-alerts-cyber-cover-provider/articleshow/135130932.cms"
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/shriram-finance-q2-profit-jumps-59-yoy-to-rs-3677-crore-on-strong-interest-income-lower-funding-costs/articleshow/135150195.cms"
     }
    ]
   },
   {
-   "headline": "Natural rubber prices hit record high of ₹290 per kg on strong demand, tight supplies",
-   "time": "2026-10-22T17:02:49+05:30",
+   "headline": "BPCL Q2 Results: Net profit declines 21% YoY to Rs 4,863 crore, revenue grows 29%",
+   "time": "2026-10-23T20:57:55+05:30",
    "factors": [
-    "Other commodities",
-    "Inflation and consumption"
+    "Crude oil",
+    "Corporate earnings"
    ],
    "factor_ids": [
-    9,
-    11
+    8,
+    20
    ],
-   "summary": "Natural rubber prices in India reached a record high of ₹290 per kilogram.\nDomestic rubber prices are currently ₹20 per kilogram higher than international market rates.\nStrong buying demand by domestic tyre manufacturers and limited local supply drove the price surge.\nHigh raw material prices increase overall manufacturing costs for rubber products.\nTyre makers are forced to pay higher prices to secure required supply.",
+   "summary": "Bharat Petroleum Corporation reported a 21.45% year-on-year fall in second-quarter profit to ₹4,863 crore. Total revenue grew nearly 30% to ₹1.28 lakh crore over the same period. Profit recovered compared to a loss in the previous quarter. The board approved plans for a new refinery in Andhra Pradesh.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Tyre manufacturing companies may suffer lower profit margins because their main raw material has become significantly costlier.",
+   "impact": "Unclear for Nifty: Lower yearly profits could pressure refining shares, but strong revenue and quarterly recovery offer balance.",
+   "lean": "unclear",
+   "sectors": [
+    "Oil & Gas",
+    "Refining"
+   ],
+   "unverified_figures": [
+    "1.28",
+    "30"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bpcl-q2-results-net-profit-declines-21-yoy-to-rs-4863-crore-revenue-grows-29/articleshow/135149653.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Dr Reddy’s Q2 Results: Net profit falls 36% YoY to Rs 913 crore, revenue declines marginally",
+   "time": "2026-10-23T19:02:47+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Dr Reddy's Laboratories reported a 36% year-on-year fall in second-quarter profit to ₹913 crore. Total revenue declined 1.5% during the quarter. Weak sales in North America hurt overall performance. Sales growth in India and emerging markets helped reduce total losses.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Lower profits in major pharmaceutical companies can pull down healthcare stocks.",
    "lean": "down",
    "sectors": [
-    "Auto Ancillaries",
-    "Tyres"
+    "Pharmaceuticals"
    ],
    "unverified_figures": [],
    "sources": [
     {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/economy/agri-business/natural-rubber-prices-hit-record-high-of-290-per-kg-on-strong-demand-tight-supplies/article71611048.ece"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/dr-reddys-q2-results-net-profit-falls-36-yoy-to-rs-913-crore-revenue-declines-marginally/articleshow/135147475.cms"
     }
    ]
   },
   {
-   "headline": "Indian Food Ministry asks States to ensure no sugar is diverted for ethanol",
-   "time": "2026-10-22T21:40:47+05:30",
+   "headline": "RBI governor reiterates listing requirement for top NBFCs as focus intensifies on Tata Sons",
+   "time": "2026-10-23T20:55:41+05:30",
    "factors": [
     "Government policy",
-    "Other commodities"
+    "Regulation",
+    "Corporate events"
    ],
    "factor_ids": [
     15,
-    9
+    17,
+    31
    ],
-   "summary": "The Food Ministry asked state governments to ensure sugar is not diverted for making ethanol fuel.\nThis diversion ban may stay in place for the entire supply year to keep local sugar supply stable.\nThe government also extended duty-free imports of raw sugar until December 31.\nThe policy aim is to control domestic sugar prices for general consumers.\nSugar mills had previously increased ethanol production to earn higher income.",
+   "summary": "The Reserve Bank of India Governor stated that top-layer non-bank finance companies must list their shares on stock exchanges. The rule applies to major corporate holding companies including Tata Sons. The Governor did not name any single company directly. No extension to deadlines was announced.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Explanation withheld.",
+   "impact": "Unclear for Nifty: Mandatory stock exchange listings could unlock asset value for holding companies, but timeline details remain uncertain.",
    "lean": "unclear",
    "sectors": [
-    "Sugar",
-    "Agriculture",
-    "Oil & Gas"
+    "Financials"
    ],
    "unverified_figures": [],
    "sources": [
     {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/rbi-governor-reiterates-listing-requirement-for-top-nbfcs-as-focus-intensifies-on-tata-sons/articleshow/135149631.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Yes Bank AT1 bonds: Supreme Court overturns write-off, but will investors get coupon payments? What's the entire matter",
+   "time": "2026-10-23T17:47:50+05:30",
+   "factors": [
+    "Banking and liquidity",
+    "Regulation"
+   ],
+   "factor_ids": [
+    13,
+    17
+   ],
+   "summary": "The Supreme Court cancelled a previous write-off of Yes Bank's AT-1 bonds. Yes Bank stated it is unlikely to pay unpaid interest due this year. The bank plans to file a review petition against the order. Yes Bank warned its capital funds ratio could drop by about 2.5 percentage points.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Lower capital buffers and extra legal obligations can pressure banking stock prices.",
+   "lean": "down",
+   "sectors": [
+    "Banks"
+   ],
+   "unverified_figures": [
+    "2.5"
+   ],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/yes-bank-at1-bonds-supreme-court-overturns-write-off-but-will-investors-get-coupon-payments-11792752412594.html"
+    }
+   ]
+  },
+  {
+   "headline": "Rupee little changed this week as oil-fueled declines wipe out early gains",
+   "time": "2026-10-23T15:47:21+05:30",
+   "factors": [
+    "US dollar",
+    "Rupee",
+    "Crude oil"
+   ],
+   "factor_ids": [
+    4,
+    7,
+    8
+   ],
+   "summary": "The Indian rupee closed lower against the US dollar as crude oil prices rose to a five-month high. High oil costs raised worries about India's energy import bill. Technology stocks saw profit-taking as global investors moved into safer assets. The rupee settled near 94.93 against the US dollar.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May hurt Nifty: A weaker rupee combined with expensive crude oil increases import costs and inflation risks.",
+   "lean": "down",
+   "sectors": [
+    "IT",
+    "Oil & Gas"
+   ],
+   "unverified_figures": [
+    "94.93"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-little-changed-this-week-as-oil-fueled-declines-wipe-out-early-gains/articleshow/135142602.cms"
+    },
+    {
      "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/economy/agri-business/indian-food-ministry-asks-states-to-ensure-no-sugar-is-diverted-for-ethanol/article71612452.ece"
+     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-little-changed-this-week-as-oil-fuelled-declines-wipe-out-early-gains/article71615581.ece"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "found",
-  "2": "found",
-  "3": "none",
-  "4": "none",
+  "1": "none",
+  "2": "none",
+  "3": "found",
+  "4": "found",
   "5": "unverified",
   "6": "unverified",
   "7": "found",
   "8": "found",
-  "9": "found",
+  "9": "unverified",
   "10": "none",
   "11": "found",
-  "12": "found",
+  "12": "none",
   "13": "found",
   "14": "found",
   "15": "found",
@@ -333,7 +388,7 @@
   "27": "unverified",
   "28": "unverified",
   "29": "unverified",
-  "30": "found",
+  "30": "unverified",
   "31": "found",
   "32": "none",
   "33": "unverified",
@@ -346,33 +401,36 @@
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Removed AI text with trading language: Sebi eases margin rules for trades post EPI",
-  "Removed AI text with trading language: Indian Food Ministry asks States to ensure no sugar is diver",
-  "Check figures 112, 123, 94.81 (not found in the source text we read): Rupee snaps eight-day rally as oil climbs to highest since M",
-  "Check figures 12, 30213 (not found in the source text we read): Jio Platforms IPO dents investor bandwidth for listed stocks",
-  "Check figures 0.25, 7.45 (not found in the source text we read): MPC minutes: Two more interest rate hikes on cards, maybe ev"
+  "Check figures 26 (not found in the source text we read): Infosys Q2 Results: Profit rises 6% YoY to Rs 7,823 crore; c",
+  "Check figures 20, 22600 (not found in the source text we read): Sensex today | Stock Market Highlights: Sensex, Nifty extend",
+  "Check figures 1254, 37 (not found in the source text we read): Tata Motors CV posts Rs 2,138 crore Q2 profit",
+  "Check figures 22.19, 70.55 (not found in the source text we read): Jio IPO breaks 12 records: Rs 4.5 lakh crore bids, highest a",
+  "Check figures 7.47 (not found in the source text we read): India's 10-year bond falls for 10th week in record slump",
+  "Check figures 1.28, 30 (not found in the source text we read): BPCL Q2 Results: Net profit declines 21% YoY to Rs 4,863 cro",
+  "Check figures 2.5 (not found in the source text we read): Yes Bank AT1 bonds: Supreme Court overturns write-off, but w",
+  "Check figures 94.93 (not found in the source text we read): Rupee little changed this week as oil-fueled declines wipe o"
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 4,
+   "in_window": 9,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-23T14:05:00+05:30"
+   "newest": "2026-10-23T19:25:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
    "total": 10,
-   "in_window": 0,
+   "in_window": 3,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-19T17:20:00+05:30"
+   "newest": "2026-10-23T17:30:00+05:30"
   },
   "SEBI": {
    "ok": true,
    "total": 30,
-   "in_window": 1,
+   "in_window": 4,
    "no_time": 30,
    "fresh": true,
    "newest": null
@@ -388,7 +446,7 @@
   "PIB (Govt of India)": {
    "ok": true,
    "total": 20,
-   "in_window": 15,
+   "in_window": 20,
    "no_time": 20,
    "fresh": true,
    "newest": null
@@ -396,34 +454,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 0,
+   "in_window": 33,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-23T15:19:47+05:30"
+   "newest": "2026-10-24T03:13:04+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 5,
+   "in_window": 23,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-23T15:44:51+05:30"
+   "newest": "2026-10-24T07:01:11+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 6,
+   "in_window": 10,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-23T15:04:47+05:30"
+   "newest": "2026-10-23T23:46:55+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 19,
+   "in_window": 16,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-23T15:29:50+05:30"
+   "newest": "2026-10-23T23:02:08+05:30"
   }
  }
 }
