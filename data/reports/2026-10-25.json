@@ -1,0 +1,355 @@
+{
+ "status": "ok",
+ "title": "Indian Market News Brief — 25 Oct 2026 — Nifty 50",
+ "generated_at": "2026-10-25T07:53:28.451562+05:30",
+ "window_start": "2026-10-24T15:00:00+05:30",
+ "cutoff": "2026-10-25T07:30:00+05:30",
+ "quick_read": "Strong quarterly profits from selected banks and cable makers may support market mood. However, sharp profit drops in real estate firms and mixed earnings among top IT companies could keep gains in check. Upcoming major stock listings and regulatory steps to improve trading rules create an active backdrop for investors.",
+ "stories": [
+  {
+   "headline": "Reliance Jio IPO listing on Oct 28: Will Mukesh Ambani's firm be in top 5 m-cap? RIL to hold top spot",
+   "time": "2026-10-24T21:19:15+05:30",
+   "factors": [
+    "Heavyweight stocks",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    21,
+    31
+   ],
+   "summary": "Reliance Jio Platforms completed its initial public offering which was subscribed 22.19 times.\nShares are expected to be allotted on October 26 and listed on October 28.\nBased on its offer price band, the company's market value is estimated at 10.30 lakh crore rupees.\nThis valuation could place it among the top five largest companies listed on the BSE.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong demand for a massive new stock listing could boost general investor confidence across the market.",
+   "lean": "up",
+   "sectors": [
+    "Telecom",
+    "Holding Companies"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/reliance-jio-ipo-listing-on-oct-28-will-mukesh-ambanis-firm-be-in-top-5-m-cap-ril-to-hold-top-spot-11792854254054.html"
+    }
+   ]
+  },
+  {
+   "headline": "IT stocks Q2 results analysis: Infosys vs TCS vs Wipro vs HCL vs TechM: Who wins profit, revenue, dividend, AI race?",
+   "time": "2026-10-24T16:22:04+05:30",
+   "factors": [
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    20
+   ],
+   "summary": "Major Indian IT companies showed different performance trends for the September quarter.\nTech Mahindra led in profit and sales growth rates, while HCLTech improved its business outlook.\nTCS won the most deal contracts and led in artificial intelligence business scale.\nInfosys declared the largest interim dividend, while Wipro posted the weakest profit growth.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Uneven financial results across big technology firms mean stock price movements in the IT sector may be mixed.",
+   "lean": "unclear",
+   "sectors": [
+    "Information Technology"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/it-stocks-q2-results-analysis-infosys-vs-tcs-vs-wipro-vs-hcl-vs-techm-who-wins-profit-revenue-dividend-ai-race-11792836774239.html"
+    }
+   ]
+  },
+  {
+   "headline": "AU Small Finance Bank Q2 profit jumps 53% to Rs 858 crore",
+   "time": "2026-10-24T17:21:56+05:30",
+   "factors": [
+    "Banking and liquidity",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    13,
+    20
+   ],
+   "summary": "AU Small Finance Bank reported a 53% increase in net profit to 858 crore rupees for the September quarter.\nIts gross bad loan ratio fell to 1.99% from earlier levels.\nMoney set aside for unpaid loans dropped 25% to 359 crore rupees.\nNet bad loan ratio improved to 0.81% while total credit costs reduced over the year.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Higher profits and lower unpaid loans may encourage buying in private bank shares.",
+   "lean": "up",
+   "sectors": [
+    "Banking",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/au-small-finance-bank-q2-profit-jumps-53-to-rs-858-crore/articleshow/135169847.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Godrej Properties Q2 profit plunges 62% to ₹154 crore, real estate stock down 6.5% in 1 week - What next for investors",
+   "time": "2026-10-24T16:37:13+05:30",
+   "factors": [
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    20
+   ],
+   "summary": "Godrej Properties reported a 62% yearly decline in net profit to 154.15 crore rupees for the September quarter.\nCompany shares dropped over 4% following the earnings release.\nRising construction costs and reduced profit margins were highlighted as main concerns.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Lower profits in major property developers could weaken buyer interest in real estate stocks.",
+   "lean": "down",
+   "sectors": [
+    "Real Estate"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/godrej-properties-q2-profit-falls-62-to-rs-154-crore-real-estate-stock-down-6-5-in-1-week-what-s-next-for-investors-11792839670974.html"
+    }
+   ]
+  },
+  {
+   "headline": "SEBI plans Demat 2.0, graded compliance for brokers",
+   "time": "2026-10-24T17:07:25+05:30",
+   "factors": [
+    "Regulation",
+    "Market structure"
+   ],
+   "factor_ids": [
+    17,
+    30
+   ],
+   "summary": "SEBI plans to launch a updated system named Demat 2.0 for market participants.\nThe plan includes allowing digital corporate bonds to be traded on secondary markets.\nThe regulator also proposes step-by-step compliance rules for stockbrokers.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Easier trading tools and modernized market rules may increase overall trading activity over time.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Capital Markets"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/sebi-plans-demat-20-graded-compliance-for-brokers/article71619642.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Big action! Who is Avadhut Sathe? Why SEBI ordered Avadhut Sathe Trading Academy to refund ₹546 cr - What he did?",
+   "time": "2026-10-24T20:11:07+05:30",
+   "factors": [
+    "Regulation"
+   ],
+   "factor_ids": [
+    17
+   ],
+   "summary": "SEBI ordered Avadhut Sathe and his academy to refund 546.17 crore rupees to clients.\nThe entity must also pay 67.87 crore rupees in interest and 11.5 crore rupees in penalties.\nThe action was taken because the firm gave investment advice without official registration.\nAll refunds must be completed within five months.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Little effect on Nifty: Strict penalty on unregistered stock advisors protects retail traders but does not directly change main company profits.",
+   "lean": "little",
+   "sectors": [
+    "Capital Markets"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/big-action-who-is-avadhut-sathe-why-sebi-ordered-avadhut-sathe-trading-academy-to-refund-rs-546-cr-what-he-did-11792848745624.html"
+    }
+   ]
+  },
+  {
+   "headline": "Crisil shareholders alerts! ₹17 per share dividend, record date announced in Q2 results; stock gained 7% in 2 weeks",
+   "time": "2026-10-24T17:33:12+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    20,
+    31
+   ],
+   "summary": "Crisil reported a 20.2% increase in quarterly revenue to 1,095.16 crore rupees.\nThe company approved a third interim dividend of 17 rupees per share.\nShareholders on record as of October 29 will receive the dividend by November 17, 2026.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Higher revenue and regular cash payouts to shareholders could support demand for financial service stocks.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/crisil-shareholders-alerts-rs-17-per-share-dividend-record-date-announced-in-q2-results-stock-gained-7-in-2-weeks-11792841666173.html"
+    }
+   ]
+  },
+  {
+   "headline": "Cables and wires stock turned multibagger with 318% return in 5 years; InCred sees 29% upside - Do you own? Target price",
+   "time": "2026-10-24T15:43:50+05:30",
+   "factors": [
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    20
+   ],
+   "summary": "KEI Industries released its financial results for the September quarter.\nQuarterly revenue increased by 39% compared to last year.\nOperating profit grew by 40% and net profit rose nearly 29%.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Healthy sales growth in electrical cable makers points to active infrastructure work and supports capital goods shares.",
+   "lean": "up",
+   "sectors": [
+    "Capital Goods"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/cables-and-wires-stock-turned-multibagger-with-318-return-in-5-years-incred-sees-29-upside-do-you-own-target-price-11792836482555.html"
+    }
+   ]
+  },
+  {
+   "headline": "​ऐतिहासिक उपलब्धि: पीएम मोदी का संकल्प हुआ साकार, 11 करोड़ किसानों को मिला फार्मर आईडी का सुरक्षा कवच",
+   "time": null,
+   "factors": [
+    "Government policy"
+   ],
+   "factor_ids": [
+    15
+   ],
+   "summary": "The Central Government has created digital Farmer ID cards for 11 crore farmers.\nThe initiative aims to provide direct access to government benefit schemes.",
+   "confirmation": "Official source",
+   "impact": "Unclear for Nifty: Better identification of farmers helps rural welfare programs, but immediate impact on corporate stock earnings is limited.",
+   "lean": "unclear",
+   "sectors": [
+    "Agriculture"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2327890"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "none",
+  "2": "none",
+  "3": "none",
+  "4": "none",
+  "5": "unverified",
+  "6": "unverified",
+  "7": "none",
+  "8": "none",
+  "9": "unverified",
+  "10": "none",
+  "11": "none",
+  "12": "none",
+  "13": "found",
+  "14": "none",
+  "15": "found",
+  "16": "none",
+  "17": "found",
+  "18": "none",
+  "19": "none",
+  "20": "found",
+  "21": "found",
+  "22": "none",
+  "23": "none",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "unverified",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "found",
+  "31": "found",
+  "32": "none",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "none"
+ },
+ "gaps": [
+  "SEBI: 30 items skipped because no publish time was given",
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar."
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-23T19:25:00+05:30"
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-23T17:30:00+05:30"
+  },
+  "SEBI": {
+   "ok": true,
+   "total": 30,
+   "in_window": 0,
+   "no_time": 30,
+   "fresh": true,
+   "newest": null
+  },
+  "US Federal Reserve": {
+   "ok": true,
+   "total": 20,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-16T20:30:00+05:30"
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 20,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 2,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-24T17:21:56+05:30"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 13,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-25T06:30:53+05:30"
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 1,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-24T22:38:57+05:30"
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 15,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-24T21:52:39+05:30"
+  }
+ }
+}
