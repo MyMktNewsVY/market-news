@@ -1,0 +1,412 @@
+{
+ "status": "ok",
+ "title": "Indian Market News Brief — 26 Oct 2026 — Nifty 50",
+ "generated_at": "2026-10-26T07:56:57.521931+05:30",
+ "window_start": "2026-10-25T15:00:00+05:30",
+ "cutoff": "2026-10-26T07:30:00+05:30",
+ "quick_read": "Higher crude oil prices and rising government borrowing costs may hurt Indian stock markets. Strong overall company earnings from July to September may support market sentiment. Big stock sales like the Jio Platforms IPO are locking up large amounts of investor cash. Overall market direction remains uncertain as foreign selling and global economic concerns continue.",
+ "stories": [
+  {
+   "headline": "Crude oil near $120, to intensify headwinds for economy, but tailwinds likely to reduce pressure",
+   "time": "2026-10-25T16:16:26+05:30",
+   "factors": [
+    "Crude oil",
+    "Inflation and consumption",
+    "Government policy"
+   ],
+   "factor_ids": [
+    8,
+    11,
+    15
+   ],
+   "summary": "Crude oil prices moved close to $120 per barrel.\nHigher crude prices increased government spending on fertilizer subsidies.\nThe government spent over ₹1.03 lakh crore in the first five months of the year.\nThe full-year budget plan for fertilizer subsidy was ₹1.70 lakh crore.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: High crude oil prices make fuel and raw materials costlier, which can lower profit margins for many Indian companies.",
+   "lean": "down",
+   "sectors": [
+    "Oil & Gas",
+    "Fertilizers",
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/economy/crude-oil-near-120-to-intensify-headwinds-for-economy-but-tailwinds-likely-to-reduce-pressure/article71623034.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Bond yields rise nearly 30 bps in Oct, to raise govt's interest burden",
+   "time": "2026-10-25T15:53:52+05:30",
+   "factors": [
+    "Global bond yields",
+    "Indian bond market",
+    "Government policy"
+   ],
+   "factor_ids": [
+    3,
+    14,
+    15
+   ],
+   "summary": "Government bond interest yields increased in October.\nThe yield on 10-year government bonds rose from 7.193 percent on October 6 to 7.474 percent on October 23.\nThis rise of nearly 0.30 percentage points raises borrowing costs for the government.\nExperts say higher interest costs could reduce the government's financial flexibility.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Higher government borrowing costs mean interest rates across the country could stay high, making loans costlier for businesses and home buyers.",
+   "lean": "down",
+   "sectors": [
+    "Banking",
+    "Housing Finance",
+    "Infrastructure"
+   ],
+   "unverified_figures": [
+    "0.30"
+   ],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/bond-yields-rise-nearly-30-bps-in-oct-to-raise-govt-s-interest-burden-126102500377_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Bank Nifty tumbles nearly 3%, slips below 55k: More selling pressure ahead for banking stocks? Check key levels to watch",
+   "time": "2026-10-25T15:38:18+05:30",
+   "factors": [
+    "Crude oil",
+    "Corporate earnings",
+    "Price and volume"
+   ],
+   "factor_ids": [
+    8,
+    20,
+    27
+   ],
+   "summary": "Indian equity benchmark indices fell sharply during a four-session week.\nThe Nifty 50 dropped 2.36 percent while the Bank Nifty fell 2.79 percent.\nRising crude oil prices during the West Asia conflict reduced total investor wealth by nearly ₹21 lakh crore.\nThe Sensex also dropped by 2.15 percent.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Recent sharp falls and high crude oil prices may make investors hesitant to purchase banking and major company shares.",
+   "lean": "down",
+   "sectors": [
+    "Banking",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/bank-nifty-tumbles-nearly-3-slips-below-55k-more-selling-pressure-ahead-for-banking-stocks-check-key-levels-to-watch-11792920838777.html"
+    }
+   ]
+  },
+  {
+   "headline": "Double-digit growth seen on corporate scoreboard in Q2, but bank, IT, pharma lag",
+   "time": "2026-10-26T06:26:52+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Corporate revenue grew 22.1 percent year-on-year in the September quarter.\nNet profit for reporting companies increased by 27.5 percent.\nProfit and revenue growth was higher than in the previous quarter.\nHowever, growth slowed down in banking, IT, and pharmaceutical companies.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Good overall sales and profit growth show corporate strength, though slower growth in banks and tech firms may limit gains.",
+   "lean": "up",
+   "sectors": [
+    "Banking",
+    "Information Technology",
+    "Pharmaceuticals"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/double-digit-growth-seen-on-corporate-scoreboard-in-q2-but-bank-it-pharma-lags/articleshow/135200205.cms"
+    }
+   ]
+  },
+  {
+   "headline": "IPO GMP, subscription race: Reliance Jio Platforms vs Paras Healthcare - Grey market premium, QIB, NII, Retail details",
+   "time": "2026-10-25T17:26:00+05:30",
+   "factors": [
+    "Corporate events",
+    "Domestic investment"
+   ],
+   "factor_ids": [
+    31,
+    19
+   ],
+   "summary": "The IPO of Jio Platforms received overall bids worth more than ₹7.4 lakh crore.\nInvestors subscribed to the offering 22.19 times.\nIn comparison, the Paras Healthcare IPO was subscribed 2.23 times.\nShare allotment for Jio Platforms is expected on October 26.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Huge investor interest shows high market demand, but taking in so much money can temporarily reduce cash available for other shares.",
+   "lean": "unclear",
+   "sectors": [
+    "Telecommunications"
+   ],
+   "unverified_figures": [
+    "26"
+   ],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/ipo/ipo-gmp-subscription-race-reliance-jio-platforms-vs-paras-healthcare-grey-market-premium-qib-nii-retail-details-11792926098381.html"
+    }
+   ]
+  },
+  {
+   "headline": "Insurance commission: NBFCs seek 5-year transition period to reduce selling fee",
+   "time": "2026-10-26T00:56:11+05:30",
+   "factors": [
+    "Regulation",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    17,
+    13
+   ],
+   "summary": "Non-banking finance companies asked insurance regulator IRDAI for a five-year transition period.\nThe regulator proposed lowering selling fee caps to 2 percent for credit life insurance and 5 percent for credit health insurance.\nCurrent distribution costs are around 32 percent of insurance premiums.\nThe industry body stated that lower caps would make credit-linked insurance distribution unviable.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Banks and loan companies may earn less extra income from selling insurance products along with their loans.",
+   "lean": "down",
+   "sectors": [
+    "NBFC",
+    "Banking",
+    "Insurance"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/insurance-commission-nbfcs-seek-5-year-transition-period-to-reduce-selling-fee/articleshow/135200328.cms"
+    }
+   ]
+  },
+  {
+   "headline": "India valuations hit 6-year low, but stocks still expensive than EM peers",
+   "time": "2026-10-26T06:07:25+05:30",
+   "factors": [
+    "Valuation",
+    "Foreign investment",
+    "Rupee"
+   ],
+   "factor_ids": [
+    22,
+    18,
+    7
+   ],
+   "summary": "Indian stock market valuation levels fell to a six-year low after recent price drops.\nForeign investors continued selling Indian shares due to a weaker rupee and high crude oil prices.\nDespite the fall in prices, Indian stocks remain more expensive than stock markets in other developing countries.\nForeign investors remain cautious about coming back to Indian markets.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Lower share prices make entry cheaper for long-term buyers, but higher prices compared to other countries may delay foreign fund entry.",
+   "lean": "unclear",
+   "sectors": [
+    "Broad Market"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/india-valuations-hit-six-year-low-but-more-expensive-than-em-peers/articleshow/135200136.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Senco Gold to acquire 68% stake in August Jewellery for ₹68 crore",
+   "time": "2026-10-25T19:46:02+05:30",
+   "factors": [
+    "Corporate events",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    31,
+    20
+   ],
+   "summary": "Senco Gold announced plans to acquire a 68 percent stake in August Jewellery for ₹68 crore.\nAugust Jewellery owns and operates the retail jewellery brand named Melorra.\nThe investment will take place in multiple steps.\nThe deal is expected to finish by February 2027.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Expanding into a known jewellery brand could help Senco Gold grow its retail network and future earnings.",
+   "lean": "up",
+   "sectors": [
+    "Consumer Discretionary",
+    "Retail"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/companies/news/senco-gold-to-acquire-68-stake-in-august-jewellery-for-68-crore-126102500549_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "RBI data centre to strengthen payment systems, cyber resilience",
+   "time": "2026-10-25T21:56:59+05:30",
+   "factors": [
+    "RBI monetary policy",
+    "Regulation",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    12,
+    17,
+    13
+   ],
+   "summary": "Prime Minister Narendra Modi inaugurated the RBI's new sovereign data centre in Bhubaneswar, Odisha.\nA new cybersecurity training institute was also opened at the location.\nThe data centre will support critical bank transfer systems including RTGS and NEFT.\nIt aims to reduce reliance on third-party cloud service providers.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Little effect on Nifty: Stronger cybersecurity improves banking safety over time, but it does not alter daily stock prices directly.",
+   "lean": "little",
+   "sectors": [
+    "Banking",
+    "Financial Technology"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/rbi-data-centre-to-strengthen-payment-systems-cyber-resilience/articleshow/135200305.cms"
+    }
+   ]
+  },
+  {
+   "headline": "IT stocks dividend record date this week: Cyient, LT Tech, Hexaware, Hypersoft, Sagility - Who pays most? Amount, return",
+   "time": "2026-10-25T20:59:48+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    20,
+    31
+   ],
+   "summary": "Five technology companies have record dates for dividend payments between October 26 and October 30.\nL&T Technology Services announced a payout of ₹20 per share, while Cyient announced ₹12 per share.\nHexaware announced ₹9.50 per share and Sagility announced ₹0.15 per share.\nThe Nifty IT index gained 1.17 percent over five trading sessions.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Cash payouts give direct earnings to shareholders and help support buyer interest in technology stocks.",
+   "lean": "up",
+   "sectors": [
+    "Information Technology"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/it-stocks-dividend-record-date-this-week-cyient-lt-tech-hexaware-hypersoft-sagility-who-pays-most-amount-return-11792938159348.html"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "none",
+  "2": "unverified",
+  "3": "found",
+  "4": "unverified",
+  "5": "unverified",
+  "6": "unverified",
+  "7": "found",
+  "8": "found",
+  "9": "unverified",
+  "10": "none",
+  "11": "found",
+  "12": "found",
+  "13": "found",
+  "14": "found",
+  "15": "found",
+  "16": "none",
+  "17": "found",
+  "18": "found",
+  "19": "found",
+  "20": "found",
+  "21": "found",
+  "22": "found",
+  "23": "none",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "found",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "unverified",
+  "31": "found",
+  "32": "none",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "none"
+ },
+ "gaps": [
+  "Source unavailable: US Federal Reserve",
+  "SEBI: 30 items skipped because no publish time was given",
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "Check figures 0.30 (not found in the source text we read): Bond yields rise nearly 30 bps in Oct, to raise govt's inter",
+  "Check figures 26 (not found in the source text we read): IPO GMP, subscription race: Reliance Jio Platforms vs Paras "
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 1,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-25T19:50:00+05:30"
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-23T17:30:00+05:30"
+  },
+  "SEBI": {
+   "ok": true,
+   "total": 30,
+   "in_window": 0,
+   "no_time": 30,
+   "fresh": true,
+   "newest": null
+  },
+  "US Federal Reserve": {
+   "ok": false,
+   "error": "HTTP Error 404: Not Found"
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 20,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 23,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-26T07:28:05+05:30"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 18,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-26T07:31:46+05:30"
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 4,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-26T07:45:51+05:30"
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 5,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-26T07:42:56+05:30"
+  }
+ }
+}
