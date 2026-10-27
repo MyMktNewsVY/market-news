@@ -1,105 +1,137 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 26 Oct 2026 — Nifty 50",
- "generated_at": "2026-10-26T07:56:57.521931+05:30",
- "window_start": "2026-10-25T15:00:00+05:30",
- "cutoff": "2026-10-26T07:30:00+05:30",
- "quick_read": "Higher crude oil prices and rising government borrowing costs may hurt Indian stock markets. Strong overall company earnings from July to September may support market sentiment. Big stock sales like the Jio Platforms IPO are locking up large amounts of investor cash. Overall market direction remains uncertain as foreign selling and global economic concerns continue.",
+ "title": "Indian Market News Brief — 27 Oct 2026 — Nifty 50",
+ "generated_at": "2026-10-27T07:54:33.790909+05:30",
+ "window_start": "2026-10-26T15:00:00+05:30",
+ "cutoff": "2026-10-27T07:30:00+05:30",
+ "quick_read": "What may help the market: Strong quarterly earnings from major consumer and banking firms, along with buying in metal and healthcare stocks, offer support. What may hurt it: A falling rupee, higher bond interest rates, and potential central bank interest rate hikes could raise borrowing costs. What is unclear: Low coal stocks at power plants during a period of high electricity demand make the energy sector outlook uncertain.",
  "stories": [
   {
-   "headline": "Crude oil near $120, to intensify headwinds for economy, but tailwinds likely to reduce pressure",
-   "time": "2026-10-25T16:16:26+05:30",
+   "headline": "Sensex today | Stock Market Highlights: Stock markets rebound after 4-day slump; Sensex jumps 483 points",
+   "time": "2026-10-26T16:42:59+05:30",
    "factors": [
-    "Crude oil",
-    "Inflation and consumption",
-    "Government policy"
+    "Market breadth",
+    "Heavyweight stocks"
    ],
    "factor_ids": [
-    8,
-    11,
-    15
+    26,
+    21
    ],
-   "summary": "Crude oil prices moved close to $120 per barrel.\nHigher crude prices increased government spending on fertilizer subsidies.\nThe government spent over ₹1.03 lakh crore in the first five months of the year.\nThe full-year budget plan for fertilizer subsidy was ₹1.70 lakh crore.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: High crude oil prices make fuel and raw materials costlier, which can lower profit margins for many Indian companies.",
-   "lean": "down",
+   "summary": "The Indian stock market ended its four-day falling trend on Monday.\nThe Sensex index jumped nearly 483 points during the trading session.\nThe Nifty index closed above the 22,750 level.\nGains were driven by buying in metal, telecom, and healthcare shares.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Fresh buying after recent share price falls could give short-term support to the overall market.",
+   "lean": "up",
    "sectors": [
-    "Oil & Gas",
-    "Fertilizers",
-    "Automobiles"
+    "Metals",
+    "Telecom",
+    "Healthcare"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/economy/crude-oil-near-120-to-intensify-headwinds-for-economy-but-tailwinds-likely-to-reduce-pressure/article71623034.ece"
+     "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-26-october-2026/article71622964.ece"
+    },
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/stock-markets-rebound-after-4-day-slump-sensex-jumps-483-points-126102601657_1.html"
     }
    ]
   },
   {
-   "headline": "Bond yields rise nearly 30 bps in Oct, to raise govt's interest burden",
-   "time": "2026-10-25T15:53:52+05:30",
+   "headline": "SBI Chairman CS Setty sees discretionary credit demand moderating, expects 50 bps rate hike in December",
+   "time": "2026-10-26T15:00:59+05:30",
    "factors": [
-    "Global bond yields",
-    "Indian bond market",
-    "Government policy"
+    "RBI monetary policy",
+    "Banking and liquidity",
+    "Heavyweight stocks"
    ],
    "factor_ids": [
-    3,
-    14,
-    15
+    12,
+    13,
+    21
    ],
-   "summary": "Government bond interest yields increased in October.\nThe yield on 10-year government bonds rose from 7.193 percent on October 6 to 7.474 percent on October 23.\nThis rise of nearly 0.30 percentage points raises borrowing costs for the government.\nExperts say higher interest costs could reduce the government's financial flexibility.",
+   "summary": "State Bank of India Chairman CS Setty expects central bank interest rates to rise.\nHe forecasts a 0.50 percentage point increase in the repo rate in December.\nHe expects higher interest rates to slow down credit demand from borrowers.\nSlowing loan demand may mainly affect spending on non-essential consumer goods.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Higher government borrowing costs mean interest rates across the country could stay high, making loans costlier for businesses and home buyers.",
+   "impact": "May hurt Nifty: Costlier loans could reduce consumer spending and increase borrowing costs for businesses.",
    "lean": "down",
    "sectors": [
     "Banking",
-    "Housing Finance",
-    "Infrastructure"
+    "Finance",
+    "Automobiles",
+    "Real Estate"
    ],
    "unverified_figures": [
-    "0.30"
+    "0.50"
    ],
    "sources": [
     {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/bond-yields-rise-nearly-30-bps-in-oct-to-raise-govt-s-interest-burden-126102500377_1.html"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sbi-chairman-cs-setty-sees-discretionary-credit-demand-moderating-expects-50-bps-rate-hike-in-december/articleshow/135222275.cms"
     }
    ]
   },
   {
-   "headline": "Bank Nifty tumbles nearly 3%, slips below 55k: More selling pressure ahead for banking stocks? Check key levels to watch",
-   "time": "2026-10-25T15:38:18+05:30",
+   "headline": "Rupee falls 29 paise to close at 95.22 against US dollar",
+   "time": "2026-10-26T16:34:23+05:30",
    "factors": [
-    "Crude oil",
-    "Corporate earnings",
-    "Price and volume"
+    "Rupee",
+    "US dollar"
    ],
    "factor_ids": [
-    8,
-    20,
-    27
+    7,
+    4
    ],
-   "summary": "Indian equity benchmark indices fell sharply during a four-session week.\nThe Nifty 50 dropped 2.36 percent while the Bank Nifty fell 2.79 percent.\nRising crude oil prices during the West Asia conflict reduced total investor wealth by nearly ₹21 lakh crore.\nThe Sensex also dropped by 2.15 percent.",
+   "summary": "The Indian rupee fell by 29 paise against the US dollar.\nIt opened at 94.92 and reached a low of 95.26 during the day.\nThe rupee finally closed at 95.22 per dollar.\nThis marked the third straight session of weakness for the local currency.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Recent sharp falls and high crude oil prices may make investors hesitant to purchase banking and major company shares.",
+   "impact": "May hurt Nifty: A weaker rupee makes imported goods costlier for domestic firms and can push up general inflation.",
    "lean": "down",
    "sectors": [
-    "Banking",
-    "Financial Services"
+    "Foreign Exchange",
+    "Imports",
+    "Information Technology"
    ],
    "unverified_figures": [],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/bank-nifty-tumbles-nearly-3-slips-below-55k-more-selling-pressure-ahead-for-banking-stocks-check-key-levels-to-watch-11792920838777.html"
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-falls-29-paise-to-close-at-9522-against-us-dollar/article71626575.ece"
     }
    ]
   },
   {
-   "headline": "Double-digit growth seen on corporate scoreboard in Q2, but bank, IT, pharma lag",
-   "time": "2026-10-26T06:26:52+05:30",
+   "headline": "Benchmark bond yield nears 7.5% on rising crude oil prices, US cues",
+   "time": "2026-10-26T19:08:22+05:30",
+   "factors": [
+    "Global bond yields",
+    "Indian bond market",
+    "Crude oil"
+   ],
+   "factor_ids": [
+    3,
+    14,
+    8
+   ],
+   "summary": "The interest rate on India's benchmark 10-year government bond rose to 7.48 percent.\nThis is the highest interest rate level recorded since October 2022.\nThe rise was driven by higher international crude oil prices.\nFirm US government bond rates also pushed Indian bond yields higher.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Higher government borrowing rates make loans more expensive across the entire economy.",
+   "lean": "down",
+   "sectors": [
+    "Banking",
+    "Finance",
+    "Government Bonds"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/govt-bond-yields-rise-to-four-year-high-as-crude-us-treasury-yields-weigh-126102601296_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Tata Consumer Q2 Results: Net profit rises 16% YoY to Rs 470 crore, revenue up 14%",
+   "time": "2026-10-26T17:42:43+05:30",
    "factors": [
     "Corporate earnings",
     "Heavyweight stocks"
@@ -108,166 +140,50 @@
     20,
     21
    ],
-   "summary": "Corporate revenue grew 22.1 percent year-on-year in the September quarter.\nNet profit for reporting companies increased by 27.5 percent.\nProfit and revenue growth was higher than in the previous quarter.\nHowever, growth slowed down in banking, IT, and pharmaceutical companies.",
+   "summary": "Tata Consumer Products reported its second quarter financial results.\nNet profit grew by 16 percent year-on-year to Rs 470 crore.\nTotal revenue from operations rose by 14 percent to Rs 5,661 crore.\nGrowth was driven by strong sales of salt and new growth products in India.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Good overall sales and profit growth show corporate strength, though slower growth in banks and tech firms may limit gains.",
+   "impact": "May help Nifty: Steady sales and profit growth in consumer goods can improve market sentiment for fast-moving consumer goods companies.",
    "lean": "up",
    "sectors": [
-    "Banking",
-    "Information Technology",
-    "Pharmaceuticals"
+    "Consumer Goods"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/double-digit-growth-seen-on-corporate-scoreboard-in-q2-but-bank-it-pharma-lags/articleshow/135200205.cms"
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-consumer-q2-results-net-profit-rises-16-yoy-to-rs-470-crore-revenue-up-14/articleshow/135211637.cms"
     }
    ]
   },
   {
-   "headline": "IPO GMP, subscription race: Reliance Jio Platforms vs Paras Healthcare - Grey market premium, QIB, NII, Retail details",
-   "time": "2026-10-25T17:26:00+05:30",
+   "headline": "Bank of Maharashtra Q2 profit jumps 41.5% as bad loans decline",
+   "time": "2026-10-26T20:34:08+05:30",
    "factors": [
-    "Corporate events",
-    "Domestic investment"
-   ],
-   "factor_ids": [
-    31,
-    19
-   ],
-   "summary": "The IPO of Jio Platforms received overall bids worth more than ₹7.4 lakh crore.\nInvestors subscribed to the offering 22.19 times.\nIn comparison, the Paras Healthcare IPO was subscribed 2.23 times.\nShare allotment for Jio Platforms is expected on October 26.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Huge investor interest shows high market demand, but taking in so much money can temporarily reduce cash available for other shares.",
-   "lean": "unclear",
-   "sectors": [
-    "Telecommunications"
-   ],
-   "unverified_figures": [
-    "26"
-   ],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/ipo/ipo-gmp-subscription-race-reliance-jio-platforms-vs-paras-healthcare-grey-market-premium-qib-nii-retail-details-11792926098381.html"
-    }
-   ]
-  },
-  {
-   "headline": "Insurance commission: NBFCs seek 5-year transition period to reduce selling fee",
-   "time": "2026-10-26T00:56:11+05:30",
-   "factors": [
-    "Regulation",
+    "Corporate earnings",
     "Banking and liquidity"
    ],
    "factor_ids": [
-    17,
+    20,
     13
    ],
-   "summary": "Non-banking finance companies asked insurance regulator IRDAI for a five-year transition period.\nThe regulator proposed lowering selling fee caps to 2 percent for credit life insurance and 5 percent for credit health insurance.\nCurrent distribution costs are around 32 percent of insurance premiums.\nThe industry body stated that lower caps would make credit-linked insurance distribution unviable.",
+   "summary": "Bank of Maharashtra announced its second quarter financial results.\nNet profit jumped 41.5 percent year-on-year to Rs 2,310 crore.\nThe profit was supported by strong deposit and loan growth.\nUnpaid bad loans decreased during the quarter.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Banks and loan companies may earn less extra income from selling insurance products along with their loans.",
-   "lean": "down",
-   "sectors": [
-    "NBFC",
-    "Banking",
-    "Insurance"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/insurance-commission-nbfcs-seek-5-year-transition-period-to-reduce-selling-fee/articleshow/135200328.cms"
-    }
-   ]
-  },
-  {
-   "headline": "India valuations hit 6-year low, but stocks still expensive than EM peers",
-   "time": "2026-10-26T06:07:25+05:30",
-   "factors": [
-    "Valuation",
-    "Foreign investment",
-    "Rupee"
-   ],
-   "factor_ids": [
-    22,
-    18,
-    7
-   ],
-   "summary": "Indian stock market valuation levels fell to a six-year low after recent price drops.\nForeign investors continued selling Indian shares due to a weaker rupee and high crude oil prices.\nDespite the fall in prices, Indian stocks remain more expensive than stock markets in other developing countries.\nForeign investors remain cautious about coming back to Indian markets.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Lower share prices make entry cheaper for long-term buyers, but higher prices compared to other countries may delay foreign fund entry.",
-   "lean": "unclear",
-   "sectors": [
-    "Broad Market"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/india-valuations-hit-six-year-low-but-more-expensive-than-em-peers/articleshow/135200136.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Senco Gold to acquire 68% stake in August Jewellery for ₹68 crore",
-   "time": "2026-10-25T19:46:02+05:30",
-   "factors": [
-    "Corporate events",
-    "Corporate earnings"
-   ],
-   "factor_ids": [
-    31,
-    20
-   ],
-   "summary": "Senco Gold announced plans to acquire a 68 percent stake in August Jewellery for ₹68 crore.\nAugust Jewellery owns and operates the retail jewellery brand named Melorra.\nThe investment will take place in multiple steps.\nThe deal is expected to finish by February 2027.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Expanding into a known jewellery brand could help Senco Gold grow its retail network and future earnings.",
+   "impact": "May help Nifty: Higher earnings and improving loan recovery in public sector banks could support banking shares.",
    "lean": "up",
    "sectors": [
-    "Consumer Discretionary",
-    "Retail"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/companies/news/senco-gold-to-acquire-68-stake-in-august-jewellery-for-68-crore-126102500549_1.html"
-    }
-   ]
-  },
-  {
-   "headline": "RBI data centre to strengthen payment systems, cyber resilience",
-   "time": "2026-10-25T21:56:59+05:30",
-   "factors": [
-    "RBI monetary policy",
-    "Regulation",
-    "Banking and liquidity"
-   ],
-   "factor_ids": [
-    12,
-    17,
-    13
-   ],
-   "summary": "Prime Minister Narendra Modi inaugurated the RBI's new sovereign data centre in Bhubaneswar, Odisha.\nA new cybersecurity training institute was also opened at the location.\nThe data centre will support critical bank transfer systems including RTGS and NEFT.\nIt aims to reduce reliance on third-party cloud service providers.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Little effect on Nifty: Stronger cybersecurity improves banking safety over time, but it does not alter daily stock prices directly.",
-   "lean": "little",
-   "sectors": [
-    "Banking",
-    "Financial Technology"
+    "Banking"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/rbi-data-centre-to-strengthen-payment-systems-cyber-resilience/articleshow/135200305.cms"
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bank-of-maharashtra-q2-profit-jumps-41-5-as-bad-loans-decline/articleshow/135214440.cms"
     }
    ]
   },
   {
-   "headline": "IT stocks dividend record date this week: Cyient, LT Tech, Hexaware, Hypersoft, Sagility - Who pays most? Amount, return",
-   "time": "2026-10-25T20:59:48+05:30",
+   "headline": "Paytm Q2 Results: Profit rockets 976% YoY to Rs 226 crore, revenue jumps 28%",
+   "time": "2026-10-26T21:15:42+05:30",
    "factors": [
     "Corporate earnings",
     "Corporate events"
@@ -276,50 +192,159 @@
     20,
     31
    ],
-   "summary": "Five technology companies have record dates for dividend payments between October 26 and October 30.\nL&T Technology Services announced a payout of ₹20 per share, while Cyient announced ₹12 per share.\nHexaware announced ₹9.50 per share and Sagility announced ₹0.15 per share.\nThe Nifty IT index gained 1.17 percent over five trading sessions.",
+   "summary": "Paytm released its quarterly financial report for the second quarter.\nConsolidated net profit rose to Rs 226 crore from Rs 21 crore a year ago.\nRevenue from operations increased by 28 percent year-on-year to Rs 2,648 crore.\nThe digital payments firm showed strong operational financial growth.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Cash payouts give direct earnings to shareholders and help support buyer interest in technology stocks.",
+   "impact": "May help Nifty: Strong earnings growth in financial technology companies can boost investor trust in digital services.",
    "lean": "up",
    "sectors": [
-    "Information Technology"
+    "Financial Services",
+    "Technology"
    ],
    "unverified_figures": [],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/it-stocks-dividend-record-date-this-week-cyient-lt-tech-hexaware-hypersoft-sagility-who-pays-most-amount-return-11792938159348.html"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/paytm-q2-results-profit-rockets-976-yoy-to-rs-226-crore-revenue-jumps-28/articleshow/135214973.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Shriram Finance shares falls 5% as analysts cut targets after Q2 results",
+   "time": "2026-10-26T15:40:49+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Shriram Finance shares fell by 5 percent following its second quarter results.\nWhile overall profit grew, stock analysts raised concerns over credit costs.\nWorries centered on loan recovery and asset quality during the quarter.\nSeveral brokerage firms reduced their price targets for the share.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Concerns over loan unpaid balances in non-banking lenders can weigh on the non-bank financial sector.",
+   "lean": "down",
+   "sectors": [
+    "Finance",
+    "Non-Banking Financial Companies"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/companies/shriram-finance-slides-5-as-analysts-slash-targets-after-mixed-q2-results/article71625892.ece"
+    }
+   ]
+  },
+  {
+   "headline": "The Rs 1.5 lakh crore MTF problem: How shrinking leveraged positions are deepening India's smallcap sell-off",
+   "time": "2026-10-26T20:31:48+05:30",
+   "factors": [
+    "Domestic investment",
+    "Market breadth"
+   ],
+   "factor_ids": [
+    19,
+    26
+   ],
+   "summary": "The selling pressure on smaller Indian companies has increased recently.\nInvestors are reducing share positions funded by margin loans.\nNearly Rs 72,000 crore worth of loans were backed by small-cap shares.\nForced sales of pledged shares are putting downward pressure on prices.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Forced selling in smaller companies can reduce broader market confidence.",
+   "lean": "down",
+   "sectors": [
+    "Small-Cap Companies"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/the-rs-1-5-lakh-crore-mtf-problem-how-shrinking-leveraged-positions-are-deepening-indias-smallcap-sell-off/articleshow/135214401.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Almost half of domestic coal-based power plants have critical stocks",
+   "time": "2026-10-26T22:04:28+05:30",
+   "factors": [
+    "GDP and growth",
+    "Government policy"
+   ],
+   "factor_ids": [
+    10,
+    15
+   ],
+   "summary": "Electricity demand in India rose by 23.4 percent in early October.\nThis sharp increase in power usage strained existing coal inventories.\nNearly half of domestic coal-based power plants have critically low coal stocks.\nIncreased coal production is needed to maintain continuous electricity supply.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Low coal supply can disrupt power output, but high electricity usage reflects active economic operations.",
+   "lean": "unclear",
+   "sectors": [
+    "Power",
+    "Coal",
+    "Utilities"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/almost-half-of-domestic-coal-based-power-plants-have-critical-stocks/article71627830.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Dalmia Bharat posts Rs 205 crore Q2 loss on exceptional hit",
+   "time": "2026-10-26T23:49:52+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Other commodities"
+   ],
+   "factor_ids": [
+    20,
+    9
+   ],
+   "summary": "Dalmia Bharat reported a net loss of Rs 205 crore for the July-September quarter.\nThe loss was caused by a one-time charge of Rs 339 crore for asset impairments.\nSales volume rose 3 percent, but operating earnings fell by 29 percent.\nPower and fuel expenses for the cement maker jumped 22 percent during the quarter.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Higher energy costs reducing cement company margins can weigh on building material shares.",
+   "lean": "down",
+   "sectors": [
+    "Cement",
+    "Building Materials"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/dalmia-bharat-posts-rs-205-crore-q2-loss-on-exceptional-hit/articleshow/135217688.cms"
     }
    ]
   }
  ],
  "factor_status": {
   "1": "none",
-  "2": "unverified",
+  "2": "none",
   "3": "found",
-  "4": "unverified",
+  "4": "found",
   "5": "unverified",
   "6": "unverified",
   "7": "found",
   "8": "found",
-  "9": "unverified",
-  "10": "none",
-  "11": "found",
+  "9": "found",
+  "10": "found",
+  "11": "none",
   "12": "found",
   "13": "found",
   "14": "found",
   "15": "found",
   "16": "none",
-  "17": "found",
-  "18": "found",
+  "17": "none",
+  "18": "none",
   "19": "found",
   "20": "found",
   "21": "found",
-  "22": "found",
+  "22": "none",
   "23": "none",
   "24": "unverified",
   "25": "unverified",
-  "26": "unverified",
-  "27": "found",
+  "26": "found",
+  "27": "unverified",
   "28": "unverified",
   "29": "unverified",
   "30": "unverified",
@@ -331,22 +356,20 @@
   "36": "none"
  },
  "gaps": [
-  "Source unavailable: US Federal Reserve",
   "SEBI: 30 items skipped because no publish time was given",
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Check figures 0.30 (not found in the source text we read): Bond yields rise nearly 30 bps in Oct, to raise govt's inter",
-  "Check figures 26 (not found in the source text we read): IPO GMP, subscription race: Reliance Jio Platforms vs Paras "
+  "Check figures 0.50 (not found in the source text we read): SBI Chairman CS Setty sees discretionary credit demand moder"
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 1,
+   "in_window": 2,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-25T19:50:00+05:30"
+   "newest": "2026-10-26T18:20:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
@@ -359,14 +382,18 @@
   "SEBI": {
    "ok": true,
    "total": 30,
-   "in_window": 0,
+   "in_window": 4,
    "no_time": 30,
    "fresh": true,
    "newest": null
   },
   "US Federal Reserve": {
-   "ok": false,
-   "error": "HTTP Error 404: Not Found"
+   "ok": true,
+   "total": 20,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-16T20:30:00+05:30"
   },
   "PIB (Govt of India)": {
    "ok": true,
@@ -379,34 +406,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 23,
+   "in_window": 48,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-26T07:28:05+05:30"
+   "newest": "2026-10-27T07:35:46+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 18,
+   "in_window": 21,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-26T07:31:46+05:30"
+   "newest": "2026-10-27T07:29:51+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 4,
+   "in_window": 12,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-26T07:45:51+05:30"
+   "newest": "2026-10-27T00:40:04+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 5,
+   "in_window": 32,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-26T07:42:56+05:30"
+   "newest": "2026-10-27T07:51:03+05:30"
   }
  }
 }
