@@ -1,297 +1,242 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 27 Oct 2026 — Nifty 50",
- "generated_at": "2026-10-27T07:54:33.790909+05:30",
- "window_start": "2026-10-26T15:00:00+05:30",
- "cutoff": "2026-10-27T07:30:00+05:30",
- "quick_read": "What may help the market: Strong quarterly earnings from major consumer and banking firms, along with buying in metal and healthcare stocks, offer support. What may hurt it: A falling rupee, higher bond interest rates, and potential central bank interest rate hikes could raise borrowing costs. What is unclear: Low coal stocks at power plants during a period of high electricity demand make the energy sector outlook uncertain.",
+ "title": "Indian Market News Brief — 28 Oct 2026 — Nifty 50",
+ "generated_at": "2026-10-28T08:06:40.255027+05:30",
+ "window_start": "2026-10-27T15:00:00+05:30",
+ "cutoff": "2026-10-28T07:30:00+05:30",
+ "quick_read": "Strong profit growth at major companies like L&T and Bajaj Auto may support the market. However, crude oil prices crossing 120 dollars per barrel and lower earnings from Maruti Suzuki and Mazagon Dock could create pressure. Proposed regulatory changes for options trading and weather concerns add further uncertainty.",
  "stories": [
   {
-   "headline": "Sensex today | Stock Market Highlights: Stock markets rebound after 4-day slump; Sensex jumps 483 points",
-   "time": "2026-10-26T16:42:59+05:30",
+   "headline": "India’s crude basket price tops $120 a barrel amid West Asia war",
+   "time": "2026-10-27T22:43:02+05:30",
    "factors": [
-    "Market breadth",
-    "Heavyweight stocks"
+    "Crude oil",
+    "Inflation and consumption",
+    "Geopolitics and trade"
    ],
    "factor_ids": [
-    26,
-    21
+    8,
+    11,
+    6
    ],
-   "summary": "The Indian stock market ended its four-day falling trend on Monday.\nThe Sensex index jumped nearly 483 points during the trading session.\nThe Nifty index closed above the 22,750 level.\nGains were driven by buying in metal, telecom, and healthcare shares.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "May help Nifty: Fresh buying after recent share price falls could give short-term support to the overall market.",
-   "lean": "up",
+   "summary": "India's crude oil purchase price has crossed 120 dollars per barrel due to the ongoing West Asia war. Shipping insurance costs and transport fees have also increased. Higher crude prices make fuel and raw materials more expensive across the country.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: High oil prices can raise inflation and increase operating costs for many Indian companies.",
+   "lean": "down",
    "sectors": [
-    "Metals",
-    "Telecom",
-    "Healthcare"
+    "Energy",
+    "Paints",
+    "Airlines",
+    "Automobiles"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-26-october-2026/article71622964.ece"
+     "url": "https://www.thehindubusinessline.com/economy/oil-import-bill-rises-on-west-asia-conflict/article71632295.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Larsen & Toubro Q2 Results: Profit surges 33% YoY to Rs 5,202 crore, revenue grows 16%",
+   "time": "2026-10-27T17:39:00+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Larsen and Toubro reported a 33 percent year-on-year increase in net profit to 5,202 crore rupees for the second quarter. Total revenue grew by 16 percent during the same period. The company showed healthy business growth across its infrastructure operations.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong results from a major infrastructure company can boost overall market confidence.",
+   "lean": "up",
+   "sectors": [
+    "Capital Goods",
+    "Infrastructure"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/larsen-toubro-q2-results-profit-surges-33-yoy-to-rs-5202-crore-revenue-grows-16/articleshow/135233297.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Bajaj Auto Q2 Results: Profit jumps 35% YoY to Rs 3,354 crore; revenue up 34%",
+   "time": "2026-10-27T15:33:12+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Bajaj Auto posted a 35 percent jump in net profit to 3,354 crore rupees for the July to September quarter. Quarterly revenue rose 34 percent to 20,003 crore rupees, crossing this milestone for the first time. Operating profit grew over 37 percent.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Good profit and sales growth signal strong demand in the two-wheeler auto sector.",
+   "lean": "up",
+   "sectors": [
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bajaj-auto-q2-results-profit-jumps-35-yoy-to-rs-3354-crore-revenue-up-34/articleshow/135230311.cms"
+    },
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/cipla-q2-net-profit-falls-35-to-rs-878-crore-revenue-dips-2/articleshow/135230643.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Maruti Suzuki Q2 Results: Profit falls 26% YoY to Rs 2,466 crore, but revenue rises 26%",
+   "time": "2026-10-27T15:43:00+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Maruti Suzuki reported a 26 percent fall in second-quarter net profit to 2,466 crore rupees. However, quarterly revenue grew by 26 percent to 53,356 crore rupees. Higher material costs and employee expenses increased total operating expenses.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Lower profit margins at the country's top carmaker may weigh on auto sector sentiment.",
+   "lean": "down",
+   "sectors": [
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/maruti-suzuki-q2-results-profit-falls-26-yoy-to-rs-2466-crore-but-revenue-rises-26/articleshow/135230515.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Indian lenders defer dollar debt sale plan as rates turn expensive",
+   "time": "2026-10-27T15:33:49+05:30",
+   "factors": [
+    "Banking and liquidity",
+    "Global bond yields",
+    "Rupee"
+   ],
+   "factor_ids": [
+    13,
+    3,
+    7
+   ],
+   "summary": "Several Indian banks including Canara Bank and Punjab National Bank are delaying plans to sell dollar debt abroad. Rising US borrowing costs and a weaker rupee have made foreign loans expensive. A currency protection facility from the Reserve Bank of India is also ending in December.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Banks",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-lenders-defer-dollar-debt-sale-plan-as-rates-turn-expensive/articleshow/135230457.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Defence stocks rally: Apollo Micro Systems, Data Patterns, BEML, HAL, BEL surge as DAC clears acquisition push, Aequs & Mazagon Dock slump after Q2",
+   "time": "2026-10-27T16:29:05+05:30",
+   "factors": [
+    "Government policy",
+    "Sector rotation"
+   ],
+   "factor_ids": [
+    15,
+    23
+   ],
+   "summary": "Defence company shares rose after the Defence Acquisition Council cleared new purchase proposals. Shares of Apollo Micro Systems and Data Patterns climbed over 9 percent. Key state-run suppliers including Hindustan Aeronautics and Bharat Electronics also gained.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Fresh government spending approvals provide clear business visibility for defence manufacturers.",
+   "lean": "up",
+   "sectors": [
+    "Capital Goods",
+    "Defence"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/stock-markets/defence-stocks-rally-apollo-micro-systems-data-patterns-hal-bel-surge-as-dac-clears-acquisition-push-aequs-tanks-19-after-q2/article71629852.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Derivatives trading may need more guardrails, says Sebi's KVR Murty",
+   "time": "2026-10-27T18:29:29+05:30",
+   "factors": [
+    "Regulation",
+    "Derivatives positioning"
+   ],
+   "factor_ids": [
+    17,
+    28
+   ],
+   "summary": "Market regulator SEBI is reviewing whether additional safety rules are needed for trading in futures and options. An official noted that extra checks are being discussed for days when trading contracts expire. This comes during a period of high trading activity by small investors.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Stricter trading rules may lower trading volumes across stock brokerages.",
+   "lean": "unclear",
+   "sectors": [
+    "Financial Services",
+    "Capital Markets"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/sebi-may-consider-more-guardrails-for-derivatives-trading-says-murty-126102701292_1.html"
     },
     {
      "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/stock-markets-rebound-after-4-day-slump-sensex-jumps-483-points-126102601657_1.html"
+     "url": "https://www.business-standard.com/specials/bs-events/derivatives-trading-may-need-more-guardrails-says-sebi-wtm-murty-126102701762_1.html"
     }
    ]
   },
   {
-   "headline": "SBI Chairman CS Setty sees discretionary credit demand moderating, expects 50 bps rate hike in December",
-   "time": "2026-10-26T15:00:59+05:30",
+   "headline": "El Nino ramping up into a ‘very strong' weather event as index surges to 18-year high",
+   "time": "2026-10-27T18:18:22+05:30",
    "factors": [
-    "RBI monetary policy",
-    "Banking and liquidity",
-    "Heavyweight stocks"
+    "Inflation and consumption",
+    "Seasonal factors"
    ],
    "factor_ids": [
-    12,
-    13,
-    21
+    11,
+    34
    ],
-   "summary": "State Bank of India Chairman CS Setty expects central bank interest rates to rise.\nHe forecasts a 0.50 percentage point increase in the repo rate in December.\nHe expects higher interest rates to slow down credit demand from borrowers.\nSlowing loan demand may mainly affect spending on non-essential consumer goods.",
+   "summary": "The Australian weather agency reported that the El Nino weather system is strengthening rapidly. The ocean temperature measure reached its highest level since 2008 in late October. A positive weather event in the Indian Ocean is also active at the same time.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Costlier loans could reduce consumer spending and increase borrowing costs for businesses.",
+   "impact": "May hurt Nifty: Weak monsoon patterns could lower farm output and push up food prices.",
    "lean": "down",
    "sectors": [
-    "Banking",
-    "Finance",
-    "Automobiles",
-    "Real Estate"
-   ],
-   "unverified_figures": [
-    "0.50"
-   ],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sbi-chairman-cs-setty-sees-discretionary-credit-demand-moderating-expects-50-bps-rate-hike-in-december/articleshow/135222275.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Rupee falls 29 paise to close at 95.22 against US dollar",
-   "time": "2026-10-26T16:34:23+05:30",
-   "factors": [
-    "Rupee",
-    "US dollar"
-   ],
-   "factor_ids": [
-    7,
-    4
-   ],
-   "summary": "The Indian rupee fell by 29 paise against the US dollar.\nIt opened at 94.92 and reached a low of 95.26 during the day.\nThe rupee finally closed at 95.22 per dollar.\nThis marked the third straight session of weakness for the local currency.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: A weaker rupee makes imported goods costlier for domestic firms and can push up general inflation.",
-   "lean": "down",
-   "sectors": [
-    "Foreign Exchange",
-    "Imports",
-    "Information Technology"
+    "Consumer Goods",
+    "Agriculture"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-falls-29-paise-to-close-at-9522-against-us-dollar/article71626575.ece"
+     "url": "https://www.thehindubusinessline.com/economy/agri-business/el-nino-ramping-up-into-a-very-strong-weather-event-as-index-surges-to-18-year-high/article71630196.ece"
     }
    ]
   },
   {
-   "headline": "Benchmark bond yield nears 7.5% on rising crude oil prices, US cues",
-   "time": "2026-10-26T19:08:22+05:30",
-   "factors": [
-    "Global bond yields",
-    "Indian bond market",
-    "Crude oil"
-   ],
-   "factor_ids": [
-    3,
-    14,
-    8
-   ],
-   "summary": "The interest rate on India's benchmark 10-year government bond rose to 7.48 percent.\nThis is the highest interest rate level recorded since October 2022.\nThe rise was driven by higher international crude oil prices.\nFirm US government bond rates also pushed Indian bond yields higher.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Higher government borrowing rates make loans more expensive across the entire economy.",
-   "lean": "down",
-   "sectors": [
-    "Banking",
-    "Finance",
-    "Government Bonds"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/govt-bond-yields-rise-to-four-year-high-as-crude-us-treasury-yields-weigh-126102601296_1.html"
-    }
-   ]
-  },
-  {
-   "headline": "Tata Consumer Q2 Results: Net profit rises 16% YoY to Rs 470 crore, revenue up 14%",
-   "time": "2026-10-26T17:42:43+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    20,
-    21
-   ],
-   "summary": "Tata Consumer Products reported its second quarter financial results.\nNet profit grew by 16 percent year-on-year to Rs 470 crore.\nTotal revenue from operations rose by 14 percent to Rs 5,661 crore.\nGrowth was driven by strong sales of salt and new growth products in India.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Steady sales and profit growth in consumer goods can improve market sentiment for fast-moving consumer goods companies.",
-   "lean": "up",
-   "sectors": [
-    "Consumer Goods"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-consumer-q2-results-net-profit-rises-16-yoy-to-rs-470-crore-revenue-up-14/articleshow/135211637.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Bank of Maharashtra Q2 profit jumps 41.5% as bad loans decline",
-   "time": "2026-10-26T20:34:08+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Banking and liquidity"
-   ],
-   "factor_ids": [
-    20,
-    13
-   ],
-   "summary": "Bank of Maharashtra announced its second quarter financial results.\nNet profit jumped 41.5 percent year-on-year to Rs 2,310 crore.\nThe profit was supported by strong deposit and loan growth.\nUnpaid bad loans decreased during the quarter.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Higher earnings and improving loan recovery in public sector banks could support banking shares.",
-   "lean": "up",
-   "sectors": [
-    "Banking"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bank-of-maharashtra-q2-profit-jumps-41-5-as-bad-loans-decline/articleshow/135214440.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Paytm Q2 Results: Profit rockets 976% YoY to Rs 226 crore, revenue jumps 28%",
-   "time": "2026-10-26T21:15:42+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Corporate events"
-   ],
-   "factor_ids": [
-    20,
-    31
-   ],
-   "summary": "Paytm released its quarterly financial report for the second quarter.\nConsolidated net profit rose to Rs 226 crore from Rs 21 crore a year ago.\nRevenue from operations increased by 28 percent year-on-year to Rs 2,648 crore.\nThe digital payments firm showed strong operational financial growth.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong earnings growth in financial technology companies can boost investor trust in digital services.",
-   "lean": "up",
-   "sectors": [
-    "Financial Services",
-    "Technology"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/paytm-q2-results-profit-rockets-976-yoy-to-rs-226-crore-revenue-jumps-28/articleshow/135214973.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Shriram Finance shares falls 5% as analysts cut targets after Q2 results",
-   "time": "2026-10-26T15:40:49+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    20,
-    21
-   ],
-   "summary": "Shriram Finance shares fell by 5 percent following its second quarter results.\nWhile overall profit grew, stock analysts raised concerns over credit costs.\nWorries centered on loan recovery and asset quality during the quarter.\nSeveral brokerage firms reduced their price targets for the share.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Concerns over loan unpaid balances in non-banking lenders can weigh on the non-bank financial sector.",
-   "lean": "down",
-   "sectors": [
-    "Finance",
-    "Non-Banking Financial Companies"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/companies/shriram-finance-slides-5-as-analysts-slash-targets-after-mixed-q2-results/article71625892.ece"
-    }
-   ]
-  },
-  {
-   "headline": "The Rs 1.5 lakh crore MTF problem: How shrinking leveraged positions are deepening India's smallcap sell-off",
-   "time": "2026-10-26T20:31:48+05:30",
-   "factors": [
-    "Domestic investment",
-    "Market breadth"
-   ],
-   "factor_ids": [
-    19,
-    26
-   ],
-   "summary": "The selling pressure on smaller Indian companies has increased recently.\nInvestors are reducing share positions funded by margin loans.\nNearly Rs 72,000 crore worth of loans were backed by small-cap shares.\nForced sales of pledged shares are putting downward pressure on prices.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Forced selling in smaller companies can reduce broader market confidence.",
-   "lean": "down",
-   "sectors": [
-    "Small-Cap Companies"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/the-rs-1-5-lakh-crore-mtf-problem-how-shrinking-leveraged-positions-are-deepening-indias-smallcap-sell-off/articleshow/135214401.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Almost half of domestic coal-based power plants have critical stocks",
-   "time": "2026-10-26T22:04:28+05:30",
-   "factors": [
-    "GDP and growth",
-    "Government policy"
-   ],
-   "factor_ids": [
-    10,
-    15
-   ],
-   "summary": "Electricity demand in India rose by 23.4 percent in early October.\nThis sharp increase in power usage strained existing coal inventories.\nNearly half of domestic coal-based power plants have critically low coal stocks.\nIncreased coal production is needed to maintain continuous electricity supply.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Low coal supply can disrupt power output, but high electricity usage reflects active economic operations.",
-   "lean": "unclear",
-   "sectors": [
-    "Power",
-    "Coal",
-    "Utilities"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/commodities/almost-half-of-domestic-coal-based-power-plants-have-critical-stocks/article71627830.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Dalmia Bharat posts Rs 205 crore Q2 loss on exceptional hit",
-   "time": "2026-10-26T23:49:52+05:30",
+   "headline": "SAIL Q2 Results: Net profit surges four-fold to Rs 1750 crore on higher revenue",
+   "time": "2026-10-27T22:18:09+05:30",
    "factors": [
     "Corporate earnings",
     "Other commodities"
@@ -300,19 +245,50 @@
     20,
     9
    ],
-   "summary": "Dalmia Bharat reported a net loss of Rs 205 crore for the July-September quarter.\nThe loss was caused by a one-time charge of Rs 339 crore for asset impairments.\nSales volume rose 3 percent, but operating earnings fell by 29 percent.\nPower and fuel expenses for the cement maker jumped 22 percent during the quarter.",
+   "summary": "Steel Authority of India reported a four-fold increase in second-quarter net profit to 1,750 crore rupees. Revenue from operations grew to 31,997 crore rupees compared to 26,704 crore rupees in the previous year. Total expenses also increased to 29,913 crore rupees.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Higher energy costs reducing cement company margins can weigh on building material shares.",
+   "impact": "May help Nifty: Higher profit from a large steelmaker suggests steady demand for industrial metals.",
+   "lean": "up",
+   "sectors": [
+    "Metals",
+    "Mining"
+   ],
+   "unverified_figures": [
+    "26704",
+    "29913",
+    "31997"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/sail-q2-results-net-profit-surges-four-fold-to-rs-1750-crore-on-higher-revenue/articleshow/135240695.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Mazagon Dock Shipbuilders shares crash 10% after Q2 net profit tumbles 54%; firm declares Rs 5/share dividend",
+   "time": "2026-10-27T16:43:48+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    20,
+    31
+   ],
+   "summary": "Shares of Mazagon Dock Shipbuilders fell 10 percent following a 54 percent drop in second-quarter profit to 344 crore rupees. Revenue fell 16.5 percent to 2,446 crore rupees due to lower operational margins. The company declared an interim dividend of 5 rupees per share.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Sharp profit declines in public sector shipbuilders can hurt investor confidence in defence stocks.",
    "lean": "down",
    "sectors": [
-    "Cement",
-    "Building Materials"
+    "Capital Goods",
+    "Shipbuilding"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/dalmia-bharat-posts-rs-205-crore-q2-loss-on-exceptional-hit/articleshow/135217688.cms"
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/mazagon-dock-shipbuilders-shares-crash-10-after-q2-net-profit-tumbles-54-firm-declares-rs-5/share-dividend/articleshow/135232098.cms"
     }
    ]
   }
@@ -321,37 +297,37 @@
   "1": "none",
   "2": "none",
   "3": "found",
-  "4": "found",
+  "4": "none",
   "5": "unverified",
-  "6": "unverified",
+  "6": "found",
   "7": "found",
   "8": "found",
   "9": "found",
-  "10": "found",
-  "11": "none",
-  "12": "found",
+  "10": "none",
+  "11": "found",
+  "12": "none",
   "13": "found",
-  "14": "found",
+  "14": "none",
   "15": "found",
   "16": "none",
-  "17": "none",
+  "17": "found",
   "18": "none",
-  "19": "found",
+  "19": "none",
   "20": "found",
   "21": "found",
   "22": "none",
-  "23": "none",
+  "23": "found",
   "24": "unverified",
   "25": "unverified",
-  "26": "found",
+  "26": "unverified",
   "27": "unverified",
-  "28": "unverified",
+  "28": "found",
   "29": "unverified",
   "30": "unverified",
   "31": "found",
   "32": "none",
   "33": "unverified",
-  "34": "unverified",
+  "34": "found",
   "35": "unverified",
   "36": "none"
  },
@@ -360,29 +336,30 @@
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Check figures 0.50 (not found in the source text we read): SBI Chairman CS Setty sees discretionary credit demand moder"
+  "Removed AI text with trading language: Indian lenders defer dollar debt sale plan as rates turn exp",
+  "Check figures 26704, 29913, 31997 (not found in the source text we read): SAIL Q2 Results: Net profit surges four-fold to Rs 1750 cror"
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 2,
+   "in_window": 3,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-26T18:20:00+05:30"
+   "newest": "2026-10-27T18:15:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
    "total": 10,
-   "in_window": 0,
+   "in_window": 2,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-23T17:30:00+05:30"
+   "newest": "2026-10-27T17:30:00+05:30"
   },
   "SEBI": {
    "ok": true,
    "total": 30,
-   "in_window": 4,
+   "in_window": 2,
    "no_time": 30,
    "fresh": true,
    "newest": null
@@ -406,34 +383,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 48,
+   "in_window": 46,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-27T07:35:46+05:30"
+   "newest": "2026-10-28T07:37:43+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 21,
+   "in_window": 32,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-27T07:29:51+05:30"
+   "newest": "2026-10-28T07:50:47+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 12,
+   "in_window": 19,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-27T00:40:04+05:30"
+   "newest": "2026-10-28T07:56:49+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 32,
+   "in_window": 25,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-27T07:51:03+05:30"
+   "newest": "2026-10-28T07:27:26+05:30"
   }
  }
 }
