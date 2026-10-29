@@ -1,242 +1,227 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 28 Oct 2026 — Nifty 50",
- "generated_at": "2026-10-28T08:06:40.255027+05:30",
- "window_start": "2026-10-27T15:00:00+05:30",
- "cutoff": "2026-10-28T07:30:00+05:30",
- "quick_read": "Strong profit growth at major companies like L&T and Bajaj Auto may support the market. However, crude oil prices crossing 120 dollars per barrel and lower earnings from Maruti Suzuki and Mazagon Dock could create pressure. Proposed regulatory changes for options trading and weather concerns add further uncertainty.",
+ "title": "Indian Market News Brief — 29 Oct 2026 — Nifty 50",
+ "generated_at": "2026-10-29T08:10:06.297238+05:30",
+ "window_start": "2026-10-28T15:00:00+05:30",
+ "cutoff": "2026-10-29T07:30:00+05:30",
+ "quick_read": "The US central bank kept interest rates unchanged, but sticky inflation keeps future borrowing costs uncertain. Meanwhile, crude oil prices jumped sharply after Middle East supply worries, which pushed the Indian rupee to fresh lows and hurt overall market mood. On the domestic front, strong listing gains from Jio Platforms supported index heavyweights, while several major auto makers reported mixed quarterly results.",
  "stories": [
   {
-   "headline": "India’s crude basket price tops $120 a barrel amid West Asia war",
-   "time": "2026-10-27T22:43:02+05:30",
+   "headline": "US Federal Reserve holds interest rates steady as stubborn inflation puts future rate hikes in focus",
+   "time": "2026-10-28T23:31:23+05:30",
    "factors": [
-    "Crude oil",
-    "Inflation and consumption",
-    "Geopolitics and trade"
+    "US monetary policy",
+    "Global markets",
+    "US dollar"
    ],
    "factor_ids": [
-    8,
-    11,
-    6
+    2,
+    1,
+    4
    ],
-   "summary": "India's crude oil purchase price has crossed 120 dollars per barrel due to the ongoing West Asia war. Shipping insurance costs and transport fees have also increased. Higher crude prices make fuel and raw materials more expensive across the country.",
+   "summary": "The US Federal Reserve decided to keep its key interest rate unchanged.\nCentral bank officials voted ten to two to hold rates at 3.75 percent to 4 percent.\nPolicymakers stated that economic activity remains strong while price increases stay high.\nRising energy prices and trade tariffs were highlighted as continuing inflation pressures.\nThe central bank said it remains ready to act if economic conditions change.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: High oil prices can raise inflation and increase operating costs for many Indian companies.",
-   "lean": "down",
-   "sectors": [
-    "Energy",
-    "Paints",
-    "Airlines",
-    "Automobiles"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/economy/oil-import-bill-rises-on-west-asia-conflict/article71632295.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Larsen & Toubro Q2 Results: Profit surges 33% YoY to Rs 5,202 crore, revenue grows 16%",
-   "time": "2026-10-27T17:39:00+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    20,
-    21
-   ],
-   "summary": "Larsen and Toubro reported a 33 percent year-on-year increase in net profit to 5,202 crore rupees for the second quarter. Total revenue grew by 16 percent during the same period. The company showed healthy business growth across its infrastructure operations.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong results from a major infrastructure company can boost overall market confidence.",
-   "lean": "up",
-   "sectors": [
-    "Capital Goods",
-    "Infrastructure"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/larsen-toubro-q2-results-profit-surges-33-yoy-to-rs-5202-crore-revenue-grows-16/articleshow/135233297.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Bajaj Auto Q2 Results: Profit jumps 35% YoY to Rs 3,354 crore; revenue up 34%",
-   "time": "2026-10-27T15:33:12+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    20,
-    21
-   ],
-   "summary": "Bajaj Auto posted a 35 percent jump in net profit to 3,354 crore rupees for the July to September quarter. Quarterly revenue rose 34 percent to 20,003 crore rupees, crossing this milestone for the first time. Operating profit grew over 37 percent.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Good profit and sales growth signal strong demand in the two-wheeler auto sector.",
-   "lean": "up",
-   "sectors": [
-    "Automobiles"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bajaj-auto-q2-results-profit-jumps-35-yoy-to-rs-3354-crore-revenue-up-34/articleshow/135230311.cms"
-    },
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/cipla-q2-net-profit-falls-35-to-rs-878-crore-revenue-dips-2/articleshow/135230643.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Maruti Suzuki Q2 Results: Profit falls 26% YoY to Rs 2,466 crore, but revenue rises 26%",
-   "time": "2026-10-27T15:43:00+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    20,
-    21
-   ],
-   "summary": "Maruti Suzuki reported a 26 percent fall in second-quarter net profit to 2,466 crore rupees. However, quarterly revenue grew by 26 percent to 53,356 crore rupees. Higher material costs and employee expenses increased total operating expenses.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Lower profit margins at the country's top carmaker may weigh on auto sector sentiment.",
-   "lean": "down",
-   "sectors": [
-    "Automobiles"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/maruti-suzuki-q2-results-profit-falls-26-yoy-to-rs-2466-crore-but-revenue-rises-26/articleshow/135230515.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Indian lenders defer dollar debt sale plan as rates turn expensive",
-   "time": "2026-10-27T15:33:49+05:30",
-   "factors": [
-    "Banking and liquidity",
-    "Global bond yields",
-    "Rupee"
-   ],
-   "factor_ids": [
-    13,
-    3,
-    7
-   ],
-   "summary": "Several Indian banks including Canara Bank and Punjab National Bank are delaying plans to sell dollar debt abroad. Rising US borrowing costs and a weaker rupee have made foreign loans expensive. A currency protection facility from the Reserve Bank of India is also ending in December.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Explanation withheld.",
+   "impact": "Unclear for Nifty: Keeping US interest rates steady stops borrowing costs from jumping immediately, but warnings of stubborn inflation mean foreign money may remain cautious about emerging markets.",
    "lean": "unclear",
    "sectors": [
     "Banks",
-    "Financial Services"
+    "Information Technology"
    ],
-   "unverified_figures": [],
+   "unverified_figures": [
+    "3.75"
+   ],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-lenders-defer-dollar-debt-sale-plan-as-rates-turn-expensive/articleshow/135230457.cms"
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/fed-rate-us-federal-reserve-holds-interest-rates-steady-as-stubborn-inflation-puts-future-rate-hikes-in-focus/articleshow/135275622.cms"
     }
    ]
   },
   {
-   "headline": "Defence stocks rally: Apollo Micro Systems, Data Patterns, BEML, HAL, BEL surge as DAC clears acquisition push, Aequs & Mazagon Dock slump after Q2",
-   "time": "2026-10-27T16:29:05+05:30",
+   "headline": "Elevated oil prices keep up heat on rupee, traders await cues from Fed",
+   "time": "2026-10-28T15:59:45+05:30",
    "factors": [
-    "Government policy",
-    "Sector rotation"
+    "Crude oil",
+    "Geopolitics and trade",
+    "Rupee"
    ],
    "factor_ids": [
-    15,
-    23
+    8,
+    6,
+    7
    ],
-   "summary": "Defence company shares rose after the Defence Acquisition Council cleared new purchase proposals. Shares of Apollo Micro Systems and Data Patterns climbed over 9 percent. Key state-run suppliers including Hindustan Aeronautics and Bharat Electronics also gained.",
+   "summary": "Crude oil prices jumped sharply due to supply disruptions in the Middle East.\nBrent crude climbed above 115 dollars per barrel after an attack on a Saudi Arabian oil refinery.\nHigher fuel import costs added downward pressure on the Indian rupee against the US dollar.\nIranian mediators put forward a fresh draft proposal to address the conflict.\nMarket participants continued to watch global energy supplies closely.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Fresh government spending approvals provide clear business visibility for defence manufacturers.",
-   "lean": "up",
+   "impact": "May hurt Nifty: Higher crude oil prices make fuel imports costlier for India, which can raise costs for transport, paints, and chemicals while hurting corporate profit margins.",
+   "lean": "down",
    "sectors": [
-    "Capital Goods",
-    "Defence"
+    "Oil & Gas",
+    "Paints",
+    "Automobiles",
+    "Aviation"
+   ],
+   "unverified_figures": [
+    "115"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/elevated-oil-prices-keep-up-heat-on-rupee-traders-await-cues-from-fed/articleshow/135261558.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Rupee falls 21 paise to close at 95.28 against US dollar",
+   "time": "2026-10-28T16:22:27+05:30",
+   "factors": [
+    "Rupee",
+    "US dollar",
+    "Crude oil"
+   ],
+   "factor_ids": [
+    7,
+    4,
+    8
+   ],
+   "summary": "The Indian rupee fell by 21 paise to end at 95.28 against the US dollar.\nThe currency opened at 95.01 and dropped to an intraday low of 95.29 during the trading session.\nSurging crude oil prices increased the demand for US dollars among Indian oil importers.\nRising US bond returns also supported the American currency against other currencies.\nThe drop marks continued weakness in the rupee over recent trading sessions.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: A weaker domestic currency makes imports more expensive and may encourage foreign investors to pull funds out, though it could provide slight relief to software exporters.",
+   "lean": "down",
+   "sectors": [
+    "Banks",
+    "Information Technology",
+    "Oil & Gas"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/stock-markets/defence-stocks-rally-apollo-micro-systems-data-patterns-hal-bel-surge-as-dac-clears-acquisition-push-aequs-tanks-19-after-q2/article71629852.ece"
+     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-falls-21-paise-to-close-at-9528-against-us-dollar/article71635467.ece"
     }
    ]
   },
   {
-   "headline": "Derivatives trading may need more guardrails, says Sebi's KVR Murty",
-   "time": "2026-10-27T18:29:29+05:30",
+   "headline": "Jio IPO surge helps Reliance topple Tata as most valuable conglomerate in India",
+   "time": "2026-10-28T15:33:56+05:30",
    "factors": [
-    "Regulation",
-    "Derivatives positioning"
+    "Heavyweight stocks",
+    "Corporate events"
    ],
    "factor_ids": [
-    17,
-    28
+    21,
+    31
    ],
-   "summary": "Market regulator SEBI is reviewing whether additional safety rules are needed for trading in futures and options. An official noted that extra checks are being discussed for days when trading contracts expire. This comes during a period of high trading activity by small investors.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Stricter trading rules may lower trading volumes across stock brokerages.",
-   "lean": "unclear",
+   "summary": "Jio Platforms made a strong stock exchange debut with a 27 percent gain on its first day.\nThe listing took the combined market valuation of Reliance Group past 30 trillion rupees.\nReliance Group surpassed Tata Group to become India's most valuable corporate group.\nJio Platforms became the second most valuable listed firm in India after listing.\nThe issue was India's largest ever initial public offering at over 30,200 crore rupees.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: The strong debut and massive market size of the group company can boost the parent firm's stock weight and lift overall trading sentiment.",
+   "lean": "up",
    "sectors": [
-    "Financial Services",
-    "Capital Markets"
+    "Telecommunication",
+    "Oil & Gas"
    ],
-   "unverified_figures": [],
+   "unverified_figures": [
+    "27",
+    "30200"
+   ],
    "sources": [
     {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/sebi-may-consider-more-guardrails-for-derivatives-trading-says-murty-126102701292_1.html"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/reliance-vs-tata-group-market-cap-jio-platforms-share-price-11793181248458.html"
     },
     {
      "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/specials/bs-events/derivatives-trading-may-need-more-guardrails-says-sebi-wtm-murty-126102701762_1.html"
+     "url": "https://www.business-standard.com/markets/news/jio-platforms-ipo-surge-ends-tata-s-reign-as-india-s-most-valuable-group-126102801600_1.html"
     }
    ]
   },
   {
-   "headline": "El Nino ramping up into a ‘very strong' weather event as index surges to 18-year high",
-   "time": "2026-10-27T18:18:22+05:30",
+   "headline": "SEBI reviews FPI compliance norms, plans consultation paper on global alignment",
+   "time": "2026-10-28T16:09:15+05:30",
    "factors": [
-    "Inflation and consumption",
-    "Seasonal factors"
+    "Regulation",
+    "Foreign investment"
    ],
    "factor_ids": [
-    11,
-    34
+    17,
+    18
    ],
-   "summary": "The Australian weather agency reported that the El Nino weather system is strengthening rapidly. The ocean temperature measure reached its highest level since 2008 in late October. A positive weather event in the Indian Ocean is also active at the same time.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Weak monsoon patterns could lower farm output and push up food prices.",
-   "lean": "down",
+   "summary": "Market regulator SEBI is reviewing compliance rules for foreign portfolio investors.\nThe regulator plans to release a public discussion paper to align domestic norms with global standards.\nThe move aims to make it easier for foreign institutions to invest in Indian capital markets.\nIndia is seeking to attract larger foreign capital flows to fund domestic economic expansion.\nThe announcement was confirmed across multiple business news publications.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Simpler registration and operating rules could encourage foreign funds to invest more money into large Indian companies over the medium term.",
+   "lean": "up",
    "sectors": [
-    "Consumer Goods",
-    "Agriculture"
+    "Financial Services",
+    "Banks"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/economy/agri-business/el-nino-ramping-up-into-a-very-strong-weather-event-as-index-surges-to-18-year-high/article71630196.ece"
+     "url": "https://www.thehindubusinessline.com/markets/sebi-reviews-fpi-compliance-norms-plans-consultation-paper-on-global-alignment/article71635391.ece"
+    },
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-to-review-fpi-compliance-norms-issue-consultation-paper-to-align-with-global-standards/articleshow/135269023.cms"
     }
    ]
   },
   {
-   "headline": "SAIL Q2 Results: Net profit surges four-fold to Rs 1750 crore on higher revenue",
-   "time": "2026-10-27T22:18:09+05:30",
+   "headline": "भारत को वैश्विक कंटेनर विनिर्माण केंद्र बनाने के लिए मंत्रिमंडल ने 10,000 करोड़ रुपये की योजना को मंजूरी दी",
+   "time": null,
+   "factors": [
+    "Government policy",
+    "GDP and growth"
+   ],
+   "factor_ids": [
+    15,
+    10
+   ],
+   "summary": "The Union Cabinet approved a 10,000 crore rupee scheme for container manufacturing.\nThe program aims to turn India into an international hub for cargo container production.\nThe policy seeks to cut dependency on imported containers used for sea shipping.\nFunding will support domestic factory setups and improve logistics infrastructure.\nThe plan was formally announced by the Press Information Bureau.",
+   "confirmation": "Official source",
+   "impact": "May help Nifty: Increased domestic container building may reduce logistics expenses for exporters and support industrial manufacturers and steel suppliers.",
+   "lean": "up",
+   "sectors": [
+    "Metals",
+    "Logistics",
+    "Capital Goods"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2329766"
+    }
+   ]
+  },
+  {
+   "headline": "एनपीपीए ने कैंसर रोधी 543 ब्रांड की दवाओं के संशोधित एमआरपी जारी किए; सूची को लगातार अपडेट किया जाएगा; नई कीमतें 9 नवंबर, 2026 से प्रभावी होंगी",
+   "time": null,
+   "factors": [
+    "Government policy",
+    "Regulation"
+   ],
+   "factor_ids": [
+    15,
+    17
+   ],
+   "summary": "Drug pricing regulator NPPA issued revised maximum retail prices for 543 anti-cancer drug brands.\nThe official price list will be regularly updated by the authorities.\nThe revised price caps will officially come into effect starting November 9, 2026.\nThe notification was issued through the central government's official information bureau.\nThe move forms part of government efforts to reduce medical treatment expenses for consumers.",
+   "confirmation": "Official source",
+   "impact": "Little effect on Nifty: While mandatory price cuts on cancer medicines help patients, they could slightly reduce profit margins for domestic medicine makers on these specific products.",
+   "lean": "little",
+   "sectors": [
+    "Pharmaceuticals"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2329745"
+    }
+   ]
+  },
+  {
+   "headline": "Maruti Suzuki’s Q2 paradox: record volumes, shrinking margins",
+   "time": "2026-10-28T15:56:53+05:30",
    "factors": [
     "Corporate earnings",
     "Other commodities"
@@ -245,89 +230,161 @@
     20,
     9
    ],
-   "summary": "Steel Authority of India reported a four-fold increase in second-quarter net profit to 1,750 crore rupees. Revenue from operations grew to 31,997 crore rupees compared to 26,704 crore rupees in the previous year. Total expenses also increased to 29,913 crore rupees.",
+   "summary": "Maruti Suzuki reported a 26 percent rise in quarterly sales revenue on strong demand.\nHowever, net profit fell by over 26 percent during the second quarter.\nHigher raw material and commodity prices squeezed operating margins down to 8.9 percent.\nThe company saw record car delivery volumes during the quarter.\nRising expenses outweighed the financial gains made from higher sales numbers.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Higher profit from a large steelmaker suggests steady demand for industrial metals.",
-   "lean": "up",
+   "impact": "May hurt Nifty: Squeezed profit margins in India's biggest carmaker signal that high commodity costs continue to strain manufacturing profits.",
+   "lean": "down",
    "sectors": [
-    "Metals",
-    "Mining"
+    "Automobiles"
    ],
-   "unverified_figures": [
-    "26704",
-    "29913",
-    "31997"
-   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/sail-q2-results-net-profit-surges-four-fold-to-rs-1750-crore-on-higher-revenue/articleshow/135240695.cms"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/mark-to-market/maruti-suzuki-s-q2-paradox-record-volumes-meet-dull-margin-11793179365333.html"
     }
    ]
   },
   {
-   "headline": "Mazagon Dock Shipbuilders shares crash 10% after Q2 net profit tumbles 54%; firm declares Rs 5/share dividend",
-   "time": "2026-10-27T16:43:48+05:30",
+   "headline": "Hero MotoCorp Q2 profit jumps 41% as scooter and EV sales surge",
+   "time": "2026-10-28T21:31:33+05:30",
    "factors": [
-    "Corporate earnings",
-    "Corporate events"
+    "Corporate earnings"
    ],
    "factor_ids": [
-    20,
-    31
+    20
    ],
-   "summary": "Shares of Mazagon Dock Shipbuilders fell 10 percent following a 54 percent drop in second-quarter profit to 344 crore rupees. Revenue fell 16.5 percent to 2,446 crore rupees due to lower operational margins. The company declared an interim dividend of 5 rupees per share.",
+   "summary": "Hero MotoCorp reported a 41 percent jump in second-quarter net profit to 1,860.55 crore rupees.\nRevenue from operations increased 23 percent year-on-year to 14,970.50 crore rupees.\nScooter sales grew by 47 percent during the quarter.\nRetail sales of electric two-wheelers under its VIDA brand grew by 76 percent.\nThe company also reported progress in its overseas market expansion.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Sharp profit declines in public sector shipbuilders can hurt investor confidence in defence stocks.",
-   "lean": "down",
+   "impact": "May help Nifty: Strong quarterly earnings and higher scooter sales indicate healthy rural and festive customer spending, supporting vehicle manufacturers.",
+   "lean": "up",
    "sectors": [
-    "Capital Goods",
-    "Shipbuilding"
+    "Automobiles"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/mazagon-dock-shipbuilders-shares-crash-10-after-q2-net-profit-tumbles-54-firm-declares-rs-5/share-dividend/articleshow/135232098.cms"
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hero-motocorp-q2-profit-jumps-41-as-scooter-and-ev-sales-surge/articleshow/135272243.cms"
+    }
+   ]
+  },
+  {
+   "headline": "TVS Motor Q2 Results: Profit jumps 52% YoY to Rs 1,377 crore; revenue rises 44%",
+   "time": "2026-10-28T17:27:39+05:30",
+   "factors": [
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    20
+   ],
+   "summary": "TVS Motor Company posted a 52 percent rise in second-quarter profit to 1,377 crore rupees.\nQuarterly revenue increased by 44 percent compared to the same period last year.\nPerformance was driven by record vehicle sales numbers and electric two-wheeler growth.\nRecent business acquisitions also contributed to higher business revenue.\nThe company's shares gained over two percent on the stock exchange following the report.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Robust profit expansion and strong electric vehicle demand reflect solid customer appetite for two-wheelers across India.",
+   "lean": "up",
+   "sectors": [
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tvs-motor-q2-results-profit-jumps-52-yoy-to-rs-1377-crore-revenue-rises-44/articleshow/135264582.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Hyundai Motor India Q2 profit falls 24% despite record sales",
+   "time": "2026-10-28T17:41:52+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Other commodities"
+   ],
+   "factor_ids": [
+    20,
+    9
+   ],
+   "summary": "Hyundai Motor India reported a 24 percent drop in second-quarter net profit to 1,196.2 crore rupees.\nHigher costs for raw materials reduced operating margins for the company.\nQuarterly revenue rose 19 percent to 20,696.1 crore rupees.\nSales volumes reached record levels supported by domestic sales and vehicle exports.\nThe company stated that upcoming new model launches will support future volume growth.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Lower profits despite record vehicle sales highlight that rising input costs remain a burden for major car manufacturers.",
+   "lean": "down",
+   "sectors": [
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hyundai-motor-india-q2-profit-falls-24-despite-record-sales/articleshow/135264974.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Sebi signs MoU with Bank of England to strengthen oversight of clearing corporations",
+   "time": "2026-10-28T18:45:56+05:30",
+   "factors": [
+    "Regulation",
+    "Global markets"
+   ],
+   "factor_ids": [
+    17,
+    1
+   ],
+   "summary": "SEBI signed a pact with the Bank of England to improve clearing house regulation.\nThe agreement sets up cross-border cooperation and information sharing between both authorities.\nThe arrangement allows British authorities to rely on SEBI's supervision of local clearing houses.\nThe framework aims to maintain financial stability for institutions operating across borders.\nThe pact was confirmed by both official market regulators.",
+   "confirmation": "Official source",
+   "impact": "Little effect on Nifty: The regulatory pact ensures smooth market clearing and trade settlement between London and India, supporting stability without driving short-term share price moves.",
+   "lean": "little",
+   "sectors": [
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-signs-mou-with-bank-of-england-to-strengthen-oversight-of-clearing-corporations/articleshow/135267165.cms"
+    },
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/oct-2026/sebi-signs-mou-with-boe-on-cooperation-and-exchange-of-information-related-to-sebi-recognised-clearing-corporations_105473.html"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "none",
-  "2": "none",
-  "3": "found",
-  "4": "none",
+  "1": "found",
+  "2": "found",
+  "3": "none",
+  "4": "found",
   "5": "unverified",
   "6": "found",
   "7": "found",
   "8": "found",
   "9": "found",
-  "10": "none",
-  "11": "found",
+  "10": "found",
+  "11": "none",
   "12": "none",
-  "13": "found",
+  "13": "none",
   "14": "none",
   "15": "found",
   "16": "none",
   "17": "found",
-  "18": "none",
+  "18": "found",
   "19": "none",
   "20": "found",
   "21": "found",
   "22": "none",
-  "23": "found",
+  "23": "none",
   "24": "unverified",
   "25": "unverified",
   "26": "unverified",
   "27": "unverified",
-  "28": "found",
+  "28": "unverified",
   "29": "unverified",
   "30": "unverified",
   "31": "found",
   "32": "none",
   "33": "unverified",
-  "34": "found",
+  "34": "unverified",
   "35": "unverified",
   "36": "none"
  },
@@ -336,22 +393,23 @@
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Removed AI text with trading language: Indian lenders defer dollar debt sale plan as rates turn exp",
-  "Check figures 26704, 29913, 31997 (not found in the source text we read): SAIL Q2 Results: Net profit surges four-fold to Rs 1750 cror"
+  "Check figures 3.75 (not found in the source text we read): US Federal Reserve holds interest rates steady as stubborn i",
+  "Check figures 115 (not found in the source text we read): Elevated oil prices keep up heat on rupee, traders await cue",
+  "Check figures 27, 30200 (not found in the source text we read): Jio IPO surge helps Reliance topple Tata as most valuable co"
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 3,
+   "in_window": 1,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-27T18:15:00+05:30"
+   "newest": "2026-10-28T17:50:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
    "total": 10,
-   "in_window": 2,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
    "newest": "2026-10-27T17:30:00+05:30"
@@ -359,7 +417,7 @@
   "SEBI": {
    "ok": true,
    "total": 30,
-   "in_window": 2,
+   "in_window": 6,
    "no_time": 30,
    "fresh": true,
    "newest": null
@@ -367,10 +425,10 @@
   "US Federal Reserve": {
    "ok": true,
    "total": 20,
-   "in_window": 0,
+   "in_window": 1,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-16T20:30:00+05:30"
+   "newest": "2026-10-28T23:30:00+05:30"
   },
   "PIB (Govt of India)": {
    "ok": true,
@@ -383,34 +441,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 46,
+   "in_window": 40,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-28T07:37:43+05:30"
+   "newest": "2026-10-29T07:54:49+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 32,
+   "in_window": 34,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-28T07:50:47+05:30"
+   "newest": "2026-10-29T07:57:15+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 19,
+   "in_window": 15,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-28T07:56:49+05:30"
+   "newest": "2026-10-29T07:58:26+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 25,
+   "in_window": 17,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-28T07:27:26+05:30"
+   "newest": "2026-10-29T08:00:55+05:30"
   }
  }
 }
