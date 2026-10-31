@@ -1,278 +1,47 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 30 Oct 2026 — Nifty 50",
- "generated_at": "2026-10-30T08:08:53.505777+05:30",
- "window_start": "2026-10-29T15:00:00+05:30",
- "cutoff": "2026-10-30T07:30:00+05:30",
- "quick_read": "Lower crude oil prices, stable US interest rates, and strong profit reports from major companies may help market sentiment. On the other hand, heavy spending concerns in global technology firms and leadership exits in smaller banks could pressure specific sectors. Revisions to foreign investment rules and potential index additions are also in focus.",
+ "title": "Indian Market News Brief — 31 Oct 2026 — Nifty 50",
+ "generated_at": "2026-10-31T08:09:06.391143+05:30",
+ "window_start": "2026-10-30T15:00:00+05:30",
+ "cutoff": "2026-10-31T07:30:00+05:30",
+ "quick_read": "Strong quarterly results from big companies like Reliance Industries and Bank of Baroda may help support the market. However, heavy fall in US technology shares and high crude oil prices could create pressure on Indian stocks. Simplified rules for foreign investors may bring steady investment, while high raw material costs remain a concern.",
  "stories": [
   {
-   "headline": "Sensex today | Stock Market Highlights: Sensex settles 905 pts higher, Nifty ends above 22,900; Adani Ports, Kotak Bank top gainers",
-   "time": "2026-10-29T16:36:05+05:30",
-   "factors": [
-    "Global markets",
-    "US monetary policy",
-    "Crude oil",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    1,
-    2,
-    8,
-    21
-   ],
-   "summary": "Indian benchmark indices rose significantly on Thursday as the Nifty gained 238 points and the Sensex rose 905 points. Market sentiment was supported by falling crude oil prices and the US Federal Reserve keeping interest rates unchanged. Sectors like real estate, fast-moving consumer goods, and public sector banks led the gains.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Declining crude oil prices and stable global interest rates can lower expenses for domestic businesses and boost market confidence.",
-   "lean": "up",
-   "sectors": [
-    "Nifty 50",
-    "FMCG",
-    "Realty",
-    "Banking"
-   ],
-   "unverified_figures": [
-    "238"
-   ],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-29th-october-2026/article71635535.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Kotak Mahindra Bank shares gain over 4%, hit highest level since April 2025; here’s what you should know",
-   "time": "2026-10-29T16:01:10+05:30",
-   "factors": [
-    "Banking and liquidity",
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    13,
-    20,
-    21
-   ],
-   "summary": "Kotak Mahindra Bank reported a 26% year-on-year increase in consolidated net profit to Rs 5,645 crore for the September quarter. Following the earnings announcement, the bank's stock rose 4.3% to reach Rs 459. This marked its highest price level since April 2025.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong earnings growth from a major private lender can strengthen confidence in the banking sector.",
-   "lean": "up",
-   "sectors": [
-    "Banks",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/kotak-mahindra-bank-shares-gain-over-4-hit-highest-level-since-april-2025-here-s-what-you-should-know-11793266996926.html"
-    }
-   ]
-  },
-  {
-   "headline": "Coal India dividend 2026 declared - Check amount; PSU quarterly profit up 57% - When is record date?",
-   "time": "2026-10-29T20:14:49+05:30",
+   "headline": "Reliance Industries Q2 Results: Profit shoots up 41% YoY to Rs 25,548 crore, revenue surges 29%",
+   "time": "2026-10-30T19:46:49+05:30",
    "factors": [
     "Corporate earnings",
     "Heavyweight stocks",
-    "Corporate events"
+    "Crude oil"
    ],
    "factor_ids": [
     20,
     21,
-    31
+    8
    ],
-   "summary": "Coal India reported a 57% year-on-year increase in second-quarter consolidated net profit to Rs 6,547 crore. Revenue from operations grew 20.8% to Rs 44,179 crore. The state-owned coal producer also declared an interim dividend of Rs 10.25 per share.",
+   "summary": "Reliance Industries reported a 41 percent year-on-year rise in September quarter net profit to 25,548 crore rupees.\nOperational revenue rose 29 percent to 3,32,861 crore rupees.\nOperating profit before taxes and depreciation grew 23.9 percent to 62,409 crore rupees.\nThe growth was driven by oil-to-chemicals refining recovery and telecom growth.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Higher quarterly profits and cash payouts to shareholders can attract buying interest to major energy stocks.",
+   "impact": "May help Nifty: Strong quarterly profit from India's largest weighted stock could boost overall stock market sentiment.",
    "lean": "up",
    "sectors": [
-    "Metals & Mining",
     "Energy",
-    "PSU"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/coal-india-dividend-2026-declared-check-amount-psu-quarterly-profit-up-57-when-is-record-date-11793283032165.html"
-    }
-   ]
-  },
-  {
-   "headline": "Working with RBI to make process of bringing foreign investors into Indian markets faster and easier: SEBI chief",
-   "time": "2026-10-29T15:47:47+05:30",
-   "factors": [
-    "Regulation",
-    "Foreign investment"
-   ],
-   "factor_ids": [
-    17,
-    18
-   ],
-   "summary": "The Securities and Exchange Board of India is working with the Reserve Bank of India to speed up and simplify entry for foreign investors. SEBI plans to review foreign portfolio investment regulations to better align local rules with global standards.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Simpler compliance requirements could encourage higher foreign investment inflows into Indian equities.",
-   "lean": "up",
-   "sectors": [
-    "Financial Services",
-    "Capital Markets"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/working-with-rbi-to-make-process-of-bringing-foreign-investors-into-indian-markets-faster-and-easier-sebi-chief-11793268804709.html"
-    }
-   ]
-  },
-  {
-   "headline": "Trent Q2 Results: Cons profit jumps 25% YoY to Rs 468 crore; revenue climbs 22%",
-   "time": "2026-10-29T16:22:25+05:30",
-   "factors": [
-    "Inflation and consumption",
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    11,
-    20,
-    21
-   ],
-   "summary": "Retail company Trent reported a 25.3% year-on-year rise in second-quarter net profit to Rs 468 crore. Quarterly revenue grew 21.9% to Rs 5,873 crore, while operating profit margins improved to 18.2% amid ongoing store network expansion.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Solid sales and profit growth in retail companies signal ongoing demand from consumers.",
-   "lean": "up",
-   "sectors": [
-    "Consumer Durables",
-    "Retail"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/trent-q2-results-profit-jumps-25-yoy-to-rs-468-crore-revenue-climbs-22/articleshow/135302253.cms"
-    }
-   ]
-  },
-  {
-   "headline": "MSCI Rejig: LIC, Meesho likely to enter India Standard Index; OFSS, Siemens Energy may be dropped",
-   "time": "2026-10-29T16:54:39+05:30",
-   "factors": [
-    "Foreign investment",
-    "Corporate events"
-   ],
-   "factor_ids": [
-    18,
-    31
-   ],
-   "summary": "A research report expects Life Insurance Corporation of India and Meesho to join the MSCI India Standard Index during its November review. Oracle Financial Services Software and Siemens Energy India may be excluded. The adjustments could result in total net foreign inflows of around $1.4 billion.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Possible inclusion in global stock indexes usually drives automatic buying from international index funds.",
-   "lean": "up",
-   "sectors": [
-    "Insurance",
-    "IT",
-    "Capital Goods"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/msci-rejig-lic-meesho-likely-to-enter-india-standard-index-ofss-siemens-energy-may-be-dropped-11793271137051.html"
-    }
-   ]
-  },
-  {
-   "headline": "Suzlon Energy Q2 Results: Profit plunges 69% YoY to Rs 394 crore due to one-time deferred tax",
-   "time": "2026-10-29T16:46:50+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Corporate events"
-   ],
-   "factor_ids": [
-    20,
-    31
-   ],
-   "summary": "Suzlon Energy reported a 69% year-on-year drop in second-quarter net profit to Rs 394 crore due to a one-time deferred tax expense. However, revenue increased 26% to Rs 4,869 crore. The company maintained an order pipeline of 6,009 megawatts and holds a net cash balance of Rs 2,048 crore.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: A sharp fall in quarterly net profit creates caution, though growing revenue and a strong order pipeline provide operational support.",
-   "lean": "unclear",
-   "sectors": [
-    "Capital Goods",
-    "Power",
-    "Renewable Energy"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/suzlon-energy-q2-results-profit-plunges-69-yoy-to-rs-394-crore-revenue-rises-26/articleshow/135304125.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Yes Bank shares extend decline to 26% in October, hit a multi-year low. Why are investors turning cautious?",
-   "time": "2026-10-29T17:49:54+05:30",
-   "factors": [
-    "Banking and liquidity",
-    "Regulation",
-    "Corporate earnings"
-   ],
-   "factor_ids": [
-    13,
-    17,
-    20
-   ],
-   "summary": "Yes Bank shares dropped to Rs 15.43, marking their lowest price level since April 2023. The Supreme Court upheld an earlier ruling that canceled the bank's write-off of Rs 8,415 crore in additional tier-1 bonds. The judgment has raised market concerns over future capital management and unpaid interest costs.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Concerns over capital buffers and legal liabilities for a prominent bank can weigh on overall financial sector sentiment.",
-   "lean": "down",
-   "sectors": [
-    "Banks"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/yes-bank-shares-extend-decline-to-26-in-october-hit-a-multi-year-low-why-are-investors-turning-cautious-11793273761294.html"
-    }
-   ]
-  },
-  {
-   "headline": "Equitas Small Finance Bank chief PN Vasudevan plans exit over perceived conflict involving daughter's NBFC",
-   "time": "2026-10-29T19:04:08+05:30",
-   "factors": [
-    "Banking and liquidity",
-    "Regulation",
-    "Corporate events"
-   ],
-   "factor_ids": [
-    13,
-    17,
-    31
-   ],
-   "summary": "Equitas Small Finance Bank Managing Director PN Vasudevan announced his plan to step down due to potential conflict of interest concerns involving his daughter's firm. The bank's shares dropped by up to 20% following the announcement, despite a recent increase in second-quarter net profit.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Sudden leadership exits due to governance questions can reduce investor trust in small financial institutions.",
-   "lean": "down",
-   "sectors": [
-    "Banks"
+    "Conglomerates"
    ],
    "unverified_figures": [
-    "20"
+    "23.9",
+    "332861",
+    "62409"
    ],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/equitas-small-finance-bank-chief-pn-vasudevan-plans-exit-over-perceived-conflict-involving-daughters-nbfc/articleshow/135337853.cms"
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-industries-q2-results-profit-shoots-up-41-yoy-to-rs-25548-crore-revenue-up-12/articleshow/135361960.cms"
     }
    ]
   },
   {
-   "headline": "Google shares crash 13% after $9 billion cash burn sparks AI spending fears",
-   "time": "2026-10-29T19:41:28+05:30",
+   "headline": "Nasdaq futures tumble over 2% as Amazon, Intel stoke AI spending concerns",
+   "time": "2026-10-30T15:49:18+05:30",
    "factors": [
     "Global markets",
     "China and global growth",
@@ -283,9 +52,9 @@
     5,
     20
    ],
-   "summary": "Alphabet shares fell 13% after reporting a 25% drop in net profit to $26.17 billion, despite a 25% increase in revenue. High capital expenditure on artificial intelligence led to negative free cash flow of $9.1 billion, sparking concerns among global investors.",
+   "summary": "US stock futures tumbled as Amazon increased artificial intelligence spending and Intel issued a cash burn warning.\nTechnology company shares slumped sharply across US markets.\nInvestors questioned high capital spending costs and overall returns on artificial intelligence projects.\nThe selloff spread across global chipmaker stocks.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Sharp share declines in global technology firms caused by rising spending could create caution for Indian IT exporters.",
+   "impact": "May hurt Nifty: Weakness in US technology shares may cause Indian information technology stocks to face selling pressure.",
    "lean": "down",
    "sectors": [
     "IT"
@@ -294,95 +63,70 @@
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/google-shares-crash-13-after-9-billion-cash-burn-sparks-ai-spending-fears/articleshow/135319102.cms"
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nasdaq-futures-tumble-over-2-as-amazon-intel-stoke-ai-spending-concerns/articleshow/135356130.cms"
     }
    ]
   },
   {
-   "headline": "IndiGo Q2 Results: Loss narrows YoY to Rs 1,879 crore; revenue rises 26%",
-   "time": "2026-10-29T15:58:37+05:30",
+   "headline": "Bank of Baroda Q2 Results: Standalone profit jumps 36% YoY to Rs 6,532 crore; NII up 9%",
+   "time": "2026-10-30T17:19:21+05:30",
    "factors": [
-    "Corporate earnings",
-    "Corporate events"
+    "Banking and liquidity",
+    "Corporate earnings"
    ],
    "factor_ids": [
-    20,
-    31
+    13,
+    20
    ],
-   "summary": "IndiGo airline operator InterGlobe Aviation reported a consolidated net loss of Rs 1,879 crore for the second quarter. The loss narrowed compared to the Rs 2,582 crore loss reported in the same period last year, while quarterly revenue grew 26%.",
+   "summary": "Bank of Baroda reported a 35.8 percent year-on-year increase in net profit to 6,532 crore rupees for the September quarter.\nNet interest income grew 9 percent to 13,026 crore rupees.\nThe bank's bad loan ratio dropped to 1.78 percent.\nGlobal loans and deposits both showed double-digit growth.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Narrowing losses and rising revenue indicate improving operational performance in the aviation industry.",
+   "impact": "May help Nifty: Higher profits and lower bad loans in major banks could support banking sector shares.",
    "lean": "up",
    "sectors": [
-    "Aviation",
-    "Transport"
+    "Banking"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/indigo-q2-results-loss-narrows-yoy-to-rs-1879-crore-revenue-rises-26/articleshow/135301474.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Adani Ports shares jump 4% after Q2 beat as analysts issue buy calls",
-   "time": "2026-10-29T15:29:00+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    20,
-    21
-   ],
-   "summary": "Adani Ports and Special Economic Zone shares rose 4% after the company reported second-quarter earnings that beat market expectations. The stock reached an intraday high of Rs 1,840 with substantial trading volumes.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Better-than-expected financial performance in market heavyweights helps lift broader index levels.",
-   "lean": "up",
-   "sectors": [
-    "Infrastructure",
-    "Ports"
-   ],
-   "unverified_figures": [],
-   "sources": [
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bank-of-baroda-q2-results-standalone-profit-jumps-36-yoy-to-rs-6532-crore-nii-up-9/articleshow/135359927.cms"
+    },
     {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/stock-markets/adani-ports-jumps-4-as-analysts-pile-on-with-buy-calls-after-q2-beat/article71639372.ece"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bank-of-baroda-q2-profit-jumps-36-to-rs-6532-crore-on-nse-stake-sale/articleshow/135369087.cms"
     }
    ]
   },
   {
-   "headline": "RIL Q2 preview: Double-digit Ebitda growth seen; fundraising update eyed",
-   "time": "2026-10-29T15:06:28+05:30",
+   "headline": "Sebi eases FPI compliance, extends KYC review period from December 1",
+   "time": "2026-10-30T18:52:13+05:30",
    "factors": [
-    "Corporate earnings",
-    "Heavyweight stocks"
+    "Regulation",
+    "Foreign investment"
    ],
    "factor_ids": [
-    20,
-    21
+    17,
+    18
    ],
-   "summary": "Brokerage previews expect Reliance Industries to report double-digit revenue growth between 22% and 30% for the second quarter. Market participants are watching for operational performance across its retail, telecom, and energy segments.",
+   "summary": "SEBI extended the background check review period for foreign portfolio investors starting December 1.\nThe review interval was increased from one year to two years, and from three years to eight years for selected investor categories.\nSEBI also removed a separate disclosure rule to reduce repetitive paperwork.\nThe goal is to lower compliance work for foreign funds.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong growth expectations for India's largest market-weight stock can provide support to the benchmark index.",
+   "impact": "May help Nifty: Simpler compliance rules may encourage foreign investors to keep investing in Indian stocks.",
    "lean": "up",
    "sectors": [
-    "Oil & Gas",
-    "Telecom",
-    "Retail"
+    "Financials",
+    "Broad Market"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/ril-q2-results-preview-2026-double-digit-ebitda-growth-seen-fundraising-update-eyed-126102900822_1.html"
+     "url": "https://www.business-standard.com/markets/news/sebi-eases-fpi-compliance-extends-kyc-review-period-from-december-1-126103001503_1.html"
     }
    ]
   },
   {
-   "headline": "Sagility block deal: Promoter Sagility BV likely to sell 12% stake for Rs 2,377 crore",
-   "time": "2026-10-29T21:26:22+05:30",
+   "headline": "GAIL Q2 Results: Profit zooms 139% YoY to Rs 4,720 crore, revenue rises 33%; board approves GAIL Gas IPO",
+   "time": "2026-10-30T15:51:14+05:30",
    "factors": [
     "Corporate earnings",
     "Corporate events"
@@ -391,68 +135,318 @@
     20,
     31
    ],
-   "summary": "Promoter Sagility B.V. plans to sell a 12% stake in healthcare IT provider Sagility worth Rs 2,377 crore through a block deal. The company posted a 22.5% increase in second-quarter revenue and an 8.1% rise in adjusted net profit.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "Explanation withheld.",
-   "lean": "unclear",
+   "summary": "GAIL India reported a 139.3 percent year-on-year increase in net profit to 4,720 crore rupees for the September quarter.\nRevenue from operations increased by 32.7 percent.\nThe company board approved listing its subsidiary GAIL Gas Limited on stock exchanges through an initial public offering.\nThe board approved a 25 percent equity sale in the subsidiary.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: High earnings growth and subsidiary listing plans may support natural gas and energy shares.",
+   "lean": "up",
    "sectors": [
-    "IT",
-    "Healthcare"
+    "Oil & Gas",
+    "Utilities"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sagility-block-deal-promoter-sagility-bv-likely-to-sell-12-stake-for-rs-2377-crore/articleshow/135322817.cms"
-    },
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/sagility-block-deal-promoter-to-offload-12-stake-at-rs-42-45-apiece-deal-size-rs-2-377-crore-11793296092921.html"
+     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/gail-q2-results-profit-zooms-139-yoy-to-rs-4720-crore-revenue-rises-33-board-approves-gail-gas-ipo/articleshow/135356210.cms"
     }
    ]
   },
   {
-   "headline": "Rupee rises 3 paise to close at 95.25 against US dollar",
-   "time": "2026-10-29T16:09:57+05:30",
+   "headline": "India bonds buckle for fourth straight month on oil's climb",
+   "time": "2026-10-30T17:52:58+05:30",
    "factors": [
-    "Rupee",
-    "Crude oil"
+    "Global bond yields",
+    "Crude oil",
+    "Inflation and consumption",
+    "Indian bond market"
    ],
    "factor_ids": [
-    7,
-    8
+    3,
+    8,
+    11,
+    14
    ],
-   "summary": "The Indian rupee gained 3 paise to end at 95.25 against the US dollar. Lower international crude oil prices and positive domestic equity market trends supported the local currency during the trading session.",
+   "summary": "Indian government bond prices fell for a fourth straight month as crude oil prices climbed.\nHigher crude oil prices raised domestic inflation concerns.\nThe Reserve Bank of India raised its policy interest rate earlier in the month.\nForeign investment in Indian government bonds fell to a four-month low.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: A stable local currency helps control import costs for domestic companies and supports foreign investor interest.",
-   "lean": "up",
+   "impact": "May hurt Nifty: Higher crude oil prices and falling bond prices could increase costs for companies and weigh on market sentiment.",
+   "lean": "down",
    "sectors": [
-    "Foreign Exchange"
+    "Oil & Gas",
+    "Financials"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rises-3-paise-to-close-at-95-25-against-us-dollar/articleshow/135302143.cms"
+     "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-buckle-for-fourth-straight-month-on-oils-climb/articleshow/135361502.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Jio Platforms Q2 Results: Profit rises 14% YoY to Rs 8,389 crore; revenue up 11%",
+   "time": "2026-10-30T19:13:48+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Jio Platforms reported a 14 percent year-on-year rise in net profit to 8,389 crore rupees for the September quarter.\nRevenue grew 11 percent to 40,475 crore rupees.\nThe company added 9.1 million subscribers during the quarter.\nAverage revenue per user increased to 218.8 rupees.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Steady profit and subscriber growth in telecom operations may support telecom and parent company shares.",
+   "lean": "up",
+   "sectors": [
+    "Telecom"
+   ],
+   "unverified_figures": [
+    "218.8",
+    "9.1"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/jio-platforms-q2-results-profit-rises-14-yoy-to-rs-8389-crore-revenue-up-11/articleshow/135364558.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Sun Pharma Q2 profit falls 36% as litigation costs hit earnings",
+   "time": "2026-10-30T22:14:19+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Sun Pharma reported a 36 percent year-on-year drop in September quarter net profit to 1,989 crore rupees due to legal and acquisition costs.\nRevenue increased 11.8 percent driven by domestic and emerging market sales.\nUS sales weakened during the quarter.\nExceptional legal expenses hit overall profitability.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Lower net profit in India's top pharmaceutical company may create pressure on healthcare sector shares.",
+   "lean": "down",
+   "sectors": [
+    "Pharmaceuticals"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/sun-pharma-q2-profit-falls-36-as-litigation-costs-hit-earnings/articleshow/135370217.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Asian Paints’ consolidated profit jumps 7.5% YoY in Q2",
+   "time": "2026-10-30T16:08:58+05:30",
+   "factors": [
+    "Inflation and consumption",
+    "Corporate earnings",
+    "Other commodities"
+   ],
+   "factor_ids": [
+    11,
+    20,
+    9
+   ],
+   "summary": "Asian Paints reported a 7.5 percent year-on-year increase in net profit to 1,067.6 crore rupees for the September quarter.\nNet sales grew 16.9 percent to 9,953.9 crore rupees.\nHigher raw material costs hurt profit margins, prompting plans for price increases.\nThe company declared an interim dividend of 5.75 rupees per share.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Margin pressure from rising raw material costs may affect investor sentiment toward consumer stocks.",
+   "lean": "down",
+   "sectors": [
+    "Consumer Durables",
+    "Paints"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/asian-paints-consolidated-profit-jumps-7-5-yoy-in-q2/articleshow/135356862.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Rupee rises 33 paise to close at 94.93 against US dollar",
+   "time": "2026-10-30T16:06:04+05:30",
+   "factors": [
+    "Rupee",
+    "US dollar"
+   ],
+   "factor_ids": [
+    7,
+    4
+   ],
+   "summary": "The Indian rupee rose by 33 paise to close at 94.93 against the US dollar.\nDuring the trading session, the rupee hit an intraday high of 94.94 and a low of 95.28 against the dollar.\nThe previous close was at 95.26 against the dollar.\nIt opened at 95.21 before gaining strength.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "Unclear for Nifty: A stronger rupee reduces import bills for companies but could lower revenue gains for export industries.",
+   "lean": "unclear",
+   "sectors": [
+    "IT",
+    "Pharmaceuticals",
+    "Imports"
+   ],
+   "unverified_figures": [
+    "95.26"
+   ],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-rises-33-paise-to-close-at-9493-against-us-dollar/article71644634.ece"
+    },
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rises-33-paise-to-close-at-94-93-against-us-dollar/articleshow/135357047.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Aditya Birla Capital Q2 profit rises 38% to Rs 1,288-cr",
+   "time": "2026-10-30T16:30:02+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    20,
+    13
+   ],
+   "summary": "Aditya Birla Capital reported a 38 percent year-on-year increase in September quarter net profit to 1,288 crore rupees.\nOperational revenue grew to 14,003 crore rupees.\nLending assets under management increased 32 percent to 2.34 lakh crore rupees.\nCompany shares gained 1.75 percent following the results.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Healthy loan growth and higher profits may support non-banking finance company shares.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "NBFC"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/aditya-birla-capital-q2-profit-rises-38-to-rs-1288-cr/articleshow/135357711.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Why IndiGo shares flew over 4% despite 3rd straight quarterly loss amid higher fuel costs: What lies ahead?",
+   "time": "2026-10-30T19:22:45+05:30",
+   "factors": [
+    "Crude oil",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    8,
+    20
+   ],
+   "summary": "InterGlobe Aviation reported a net loss of 1,880 crore rupees for the September quarter, which was smaller than expected.\nQuarterly revenue grew 26 percent year-on-year.\nAircraft fuel costs jumped by 67 percent during the quarter.\nCompany shares rose over 4 percent after the results.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Narrower losses than expected gave short-term support, but sharp increases in fuel costs pose ongoing challenges for airlines.",
+   "lean": "unclear",
+   "sectors": [
+    "Aviation"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/why-indigo-shares-flew-over-4-despite-3rd-straight-quarterly-loss-amid-higher-fuel-costs-what-lies-ahead-11793364252733.html"
+    }
+   ]
+  },
+  {
+   "headline": "Sebi imposes ₹1 crore fine on CDSL for multiple compliance lapses",
+   "time": "2026-10-30T23:11:30+05:30",
+   "factors": [
+    "Regulation",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    17,
+    31
+   ],
+   "summary": "SEBI imposed a penalty of 1 crore rupees on Central Depository Services India Limited for regulatory compliance lapses.\nThe lapses included failing to give rejection reasons for pledge requests and deficiencies in disaster recovery tests.\nCDSL was directed to pay the penalty within 45 days.\nSEBI issued the order on Friday.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Regulatory penalties and operational lapses could hurt investor confidence in market infrastructure companies.",
+   "lean": "down",
+   "sectors": [
+    "Financial Market Infrastructure"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/sebi-imposes-1-crore-fine-on-cdsl-for-multiple-compliance-lapses-126103001384_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Sebi issues final order against Axis Capital, imposes regulatory censure; Axis Bank shares fall over 1%",
+   "time": "2026-10-30T16:15:07+05:30",
+   "factors": [
+    "Regulation",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    17,
+    21
+   ],
+   "summary": "SEBI issued a final regulatory censure against Axis Capital regarding past underwriting restrictions.\nThe regulator noted there was no recorded investor harm or fraudulent default.\nAxis Bank stated it expects no material impact on its business operations.\nAxis Bank shares fell over 1 percent after the announcement.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Little effect on Nifty: Official closure of regulatory proceedings without recorded investor harm limits financial damage to the bank.",
+   "lean": "little",
+   "sectors": [
+    "Banking"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-issues-final-order-against-axis-capital-imposes-regulatory-censure-axis-bank-shares-fall-over-1/articleshow/135357153.cms"
+    }
+   ]
+  },
+  {
+   "headline": "India’s forex reserves fall by $1.269 billion to $719.748 billion",
+   "time": "2026-10-30T17:35:41+05:30",
+   "factors": [
+    "Rupee",
+    "External balances"
+   ],
+   "factor_ids": [
+    7,
+    32
+   ],
+   "summary": "India's foreign exchange reserves declined by 1.269 billion US dollars to 719.748 billion US dollars.\nThe fall follows a previous weekly decline in total reserves.\nForeign currency assets and gold holdings showed mixed movements during the week.\nIndia's reserve position with the IMF also showed changes.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: A small decline in foreign currency reserves is normal and unlikely to significantly change broader market direction.",
+   "lean": "unclear",
+   "sectors": [
+    "Broad Market"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/forex/indias-forex-reserves-fall-by-1269-billion-to-719748-billion/article71644927.ece"
     }
    ]
   }
  ],
  "factor_status": {
   "1": "found",
-  "2": "found",
-  "3": "none",
-  "4": "none",
+  "2": "none",
+  "3": "found",
+  "4": "found",
   "5": "found",
   "6": "unverified",
   "7": "found",
   "8": "found",
-  "9": "unverified",
+  "9": "found",
   "10": "none",
   "11": "found",
   "12": "none",
   "13": "found",
-  "14": "none",
+  "14": "found",
   "15": "none",
   "16": "none",
   "17": "found",
@@ -470,7 +464,7 @@
   "29": "unverified",
   "30": "unverified",
   "31": "found",
-  "32": "none",
+  "32": "found",
   "33": "unverified",
   "34": "unverified",
   "35": "unverified",
@@ -481,31 +475,31 @@
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Removed AI text with trading language: Sagility block deal: Promoter Sagility BV likely to sell 12%",
-  "Check figures 238 (not found in the source text we read): Sensex today | Stock Market Highlights: Sensex settles 905 p",
-  "Check figures 20 (not found in the source text we read): Equitas Small Finance Bank chief PN Vasudevan plans exit ove"
+  "Check figures 23.9, 332861, 62409 (not found in the source text we read): Reliance Industries Q2 Results: Profit shoots up 41% YoY to ",
+  "Check figures 218.8, 9.1 (not found in the source text we read): Jio Platforms Q2 Results: Profit rises 14% YoY to Rs 8,389 c",
+  "Check figures 95.26 (not found in the source text we read): Rupee rises 33 paise to close at 94.93 against US dollar"
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 4,
+   "in_window": 9,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-29T17:45:00+05:30"
+   "newest": "2026-10-30T18:40:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
    "total": 10,
-   "in_window": 0,
+   "in_window": 1,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-27T17:30:00+05:30"
+   "newest": "2026-10-30T15:15:00+05:30"
   },
   "SEBI": {
    "ok": true,
    "total": 30,
-   "in_window": 4,
+   "in_window": 16,
    "no_time": 30,
    "fresh": true,
    "newest": null
@@ -513,7 +507,7 @@
   "US Federal Reserve": {
    "ok": true,
    "total": 20,
-   "in_window": 1,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
    "newest": "2026-10-30T02:00:00+05:30"
@@ -529,18 +523,18 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 47,
+   "in_window": 33,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-30T07:36:29+05:30"
+   "newest": "2026-10-31T06:20:12+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 33,
+   "in_window": 21,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-30T08:05:46+05:30"
+   "newest": "2026-10-31T01:45:26+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
@@ -548,15 +542,15 @@
    "in_window": 7,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-30T08:04:37+05:30"
+   "newest": "2026-10-30T23:40:24+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 27,
+   "in_window": 17,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-30T07:50:14+05:30"
+   "newest": "2026-10-31T06:14:37+05:30"
   }
  }
 }
