@@ -1,17 +1,6 @@
 {
- "verified_on": "2026-10-22",
+ "verified_on": "2026-11-01",
  "events": [
-  {
-   "name": "US Fed (FOMC) rate decision",
-   "date": "2026-10-28",
-   "time": "2:00 PM New York time (late night in India)",
-   "why": "US interest-rate decision. Can move global markets, the dollar and foreign flows into India.",
-   "url": "https://www.chicagofed.org/utilities/about-us/federal-reserve-calendars",
-   "verified": true,
-   "note": "From the official page: october 27–28",
-   "source_id": "fomc",
-   "checked_on": "2026-10-22"
-  },
   {
    "name": "US CPI inflation (October data)",
    "date": "2026-11-10",
@@ -24,16 +13,6 @@
    "checked_on": "2026-10-22"
   },
   {
-   "name": "India CPI inflation",
-   "date": "2026-11-12",
-   "why": "India retail inflation. Key input for RBI rate expectations.",
-   "url": "https://www.mospi.gov.in/uploads/documents/releaseCalender/1770293210621-ADVANCE%20RELEASE%20CALENDAR%202026-27%20FINAL%2005.02.2026.pdf",
-   "verified": true,
-   "note": "MoSPI advance release calendar 2026-27 lists the 12th of each month. Check MoSPI if it falls on a weekend.",
-   "source_id": "in_cpi",
-   "checked_on": "2026-10-22"
-  },
-  {
    "name": "RBI policy decision",
    "date": "2026-12-04",
    "time": "",
@@ -42,7 +21,7 @@
    "verified": true,
    "note": "From the official page: december 2, 3 and 4, 2026",
    "source_id": "rbi_mpc",
-   "checked_on": "2026-10-22"
+   "checked_on": "2026-11-01"
   },
   {
    "name": "US Fed (FOMC) rate decision",
@@ -53,7 +32,7 @@
    "verified": true,
    "note": "From the official page: december 8–9*",
    "source_id": "fomc",
-   "checked_on": "2026-10-22"
+   "checked_on": "2026-11-01"
   },
   {
    "name": "US CPI inflation (November data)",
@@ -74,7 +53,7 @@
    "verified": true,
    "note": "MoSPI advance release calendar 2026-27 lists the 12th of each month. Check MoSPI if it falls on a weekend.",
    "source_id": "in_cpi",
-   "checked_on": "2026-10-22"
+   "checked_on": "2026-11-01"
   },
   {
    "name": "India CPI inflation",
@@ -84,7 +63,7 @@
    "verified": true,
    "note": "MoSPI advance release calendar 2026-27 lists the 12th of each month. Check MoSPI if it falls on a weekend.",
    "source_id": "in_cpi",
-   "checked_on": "2026-10-22"
+   "checked_on": "2026-11-01"
   },
   {
    "name": "RBI policy decision",
@@ -95,7 +74,7 @@
    "verified": true,
    "note": "From the official page: february 3, 4 and 5, 2027",
    "source_id": "rbi_mpc",
-   "checked_on": "2026-10-22"
+   "checked_on": "2026-11-01"
   },
   {
    "name": "India CPI inflation",
@@ -105,7 +84,7 @@
    "verified": true,
    "note": "MoSPI advance release calendar 2026-27 lists the 12th of each month. Check MoSPI if it falls on a weekend.",
    "source_id": "in_cpi",
-   "checked_on": "2026-10-22"
+   "checked_on": "2026-11-01"
   },
   {
    "name": "India CPI inflation",
@@ -115,17 +94,17 @@
    "verified": true,
    "note": "MoSPI advance release calendar 2026-27 lists the 12th of each month. Check MoSPI if it falls on a weekend.",
    "source_id": "in_cpi",
-   "checked_on": "2026-10-22"
+   "checked_on": "2026-11-01"
   }
  ],
  "sources_status": {
   "rbi_mpc": {
    "ok": true,
-   "checked_on": "2026-10-22"
+   "checked_on": "2026-11-01"
   },
   "fomc": {
    "ok": true,
-   "checked_on": "2026-10-22"
+   "checked_on": "2026-11-01"
   },
   "us_cpi": {
    "ok": false,
@@ -134,7 +113,7 @@
   },
   "in_cpi": {
    "ok": true,
-   "checked_on": "2026-10-22"
+   "checked_on": "2026-11-01"
   }
  }
 }
