@@ -1,194 +1,240 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 02 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-02T08:14:04.815350+05:30",
- "window_start": "2026-11-01T15:00:00+05:30",
- "cutoff": "2026-11-02T07:30:00+05:30",
- "quick_read": "Strong quarterly results from Reliance Industries, foreign buying in big stocks, and lower crude oil prices may support the market. However, export tax hikes on fuel, profit margin pressure from raw material costs, and bank cyber security concerns could cause pressure. Regulatory actions in China and proposed changes to insurance agent commissions leave overall market direction unclear.",
+ "title": "Indian Market News Brief — 03 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-03T08:11:49.770449+05:30",
+ "window_start": "2026-11-02T15:00:00+05:30",
+ "cutoff": "2026-11-03T07:30:00+05:30",
+ "quick_read": "Strong earnings from market giant Reliance and falling crude oil prices helped Indian markets rise sharply. Proposals by the market regulator to cut taxes for foreign investors also boosted market mood. However, lower winter crop sowing and rising deposit interest costs for banks are key areas to watch.",
  "stories": [
   {
-   "headline": "Reliance Industries eyes growth boost from O2C, retail and Jio businesses",
-   "time": "2026-11-02T06:35:51+05:30",
+   "headline": "Massive surge! Reliance Industries shares up 12% after Q2; add ₹2 lakh cr in mcap — when did RIL last rally this much?",
+   "time": "2026-11-02T17:24:13+05:30",
    "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks",
+    "Price and volume"
+   ],
+   "factor_ids": [
+    20,
+    21,
+    27
+   ],
+   "summary": "Reliance Industries shares surged nearly 12% to ₹1,300 in a single day. The company reported record profit for the July-September quarter. The rally added ₹1.84 lakh crore to its total market value. This strong rise helped lift the main stock market indices by over 1.6%.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong earnings from the heaviest weighted stock directly boost market index levels and investor confidence.",
+   "lean": "up",
+   "sectors": [
+    "Oil & Gas",
+    "Telecom"
+   ],
+   "unverified_figures": [
+    "1.6"
+   ],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/massive-surge-reliance-industries-shares-up-12-after-q2-add-rs-2-lakh-cr-in-mcap-when-did-ril-last-rally-this-much-11793618055937.html"
+    }
+   ]
+  },
+  {
+   "headline": "Sensex, Nifty tomorrow 3 Nov: Will stock market jump on Sebi's 12.5% foreign ‌investors LTCG tax removal recommendation?",
+   "time": "2026-11-02T20:10:33+05:30",
+   "factors": [
+    "Government policy",
+    "Regulation",
+    "Foreign investment"
+   ],
+   "factor_ids": [
+    15,
+    17,
+    18
+   ],
+   "summary": "Market regulator SEBI has recommended removing long-term capital gains tax for foreign investors. It also suggested tax relief for domestic mutual fund buyers. Market participants responded positively to reports of possible tax cuts. The government has not announced a final tax decision yet.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Lower taxes for foreign investors could encourage higher foreign money inflows into Indian stock markets.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Broad Market"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/sensex-nifty-tomorrow-3-nov-will-stock-market-jump-on-sebis-12-5-foreign-investors-ltcg-tax-removal-recommendation-11793629514612.html"
+    }
+   ]
+  },
+  {
+   "headline": "ITC shares to be in focus on Tuesday as Q2 net profit drops 18.5% on higher cigarette taxes",
+   "time": "2026-11-02T21:14:26+05:30",
+   "factors": [
+    "Inflation and consumption",
     "Corporate earnings",
     "Heavyweight stocks"
    ],
    "factor_ids": [
+    11,
     20,
     21
    ],
-   "summary": "Reliance Industries reported higher profit and revenue for the July-September quarter. The oil-to-chemicals division and Jio Platforms led the growth. However, retail business profits faced pressure from investments in online commerce.",
+   "summary": "ITC reported an 18.5% fall in net profit to ₹4,229 crore for the September quarter. Higher taxes on cigarettes and costlier raw materials hurt profit margins. Operating profit from the cigarette business dropped over 27%. Overall company revenue still grew by nearly 44%.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong growth in telecom and chemical businesses at India's largest company could boost overall market mood.",
-   "lean": "up",
+   "impact": "May hurt Nifty: Reduced profit in a major index stock can drag down consumer sector share prices and overall index values.",
+   "lean": "down",
    "sectors": [
-    "Oil & Gas",
-    "Telecommunications",
-    "Retail"
+    "FMCG"
    ],
-   "unverified_figures": [],
+   "unverified_figures": [
+    "44"
+   ],
    "sources": [
     {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-industries-reports-strong-growth-in-september-quarter-driven-by-oil-to-chemicals-segment/articleshow/135441477.cms"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/itc-shares-to-be-in-focus-on-tuesday-as-q2-net-profit-drops-18-5-on-higher-cigarette-taxes-11793631186838.html"
     }
    ]
   },
   {
-   "headline": "FPI buying returns to Dalal Street as global investors rethink AI bets",
-   "time": "2026-11-02T05:53:30+05:30",
-   "factors": [
-    "Foreign investment",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    18,
-    21
-   ],
-   "summary": "Foreign portfolio investors turned into net buyers of Indian equities. They purchased nearly $1.2 billion worth of shares over ten recent trading sessions, focusing mainly on big company stocks.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Renewed buying by foreign investors in large company shares provides strong support to the main stock index.",
-   "lean": "up",
-   "sectors": [
-    "Financials",
-    "Information Technology"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-turn-net-buyers-as-ai-trade-worries-trigger-allocation-shift/articleshow/135441107.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Oil prices fall over 1% as Iran-Qatar talks raise hopes of diplomatic progress",
-   "time": "2026-11-02T06:57:34+05:30",
+   "headline": "Oil slide hands India's 10-year bond its best day since early April",
+   "time": "2026-11-02T18:38:52+05:30",
    "factors": [
     "Crude oil",
-    "Geopolitics and trade"
+    "Indian bond market",
+    "External balances"
    ],
    "factor_ids": [
     8,
-    6
+    14,
+    32
    ],
-   "summary": "Crude oil prices dropped by over 1% following talks between Iran and Qatar. The diplomatic discussion raised hopes of lowering regional conflict.",
+   "summary": "Prices of Brent crude oil fell sharply in global markets. Lower oil prices reduce the total money India spends on imported fuel. Demand for Indian government 10-year bonds increased as oil prices dropped. The lower oil price trend helps lower domestic inflation pressure.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Cheaper crude oil cuts import costs for India and helps reduce raw material expenses for many domestic companies.",
+   "impact": "May help Nifty: Cheaper crude oil lowers input costs for Indian companies and reduces the national import bill.",
    "lean": "up",
    "sectors": [
     "Oil & Gas",
     "Paints",
-    "Automotive"
+    "Automobile"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/oil-slide-hands-indias-10-year-bond-its-best-day-since-early-april/articleshow/135463185.cms"
+    }
+   ]
+  },
+  {
+   "headline": "A month after RBI’s rate hike, banks start raising deposit rates as liquidity shrinks, Bank of India the latest to move",
+   "time": "2026-11-03T00:20:31+05:30",
+   "factors": [
+    "US monetary policy",
+    "RBI monetary policy",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    2,
+    12,
+    13
+   ],
+   "summary": "Commercial banks in India have started increasing interest rates paid on customer deposits. Bank of India recently raised its deposit rates across several time periods. This step comes as spare cash available in the banking system has decreased. Banks are raising rates to attract funds for growing loan demand.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Higher deposit rates increase interest expenses for banks, which could hurt their profit margins.",
+   "lean": "down",
+   "sectors": [
+    "Banks"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/a-month-after-rbis-rate-hike-banks-start-raising-deposit-rates-as-liquidity-shrinks-bank-of-india-the-latest-to-move/articleshow/135478028.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Sebi issues rules for depositary receipts on REITs, InvITs units",
+   "time": "2026-11-02T20:17:41+05:30",
+   "factors": [
+    "Government policy",
+    "Regulation",
+    "Foreign investment"
+   ],
+   "factor_ids": [
+    15,
+    17,
+    18
+   ],
+   "summary": "SEBI has introduced a new framework for depositary receipts on REITs and InvITs. This allows foreign investors to buy units of Indian real estate and infrastructure trusts on foreign exchanges. Fresh offerings require approval from exchanges and 75% consent from unitholders. The move aims to attract foreign capital to Indian infrastructure.",
+   "confirmation": "Official source",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Real Estate",
+    "Infrastructure"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/sebi-issues-rules-for-depositary-receipts-on-reits-invits-units/articleshow/135465653.cms"
+    },
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-invits-_105557.html"
+    }
+   ]
+  },
+  {
+   "headline": "India’s rabi acreage down 46% as sowing of all crops gets delayed",
+   "time": "2026-11-02T22:08:50+05:30",
+   "factors": [
+    "GDP and growth",
+    "Inflation and consumption",
+    "Seasonal factors"
+   ],
+   "factor_ids": [
+    10,
+    11,
+    34
+   ],
+   "summary": "Planting for winter crops in India has dropped 46% compared to normal levels. Sowing of mustard fell 47%, while pulse crops dropped 52%. Wheat and rice planted areas are also lower than last year. Delays in sowing raise concerns over future food supply and rural income.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Lower crop output could drive up food prices and reduce consumer spending power in rural areas.",
+   "lean": "down",
+   "sectors": [
+    "FMCG",
+    "Agriculture"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/commodities/oil-prices-fall-over-1-as-iran-qatar-talks-raise-hopes-of-diplomatic-progress/article71655114.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Tax twist for OMC stocks: Indian Oil, BPCL, HPCL shares in 2 Nov focus after this decision by Govt on petrol, diesel",
-   "time": "2026-11-01T17:41:32+05:30",
-   "factors": [
-    "Government policy",
-    "Crude oil",
-    "Corporate earnings"
-   ],
-   "factor_ids": [
-    15,
-    8,
-    20
-   ],
-   "summary": "The government increased export duties on diesel and aviation turbine fuel starting October 31. At the same time, it lowered the export duty on petrol to zero.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Higher export taxes on diesel and jet fuel could reduce profits for state-owned oil refiners.",
-   "lean": "down",
-   "sectors": [
-    "Oil & Gas"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/tax-twist-for-omc-stocks-indian-oil-bpcl-hpcl-shares-in-2-nov-focus-after-this-decision-by-govt-on-petrol-diesel-11793531837968.html"
-    }
-   ]
-  },
-  {
-   "headline": "Sun Pharma shares gain despite Q2 profit slips 36% YoY | Should you buy, sell or hold? What brokerage says, target price",
-   "time": "2026-11-01T17:41:57+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    20,
-    21
-   ],
-   "summary": "Sun Pharma reported a 36.4% fall in net profit to ₹1,988.5 crore for the September quarter due to legal expenses and acquisition costs. However, sales revenue grew 11.9% to ₹16,198.7 crore.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: One-time legal and acquisition costs hurt net profit, but steady revenue growth in India and specialty drugs provides support.",
-   "lean": "unclear",
-   "sectors": [
-    "Pharmaceuticals"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/sun-pharma-shares-gain-despite-q2-profit-slips-36-yoy-should-you-buy-sell-or-hold-what-brokerage-says-target-price-11793533331740.html"
-    }
-   ]
-  },
-  {
-   "headline": "Cyberattacks on banks, including AU Small Finance Bank, worry insurers as claim risks rise",
-   "time": "2026-11-01T23:29:56+05:30",
-   "factors": [
-    "Banking and liquidity",
-    "Corporate earnings"
-   ],
-   "factor_ids": [
-    13,
-    20
-   ],
-   "summary": "AU Small Finance Bank is investigating a possible customer data leak stored on third-party software. Insurance companies reported a recent increase in cyberattacks targeting banks and factories.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Bank stocks may suffer if cyber breaches lead to extra security costs and loss of customer trust.",
-   "lean": "down",
-   "sectors": [
-    "Banking",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/cyberattacks-on-banks-including-au-small-finance-bank-worry-insurers-as-claim-risks-rise/articleshow/135441593.cms"
+     "url": "https://www.thehindubusinessline.com/economy/agri-business/indias-rabi-acreage-down-46-as-sowing-of-all-crops-gets-delayed/article71657455.ece"
     }
    ]
   },
   {
    "headline": "Small-cap sell off intensifies as MTF funded positions unwind",
-   "time": "2026-11-01T21:40:43+05:30",
+   "time": "2026-11-02T22:06:39+05:30",
    "factors": [
-    "Technical trends",
-    "Price and volume",
+    "Domestic investment",
+    "Market breadth",
     "Investor psychology"
    ],
    "factor_ids": [
-    24,
-    27,
+    19,
+    26,
     36
    ],
-   "summary": "The average borrowed money used by traders to buy stocks fell to ₹1.51 lakh crore in October. Investors reduced their borrowed positions in smaller companies due to high interest costs and weak earnings.",
+   "summary": "Money borrowed by stock traders for margin trading fell to ₹1.51 lakh crore in October. Traders reduced their debt-funded positions due to weak quarterly company profits and higher interest rates. This reduction in leverage led to selling pressure in smaller company shares.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Explanation withheld.",
-   "lean": "unclear",
+   "impact": "May hurt Nifty: Less borrowing by traders reduces general buying activity and puts downward pressure on stock prices.",
+   "lean": "down",
    "sectors": [
-    "Financial Services"
+    "Broad Market"
    ],
    "unverified_figures": [],
    "sources": [
@@ -197,200 +243,43 @@
      "url": "https://www.thehindubusinessline.com/markets/small-cap-sell-off-intensifies-as-mtf-funded-positions-unwind/article71649138.ece"
     }
    ]
-  },
-  {
-   "headline": "Varun Beverages’ Q3 volume surge can’t mask margin pain",
-   "time": "2026-11-02T06:30:12+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Other commodities"
-   ],
-   "factor_ids": [
-    20,
-    9
-   ],
-   "summary": "Varun Beverages reported a 28.7% rise in sales volume for the September quarter. However, profit margins were compressed due to higher packaging material costs.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Higher packaging costs cut into company profits despite strong drink sales.",
-   "lean": "down",
-   "sectors": [
-    "Consumer Goods"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/mark-to-market/varun-beverages-carbonated-soft-drinks-sting-pepsico-price-hikes-packaging-costs-11793513498775.html"
-    }
-   ]
-  },
-  {
-   "headline": "Sebi to delist penny stocks: Market regulator plans AI-based surveillance of such firms",
-   "time": "2026-11-01T18:49:51+05:30",
-   "factors": [
-    "Regulation",
-    "Market structure"
-   ],
-   "factor_ids": [
-    17,
-    30
-   ],
-   "summary": "Market regulator SEBI plans to use artificial intelligence to identify and remove inactive small companies from stock exchanges. It also plans to announce compliance rules for foreign investors.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Removing inactive firms and improving trading rules helps protect retail investors and increases trust in the market.",
-   "lean": "up",
-   "sectors": [
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-regulator-plans-ai-based-surveillance-of-such-firms/articleshow/135441629.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Banks seek microloan guarantee extension",
-   "time": "2026-11-01T23:47:47+05:30",
-   "factors": [
-    "Banking and liquidity",
-    "Government policy"
-   ],
-   "factor_ids": [
-    13,
-    15
-   ],
-   "summary": "IDFC First Bank and small finance banks like AU, Jana, and Suryoday asked the government to extend a small loan guarantee scheme. They set aside guarantee fees expecting the government to reopen the program.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Government guarantees on small loans protect banks against losses from unpaid micro-loans.",
-   "lean": "up",
-   "sectors": [
-    "Banking",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/banks-seek-microloan-guarantee-extension/articleshow/135441691.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Irdai to weigh 650+ responses on insurance commissions",
-   "time": "2026-11-02T00:14:30+05:30",
-   "factors": [
-    "Regulation",
-    "Corporate earnings"
-   ],
-   "factor_ids": [
-    17,
-    20
-   ],
-   "summary": "Insurance regulator IRDAI received over 650 responses to its paper proposing tighter limits on agent commissions and business expenses. The regulator will issue draft rules next.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Limits on agent commissions could reduce business expenses for insurers but might temporarily lower new policy sales.",
-   "lean": "unclear",
-   "sectors": [
-    "Insurance"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/irdai-to-weigh-650-responses-on-insurance-commissions/articleshow/135441653.cms"
-    }
-   ]
-  },
-  {
-   "headline": "FPI G-Sec outflows nearly halve to Rs 5,400 crore in October",
-   "time": "2026-11-02T06:18:01+05:30",
-   "factors": [
-    "Indian bond market",
-    "Foreign investment"
-   ],
-   "factor_ids": [
-    14,
-    18
-   ],
-   "summary": "Foreign investors sold Indian government bonds worth Rs 5,400 crore in October. This amount is nearly half of the bond sales recorded in September.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Little effect on Nifty: A slowdown in foreign selling of government bonds indicates reduced pressure on Indian debt markets.",
-   "lean": "little",
-   "sectors": [
-    "Government Bonds"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/bonds/foreign-g-sec-selling-halves-but-oil-and-global-yields-pose-risks/articleshow/135441142.cms"
-    }
-   ]
-  },
-  {
-   "headline": "China Reportedly Discusses Ways to Support Stocks With Banks",
-   "time": "2026-11-02T07:11:24+05:30",
-   "factors": [
-    "China and global growth",
-    "Global markets"
-   ],
-   "factor_ids": [
-    5,
-    1
-   ],
-   "summary": "China's financial regulators scheduled a meeting with commercial banks and brokerages to discuss ways to support their stock market and halt falling share prices.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Steps to support Chinese stocks might attract global investment away from India or boost Asian market confidence as a whole.",
-   "lean": "unclear",
-   "sectors": [
-    "Global Markets"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/china-reportedly-discusses-ways-to-support-stocks-with-banks-11793583684982.html"
-    }
-   ]
   }
  ],
  "factor_status": {
-  "1": "found",
-  "2": "none",
+  "1": "none",
+  "2": "found",
   "3": "none",
   "4": "none",
-  "5": "found",
-  "6": "found",
+  "5": "unverified",
+  "6": "unverified",
   "7": "none",
   "8": "found",
-  "9": "found",
-  "10": "none",
-  "11": "none",
-  "12": "none",
+  "9": "unverified",
+  "10": "found",
+  "11": "found",
+  "12": "found",
   "13": "found",
   "14": "found",
   "15": "found",
   "16": "none",
   "17": "found",
   "18": "found",
-  "19": "none",
+  "19": "found",
   "20": "found",
   "21": "found",
   "22": "none",
   "23": "none",
-  "24": "found",
+  "24": "unverified",
   "25": "unverified",
-  "26": "unverified",
+  "26": "found",
   "27": "found",
   "28": "unverified",
   "29": "unverified",
-  "30": "found",
+  "30": "unverified",
   "31": "none",
-  "32": "none",
+  "32": "found",
   "33": "unverified",
-  "34": "unverified",
+  "34": "found",
   "35": "unverified",
   "36": "found"
  },
@@ -399,16 +288,18 @@
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Removed AI text with trading language: Small-cap sell off intensifies as MTF funded positions unwin"
+  "Removed AI text with trading language: Sebi issues rules for depositary receipts on REITs, InvITs u",
+  "Check figures 1.6 (not found in the source text we read): Massive surge! Reliance Industries shares up 12% after Q2; a",
+  "Check figures 44 (not found in the source text we read): ITC shares to be in focus on Tuesday as Q2 net profit drops "
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 0,
+   "in_window": 2,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-30T18:40:00+05:30"
+   "newest": "2026-11-02T18:25:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
@@ -421,7 +312,7 @@
   "SEBI": {
    "ok": true,
    "total": 30,
-   "in_window": 0,
+   "in_window": 19,
    "no_time": 30,
    "fresh": true,
    "newest": null
@@ -445,34 +336,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 19,
+   "in_window": 43,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-02T07:50:02+05:30"
+   "newest": "2026-11-03T07:57:39+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 18,
+   "in_window": 30,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-02T08:00:54+05:30"
+   "newest": "2026-11-03T08:10:45+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 6,
+   "in_window": 5,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-02T08:04:25+05:30"
+   "newest": "2026-11-03T08:00:24+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 6,
+   "in_window": 27,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-02T07:32:33+05:30"
+   "newest": "2026-11-03T08:06:07+05:30"
   }
  }
 }
