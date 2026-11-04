@@ -1,7 +1,7 @@
 {
  "status": "partial",
  "title": "Indian Market News Brief — 04 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-04T08:10:10.618387+05:30",
+ "generated_at": "2026-11-04T08:55:43.068726+05:30",
  "window_start": "2026-11-03T15:00:00+05:30",
  "cutoff": "2026-11-04T07:30:00+05:30",
  "quick_read": "AI summary not available for this run.",
@@ -163,6 +163,38 @@
    ]
   },
   {
+   "headline": "प्रधानमंत्री ने सीआरपीएफ की उस उपलब्धि की जानकारी दी, जिसमें 47 वर्षों में पहली बार लगातार 12 महीनों तक की हताहत नहीं हुआ",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332348"
+    }
+   ]
+  },
+  {
+   "headline": "सीएसआईआर- एनआईएससीपीआर ने सीडीटीके-2026 पर अंतरराष्ट्रीय सम्मेलन का सफलतापूर्वक समापन किया; यह 'इंडियन जर्नल ऑफ ट्रेडिशनल नॉलेज' (आईजेटीके) के 25 वर्ष पूरे होने का प्रतीक",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332347"
+    }
+   ]
+  },
+  {
    "headline": "केन्द्रीय गृह एवं सहकारिता मंत्री श्री अमित शाह ने आज रायपुर में छत्तीसगढ़ राज्योत्सव के समापन समारोह को संबोधित किया",
    "time": null,
    "factors": [],
@@ -175,6 +207,22 @@
     {
      "name": "PIB (Govt of India)",
      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332278"
+    }
+   ]
+  },
+  {
+   "headline": "'माई भारत' के 'युवा संवाद: नो योर वोट' अभियान ने 30 राज्यों/केंद्र शासित प्रदेशों में 59,000 से अधिक युवाओं तक पहुंच बनाई है",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332349"
     }
    ]
   },
@@ -207,58 +255,6 @@
     {
      "name": "PIB (Govt of India)",
      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332290"
-    }
-   ]
-  },
-  {
-   "headline": "डीएएचडी का विशेष अभियान 6.0 सफलतापूर्वक संपन्न",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332285"
-    },
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332284"
-    }
-   ]
-  },
-  {
-   "headline": "वित्तीय सहायता से शैक्षणिक उत्कृष्टता तक",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332223"
-    }
-   ]
-  },
-  {
-   "headline": "केंद्रीय स्वास्थ्य मंत्रालय ने दवा की खेप जारी करने के लिए योग्य कर्मियों को अधिकृत करने को अनिवार्य बनाने के लिए औषधि नियमावली, 1945 में संशोधन का प्रस्ताव रखा",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332261"
     }
    ]
   }
@@ -352,10 +348,10 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 44,
+   "in_window": 42,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-04T07:57:00+05:30"
+   "newest": "2026-11-04T08:26:31+05:30"
   },
   "Mint Markets": {
    "ok": true,
@@ -363,7 +359,7 @@
    "in_window": 30,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-04T07:28:20+05:30"
+   "newest": "2026-11-04T08:47:55+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
@@ -371,7 +367,7 @@
    "in_window": 10,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-04T07:59:43+05:30"
+   "newest": "2026-11-04T08:41:42+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
