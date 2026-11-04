@@ -1,80 +1,194 @@
 {
- "status": "partial",
+ "status": "ok",
  "title": "Indian Market News Brief — 04 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-04T08:55:43.068726+05:30",
+ "generated_at": "2026-11-04T10:44:41.251242+05:30",
  "window_start": "2026-11-03T15:00:00+05:30",
  "cutoff": "2026-11-04T07:30:00+05:30",
- "quick_read": "AI summary not available for this run.",
+ "quick_read": "Strong buying by foreign funds and solid quarterly profits from large private banks and SBI may support the market. On the other hand, crude oil prices climbing above 105 dollars and US bond yields approaching 5 percent could create pressure on local shares. How global markets react to the US midterm election results and Middle East tensions remains unclear.",
  "stories": [
   {
-   "headline": "Result of Yield/Price Based Auction of State Government Securities",
-   "time": "2026-11-03T15:25:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Andhra Pradesh 1000 1000 96.57/8.0089 Re-issue of 7.46% Andhra Pradesh SGS 2035, issued on August 12, 2026 2000 2000 96.26/8.1463 Re-issue of 7.81% Andhra Pradesh SGS 2056, issued on April 22, 2026 2. Delhi 500 500 97.86/7.8890 Re-issue of 7.57% Delhi SGS 2036, issued on June 24, 20",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "FPIs pour Rs 21,715 crore into Indian stocks in 10 days; is record sell-off finally reversing?",
+   "time": "2026-11-03T17:28:21+05:30",
+   "factors": [
+    "Foreign investment"
+   ],
+   "factor_ids": [
+    18
+   ],
+   "summary": "Foreign portfolio investors put 21,715 crore rupees into Indian shares over a span of 10 days.\nThis inflow equals approximately 2.29 billion US dollars.\nThe purchases mark an improvement in sentiment after previous heavy selling by overseas funds.\nMarket observers noted support from firm company profits and attractive prices.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Heavy purchases by foreign investors bring fresh cash into big index stocks and can lift overall share prices.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Cross-Sector"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63906"
-    },
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63910"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-pour-rs-21715-crore-into-indian-stocks-in-10-days-is-record-sell-off-finally-reversing/articleshow/135495383.cms"
     }
    ]
   },
   {
-   "headline": "Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026",
-   "time": "2026-11-03T15:25:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "RESERVE BANK OF INDIA FOREIGN EXCHANGE DEPARTMENT CENTRAL OFFICE Mumbai 400 001 Notification No. FEMA 23(R)/(2)/2026-RB November 02, 2026 Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026 In exercise of the powers conferred by Section 7, Section 8, sub-section (6) of Section 10 and sub-section (2) of Section 47 of the Foreign Exchange Manage",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "US Treasury yields climb as strong jobs data, midterm polls weigh; 10-year yield eyes 5% again",
+   "time": "2026-11-04T00:40:49+05:30",
+   "factors": [
+    "Global bond yields",
+    "US monetary policy"
+   ],
+   "factor_ids": [
+    3,
+    2
+   ],
+   "summary": "US government bond yields moved higher following stronger than expected jobs data in America.\nThe 10-year US bond yield moved back toward the 5 percent mark.\nInvestors are waiting for the final results of the US midterm elections.\nA firm US job market suggests that American interest rates may stay high for longer.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: High returns on safe US government bonds can pull foreign money out of Indian shares.",
+   "lean": "down",
+   "sectors": [
+    "Financial Services",
+    "IT"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "RBI notifications",
-     "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-climb-as-strong-jobs-data-and-midterm-uncertainty-weigh-on-bonds/articleshow/135511549.cms"
     }
    ]
   },
   {
-   "headline": "RBI launches the November 2026 round of the Inflation Expectations Survey of Households",
-   "time": "2026-11-03T17:00:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "The Reserve Bank of India has been regularly conducting Inflation Expectations Survey of Households (IESH). The November 2026 round of the survey is being launched. The survey aims at capturing subjective assessments on price movements and inflation, based on their individual consumption baskets, across 19 cities, viz., Ahmedabad, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Delhi, Guwahat",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Markets extend gains for fourth day; FPI buying highest in a year",
+   "time": "2026-11-03T22:50:16+05:30",
+   "factors": [
+    "Crude oil",
+    "Global markets"
+   ],
+   "factor_ids": [
+    8,
+    1
+   ],
+   "summary": "Indian benchmark indices advanced for a fourth consecutive day.\nBrent crude oil prices rose 2 percent during trading to reach 105.29 dollars per barrel.\nCrude prices had slipped earlier before recovering sharply.\nGains in the domestic market were led by consumer goods and financial firms.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Costlier crude oil increases fuel import bills for India and can squeeze profit margins for paint, tyre, and transport companies.",
+   "lean": "down",
+   "sectors": [
+    "Energy",
+    "Consumer Goods",
+    "Automobile"
+   ],
+   "unverified_figures": [
+    "105.29"
+   ],
    "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63909"
-    },
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/markets-extend-gains-for-fourth-day-fpi-buying-highest-in-a-year-126110301699_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Loan growth, fall in provisions help SBI profits in Q2",
+   "time": "2026-11-03T21:33:26+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "State Bank of India posted a 14 percent rise in second-quarter net profit to 23,038 crore rupees.\nTotal lending by the bank expanded by 18 percent compared to last year.\nThe bank benefited from higher net interest earnings and reduced deposit expenses.\nProvisions kept aside to cover bad loans were lower than in the prior year.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Better profit and steady loan growth at the nation's biggest state-run lender could improve sentiment for the banking sector.",
+   "lean": "up",
+   "sectors": [
+    "PSU Banks",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63908"
-    },
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/loan-growth-fall-in-provisions-help-sbi-profits-in-q2/articleshow/135505841.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Reliance shares see volume breakout: Is a trend reversal around the corner? Here’s what RIL stock history shows",
+   "time": "2026-11-03T17:34:05+05:30",
+   "factors": [
+    "Heavyweight stocks",
+    "Price and volume"
+   ],
+   "factor_ids": [
+    21,
+    27
+   ],
+   "summary": "Reliance Industries shares surged nearly 12 percent in a single trading session on November 2.\nThe jump added almost 2 lakh crore rupees to the company total market value.\nTrading took place with unusually high volume.\nMarket participants pointed to stable quarterly figures and progress at its telecom unit.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Because Reliance carries the heaviest weight in the index, its strength can directly pull the Nifty higher.",
+   "lean": "up",
+   "sectors": [
+    "Energy",
+    "Telecom",
+    "Conglomerates"
+   ],
+   "unverified_figures": [],
+   "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63907"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/reliance-shares-see-volume-breakout-is-a-trend-reversal-around-the-corner-here-s-what-history-shows-11793706073307.html"
+    }
+   ]
+  },
+  {
+   "headline": "Nifty Private Bank index gains 2%; HDFC Bank, ICICI Bank, Axis Bank shine",
+   "time": "2026-11-03T15:04:15+05:30",
+   "factors": [
+    "Heavyweight stocks",
+    "Sector rotation"
+   ],
+   "factor_ids": [
+    21,
+    23
+   ],
+   "summary": "The Nifty Private Bank index gained 2 percent during recent market action.\nHDFC Bank and ICICI Bank each rallied 7 percent across five trading days.\nThese gains exceeded the 5 percent increase seen in the broader Nifty 50 over the same time.\nAxis Bank also recorded strong buying interest from investors.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Private lenders account for a very large portion of the index, so their price rise strongly supports the market.",
+   "lean": "up",
+   "sectors": [
+    "Private Banks",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/nifty-private-bank-index-gains-2-hdfc-bank-icici-bank-axis-bank-shine-126110300965_1.html"
     }
    ]
   },
   {
    "headline": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 04, 2026",
    "time": "2026-11-03T19:10:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, November 04, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 09:30 AM to 10:00 AM November 05, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank's Press Rel",
+   "factors": [
+    "RBI monetary policy",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    12,
+    13
+   ],
+   "summary": "The Reserve Bank of India decided to hold an auction to temporarily absorb 50,000 crore rupees from banks.\nThis Variable Rate Reverse Repo auction will take place on November 4, 2026.\nThe funds taken from banks will be returned on November 5, 2026.\nThe central bank took this step after studying current cash levels across the banking system.",
    "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "Little effect on Nifty: This is a routine one-day operation by the central bank to manage short-term cash in banks and rarely affects stock prices.",
+   "lean": "little",
+   "sectors": [
+    "Banks"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
      "name": "RBI press releases",
@@ -83,226 +197,225 @@
    ]
   },
   {
-   "headline": "Exemption Order in the matter of Emmbi Industries Limited",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Exemption Order in the matter of Emmbi Industries Limited",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "RBI eases forex rules for services exports and imports",
+   "time": "2026-11-04T00:53:04+05:30",
+   "factors": [
+    "RBI monetary policy",
+    "Government policy",
+    "Regulation"
+   ],
+   "factor_ids": [
+    12,
+    15,
+    17
+   ],
+   "summary": "The Reserve Bank of India relaxed foreign exchange rules for service exports and imports.\nThe amended rules are effective from October 1, 2026.\nResident individuals who export services will benefit from simpler self-declarations.\nThe changes aim to make cross-border transactions faster and reduce paperwork.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Simpler compliance for international payments can lower administrative hassles for software and consulting exporters.",
+   "lean": "up",
+   "sectors": [
+    "IT",
+    "Services"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/exemption_order_embil.pdf"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-eases-forex-rules-for-services-exports-and-imports/articleshow/135511997.cms"
     }
    ]
   },
   {
-   "headline": "Memorandum of Understanding between Securities and Exchange Board of India (SEBI) and Digital India BHASHINI Division (DIBD)",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Memorandum of Understanding between Securities and Exchange Board of India (SEBI) and Digital India BHASHINI Division (DIBD)",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Rupee nudges higher, forward premiums dip with focus on US midterm, oil moves",
+   "time": "2026-11-03T15:58:34+05:30",
+   "factors": [
+    "Rupee",
+    "Crude oil",
+    "Geopolitics and trade"
+   ],
+   "factor_ids": [
+    7,
+    8,
+    6
+   ],
+   "summary": "The Indian rupee settled slightly higher at 94.74 per US dollar on Tuesday.\nCurrency markets focused on the counting of votes in the US midterm elections.\nDevelopments around the conflict in Iran also kept currency traders watchful.\nA recovery in global oil prices capped further gains for the rupee.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: A steady currency helps keep import bills manageable, but rising oil prices and overseas war risks may restrain gains.",
+   "lean": "unclear",
+   "sectors": [
+    "Financial Services",
+    "Oil & Gas"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/memorandum-of-understanding-between-securities-and-exchange-board-of-india-sebi-and-digital-india-bhashini-division-dibd-_105575.html"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-nudges-higher-forward-premiums-dip-with-focus-on-us-midterm-oil-moves/articleshow/135492726.cms"
     }
    ]
   },
   {
-   "headline": "Adjudication Order in the matter of front running of the trades of Axis Mutual Fund",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Adjudication Order in the matter of front running of the trades of Axis Mutual Fund",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "NSE Q2 Results: Profit jumps 23% to Rs 2,578 crore, revenue rises 9%",
+   "time": "2026-11-03T18:09:02+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Market structure"
+   ],
+   "factor_ids": [
+    20,
+    30
+   ],
+   "summary": "National Stock Exchange of India reported a 23 percent increase in second-quarter profit to 2,578 crore rupees.\nTotal revenue rose 9 percent over the year.\nProfit after tax in the same quarter last year was 2,098 crore rupees.\nThe exchange gained from active trading across cash and derivative segments.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Strong growth at the primary stock exchange reflects healthy participation and activity across the broader capital market.",
+   "lean": "up",
+   "sectors": [
+    "Capital Markets",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-front-running-of-the-trades-of-axis-mutual-fund_105574.html"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/nse-q2-results-profit-jumps-23-to-rs-2578-crore-revenue-rises-9/articleshow/135499601.cms"
+    },
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/nse-q2fy27-net-profit-rises-23-to-2-578-crore-revenue-grows-10-6-126110301688_1.html"
+    },
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/nse-q2-net-profit-rises-23-to-2578-crore/article71662081.ece"
     }
    ]
   },
   {
-   "headline": "Completion of Recovery Certificate No. 9303 of 2026 dated October 13, 2026, issued to Mr. Aviral Saxena (PAN: KVYPS1652D) in the matter of market manipulation using social media in the scrip of Moksh Ornaments Limited.",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Completion of Recovery Certificate No. 9303 of 2026 dated October 13, 2026, issued to Mr. Aviral Saxena (PAN: KVYPS1652D) in the matter of market manipulation using social media in the scrip of Moksh Ornaments Limited.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "European shares fall as tech stocks slide, Middle East tensions weigh",
+   "time": "2026-11-03T17:26:13+05:30",
+   "factors": [
+    "Global markets",
+    "Geopolitics and trade"
+   ],
+   "factor_ids": [
+    1,
+    6
+   ],
+   "summary": "European stock indices dropped as technology company shares faced selling pressure.\nGlobal investors showed concern over high valuations among artificial intelligence businesses.\nTensions between the US and Iran weighed on general trading mood in Europe.\nHigher oil prices added to worries for European companies.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Selling in global technology shares and geopolitical tension overseas could prompt cautious trading in Indian IT firms.",
+   "lean": "down",
+   "sectors": [
+    "IT",
+    "Global Equities"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/completion-of-recovery-certificate-no-9303-of-2026-dated-october-13-2026-issued-to-mr-aviral-saxena-pan-kvyps1652d-in-the-matter-of-market-manipulation-using-social-media-in-the-scrip-of-moksh-_105572.html"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/european-shares-fall-as-tech-stocks-slide-middle-east-tensions-weigh/articleshow/135495334.cms"
     }
    ]
   },
   {
-   "headline": "Completion of Recovery Certificate No. RC9307 of 2026 in respect of Sri Salasar Suppliers Pvt. Ltd (PAN: AADCS8457R) in the matter of Decillon Finance Limited",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Completion of Recovery Certificate No. RC9307 of 2026 in respect of Sri Salasar Suppliers Pvt. Ltd (PAN: AADCS8457R) in the matter of Decillon Finance Limited",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Margin trading facility position value declines after 6 months of growth",
+   "time": "2026-11-03T16:54:46+05:30",
+   "factors": [
+    "Derivatives positioning",
+    "Market structure"
+   ],
+   "factor_ids": [
+    28,
+    30
+   ],
+   "summary": "The value of borrowed funds used by traders to buy shares fell 4.65 percent in October to 1.44 trillion rupees.\nThis drop ended five straight months of rising margin trading positions.\nExchange data showed that retail and institutional traders trimmed their borrowed exposures.\nInvestors chose to reduce leverage after recent market fluctuations.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Broking",
+    "Capital Markets"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/completion-of-recovery-certificate-no-rc9307-of-2026-in-respect-of-sri-salasar-suppliers-pvt-ltd-pan-aadcs8457r-in-the-matter-of-decillon-finance-limited_105568.html"
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/mtf-declines-for-first-time-in-six-months-as-leveraged-positions-ease-126110301314_1.html"
     }
    ]
   },
   {
-   "headline": "प्रधानमंत्री ने सीआरपीएफ की उस उपलब्धि की जानकारी दी, जिसमें 47 वर्षों में पहली बार लगातार 12 महीनों तक की हताहत नहीं हुआ",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Sugar Slides to Five-Week Low as High Indian Output Jolts Market",
+   "time": "2026-11-04T00:10:16+05:30",
+   "factors": [
+    "Other commodities"
+   ],
+   "factor_ids": [
+    9
+   ],
+   "summary": "Global sugar prices fell to their lowest point in five weeks.\nData revealed that Indian sugar production is running well ahead of last year pace.\nFutures contracts have fallen more than 13 percent from their previous month high.\nHigher supply from Indian farms has increased total availability in world markets.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Weaker international prices could reduce the earnings and profit margins of Indian sugar manufacturers.",
+   "lean": "down",
+   "sectors": [
+    "Sugar",
+    "Agriculture",
+    "FMCG"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332348"
-    }
-   ]
-  },
-  {
-   "headline": "सीएसआईआर- एनआईएससीपीआर ने सीडीटीके-2026 पर अंतरराष्ट्रीय सम्मेलन का सफलतापूर्वक समापन किया; यह 'इंडियन जर्नल ऑफ ट्रेडिशनल नॉलेज' (आईजेटीके) के 25 वर्ष पूरे होने का प्रतीक",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332347"
-    }
-   ]
-  },
-  {
-   "headline": "केन्द्रीय गृह एवं सहकारिता मंत्री श्री अमित शाह ने आज रायपुर में छत्तीसगढ़ राज्योत्सव के समापन समारोह को संबोधित किया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332278"
-    }
-   ]
-  },
-  {
-   "headline": "'माई भारत' के 'युवा संवाद: नो योर वोट' अभियान ने 30 राज्यों/केंद्र शासित प्रदेशों में 59,000 से अधिक युवाओं तक पहुंच बनाई है",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332349"
-    }
-   ]
-  },
-  {
-   "headline": "सर्बानंद सोनोवाल ने 2047 तक तटीय और जलमार्ग माल ढुलाई (फ्रेट) हिस्सेदारी को दोगुना करके 12% करने की योजना प्रस्तुत की",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332287"
-    }
-   ]
-  },
-  {
-   "headline": "शिल्प समागम मेला 2026 में पारंपरिक कला, हस्तशिल्प और सांस्कृतिक प्रस्तुतियों के माध्यम से भारत की सांस्कृतिक विविधता का उत्सव",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332290"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/sugar-slides-to-five-week-low-as-high-indian-output-jolts-market-11793731217079.html"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "unverified",
-  "2": "unverified",
-  "3": "unverified",
-  "4": "unverified",
+  "1": "found",
+  "2": "found",
+  "3": "found",
+  "4": "none",
   "5": "unverified",
-  "6": "unverified",
-  "7": "unverified",
-  "8": "unverified",
-  "9": "unverified",
-  "10": "unverified",
-  "11": "unverified",
-  "12": "unverified",
-  "13": "unverified",
-  "14": "unverified",
-  "15": "unverified",
-  "16": "unverified",
-  "17": "unverified",
-  "18": "unverified",
-  "19": "unverified",
-  "20": "unverified",
-  "21": "unverified",
-  "22": "unverified",
-  "23": "unverified",
+  "6": "found",
+  "7": "found",
+  "8": "found",
+  "9": "found",
+  "10": "none",
+  "11": "none",
+  "12": "found",
+  "13": "found",
+  "14": "none",
+  "15": "found",
+  "16": "none",
+  "17": "found",
+  "18": "found",
+  "19": "none",
+  "20": "found",
+  "21": "found",
+  "22": "none",
+  "23": "found",
   "24": "unverified",
   "25": "unverified",
   "26": "unverified",
-  "27": "unverified",
-  "28": "unverified",
+  "27": "found",
+  "28": "found",
   "29": "unverified",
-  "30": "unverified",
-  "31": "unverified",
-  "32": "unverified",
+  "30": "found",
+  "31": "none",
+  "32": "none",
   "33": "unverified",
   "34": "unverified",
   "35": "unverified",
-  "36": "unverified"
+  "36": "none"
  },
  "gaps": [
   "SEBI: 30 items skipped because no publish time was given",
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "AI summaries unavailable this run. Showing headlines only."
+  "Removed AI text with trading language: Margin trading facility position value declines after 6 mont",
+  "Check figures 105.29 (not found in the source text we read): Markets extend gains for fourth day; FPI buying highest in a",
+  "Quick read mentions figures not found in any source text we read: 105. Verify before relying on it."
  ],
  "sources_checked": {
   "RBI press releases": {
@@ -311,7 +424,7 @@
    "in_window": 6,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-03T19:10:00+05:30"
+   "newest": "2026-11-04T10:35:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
@@ -348,18 +461,18 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 42,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-04T08:26:31+05:30"
+   "newest": "2026-11-04T10:20:16+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 30,
+   "in_window": 25,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-04T08:47:55+05:30"
+   "newest": "2026-11-04T10:29:19+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
@@ -367,15 +480,15 @@
    "in_window": 10,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-04T08:41:42+05:30"
+   "newest": "2026-11-04T10:16:49+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 17,
+   "in_window": 16,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-04T07:22:48+05:30"
+   "newest": "2026-11-04T10:35:07+05:30"
   }
  }
 }
