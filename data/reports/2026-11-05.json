@@ -1,0 +1,389 @@
+{
+ "status": "partial",
+ "title": "Indian Market News Brief — 05 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-05T08:18:17.347303+05:30",
+ "window_start": "2026-11-04T15:00:00+05:30",
+ "cutoff": "2026-11-05T07:30:00+05:30",
+ "quick_read": "AI summary not available for this run.",
+ "stories": [
+  {
+   "headline": "Sebi forms working group to review Innovators Growth Platform framework",
+   "time": "2026-11-04T19:03:34+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "The Sebi panel will review listing eligibility, investor participation, pricing and disclosure norms to improve capital market access for deep-tech and other innovation-led firms",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/sebi-forms-working-group-to-review-innovators-growth-platform-framework-126110401649_1.html"
+    },
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/sebi-forms-working-group-to-review-innovators-growth-platform-framework/article71666591.ece"
+    },
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/sebi-constitutes-working-group-to-review-the-innovators-growth-platform-framework_105610.html"
+    }
+   ]
+  },
+  {
+   "headline": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 05, 2026",
+   "time": "2026-11-04T19:10:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Thursday, November 05, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 1 09:30 AM to 10:00 AM November 06, 2026 (Friday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Releas",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63919"
+    }
+   ]
+  },
+  {
+   "headline": "SEBI Order for Compliance - Release Order for Recovery Certificate No. 7413 of 2023 Yadunath Singh Thakur Proprietor of the Apex Global – in the matter of The Apex Global.",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "SEBI Order for Compliance - Release Order for Recovery Certificate No. 7413 of 2023 Yadunath Singh Thakur Proprietor of the Apex Global – in the matter of The Apex Global.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/sebi-order-for-compliance-release-order-for-recovery-certificate-no-7413-of-2023-yadunath-singh-thakur-proprietor-of-the-apex-global-in-the-matter-of-the-apex-global-_105609.html"
+    },
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/sebi-order-for-compliance-completion-order-for-recovery-certificate-no-7413-of-2023-yadunath-singh-thakur-proprietor-of-the-apex-global-in-the-matter-of-the-apex-global-_105605.html"
+    }
+   ]
+  },
+  {
+   "headline": "SEBI Order for Compliance - Release Order for Recovery Certificate No. 6147 of 2022 The Apex Global, Proprietor – Yadunath Singh Thakur in the matter of Covidh Technologies Limited.",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "SEBI Order for Compliance - Release Order for Recovery Certificate No. 6147 of 2022 The Apex Global, Proprietor – Yadunath Singh Thakur in the matter of Covidh Technologies Limited.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/sebi-order-for-compliance-release-order-for-recovery-certificate-no-6147-of-2022-the-apex-global-proprietor-yadunath-singh-thakur-in-the-matter-of-covidh-technologies-limited-_105607.html"
+    }
+   ]
+  },
+  {
+   "headline": "Review of Know Your Client process for individual Person Resident Outside India clients",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Review of Know Your Client process for individual Person Resident Outside India clients",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-know-your-client-process-for-individual-person-resident-outside-india-clients_105603.html"
+    }
+   ]
+  },
+  {
+   "headline": "Adjudication Order in the matter of Swastika Investmart Limited",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Adjudication Order in the matter of Swastika Investmart Limited",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-swastika-investmart-limited_105600.html"
+    },
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-som-distilleries-and-breweries-ltd_105598.html"
+    },
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/order-in-the-matter-of-certain-investment-advisers_105587.html"
+    }
+   ]
+  },
+  {
+   "headline": "भारत और कनाडा ने अपना पहला रक्षा संवाद आयोजित किया",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332838"
+    }
+   ]
+  },
+  {
+   "headline": "केंद्रीय स्वास्थ्य एवं परिवार कल्याण मंत्रालय ने उन दवाओं के विनिर्माण लाइसेंस तुरंत निलंबित करने का प्रस्ताव रखा है जो निर्धारित महत्वपूर्ण मानकों पर खड़ा नहीं उतरती हैं",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332837"
+    }
+   ]
+  },
+  {
+   "headline": "पीएम सूर्य घर वास्तव में एक जन आंदोलन का रूप ले चुका है: श्री प्रह्लाद जोशी",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332836"
+    }
+   ]
+  },
+  {
+   "headline": "‘विकसित भारत युवा संवाद: अपना वोट जानें’ अभियान के तहत एमवाई भारत ने एक ही दिन में 100 कार्यक्रमों का आयोजन किया",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332835"
+    }
+   ]
+  },
+  {
+   "headline": "बनारस हिंदू विश्वविद्यालय, वाराणसी में उच्च स्तरीय बैठक में काशी तमिल संगमम 5.0 की तैयारियों की समीक्षा",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332805"
+    }
+   ]
+  },
+  {
+   "headline": "न्याय विभाग ने सरकारी मंत्रालयों और विभागों के लिए “ई-फाइलिंग 3.0: प्रक्रिया से व्यवहार तक” विषय पर कार्यशाला का आयोजन किया",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332833"
+    }
+   ]
+  },
+  {
+   "headline": "केंद्रीय मंत्री डॉ. वीरेंद्र कुमार ने अंतर-पीढ़ीगत संबंधों को मजबूत करने के लिए 'वायो सम्मान राष्ट्रीय अभियान' शुरू किया",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332783"
+    }
+   ]
+  },
+  {
+   "headline": "सशस्त्र बल चिकित्सा सेवाओं ने रायरंगपुर मेगा मल्टी-स्पेशियलिटी चिकित्सा शिविर में 4,000 से अधिक मरीजों का इलाज किया और और दृष्टि लौटाने वाली 365 सर्जरी कीं",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332803"
+    }
+   ]
+  },
+  {
+   "headline": "भारतीय प्रतिस्पर्धा आयोग ने सैफायर यूएस होल्डको (यूएसए), एलएलसी द्वारा जेंटारी रिन्यूएबल्स इंडिया प्राइवेट लिमिटेड की कुछ प्रतिभूतियों की सदस्यता लेने को मंजूरी दी",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332770"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "unverified",
+  "2": "unverified",
+  "3": "unverified",
+  "4": "unverified",
+  "5": "unverified",
+  "6": "unverified",
+  "7": "unverified",
+  "8": "unverified",
+  "9": "unverified",
+  "10": "unverified",
+  "11": "unverified",
+  "12": "unverified",
+  "13": "unverified",
+  "14": "unverified",
+  "15": "unverified",
+  "16": "unverified",
+  "17": "unverified",
+  "18": "unverified",
+  "19": "unverified",
+  "20": "unverified",
+  "21": "unverified",
+  "22": "unverified",
+  "23": "unverified",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "unverified",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "unverified",
+  "31": "unverified",
+  "32": "unverified",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "unverified"
+ },
+ "gaps": [
+  "SEBI: 30 items skipped because no publish time was given",
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "AI summaries unavailable this run. Showing headlines only."
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 1,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-04T19:10:00+05:30"
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-03T15:25:00+05:30"
+  },
+  "SEBI": {
+   "ok": true,
+   "total": 30,
+   "in_window": 8,
+   "no_time": 30,
+   "fresh": true,
+   "newest": null
+  },
+  "US Federal Reserve": {
+   "ok": true,
+   "total": 20,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-10-30T02:00:00+05:30"
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 20,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 40,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-05T07:55:25+05:30"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 31,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-05T08:14:04+05:30"
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 17,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-05T08:02:13+05:30"
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 29,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-05T07:46:21+05:30"
+  }
+ }
+}
