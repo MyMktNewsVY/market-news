@@ -1,20 +1,287 @@
 {
- "status": "partial",
+ "status": "ok",
  "title": "Indian Market News Brief — 05 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-05T08:18:17.347303+05:30",
+ "generated_at": "2026-11-05T08:55:37.803000+05:30",
  "window_start": "2026-11-04T15:00:00+05:30",
  "cutoff": "2026-11-05T07:30:00+05:30",
- "quick_read": "AI summary not available for this run.",
+ "quick_read": "Falling crude oil prices and a weaker US dollar may support Indian stocks and help the rupee. Easier digital verification rules for foreign individuals could bring more overseas money over time. However, worries over US policy shifts and global trade could keep market moves mixed.",
  "stories": [
+  {
+   "headline": "Bond yields fall 11 bps, rupee gains as oil prices slide after US midterms",
+   "time": "2026-11-04T19:44:05+05:30",
+   "factors": [
+    "Crude oil",
+    "Indian bond market",
+    "Rupee"
+   ],
+   "factor_ids": [
+    8,
+    14,
+    7
+   ],
+   "summary": "Indian 10-year government bond yields fell nearly 0.11 percentage points in their sharpest drop in seven months. Crude oil prices moved lower following the US midterm elections. The Indian rupee gained for a fourth straight trading session. Lower oil prices reduce the country's import costs and help contain price rise.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Lower crude oil prices and falling bond borrowing costs can help paint makers, tyre companies, and banks by cutting expenses and easing inflation.",
+   "lean": "up",
+   "sectors": [
+    "Oil & Gas",
+    "Banks",
+    "Paints",
+    "Auto"
+   ],
+   "unverified_figures": [
+    "0.11"
+   ],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/bond-yields-fall-11-bps-rupee-gains-as-oil-prices-slide-after-us-midterms-126110401818_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Sebi eases digital KYC rules for NRIs, foreign nationals from December 3",
+   "time": "2026-11-04T17:37:41+05:30",
+   "factors": [
+    "Regulation",
+    "Foreign investment"
+   ],
+   "factor_ids": [
+    17,
+    18
+   ],
+   "summary": "Sebi announced relaxed identification rules for Non-Resident Indians, overseas Indian citizens, and foreign nationals. From December 3, eligible individuals living in compliant nations can complete onboarding digitally without visiting India in person. Video-based verification has also been permitted where physical checking is not possible. The move aims to make investing in Indian markets much simpler.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Brokerages and asset management companies may gain as easier entry could bring more individual foreign investment into Indian shares.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Broking"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/sebi-eases-digital-kyc-rules-for-nris-foreign-nationals-from-december-3-126110401461_1.html"
+    },
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-eases-kyc-norms-for-nris-ocis-and-foreign-nationals-allows-digital-onboarding-from-overseas/articleshow/135555447.cms"
+    }
+   ]
+  },
+  {
+   "headline": "US stocks today: US stocks rally after Democrats' midterm sweep as AI infrastructure stocks slide",
+   "time": "2026-11-04T20:11:36+05:30",
+   "factors": [
+    "Global markets",
+    "Geopolitics and trade"
+   ],
+   "factor_ids": [
+    1,
+    6
+   ],
+   "summary": "US share markets moved sharply higher after the Democratic party won control of both houses of the US Congress. The Dow Jones, S&P 500, and Nasdaq indices all advanced. Clean energy shares jumped, while computer chip and data centre companies dropped over possible artificial intelligence rules. Investors felt relief as election uncertainty cleared.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Positive sentiment in broad American share markets may lift Indian equities, though tech exporters could see mixed trading.",
+   "lean": "up",
+   "sectors": [
+    "Information Technology",
+    "Renewable Energy"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-dow-jones-soars-1000-points-at-open-as-democrats-win-congress-data-center-stocks-slide/articleshow/135542698.cms"
+    }
+   ]
+  },
+  {
+   "headline": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 05, 2026",
+   "time": "2026-11-04T19:10:00+05:30",
+   "factors": [
+    "RBI monetary policy",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    12,
+    13
+   ],
+   "summary": "The Reserve Bank of India announced an auction to temporarily absorb 75,000 crore rupees from the banking system. The operation is scheduled for November 5, 2026, for a one-day period under the regular framework. RBI stated this step was decided after reviewing evolving money conditions in the system.",
+   "confirmation": "Official source",
+   "impact": "Little effect on Nifty: Routine daily money operations by the central bank manage normal cash levels and usually have minimal direct impact on equity benchmarks.",
+   "lean": "little",
+   "sectors": [
+    "Banks"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63919"
+    }
+   ]
+  },
+  {
+   "headline": "Cabinet approves $297 million incentive policy for critical minerals processing",
+   "time": "2026-11-04T17:47:08+05:30",
+   "factors": [
+    "Government policy",
+    "Other commodities"
+   ],
+   "factor_ids": [
+    15,
+    9
+   ],
+   "summary": "The Union Cabinet approved an incentive plan worth 2,814 crore rupees, equal to roughly 297 million dollars, to process critical minerals. The official announcement was made on Wednesday by Information Minister Ashwini Vaishnaw. The program focuses on boosting local processing abilities inside India.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Mining, metals, and battery supply-chain firms may gain over the long run from government support and processing incentives.",
+   "lean": "up",
+   "sectors": [
+    "Metals & Mining",
+    "Auto Ancillaries"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/cabinet-approves-297-million-incentive-policy-for-critical-minerals-processing/article71665022.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Razorpay gets Sebi nod for ₹5,000-6,000 cr IPO, eyes $5 billion valuation",
+   "time": "2026-11-04T15:50:04+05:30",
+   "factors": [
+    "Regulation",
+    "Market structure"
+   ],
+   "factor_ids": [
+    17,
+    30
+   ],
+   "summary": "Financial technology firm Razorpay received regulatory clearance from Sebi for an initial public offering worth 5,000 to 6,000 crore rupees. Sources indicated the firm is targeting a business valuation near 5 billion dollars. The approval follows draft IPO papers submitted previously under confidential review rules.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "Unclear for Nifty: Large new tech listings can attract fresh investor money to the market, but they also draw cash away from existing listed firms.",
+   "lean": "unclear",
+   "sectors": [
+    "Financial Services",
+    "Information Technology"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/companies/news/razorpay-gets-sebi-nod-for-5-000-6-000-cr-ipo-eyes-5-billion-valuation-126110401121_1.html"
+    },
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/razorpay-gets-sebi-nod-for-5000-6000-crore-ipo-eyes-5-billion-valuation/article71665144.ece"
+    }
+   ]
+  },
+  {
+   "headline": "BSE Q2 net profit jumps 45% to ₹809 crore, board clears BKC plot proposal",
+   "time": "2026-11-04T18:29:55+05:30",
+   "factors": [
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    20
+   ],
+   "summary": "BSE reported a 44.9 percent year-on-year jump in net profit to 809.15 crore rupees for the second quarter. Revenue from operations rose 34.1 percent compared to the same period last year. Its board of directors also approved MMRDA's offer for a commercial land plot in Mumbai's Bandra Kurla Complex.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Strong earnings and expansion news may lift sentiment across capital market and exchange-related businesses.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Capital Markets"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/companies/news/bse-q2-net-profit-jumps-45-to-809-crore-board-clears-bkc-plot-proposal-126110401578_1.html"
+    },
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/companies/bse-q2-net-profit-rises-45-to-809-crore-revenue-up-34/article71666794.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Bajaj Finserv shares rebound after Q2 beat, but analysts trim targets on insurance concerns",
+   "time": "2026-11-04T15:26:51+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Bajaj Finserv shares traded in focus following second-quarter financial numbers. Its life insurance unit reported a 40 percent jump in the value of new business to 512 crore rupees. Profit margin on new policies widened by 4.6 percentage points to 21.7 percent. However, some analysts trimmed their targets on broader insurance concerns.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Strong growth in new life insurance sales could support the heavyweight financial stock, though analyst worries might limit gains.",
+   "lean": "unclear",
+   "sectors": [
+    "Banks",
+    "Financial Services"
+   ],
+   "unverified_figures": [
+    "4.6"
+   ],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/stock-markets/bajaj-finserv-shares-rebound-after-q2-beat-but-analysts-trim-targets-on-insurance-concerns/article71664362.ece"
+    }
+   ]
+  },
+  {
+   "headline": "BMW Q3 profit falls 15% as China competition weighs",
+   "time": "2026-11-04T15:08:13+05:30",
+   "factors": [
+    "Global markets",
+    "China and global growth"
+   ],
+   "factor_ids": [
+    1,
+    5
+   ],
+   "summary": "German carmaker BMW announced a 15 percent drop in quarterly net profit to 1.45 billion euros. The company noted tough competition from Chinese car brands and weaker demand in China. Its vehicle deliveries inside China fell 24.8 percent during the quarter, while worldwide deliveries dropped 6.3 percent.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Auto Ancillaries"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/bmw-q3-profit-falls-15-as-china-competition-weighs/articleshow/135534091.cms"
+    }
+   ]
+  },
   {
    "headline": "Sebi forms working group to review Innovators Growth Platform framework",
    "time": "2026-11-04T19:03:34+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "The Sebi panel will review listing eligibility, investor participation, pricing and disclosure norms to improve capital market access for deep-tech and other innovation-led firms",
+   "factors": [
+    "Regulation"
+   ],
+   "factor_ids": [
+    17
+   ],
+   "summary": "Sebi formed a working group to review the listing framework for high-growth tech companies on the Innovators Growth Platform. The panel will examine listing conditions, investor eligibility, share pricing, and disclosure requirements. The goal is to make it easier for deep-technology and innovative startups to raise public money.",
    "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "Little effect on Nifty: Regulatory policy work on startup listing platforms helps capital market design over time but has no immediate impact on major index shares.",
+   "lean": "little",
+   "sectors": [
+    "Financial Services"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
      "name": "Business Standard Markets",
@@ -29,288 +296,54 @@
      "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/sebi-constitutes-working-group-to-review-the-innovators-growth-platform-framework_105610.html"
     }
    ]
-  },
-  {
-   "headline": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 05, 2026",
-   "time": "2026-11-04T19:10:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Thursday, November 05, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 1 09:30 AM to 10:00 AM November 06, 2026 (Friday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Releas",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63919"
-    }
-   ]
-  },
-  {
-   "headline": "SEBI Order for Compliance - Release Order for Recovery Certificate No. 7413 of 2023 Yadunath Singh Thakur Proprietor of the Apex Global – in the matter of The Apex Global.",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "SEBI Order for Compliance - Release Order for Recovery Certificate No. 7413 of 2023 Yadunath Singh Thakur Proprietor of the Apex Global – in the matter of The Apex Global.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/sebi-order-for-compliance-release-order-for-recovery-certificate-no-7413-of-2023-yadunath-singh-thakur-proprietor-of-the-apex-global-in-the-matter-of-the-apex-global-_105609.html"
-    },
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/sebi-order-for-compliance-completion-order-for-recovery-certificate-no-7413-of-2023-yadunath-singh-thakur-proprietor-of-the-apex-global-in-the-matter-of-the-apex-global-_105605.html"
-    }
-   ]
-  },
-  {
-   "headline": "SEBI Order for Compliance - Release Order for Recovery Certificate No. 6147 of 2022 The Apex Global, Proprietor – Yadunath Singh Thakur in the matter of Covidh Technologies Limited.",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "SEBI Order for Compliance - Release Order for Recovery Certificate No. 6147 of 2022 The Apex Global, Proprietor – Yadunath Singh Thakur in the matter of Covidh Technologies Limited.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/sebi-order-for-compliance-release-order-for-recovery-certificate-no-6147-of-2022-the-apex-global-proprietor-yadunath-singh-thakur-in-the-matter-of-covidh-technologies-limited-_105607.html"
-    }
-   ]
-  },
-  {
-   "headline": "Review of Know Your Client process for individual Person Resident Outside India clients",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Review of Know Your Client process for individual Person Resident Outside India clients",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-know-your-client-process-for-individual-person-resident-outside-india-clients_105603.html"
-    }
-   ]
-  },
-  {
-   "headline": "Adjudication Order in the matter of Swastika Investmart Limited",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Adjudication Order in the matter of Swastika Investmart Limited",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-swastika-investmart-limited_105600.html"
-    },
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-som-distilleries-and-breweries-ltd_105598.html"
-    },
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/order-in-the-matter-of-certain-investment-advisers_105587.html"
-    }
-   ]
-  },
-  {
-   "headline": "भारत और कनाडा ने अपना पहला रक्षा संवाद आयोजित किया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332838"
-    }
-   ]
-  },
-  {
-   "headline": "केंद्रीय स्वास्थ्य एवं परिवार कल्याण मंत्रालय ने उन दवाओं के विनिर्माण लाइसेंस तुरंत निलंबित करने का प्रस्ताव रखा है जो निर्धारित महत्वपूर्ण मानकों पर खड़ा नहीं उतरती हैं",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332837"
-    }
-   ]
-  },
-  {
-   "headline": "पीएम सूर्य घर वास्तव में एक जन आंदोलन का रूप ले चुका है: श्री प्रह्लाद जोशी",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332836"
-    }
-   ]
-  },
-  {
-   "headline": "‘विकसित भारत युवा संवाद: अपना वोट जानें’ अभियान के तहत एमवाई भारत ने एक ही दिन में 100 कार्यक्रमों का आयोजन किया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332835"
-    }
-   ]
-  },
-  {
-   "headline": "बनारस हिंदू विश्वविद्यालय, वाराणसी में उच्च स्तरीय बैठक में काशी तमिल संगमम 5.0 की तैयारियों की समीक्षा",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332805"
-    }
-   ]
-  },
-  {
-   "headline": "न्याय विभाग ने सरकारी मंत्रालयों और विभागों के लिए “ई-फाइलिंग 3.0: प्रक्रिया से व्यवहार तक” विषय पर कार्यशाला का आयोजन किया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332833"
-    }
-   ]
-  },
-  {
-   "headline": "केंद्रीय मंत्री डॉ. वीरेंद्र कुमार ने अंतर-पीढ़ीगत संबंधों को मजबूत करने के लिए 'वायो सम्मान राष्ट्रीय अभियान' शुरू किया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332783"
-    }
-   ]
-  },
-  {
-   "headline": "सशस्त्र बल चिकित्सा सेवाओं ने रायरंगपुर मेगा मल्टी-स्पेशियलिटी चिकित्सा शिविर में 4,000 से अधिक मरीजों का इलाज किया और और दृष्टि लौटाने वाली 365 सर्जरी कीं",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332803"
-    }
-   ]
-  },
-  {
-   "headline": "भारतीय प्रतिस्पर्धा आयोग ने सैफायर यूएस होल्डको (यूएसए), एलएलसी द्वारा जेंटारी रिन्यूएबल्स इंडिया प्राइवेट लिमिटेड की कुछ प्रतिभूतियों की सदस्यता लेने को मंजूरी दी",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332770"
-    }
-   ]
   }
  ],
  "factor_status": {
-  "1": "unverified",
-  "2": "unverified",
-  "3": "unverified",
-  "4": "unverified",
-  "5": "unverified",
-  "6": "unverified",
-  "7": "unverified",
-  "8": "unverified",
-  "9": "unverified",
-  "10": "unverified",
-  "11": "unverified",
-  "12": "unverified",
-  "13": "unverified",
-  "14": "unverified",
-  "15": "unverified",
-  "16": "unverified",
-  "17": "unverified",
-  "18": "unverified",
-  "19": "unverified",
-  "20": "unverified",
-  "21": "unverified",
-  "22": "unverified",
-  "23": "unverified",
+  "1": "found",
+  "2": "none",
+  "3": "none",
+  "4": "none",
+  "5": "found",
+  "6": "found",
+  "7": "found",
+  "8": "found",
+  "9": "found",
+  "10": "none",
+  "11": "none",
+  "12": "found",
+  "13": "found",
+  "14": "found",
+  "15": "found",
+  "16": "none",
+  "17": "found",
+  "18": "found",
+  "19": "none",
+  "20": "found",
+  "21": "found",
+  "22": "none",
+  "23": "none",
   "24": "unverified",
   "25": "unverified",
   "26": "unverified",
   "27": "unverified",
   "28": "unverified",
   "29": "unverified",
-  "30": "unverified",
-  "31": "unverified",
-  "32": "unverified",
+  "30": "found",
+  "31": "none",
+  "32": "none",
   "33": "unverified",
   "34": "unverified",
   "35": "unverified",
-  "36": "unverified"
+  "36": "none"
  },
  "gaps": [
   "SEBI: 30 items skipped because no publish time was given",
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "AI summaries unavailable this run. Showing headlines only."
+  "Removed AI text with trading language: BMW Q3 profit falls 15% as China competition weighs",
+  "Check figures 0.11 (not found in the source text we read): Bond yields fall 11 bps, rupee gains as oil prices slide aft",
+  "Check figures 4.6 (not found in the source text we read): Bajaj Finserv shares rebound after Q2 beat, but analysts tri"
  ],
  "sources_checked": {
   "RBI press releases": {
@@ -359,15 +392,15 @@
    "in_window": 40,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-05T07:55:25+05:30"
+   "newest": "2026-11-05T08:14:49+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 31,
+   "in_window": 29,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-05T08:14:04+05:30"
+   "newest": "2026-11-05T08:48:43+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
@@ -375,7 +408,7 @@
    "in_window": 17,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-05T08:02:13+05:30"
+   "newest": "2026-11-05T08:45:24+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
@@ -383,7 +416,7 @@
    "in_window": 29,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-05T07:46:21+05:30"
+   "newest": "2026-11-05T08:48:30+05:30"
   }
  }
 }
