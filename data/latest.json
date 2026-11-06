@@ -1,218 +1,14 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 05 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-05T08:55:37.803000+05:30",
- "window_start": "2026-11-04T15:00:00+05:30",
- "cutoff": "2026-11-05T07:30:00+05:30",
- "quick_read": "Falling crude oil prices and a weaker US dollar may support Indian stocks and help the rupee. Easier digital verification rules for foreign individuals could bring more overseas money over time. However, worries over US policy shifts and global trade could keep market moves mixed.",
+ "title": "Indian Market News Brief — 06 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-06T08:15:38.362488+05:30",
+ "window_start": "2026-11-05T15:00:00+05:30",
+ "cutoff": "2026-11-06T07:30:00+05:30",
+ "quick_read": "Strong quarterly earnings from major companies like Bharti Airtel and Mahindra & Mahindra may support the market. Lower crude oil prices and a stronger rupee could also bring relief to investors. However, a sharp fall in US technology shares and concerns over interest rate hikes may keep the market cautious.",
  "stories": [
   {
-   "headline": "Bond yields fall 11 bps, rupee gains as oil prices slide after US midterms",
-   "time": "2026-11-04T19:44:05+05:30",
-   "factors": [
-    "Crude oil",
-    "Indian bond market",
-    "Rupee"
-   ],
-   "factor_ids": [
-    8,
-    14,
-    7
-   ],
-   "summary": "Indian 10-year government bond yields fell nearly 0.11 percentage points in their sharpest drop in seven months. Crude oil prices moved lower following the US midterm elections. The Indian rupee gained for a fourth straight trading session. Lower oil prices reduce the country's import costs and help contain price rise.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Lower crude oil prices and falling bond borrowing costs can help paint makers, tyre companies, and banks by cutting expenses and easing inflation.",
-   "lean": "up",
-   "sectors": [
-    "Oil & Gas",
-    "Banks",
-    "Paints",
-    "Auto"
-   ],
-   "unverified_figures": [
-    "0.11"
-   ],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/bond-yields-fall-11-bps-rupee-gains-as-oil-prices-slide-after-us-midterms-126110401818_1.html"
-    }
-   ]
-  },
-  {
-   "headline": "Sebi eases digital KYC rules for NRIs, foreign nationals from December 3",
-   "time": "2026-11-04T17:37:41+05:30",
-   "factors": [
-    "Regulation",
-    "Foreign investment"
-   ],
-   "factor_ids": [
-    17,
-    18
-   ],
-   "summary": "Sebi announced relaxed identification rules for Non-Resident Indians, overseas Indian citizens, and foreign nationals. From December 3, eligible individuals living in compliant nations can complete onboarding digitally without visiting India in person. Video-based verification has also been permitted where physical checking is not possible. The move aims to make investing in Indian markets much simpler.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "May help Nifty: Brokerages and asset management companies may gain as easier entry could bring more individual foreign investment into Indian shares.",
-   "lean": "up",
-   "sectors": [
-    "Financial Services",
-    "Broking"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/sebi-eases-digital-kyc-rules-for-nris-foreign-nationals-from-december-3-126110401461_1.html"
-    },
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-eases-kyc-norms-for-nris-ocis-and-foreign-nationals-allows-digital-onboarding-from-overseas/articleshow/135555447.cms"
-    }
-   ]
-  },
-  {
-   "headline": "US stocks today: US stocks rally after Democrats' midterm sweep as AI infrastructure stocks slide",
-   "time": "2026-11-04T20:11:36+05:30",
-   "factors": [
-    "Global markets",
-    "Geopolitics and trade"
-   ],
-   "factor_ids": [
-    1,
-    6
-   ],
-   "summary": "US share markets moved sharply higher after the Democratic party won control of both houses of the US Congress. The Dow Jones, S&P 500, and Nasdaq indices all advanced. Clean energy shares jumped, while computer chip and data centre companies dropped over possible artificial intelligence rules. Investors felt relief as election uncertainty cleared.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Positive sentiment in broad American share markets may lift Indian equities, though tech exporters could see mixed trading.",
-   "lean": "up",
-   "sectors": [
-    "Information Technology",
-    "Renewable Energy"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-dow-jones-soars-1000-points-at-open-as-democrats-win-congress-data-center-stocks-slide/articleshow/135542698.cms"
-    }
-   ]
-  },
-  {
-   "headline": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 05, 2026",
-   "time": "2026-11-04T19:10:00+05:30",
-   "factors": [
-    "RBI monetary policy",
-    "Banking and liquidity"
-   ],
-   "factor_ids": [
-    12,
-    13
-   ],
-   "summary": "The Reserve Bank of India announced an auction to temporarily absorb 75,000 crore rupees from the banking system. The operation is scheduled for November 5, 2026, for a one-day period under the regular framework. RBI stated this step was decided after reviewing evolving money conditions in the system.",
-   "confirmation": "Official source",
-   "impact": "Little effect on Nifty: Routine daily money operations by the central bank manage normal cash levels and usually have minimal direct impact on equity benchmarks.",
-   "lean": "little",
-   "sectors": [
-    "Banks"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63919"
-    }
-   ]
-  },
-  {
-   "headline": "Cabinet approves $297 million incentive policy for critical minerals processing",
-   "time": "2026-11-04T17:47:08+05:30",
-   "factors": [
-    "Government policy",
-    "Other commodities"
-   ],
-   "factor_ids": [
-    15,
-    9
-   ],
-   "summary": "The Union Cabinet approved an incentive plan worth 2,814 crore rupees, equal to roughly 297 million dollars, to process critical minerals. The official announcement was made on Wednesday by Information Minister Ashwini Vaishnaw. The program focuses on boosting local processing abilities inside India.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Mining, metals, and battery supply-chain firms may gain over the long run from government support and processing incentives.",
-   "lean": "up",
-   "sectors": [
-    "Metals & Mining",
-    "Auto Ancillaries"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/commodities/cabinet-approves-297-million-incentive-policy-for-critical-minerals-processing/article71665022.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Razorpay gets Sebi nod for ₹5,000-6,000 cr IPO, eyes $5 billion valuation",
-   "time": "2026-11-04T15:50:04+05:30",
-   "factors": [
-    "Regulation",
-    "Market structure"
-   ],
-   "factor_ids": [
-    17,
-    30
-   ],
-   "summary": "Financial technology firm Razorpay received regulatory clearance from Sebi for an initial public offering worth 5,000 to 6,000 crore rupees. Sources indicated the firm is targeting a business valuation near 5 billion dollars. The approval follows draft IPO papers submitted previously under confidential review rules.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "Unclear for Nifty: Large new tech listings can attract fresh investor money to the market, but they also draw cash away from existing listed firms.",
-   "lean": "unclear",
-   "sectors": [
-    "Financial Services",
-    "Information Technology"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/companies/news/razorpay-gets-sebi-nod-for-5-000-6-000-cr-ipo-eyes-5-billion-valuation-126110401121_1.html"
-    },
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/razorpay-gets-sebi-nod-for-5000-6000-crore-ipo-eyes-5-billion-valuation/article71665144.ece"
-    }
-   ]
-  },
-  {
-   "headline": "BSE Q2 net profit jumps 45% to ₹809 crore, board clears BKC plot proposal",
-   "time": "2026-11-04T18:29:55+05:30",
-   "factors": [
-    "Corporate earnings"
-   ],
-   "factor_ids": [
-    20
-   ],
-   "summary": "BSE reported a 44.9 percent year-on-year jump in net profit to 809.15 crore rupees for the second quarter. Revenue from operations rose 34.1 percent compared to the same period last year. Its board of directors also approved MMRDA's offer for a commercial land plot in Mumbai's Bandra Kurla Complex.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "May help Nifty: Strong earnings and expansion news may lift sentiment across capital market and exchange-related businesses.",
-   "lean": "up",
-   "sectors": [
-    "Financial Services",
-    "Capital Markets"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/companies/news/bse-q2-net-profit-jumps-45-to-809-crore-board-clears-bkc-plot-proposal-126110401578_1.html"
-    },
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/companies/bse-q2-net-profit-rises-45-to-809-crore-revenue-up-34/article71666794.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Bajaj Finserv shares rebound after Q2 beat, but analysts trim targets on insurance concerns",
-   "time": "2026-11-04T15:26:51+05:30",
+   "headline": "Bharti Airtel Q2 results: Profit jumps 31% to ₹8,888 crore, ARPU up ₹271 crore, telco stock rallies 121% in 3 yrs",
+   "time": "2026-11-05T18:08:53+05:30",
    "factors": [
     "Corporate earnings",
     "Heavyweight stocks"
@@ -221,27 +17,76 @@
     20,
     21
    ],
-   "summary": "Bajaj Finserv shares traded in focus following second-quarter financial numbers. Its life insurance unit reported a 40 percent jump in the value of new business to 512 crore rupees. Profit margin on new policies widened by 4.6 percentage points to 21.7 percent. However, some analysts trimmed their targets on broader insurance concerns.",
+   "summary": "Bharti Airtel reported a 31% increase in net profit to ₹8,888 crore for the July-September quarter.\nTotal revenue from operations grew 16.7% to ₹60,877.5 crore.\nAverage revenue per user per month rose 6% to ₹271.\nGrowth was driven by an increase in 4G and 5G mobile users.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Strong growth in new life insurance sales could support the heavyweight financial stock, though analyst worries might limit gains.",
-   "lean": "unclear",
+   "impact": "May help Nifty: Higher profit from a market heavyweight could lift confidence in telecom and index stocks.",
+   "lean": "up",
    "sectors": [
-    "Banks",
-    "Financial Services"
+    "Telecom"
    ],
-   "unverified_figures": [
-    "4.6"
-   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/stock-markets/bajaj-finserv-shares-rebound-after-q2-beat-but-analysts-trim-targets-on-insurance-concerns/article71664362.ece"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/bharti-airtel-q2-results-profit-jumps-31-to-rs-8-888-crore-arpu-up-rs-271-telecom-stock-rallies-121-in-3-yrs-11793882129364.html"
     }
    ]
   },
   {
-   "headline": "BMW Q3 profit falls 15% as China competition weighs",
-   "time": "2026-11-04T15:08:13+05:30",
+   "headline": "Mahindra & Mahindra Q2 Results: net profit rises 25% to ₹4,588 crore",
+   "time": "2026-11-05T16:18:22+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Mahindra & Mahindra reported a 25% rise in quarterly net profit to ₹4,588 crore.\nConsolidated revenue reached ₹57,553 crore in the September quarter.\nProfit from the vehicle business grew by 55%.\nThe company saw higher demand and strong sales for its utility vehicles.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong financial performance from a major automaker could boost auto sector stocks.",
+   "lean": "up",
+   "sectors": [
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/companies/mahindra-mahindra-q2-fy27-net-profit-rises-25-to-4588-crore/article71669194.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Titan shines in Q2 Results 2026; Net profit doubles to ₹2,393 crore, aided by one-time gain; jewellery business up 24%",
+   "time": "2026-11-05T18:18:39+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Titan reported a 113% year-on-year increase in September quarter net profit to ₹2,393 crore.\nThe profit included a one-time gain of ₹671 crore.\nTotal revenue grew 25% to ₹20,533 crore.\nSales in the jewellery division rose by 24%.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Higher revenue and profit growth may support consumer spending and retail stocks.",
+   "lean": "up",
+   "sectors": [
+    "Consumer Goods"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/titan-shines-in-q2-results-2026-net-profit-doubles-to-rs-2-393-crore-aided-by-one-time-gain-jewellery-business-up-24-11793880484831.html"
+    }
+   ]
+  },
+  {
+   "headline": "Nasdaq tumbles over 3% as tech stocks extend selloff after Democrats sweep midterms; Tesla plunges 9%, chipmakers slide",
+   "time": "2026-11-05T20:10:26+05:30",
    "factors": [
     "Global markets",
     "China and global growth"
@@ -250,50 +95,166 @@
     1,
     5
    ],
-   "summary": "German carmaker BMW announced a 15 percent drop in quarterly net profit to 1.45 billion euros. The company noted tough competition from Chinese car brands and weaker demand in China. Its vehicle deliveries inside China fell 24.8 percent during the quarter, while worldwide deliveries dropped 6.3 percent.",
+   "summary": "US technology stocks experienced a sharp fall, with the Nasdaq index dropping over 3%.\nShares of major chipmakers like Qualcomm and AMD fell up to 17%.\nThe sell-off followed election results and fears of strict rules on artificial intelligence.\nInvestors worried about potential delays in data center spending.",
    "confirmation": "Single source, not independently confirmed",
    "impact": "Explanation withheld.",
    "lean": "unclear",
    "sectors": [
-    "Auto Ancillaries"
+    "Information Technology"
    ],
-   "unverified_figures": [],
+   "unverified_figures": [
+    "17"
+   ],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/bmw-q3-profit-falls-15-as-china-competition-weighs/articleshow/135534091.cms"
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-falls-at-open-after-midterms-fueled-surge-as-chip-data-center-stocks-fall/articleshow/135577537.cms"
     }
    ]
   },
   {
-   "headline": "Sebi forms working group to review Innovators Growth Platform framework",
-   "time": "2026-11-04T19:03:34+05:30",
+   "headline": "आने वाले त्यौहारी सीजन को देखते हुए और राज्यों को पूंजीगत खर्च में तेजी लाने और अपने विकास/ कल्याण संबंधी खर्च के वित्तपोषण में सहायता प्रदान करने हेतु, केंद्र सरकार ने राज्य सरकारों को अग्रिम तौर पर ₹1,09,019 करोड़ की नियमित कर राशि जारी की",
+   "time": null,
    "factors": [
-    "Regulation"
+    "Government policy",
+    "GDP and growth"
    ],
    "factor_ids": [
-    17
+    15,
+    10
    ],
-   "summary": "Sebi formed a working group to review the listing framework for high-growth tech companies on the Innovators Growth Platform. The panel will examine listing conditions, investor eligibility, share pricing, and disclosure requirements. The goal is to make it easier for deep-technology and innovative startups to raise public money.",
+   "summary": "The central government released ₹1,09,019 crore of tax funds to state governments in advance.\nThis payment is part of the regular tax distribution to states.\nThe step is aimed at helping states spend more on development and welfare programs.\nThe funds were released ahead of the upcoming festival season.",
    "confirmation": "Official source",
-   "impact": "Little effect on Nifty: Regulatory policy work on startup listing platforms helps capital market design over time but has no immediate impact on major index shares.",
-   "lean": "little",
+   "impact": "May help Nifty: Higher spending power for states could boost economic activity and infrastructure companies.",
+   "lean": "up",
+   "sectors": [
+    "Infrastructure",
+    "Capital Goods"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333290"
+    }
+   ]
+  },
+  {
+   "headline": "Sebi revises currency derivative norms for domestic investors, FPIs; allows to trade up to USD 5 mn",
+   "time": "2026-11-05T19:33:58+05:30",
+   "factors": [
+    "Regulation",
+    "Rupee"
+   ],
+   "factor_ids": [
+    17,
+    7
+   ],
+   "summary": "SEBI revised trading rules for currency derivative contracts.\nDomestic and foreign investors can now hold positions up to 5 million US dollars without showing an underlying exposure.\nForeign investors must ensure short positions remain within this limit.\nPositions above 5 million dollars still require proof of holding Indian equity or debt.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Easier trading limits may increase currency market activity, but the overall effect on stocks depends on foreign capital flows.",
+   "lean": "unclear",
    "sectors": [
     "Financial Services"
    ],
    "unverified_figures": [],
    "sources": [
     {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/sebi-forms-working-group-to-review-innovators-growth-platform-framework-126110401649_1.html"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-revises-currency-derivative-norms-for-domestic-investors-fpis-allows-to-trade-up-to-usd-5-mn/articleshow/135576552.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Sebi approves net settlement of cash market trades for mutual funds",
+   "time": "2026-11-05T17:41:45+05:30",
+   "factors": [
+    "Regulation",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    17,
+    13
+   ],
+   "summary": "SEBI approved net settlement of cash market trades for mutual fund schemes starting April 1, 2027.\nNet settlement allows buying and selling obligations to be offset against each other.\nPreviously, this facility was available only to foreign institutional investors.\nThe change is expected to lower daily cash requirements for fund houses.",
+   "confirmation": "Official source",
+   "impact": "May help Nifty: Lower daily funding needs for mutual funds could make trading smoother and improve fund management.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-approves-net-settlement-of-cash-market-trades-for-mutual-funds/articleshow/135572968.cms"
     },
     {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/sebi-forms-working-group-to-review-innovators-growth-platform-framework/article71666591.ece"
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/sebi-allows-mutual-funds-to-net-cash-market-obligations-from-april-126110501727_1.html"
     },
     {
      "name": "SEBI",
-     "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/sebi-constitutes-working-group-to-review-the-innovators-growth-platform-framework_105610.html"
+     "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-net-settlement-of-funds-for-transactions-undertaken-by-mutual-fund-schemes-in-cash-market_105616.html"
+    }
+   ]
+  },
+  {
+   "headline": "Rupee hits over one-month high, 10-year bond yield falls to 7.17%",
+   "time": "2026-11-05T19:45:54+05:30",
+   "factors": [
+    "Rupee",
+    "Crude oil",
+    "Indian bond market"
+   ],
+   "factor_ids": [
+    7,
+    8,
+    14
+   ],
+   "summary": "The Indian rupee strengthened to 94.47 against the US dollar, its highest level in over a month.\nThe yield on 10-year government bonds fell to 7.17%.\nThe currency gain was supported by a fall in international crude oil prices.\nForeign fund purchases in local stock markets also helped the currency.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: A stronger rupee and lower government borrowing costs generally support overall market sentiment.",
+   "lean": "up",
+   "sectors": [
+    "Banks",
+    "Oil & Gas"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/rupee-hits-over-one-month-high-10-year-bond-yield-falls-to-7-17-126110501865_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Reserve Bank of India may hike rates by up to 75 bps more: Uday Kotak",
+   "time": "2026-11-05T23:47:04+05:30",
+   "factors": [
+    "RBI monetary policy",
+    "Inflation and consumption"
+   ],
+   "factor_ids": [
+    12,
+    11
+   ],
+   "summary": "Veteran banker Uday Kotak stated that the Reserve Bank of India might increase interest rates by 0.50 to 0.75 percentage points.\nHe highlighted ongoing geopolitical risks and tensions in the Middle East.\nHe also noted that Indian stock markets remain well positioned to attract foreign capital over time.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Higher interest rates make loans costlier for businesses and buyers, which could slow profit growth.",
+   "lean": "down",
+   "sectors": [
+    "Banks",
+    "Real Estate"
+   ],
+   "unverified_figures": [
+    "0.50",
+    "0.75"
+   ],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/reserve-bank-of-india-may-hike-rates-by-up-to-75-bps-more-uday-kotak-126110501915_1.html"
     }
    ]
   }
@@ -304,19 +265,19 @@
   "3": "none",
   "4": "none",
   "5": "found",
-  "6": "found",
+  "6": "unverified",
   "7": "found",
   "8": "found",
-  "9": "found",
-  "10": "none",
-  "11": "none",
+  "9": "unverified",
+  "10": "found",
+  "11": "found",
   "12": "found",
   "13": "found",
   "14": "found",
   "15": "found",
   "16": "none",
   "17": "found",
-  "18": "found",
+  "18": "none",
   "19": "none",
   "20": "found",
   "21": "found",
@@ -328,7 +289,7 @@
   "27": "unverified",
   "28": "unverified",
   "29": "unverified",
-  "30": "found",
+  "30": "unverified",
   "31": "none",
   "32": "none",
   "33": "unverified",
@@ -341,31 +302,31 @@
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Removed AI text with trading language: BMW Q3 profit falls 15% as China competition weighs",
-  "Check figures 0.11 (not found in the source text we read): Bond yields fall 11 bps, rupee gains as oil prices slide aft",
-  "Check figures 4.6 (not found in the source text we read): Bajaj Finserv shares rebound after Q2 beat, but analysts tri"
+  "Removed AI text with trading language: Nasdaq tumbles over 3% as tech stocks extend selloff after D",
+  "Check figures 17 (not found in the source text we read): Nasdaq tumbles over 3% as tech stocks extend selloff after D",
+  "Check figures 0.50, 0.75 (not found in the source text we read): Reserve Bank of India may hike rates by up to 75 bps more: U"
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 1,
+   "in_window": 8,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-04T19:10:00+05:30"
+   "newest": "2026-11-05T19:10:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
    "total": 10,
-   "in_window": 0,
+   "in_window": 1,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-03T15:25:00+05:30"
+   "newest": "2026-11-05T18:20:00+05:30"
   },
   "SEBI": {
    "ok": true,
    "total": 30,
-   "in_window": 8,
+   "in_window": 7,
    "no_time": 30,
    "fresh": true,
    "newest": null
@@ -373,10 +334,10 @@
   "US Federal Reserve": {
    "ok": true,
    "total": 20,
-   "in_window": 0,
+   "in_window": 1,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-10-30T02:00:00+05:30"
+   "newest": "2026-11-05T21:30:00+05:30"
   },
   "PIB (Govt of India)": {
    "ok": true,
@@ -389,34 +350,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 40,
+   "in_window": 30,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-05T08:14:49+05:30"
+   "newest": "2026-11-06T07:55:42+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 29,
+   "in_window": 31,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-05T08:48:43+05:30"
+   "newest": "2026-11-06T08:10:45+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 17,
+   "in_window": 11,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-05T08:45:24+05:30"
+   "newest": "2026-11-06T07:54:50+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 29,
+   "in_window": 26,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-05T08:48:30+05:30"
+   "newest": "2026-11-06T07:49:39+05:30"
   }
  }
 }

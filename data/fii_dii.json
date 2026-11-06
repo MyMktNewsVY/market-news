@@ -1,8 +1,18 @@
 {
- "reported": [],
+ "reported": [
+  {
+   "who": "FII",
+   "direction": "sold",
+   "amount": 34843.0,
+   "headline": "FPIs turn net buyers in the second half of October, shows data",
+   "outlet": "Business Standard Markets",
+   "url": "https://www.business-standard.com/markets/news/fpis-were-net-buyers-in-2nd-half-of-oct-pumped-13k-cr-into-equities-126110501860_1.html",
+   "published": "2026-11-05T21:04:33+05:30"
+  }
+ ],
  "status": "not_verified",
  "source": "NSE provisional cash market (Rs crore)",
- "updated": "2026-11-05T08:59:06.062750+05:30",
+ "updated": "2026-11-06T08:17:23.924070+05:30",
  "latest": null,
  "history": [],
  "note": "NSE data could not be retrieved this run (HTTP Error 403: Forbidden)."
