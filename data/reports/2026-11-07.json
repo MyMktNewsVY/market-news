@@ -1,0 +1,388 @@
+{
+ "status": "ok",
+ "title": "Indian Market News Brief — 07 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-07T08:10:11.014464+05:30",
+ "window_start": "2026-11-06T15:00:00+05:30",
+ "cutoff": "2026-11-07T07:30:00+05:30",
+ "quick_read": "Falling oil prices and returning foreign investors may support the stock market and strengthen the rupee. Higher festive spending by shoppers and strong new orders for engineering companies also bring good news. However, mixed profit margins in some business segments keep short-term trends watchful.",
+ "stories": [
+  {
+   "headline": "Sensex today | Stock Market Highlights: Stock markets on fire; Sensex jumps 1,718 points, Nifty reclaims 25,000",
+   "time": "2026-11-06T16:37:11+05:30",
+   "factors": [
+    "Global markets",
+    "Crude oil",
+    "Foreign investment",
+    "Heavyweight stocks",
+    "Price and volume"
+   ],
+   "factor_ids": [
+    1,
+    8,
+    18,
+    21,
+    27
+   ],
+   "summary": "The Indian stock market jumped sharply on Friday.\nThe Sensex rose 1,718 points and the Nifty crossed the 25,000 level.\nThe rise was supported by foreign investor buying and falling crude oil prices.\nThis was the seventh straight day of gains for the benchmark indices.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Lower oil prices and buying by foreign investors may boost confidence in Indian shares.",
+   "lean": "up",
+   "sectors": [
+    "Broad Market",
+    "Energy",
+    "Banking"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-6-november-2026/article71669668.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Indian rupee strengthens past 94/$ as oil slides, foreign inflows return",
+   "time": "2026-11-06T16:05:18+05:30",
+   "factors": [
+    "US dollar",
+    "Rupee",
+    "Crude oil",
+    "Foreign investment",
+    "External balances"
+   ],
+   "factor_ids": [
+    4,
+    7,
+    8,
+    18,
+    32
+   ],
+   "summary": "The Indian rupee rose past 94 against the US dollar.\nThe gain came due to falling crude oil prices and strong foreign investment in Indian shares.\nForeign investors have returned to Indian stocks.\nThe Reserve Bank of India also announced measures to support the currency.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: A stronger rupee and cheaper oil reduce costs for Indian companies and can attract more foreign investment.",
+   "lean": "up",
+   "sectors": [
+    "Foreign Exchange",
+    "Oil & Gas",
+    "Broad Market"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/indian-rupee-strengthens-past-94/-as-oil-slides-foreign-inflows-return/articleshow/135604040.cms"
+    }
+   ]
+  },
+  {
+   "headline": "सरकार ने 2026-27 के लिए OMSS (D) के तहत चावल की बिक्री का लक्ष्य 25 LMT से दोगुना करके 50 LMT किया, 31 अक्टूबर 2026 तक ई-नीलामी के ज़रिए 25 LMT चावल पहले ही बेचा जा चुका है",
+   "time": null,
+   "factors": [
+    "Inflation and consumption",
+    "Government policy"
+   ],
+   "factor_ids": [
+    11,
+    15
+   ],
+   "summary": "The Indian government doubled its rice sale target under the open market sale scheme to 50 lakh metric tonnes for 2026-27.\nIt had earlier set a target of 25 lakh metric tonnes.\nBy October 31, 2026, the government had already sold 25 lakh metric tonnes through electronic auctions.\nThe step aims to increase supply in local markets.",
+   "confirmation": "Official source",
+   "impact": "May help Nifty: Selling more rice in the market can keep food prices stable and help control overall prices for consumers.",
+   "lean": "up",
+   "sectors": [
+    "Consumer Goods",
+    "Agriculture"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333687"
+    }
+   ]
+  },
+  {
+   "headline": "RBI to conduct 4-day Variable Rate Repo (VRR) auction under LAF on November 09, 2026",
+   "time": "2026-11-06T19:10:00+05:30",
+   "factors": [
+    "RBI monetary policy",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    12,
+    13
+   ],
+   "summary": "The Reserve Bank of India announced a 4-day auction on November 9, 2026.\nIt will lend up to ₹50,000 crore to commercial banks.\nThe auction will start at 9:30 AM and end at 10:00 AM.\nThe money will be returned by banks on November 13, 2026.",
+   "confirmation": "Official source",
+   "impact": "May help Nifty: Supplying short-term cash to banks helps them manage daily cash needs smoothly.",
+   "lean": "up",
+   "sectors": [
+    "Banks",
+    "Financials"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63943"
+    }
+   ]
+  },
+  {
+   "headline": "Sectoral Deployment of Credit by NBFC – September 2026",
+   "time": "2026-11-06T17:00:00+05:30",
+   "factors": [
+    "Banking and liquidity",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    13,
+    20
+   ],
+   "summary": "Credit given by non-banking financial companies grew 15.4 percent year-on-year in September 2026.\nThis is higher than the 13.3 percent growth recorded in September 2025.\nThe data was collected by the Reserve Bank of India from major non-banking lenders and housing finance firms.\nThe growth reflects rising loan demand.",
+   "confirmation": "Official source",
+   "impact": "May help Nifty: Higher loan growth shows strong borrowing demand, which can increase profits for NBFCs and home loan providers.",
+   "lean": "up",
+   "sectors": [
+    "NBFCs",
+    "Housing Finance"
+   ],
+   "unverified_figures": [
+    "2025"
+   ],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63940"
+    }
+   ]
+  },
+  {
+   "headline": "M&M shares surge 5% after Q2 results, brokerages maintain bullish outlook",
+   "time": "2026-11-06T16:09:54+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Mahindra & Mahindra shares rose 5 percent after reporting second-quarter results.\nThe company's auto business profit margin improved by 0.58 percentage points over the previous quarter to 7.7 percent.\nHowever, its farm equipment profit margin fell by 1.76 percentage points to 16.8 percent.\nBrokerages maintained a positive outlook on the company.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong performance in the main vehicle division may support investor interest in auto shares.",
+   "lean": "up",
+   "sectors": [
+    "Automobiles"
+   ],
+   "unverified_figures": [
+    "0.58",
+    "1.76"
+   ],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/mm-shares-surge-5-after-q2-results-brokerages-maintain-bullish-outlook/article71673042.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Siemens Q2 Results: Profit grows 5% to Rs 504 crore",
+   "time": "2026-11-06T16:52:53+05:30",
+   "factors": [
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    20
+   ],
+   "summary": "Siemens Limited reported a net profit of ₹504 crore for the quarter ended September 30, 2026.\nProfit grew 4.78 percent compared to ₹481 crore in the previous year.\nRevenue from operations increased to ₹5,734 crore from ₹4,900 crore.\nNew order bookings rose 38 percent to ₹6,228 crore.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong growth in new orders indicates good business activity for heavy engineering companies.",
+   "lean": "up",
+   "sectors": [
+    "Capital Goods",
+    "Engineering"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/siemens-q2-results-profit-grows-5-to-rs-504-crore/articleshow/135605589.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Ecom, qcom companies see consumer spending surge ahead of Diwali",
+   "time": "2026-11-06T18:35:14+05:30",
+   "factors": [
+    "Inflation and consumption",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    11,
+    20
+   ],
+   "summary": "Festive season e-commerce order volumes increased by 21 percent compared to the same period last year.\nQuick delivery shopping apps saw order volumes jump by 75 percent.\nGrowth was driven by customer purchases across gifting, fashion, and home decor products.\nConsumers showed strong buying interest ahead of Diwali.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Higher spending by shoppers during festivals can boost earnings for retail and consumer product companies.",
+   "lean": "up",
+   "sectors": [
+    "Retail",
+    "Consumer Goods",
+    "Logistics"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/ecom-qcom-companies-gear-up-for-diwali-rush-with-expanded-offerings-126110601644_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "केंद्रीय मंत्री श्री अश्विनी वैष्णव ने सेमीकॉन 2.0 वेब एप्लिकेशन पोर्टल लॉन्च किया और इलेक्ट्रॉनिक्स कंपोनेंट्स मैन्युफैक्चरिंग स्कीम के तहत 12 स्वीकृत आवेदकों की घोषणा की",
+   "time": null,
+   "factors": [
+    "Government policy"
+   ],
+   "factor_ids": [
+    15
+   ],
+   "summary": "The central government launched the Semicon 2.0 web portal.\nUnion Minister Ashwini Vaishnaw announced 12 approved applicants under the electronics components manufacturing scheme.\nThe initiative aims to expand domestic electronics production.\nThis step supports local tech manufacturing in India.",
+   "confirmation": "Official source",
+   "impact": "May help Nifty: Government support for component making may encourage local manufacturing and benefit electronics companies.",
+   "lean": "up",
+   "sectors": [
+    "Electronics",
+    "Technology Hardware"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333813"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "found",
+  "2": "none",
+  "3": "none",
+  "4": "found",
+  "5": "unverified",
+  "6": "unverified",
+  "7": "found",
+  "8": "found",
+  "9": "unverified",
+  "10": "none",
+  "11": "found",
+  "12": "found",
+  "13": "found",
+  "14": "none",
+  "15": "found",
+  "16": "none",
+  "17": "none",
+  "18": "found",
+  "19": "none",
+  "20": "found",
+  "21": "found",
+  "22": "none",
+  "23": "none",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "found",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "unverified",
+  "31": "none",
+  "32": "found",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "none"
+ },
+ "gaps": [
+  "SEBI: 30 items skipped because no publish time was given",
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "Check figures 2025 (not found in the source text we read): Sectoral Deployment of Credit by NBFC – September 2026",
+  "Check figures 0.58, 1.76 (not found in the source text we read): M&M shares surge 5% after Q2 results, brokerages maintain bu"
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 7,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-06T19:10:00+05:30"
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-05T18:20:00+05:30"
+  },
+  "SEBI": {
+   "ok": true,
+   "total": 30,
+   "in_window": 30,
+   "no_time": 30,
+   "fresh": true,
+   "newest": null
+  },
+  "US Federal Reserve": {
+   "ok": true,
+   "total": 20,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-05T21:30:00+05:30"
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 20,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 10,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-06T20:10:26+05:30"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 22,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-07T07:01:05+05:30"
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 16,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-06T23:34:28+05:30"
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 20,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-07T06:42:40+05:30"
+  }
+ }
+}
