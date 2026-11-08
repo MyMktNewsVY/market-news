@@ -1,0 +1,343 @@
+{
+ "status": "ok",
+ "title": "Indian Market News Brief — 08 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-08T08:13:20.755667+05:30",
+ "window_start": "2026-11-07T15:00:00+05:30",
+ "cutoff": "2026-11-08T07:30:00+05:30",
+ "quick_read": "Foreign interest in Indian shares and strong profit numbers from auto parts companies may support the market. Price caps on cancer medicines and high valuations in smaller stocks could put pressure on specific sectors. New exchange trading rules and currency derivative limits create an unclear outlook for daily trading activity.",
+ "stories": [
+  {
+   "headline": "Jefferies warns AI investment cycle may have peaked; raises India allocation to 14%",
+   "time": "2026-11-07T15:05:06+05:30",
+   "factors": [
+    "Global markets",
+    "Foreign investment",
+    "Investor psychology"
+   ],
+   "factor_ids": [
+    1,
+    18,
+    36
+   ],
+   "summary": "Investment firm Jefferies raised its recommended investment share for India to 14 percent.\nIt warned that global spending on artificial intelligence may have reached its peak.\nRising borrowing costs are causing investors to look for opportunities outside tech companies.\nMoney is shifting away from tech stocks into other major markets.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Foreign funds shifting away from expensive global tech shares may bring more investments into Indian stock markets.",
+   "lean": "up",
+   "sectors": [
+    "IT",
+    "Broad Market"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/jefferies-warns-ai-investment-cycle-may-have-peaked-raises-india-allocation-to-14/article71677867.ece"
+    }
+   ]
+  },
+  {
+   "headline": "NSE overhauls key trading rules: CAS, F&O expiry trading hours revised - What changes from December 7?",
+   "time": "2026-11-07T16:05:22+05:30",
+   "factors": [
+    "Regulation",
+    "Market structure"
+   ],
+   "factor_ids": [
+    17,
+    30
+   ],
+   "summary": "The National Stock Exchange is changing key trading rules starting December 7.\nThe Closing Auction Session will be shortened to 10 minutes.\nThe exchange will also change how final stock closing prices are calculated.\nThese updates will alter the daily market closing process.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Shorter closing sessions and new price discovery rules may change daily trading patterns for institutional traders.",
+   "lean": "unclear",
+   "sectors": [
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/nse-overhauls-key-trading-rules-closing-auction-session-f-o-expiry-trading-hours-revised-what-changes-from-dec-7-11794047384672.html"
+    }
+   ]
+  },
+  {
+   "headline": "ONGC shares: Venezuela oil project hopes lift focus after Q2 results | Should you buy? Key levels to watch",
+   "time": "2026-11-07T17:43:09+05:30",
+   "factors": [
+    "Crude oil",
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    8,
+    20,
+    21
+   ],
+   "summary": "State-run ONGC reported a 57.3 percent year-on-year increase in net profit for the July-September quarter.\nThe company stated it may secure operating rights for two oil projects in Venezuela in coming months.\nBrokerage firm Nuvama kept a Reduce rating on the stock.\nNuvama cited ongoing falls in oil production as the main reason.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Higher quarterly profits and potential new overseas projects may support share prices of state-owned oil companies.",
+   "lean": "up",
+   "sectors": [
+    "Oil & Gas"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/ongc-shares-venezuela-oil-project-hopes-lift-focus-after-q2-results-should-you-buy-key-levels-to-watch-11794051814943.html"
+    }
+   ]
+  },
+  {
+   "headline": "Q2 results race: Samvardhana Motherson vs Uno Minda - Which auto ancillary stock scores better? Revenue, profit, target",
+   "time": "2026-11-07T19:52:01+05:30",
+   "factors": [
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    20
+   ],
+   "summary": "Auto parts maker Samvardhana Motherson reported a 42 percent rise in July-September net profit to 1,175.32 crore rupees.\nAuto components maker Uno Minda reported a 36.6 percent rise in net profit to 440.81 crore rupees.\nRevenue for Samvardhana Motherson grew 26.9 percent.\nRevenue for Uno Minda grew 38.2 percent in the same period.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong income growth in auto component makers shows solid demand in the vehicle sector, which may boost auto stocks.",
+   "lean": "up",
+   "sectors": [
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/q2-results-race-samvardhana-motherson-vs-uno-minda-which-auto-ancillary-stock-scores-better-revenue-profit-target-11794054095084.html"
+    }
+   ]
+  },
+  {
+   "headline": "कैंसर रोधी दवाओं की संशोधित कीमतें 9 नवंबर से लागू होंगी",
+   "time": null,
+   "factors": [
+    "Government policy",
+    "Regulation"
+   ],
+   "factor_ids": [
+    15,
+    17
+   ],
+   "summary": "The Indian government announced revised lower prices for anti-cancer medicines.\nThe new reduced price limits will take effect from November 9.\nThe decision was published officially by the government ministry.\nThis change directly caps what drug companies can charge for these medicines.",
+   "confirmation": "Official source",
+   "impact": "May hurt Nifty: Price caps imposed by the government may lower profits and profit margins for major pharmaceutical companies.",
+   "lean": "down",
+   "sectors": [
+    "Pharma"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333968"
+    }
+   ]
+  },
+  {
+   "headline": "Mint Explainer: Will Sebi’s new rules on currency derivatives help the falling rupee?",
+   "time": "2026-11-08T07:00:11+05:30",
+   "factors": [
+    "Rupee",
+    "Regulation"
+   ],
+   "factor_ids": [
+    7,
+    17
+   ],
+   "summary": "Market regulator SEBI reduced unhedged currency trading limits from 100 million dollars to 5 million dollars.\nThe rule change aims to stop heavy speculation in foreign exchange markets.\nIt is designed to protect actual business importers and exporters who hedge real trade.\nThe step is intended to reduce pressure on a falling Indian rupee.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: A more stable Indian rupee can prevent sudden foreign capital outflows and keep foreign investor confidence steady.",
+   "lean": "up",
+   "sectors": [
+    "Banks",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/will-sebi-s-new-rules-on-currency-derivatives-help-the-falling-rupee-11793955300780.html"
+    }
+   ]
+  },
+  {
+   "headline": "Coca-Cola’s Indian bottling arm HCCH files IPO papers; entire issue to be OFS",
+   "time": "2026-11-07T15:50:47+05:30",
+   "factors": [
+    "Corporate events"
+   ],
+   "factor_ids": [
+    31
+   ],
+   "summary": "Hindustan Coca-Cola Holdings filed draft offer papers with SEBI for an Initial Public Offering.\nPromoter Hindustan Coca-Cola Overseas Holdings plans to sell up to 99.75 crore equity shares.\nThe entire issue will be an offer for sale by existing shareholders.\nThe company itself will not receive any fresh cash from this share sale.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Consumer Goods"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/hindustan-coca-cola-holdings-files-draft-papers-with-sebi-for-ipo/article71677901.ece"
+    },
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/ipo/coca-cola-india-bottling-arm-hcch-files-drhp-ipo-99-75-crore-shares-126110700766_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "₹90 dividend per share: This stock announces 900% payout - Do you own? Payment, record date, returns",
+   "time": "2026-11-07T20:23:10+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    20,
+    31
+   ],
+   "summary": "Bayer CropScience announced an interim dividend of 90 rupees per share for the financial year 2026-27.\nThe company fixed November 12 as the record date and will pay the amount by November 30.\nNet profit for the July-September quarter rose to 166.2 crore rupees.\nThis is up from 152.7 crore rupees recorded in the same period last year.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: High cash rewards and steady profit growth may attract defensive investors to agricultural input companies.",
+   "lean": "up",
+   "sectors": [
+    "Fertilisers & Agrochemicals"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/rs-90-dividend-per-share-this-stock-announces-900-payout-do-you-own-payment-record-date-returns-11794063019136.html"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "found",
+  "2": "none",
+  "3": "none",
+  "4": "none",
+  "5": "unverified",
+  "6": "unverified",
+  "7": "found",
+  "8": "found",
+  "9": "unverified",
+  "10": "none",
+  "11": "none",
+  "12": "none",
+  "13": "none",
+  "14": "none",
+  "15": "found",
+  "16": "none",
+  "17": "found",
+  "18": "found",
+  "19": "none",
+  "20": "found",
+  "21": "found",
+  "22": "none",
+  "23": "none",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "unverified",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "found",
+  "31": "found",
+  "32": "none",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "found"
+ },
+ "gaps": [
+  "SEBI: 30 items skipped because no publish time was given",
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "Removed AI text with trading language: Coca-Cola’s Indian bottling arm HCCH files IPO papers; entir"
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-06T19:10:00+05:30"
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-05T18:20:00+05:30"
+  },
+  "SEBI": {
+   "ok": true,
+   "total": 30,
+   "in_window": 0,
+   "no_time": 30,
+   "fresh": true,
+   "newest": null
+  },
+  "US Federal Reserve": {
+   "ok": true,
+   "total": 20,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-05T21:30:00+05:30"
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 17,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 1,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-07T16:37:31+05:30"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 16,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-08T07:04:37+05:30"
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 4,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-08T07:59:44+05:30"
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 10,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-07T22:14:31+05:30"
+  }
+ }
+}
