@@ -1,0 +1,341 @@
+{
+ "status": "ok",
+ "title": "Indian Market News Brief — 09 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-09T08:15:23.507660+05:30",
+ "window_start": "2026-11-08T15:00:00+05:30",
+ "cutoff": "2026-11-09T07:30:00+05:30",
+ "quick_read": "Large buying by foreign investors and lower oil prices may help market sentiment. Global shipping tensions in the Middle East and weaker Muhurat trading performance may pressure stocks. Mixed profit results across consumer companies leave sector trends unclear.",
+ "stories": [
+  {
+   "headline": "Global AI sell-off turns into India's gain as FPIs pump ₹46,000 crore in 5 sessions; will the buying spree sustain?",
+   "time": "2026-11-08T17:01:31+05:30",
+   "factors": [
+    "Foreign investment",
+    "Global markets",
+    "Crude oil"
+   ],
+   "factor_ids": [
+    18,
+    1,
+    8
+   ],
+   "summary": "Foreign investors bought Indian shares worth 45,970 crore rupees in five trading sessions in November.\nThis helped the Nifty index report its strongest weekly gain since February 2021.\nGlobal investors moved funds away from artificial intelligence companies into Indian markets.\nLower crude oil prices and strong company earnings supported the inflows.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Large buying by foreign funds could lift prices across major index stocks.",
+   "lean": "up",
+   "sectors": [
+    "Cross-sector"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/global-ai-sell-off-turns-into-indias-gain-as-fpis-pump-rs-46-000-crore-in-5-sessions-will-the-buying-spree-sustain-11794135940793.html"
+    }
+   ]
+  },
+  {
+   "headline": "Oil falls on open as Trump says fresh Iran attacks 'unlikely'",
+   "time": "2026-11-09T06:38:45+05:30",
+   "factors": [
+    "Crude oil",
+    "Geopolitics and trade"
+   ],
+   "factor_ids": [
+    8,
+    6
+   ],
+   "summary": "Crude oil prices fell at the start of the trading week.\nThe US President stated that new military attacks on Iran were unlikely as long as talks continue.\nHowever, both countries reported that ships were hit near the Strait of Hormuz.\nEnergy supply routes remain affected by these shipping strikes.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Falling oil prices can lower fuel expenses for Indian companies and support overall market sentiment.",
+   "lean": "up",
+   "sectors": [
+    "Oil & Gas",
+    "Paints"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely/articleshow/135667470.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Muhurat Trading 2026: Samvat 2082 ends, Samvat 2083 begins - Sensex, Nifty end in red first time after 2017 | Reasons",
+   "time": "2026-11-08T15:53:22+05:30",
+   "factors": [
+    "Global markets",
+    "Crude oil",
+    "Foreign investment",
+    "Rupee"
+   ],
+   "factor_ids": [
+    1,
+    8,
+    18,
+    7
+   ],
+   "summary": "Indian benchmark indices closed lower in the special Muhurat trading session.\nThis was the first negative Muhurat session close for the Sensex and Nifty since 2017.\nHigher oil prices and Middle East conflicts placed pressure on equities.\nA weaker rupee, foreign investor selling and higher US bond returns weighed on prices.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Foreign selling and high global loan costs could keep pressure on large Indian shares.",
+   "lean": "down",
+   "sectors": [
+    "Banks",
+    "IT"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/muhurat-trading-2026-samvat-2082-ends-samvat-2083-begins-sensex-nifty-end-in-red-first-time-after-2017-reasons-11794130754040.html"
+    }
+   ]
+  },
+  {
+   "headline": "ICICI Bank, Divi's among 14 NSE 500 stocks hit new highs in Muhurat session",
+   "time": "2026-11-08T15:10:31+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Divi's Laboratories reported a 64 percent increase in second quarter net profit.\nThe stock price jumped 6 percent to reach a record high of 10,950 rupees.\nFourteen stocks in the top 500 index reached new record high prices during the session.\nICICI Bank was also among the stocks touching new highs.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong quarterly earnings in major pharmaceutical and banking shares could encourage buyers.",
+   "lean": "up",
+   "sectors": [
+    "Pharmaceuticals",
+    "Banks"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/icici-bank-divi-s-among-14-nse-500-stocks-hit-new-highs-in-muhurat-session-126110800329_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Bosch bonus issue, stock split: 1 share to become 20 after 38% rally in one year! Check ratio, record date, returns",
+   "time": "2026-11-08T21:01:08+05:30",
+   "factors": [
+    "Corporate events",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    31,
+    20
+   ],
+   "summary": "Bosch approved a plan to divide its shares in a 1 to 5 ratio and issue bonus shares in a 3 to 1 ratio.\nThe plans require final approval from company shareholders.\nTogether, these decisions will convert one existing share into 20 shares with a face value of 2 rupees.\nThe company stock price has risen 38 percent over the past year.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Share split and bonus issues reduce individual share prices for smaller buyers but do not change the company overall profit.",
+   "lean": "unclear",
+   "sectors": [
+    "Auto Ancillaries"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/bosch-bonus-issue-stock-split-1-share-to-become-20-after-38-rally-in-one-year-check-ratio-record-date-returns-11794135227568.html"
+    }
+   ]
+  },
+  {
+   "headline": "Emami vs Dabur Q2 results: Which FMCG giant wins on profit, revenue and dividend? Check target, upcoming record dates",
+   "time": "2026-11-08T16:06:29+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Inflation and consumption"
+   ],
+   "factor_ids": [
+    20,
+    11
+   ],
+   "summary": "Emami and Dabur announced their second quarter financial results and dividends.\nEmami net profit fell 1.92 percent to 145.50 crore rupees.\nDabur net profit rose 12.09 percent to 498.57 crore rupees.\nShares of both consumer companies rose nearly 7 percent over the past week.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Mixed profit growth among daily product makers shows uneven consumer spending in the country.",
+   "lean": "unclear",
+   "sectors": [
+    "FMCG"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/emami-vs-dabur-q2-results-which-fmcg-giant-wins-on-profit-revenue-and-dividend-check-target-upcoming-record-dates-11794133857711.html"
+    }
+   ]
+  },
+  {
+   "headline": "Exide beats Amara in Q2, but returns from lithium-ion investments will decide the winner",
+   "time": "2026-11-09T06:00:42+05:30",
+   "factors": [
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    20
+   ],
+   "summary": "Exide reported a 54 percent rise in second quarter profit due to strong demand and price hikes.\nAmara Raja saw lower profits because raw material costs stayed high.\nBoth companies are investing heavily in new lithium battery projects.\nReturns on these battery investments will decide future performance.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong profit growth in market leaders could boost interest in auto battery shares.",
+   "lean": "up",
+   "sectors": [
+    "Auto Ancillaries"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/mark-to-market/exide-beats-amara-in-q2-but-returns-from-li-ion-investments-will-decide-winner-11793950879635.html"
+    }
+   ]
+  },
+  {
+   "headline": "Why did RR Kabel share rally 8% during Muhurat Trading despite weak market sentiment — what triggered the surge?",
+   "time": "2026-11-08T16:19:39+05:30",
+   "factors": [
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    20
+   ],
+   "summary": "RR Kabel shares rose 8 percent to 2,073 rupees during the special trading session.\nThe stock price gain occurred alongside unusually high trading activity.\nSeptember quarter profit increased by 55.7 percent from a year ago.\nQuarterly revenue also grew 51.8 percent compared to the same period last year.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Fast revenue and profit growth in electrical equipment makers could attract buyers to manufacturing stocks.",
+   "lean": "up",
+   "sectors": [
+    "Capital Goods"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/why-did-rr-kabel-share-rally-8-during-muhurat-trading-despite-weak-market-sentiment-what-triggered-the-surge-11794133913486.html"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "found",
+  "2": "none",
+  "3": "none",
+  "4": "none",
+  "5": "unverified",
+  "6": "found",
+  "7": "found",
+  "8": "found",
+  "9": "unverified",
+  "10": "none",
+  "11": "found",
+  "12": "none",
+  "13": "none",
+  "14": "none",
+  "15": "none",
+  "16": "none",
+  "17": "none",
+  "18": "found",
+  "19": "none",
+  "20": "found",
+  "21": "found",
+  "22": "none",
+  "23": "none",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "unverified",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "unverified",
+  "31": "found",
+  "32": "none",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "none"
+ },
+ "gaps": [
+  "SEBI: 30 items skipped because no publish time was given",
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar."
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-06T19:10:00+05:30"
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-05T18:20:00+05:30"
+  },
+  "SEBI": {
+   "ok": true,
+   "total": 30,
+   "in_window": 0,
+   "no_time": 30,
+   "fresh": true,
+   "newest": null
+  },
+  "US Federal Reserve": {
+   "ok": true,
+   "total": 20,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-05T21:30:00+05:30"
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 18,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 10,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-09T07:39:52+05:30"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 20,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-09T08:05:05+05:30"
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 3,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-09T07:53:15+05:30"
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 6,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-09T08:06:43+05:30"
+  }
+ }
+}

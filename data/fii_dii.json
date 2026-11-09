@@ -2,17 +2,17 @@
  "reported": [
   {
    "who": "FII",
-   "direction": "sold",
-   "amount": 34843.0,
-   "headline": "FPIs turn net buyers in the second half of October, shows data",
-   "outlet": "Business Standard Markets",
-   "url": "https://www.business-standard.com/markets/news/fpis-were-net-buyers-in-2nd-half-of-oct-pumped-13k-cr-into-equities-126110501860_1.html",
-   "published": "2026-11-05T21:04:33+05:30"
+   "direction": "bought",
+   "amount": 45970.0,
+   "headline": "Global AI sell-off turns into India's gain as FPIs pump ₹46,000 crore in 5 sessions; will the buying spree sustain?",
+   "outlet": "Mint Markets",
+   "url": "https://www.livemint.com/market/stock-market-news/global-ai-sell-off-turns-into-indias-gain-as-fpis-pump-rs-46-000-crore-in-5-sessions-will-the-buying-spree-sustain-11794135940793.html",
+   "published": "2026-11-08T17:01:31+05:30"
   }
  ],
  "status": "not_verified",
  "source": "NSE provisional cash market (Rs crore)",
- "updated": "2026-11-08T08:13:44.236576+05:30",
+ "updated": "2026-11-09T08:18:13.278610+05:30",
  "latest": null,
  "history": [],
  "note": "NSE data could not be retrieved this run (HTTP Error 403: Forbidden)."
