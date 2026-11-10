@@ -1,0 +1,300 @@
+{
+ "status": "ok",
+ "title": "Indian Market News Brief — 10 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-10T08:12:32.770593+05:30",
+ "window_start": "2026-11-09T15:00:00+05:30",
+ "cutoff": "2026-11-10T07:30:00+05:30",
+ "quick_read": "Lower global crude oil prices and gains in Asian markets may help Indian stock trading. Foreign brokerage upgrades for India and lower government bond yields could support banking stocks. Changes in the rupee's exchange rate and mixed earnings reports create uncertainty for specific sectors.",
+ "stories": [
+  {
+   "headline": "Oil falls as Trump downplays prospect of escalation with Iran",
+   "time": "2026-11-10T07:15:29+05:30",
+   "factors": [
+    "Crude oil",
+    "Geopolitics and trade"
+   ],
+   "factor_ids": [
+    8,
+    6
+   ],
+   "summary": "Crude oil prices fell sharply as US President Donald Trump signaled restraint on Iran.\nBrent crude dropped to 92.33 dollars per barrel while WTI crude fell to 86.50 dollars per barrel.\nTrump stated he would temporarily keep a naval blockade in the Strait of Hormuz.\nOPEC oil output increased in October due to higher production in Saudi Arabia and Kuwait.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Lower crude oil prices help reduce fuel and raw material costs for many Indian companies.",
+   "lean": "up",
+   "sectors": [
+    "Oil & Gas",
+    "Paints",
+    "Aviation",
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran/articleshow/135696497.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Global Market Today: Asian stocks rally after US tech surge, oil slump",
+   "time": "2026-11-10T06:15:50+05:30",
+   "factors": [
+    "Global markets"
+   ],
+   "factor_ids": [
+    1
+   ],
+   "summary": "Asian stock markets rallied on Tuesday morning following gains in US technology shares and falling crude oil prices.\nSouth Korea's Kospi index jumped more than 5 percent in early trading.\nJapan's Nikkei 225 index climbed nearly 3 percent.\nA broader index of Asian shares advanced 1.5 percent.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong gains in regional Asian markets can create a positive mood for trading in Indian equities.",
+   "lean": "up",
+   "sectors": [
+    "Information Technology",
+    "Financials"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rally-after-us-tech-surge-oil-slump/articleshow/135696042.cms"
+    }
+   ]
+  },
+  {
+   "headline": "HSBC upgrades India to Overweight, cuts China to Neutral; Citi, Jefferies also favour Indian equities",
+   "time": "2026-11-09T19:10:28+05:30",
+   "factors": [
+    "Foreign investment",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    18,
+    13
+   ],
+   "summary": "Foreign brokerage HSBC upgraded Indian equities to Overweight and reduced China to Neutral.\nBrokerages Citi and Jefferies also favoured Indian stocks over regional peers.\nBank credit in India grew 21 percent year-on-year in October.\nCorporate lending rose around 24 percent while small and medium business credit grew 25 percent.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Positive ratings from international brokerages can encourage foreign money into Indian stocks.",
+   "lean": "up",
+   "sectors": [
+    "Banks",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/hsbc-upgrades-india-to-overweight-cuts-china-to-neutral-in-asia-strategy-shift/article71682343.ece"
+    },
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/hsbc-upgrades-indian-equities-to-overweight-cuts-china-to-neutral-126110901244_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "FPI investments in FAR G-Secs rise nearly ₹8,000 cr as rupee gains, bond yields ease",
+   "time": "2026-11-09T16:41:41+05:30",
+   "factors": [
+    "Indian bond market",
+    "Foreign investment",
+    "Rupee"
+   ],
+   "factor_ids": [
+    14,
+    18,
+    7
+   ],
+   "summary": "Foreign portfolio investors added nearly 8,000 crore rupees into specified Indian government bonds.\nThe yield [return paid] on 10-year government bonds fell to 7.178 percent from 7.315 percent.\nThe Indian rupee strengthened to 93.74 against the US dollar during the period.\nEasing bond yields reflected improved investor sentiment in Indian debt markets.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Falling government bond yields reduce interest costs for companies, which can boost bank and corporate profits.",
+   "lean": "up",
+   "sectors": [
+    "Banks",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/fpi-investments-in-far-g-secs-rise-nearly-8000-cr-as-rupee-gains-bond-yields-ease/article71682301.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Indian rupee breaks six-day winning streak on state banks' dollar bids",
+   "time": "2026-11-09T15:54:26+05:30",
+   "factors": [
+    "Rupee",
+    "US dollar"
+   ],
+   "factor_ids": [
+    7,
+    4
+   ],
+   "summary": "The Indian rupee ended its six-session winning streak on Monday.\nDollar purchases by state-run banks offset positive momentum from foreign inflows and lower oil prices.\nThe currency touched a six-month high of 93.69 per US dollar before closing slightly lower at 93.9275 per dollar.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "Unclear for Nifty: A pausing rupee has mixed effects, as it helps export-focused IT firms but increases costs for raw material importers.",
+   "lean": "unclear",
+   "sectors": [
+    "Information Technology",
+    "Pharmaceuticals",
+    "Oil & Gas"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/indian-rupee-breaks-six-day-winning-streak-on-state-banks-dollar-bids/articleshow/135678769.cms"
+    },
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/forex/indian-rupee-breaks-six-day-winning-streak-on-state-banks-dollar-bids/article71682202.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Winter is coming! Voltas delivers strong Q2 results. Should you buy the Tata Group AC maker as cold winds rise?",
+   "time": "2026-11-09T16:07:31+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Inflation and consumption"
+   ],
+   "factor_ids": [
+    20,
+    11
+   ],
+   "summary": "Appliance maker Voltas reported a 51.4 percent year-on-year rise in second-quarter net profit to 47.71 crore rupees.\nQuarterly revenue grew 15.3 percent to 2,706.57 crore rupees.\nRoom air conditioner sales led the revenue growth during the quarter.\nProject business revenues saw a decline.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong earnings growth in consumer cooling products reflects healthy buyer demand during the festival season.",
+   "lean": "up",
+   "sectors": [
+    "Consumer Durables"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/winter-is-coming-voltas-delivers-strong-q2-results-should-you-buy-the-tata-group-ac-maker-as-cold-winds-rise-11794212915132.html"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "found",
+  "2": "none",
+  "3": "none",
+  "4": "found",
+  "5": "unverified",
+  "6": "found",
+  "7": "found",
+  "8": "found",
+  "9": "unverified",
+  "10": "none",
+  "11": "found",
+  "12": "none",
+  "13": "found",
+  "14": "found",
+  "15": "none",
+  "16": "none",
+  "17": "none",
+  "18": "found",
+  "19": "none",
+  "20": "found",
+  "21": "none",
+  "22": "none",
+  "23": "none",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "unverified",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "unverified",
+  "31": "none",
+  "32": "none",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "none"
+ },
+ "gaps": [
+  "SEBI: 30 items skipped because no publish time was given",
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar."
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 4,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-09T18:55:00+05:30"
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-05T18:20:00+05:30"
+  },
+  "SEBI": {
+   "ok": true,
+   "total": 30,
+   "in_window": 2,
+   "no_time": 30,
+   "fresh": true,
+   "newest": null
+  },
+  "US Federal Reserve": {
+   "ok": true,
+   "total": 20,
+   "in_window": 1,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-10T02:30:00+05:30"
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 20,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 15,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-10T07:48:28+05:30"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 25,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-10T07:47:28+05:30"
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 6,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-10T07:47:22+05:30"
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 16,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-09T21:22:02+05:30"
+  }
+ }
+}
