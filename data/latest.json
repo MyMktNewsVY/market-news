@@ -1,206 +1,257 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 10 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-10T08:12:32.770593+05:30",
- "window_start": "2026-11-09T15:00:00+05:30",
- "cutoff": "2026-11-10T07:30:00+05:30",
- "quick_read": "Lower global crude oil prices and gains in Asian markets may help Indian stock trading. Foreign brokerage upgrades for India and lower government bond yields could support banking stocks. Changes in the rupee's exchange rate and mixed earnings reports create uncertainty for specific sectors.",
+ "title": "Indian Market News Brief — 11 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-11T08:11:24.006451+05:30",
+ "window_start": "2026-11-10T15:00:00+05:30",
+ "cutoff": "2026-11-11T07:30:00+05:30",
+ "quick_read": "Lower oil prices and strong foreign buying worth Rs 53,739 crore in November can support Indian stock markets. Higher than expected US inflation figures may cause worries about interest rate increases abroad. Company news like raw material cost pressures on tyre makers and rule changes for online insurance sellers may affect specific sectors.",
  "stories": [
   {
-   "headline": "Oil falls as Trump downplays prospect of escalation with Iran",
-   "time": "2026-11-10T07:15:29+05:30",
+   "headline": "FPIs turn net buyers; pour Rs 53,739 crore in D-Street in Nov so far",
+   "time": "2026-11-10T16:19:34+05:30",
    "factors": [
-    "Crude oil",
-    "Geopolitics and trade"
+    "Foreign investment",
+    "Corporate earnings"
    ],
    "factor_ids": [
-    8,
-    6
+    18,
+    20
    ],
-   "summary": "Crude oil prices fell sharply as US President Donald Trump signaled restraint on Iran.\nBrent crude dropped to 92.33 dollars per barrel while WTI crude fell to 86.50 dollars per barrel.\nTrump stated he would temporarily keep a naval blockade in the Strait of Hormuz.\nOPEC oil output increased in October due to higher production in Saudi Arabia and Kuwait.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Lower crude oil prices help reduce fuel and raw material costs for many Indian companies.",
+   "summary": "Foreign institutional investors became net buyers in Indian stock markets in November.\nThey bought shares worth Rs 53,739 crore during the month.\nThis buying came after global market selling linked to artificial intelligence stocks.\nStrong earnings growth and good prices for big Indian companies attracted buyers.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Large foreign buying shows strong interest and can keep share prices rising in the short term.",
    "lean": "up",
    "sectors": [
-    "Oil & Gas",
-    "Paints",
-    "Aviation",
-    "Automobiles"
+    "Financials",
+    "Nifty 50"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran/articleshow/135696497.cms"
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-turn-net-buyers-pour-rs-53739-crore-in-d-street-in-nov-so-far/articleshow/135708381.cms"
+    },
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/fpis-turn-net-buyers-in-november-pump-53-739-crore-into-indian-equities-126111000477_1.html"
     }
    ]
   },
   {
-   "headline": "Global Market Today: Asian stocks rally after US tech surge, oil slump",
-   "time": "2026-11-10T06:15:50+05:30",
+   "headline": "Oil prices fall as Trump signals pause in military action against Iran",
+   "time": "2026-11-10T15:07:58+05:30",
    "factors": [
-    "Global markets"
+    "Crude oil",
+    "Inflation and consumption"
    ],
    "factor_ids": [
-    1
+    8,
+    11
    ],
-   "summary": "Asian stock markets rallied on Tuesday morning following gains in US technology shares and falling crude oil prices.\nSouth Korea's Kospi index jumped more than 5 percent in early trading.\nJapan's Nikkei 225 index climbed nearly 3 percent.\nA broader index of Asian shares advanced 1.5 percent.",
+   "summary": "Brent crude oil prices fell 1.7 percent to $90.99 per barrel.\nWest Texas Intermediate oil prices also fell 1.8 percent.\nThe drop came after comments by Donald Trump about stopping military action against Iran.\nLower oil prices reduce worry about big oil supply cuts from the Middle East.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong gains in regional Asian markets can create a positive mood for trading in Indian equities.",
+   "impact": "May help Nifty: Cheaper crude oil lowers cost for Indian fuel companies and cuts national import costs.",
    "lean": "up",
    "sectors": [
-    "Information Technology",
+    "Oil & Gas",
+    "Paints",
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/commodities/oil-prices-fall-as-trump-signals-pause-in-military-action-against-iran-126111000067_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "US consumer prices rise above expectations in October",
+   "time": "2026-11-10T19:31:53+05:30",
+   "factors": [
+    "US monetary policy",
+    "Inflation and consumption"
+   ],
+   "factor_ids": [
+    2,
+    11
+   ],
+   "summary": "US consumer prices rose by 0.4 percent in October after rising 0.6 percent in September.\nThis price rise was larger than expected by market experts.\nBasic inflation without food and energy also remained high.\nThe data has raised worries that the US central bank may raise interest rates.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Higher US interest rates can pull global money away from emerging markets like India.",
+   "lean": "down",
+   "sectors": [
+    "IT",
     "Financials"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rally-after-us-tech-surge-oil-slump/articleshow/135696042.cms"
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-consumer-prices-rise-above-expectations-in-october/articleshow/135712897.cms"
     }
    ]
   },
   {
-   "headline": "HSBC upgrades India to Overweight, cuts China to Neutral; Citi, Jefferies also favour Indian equities",
-   "time": "2026-11-09T19:10:28+05:30",
+   "headline": "Bajaj Finance issues 5.74 crore warrants to promoter for Rs 5,799 crore",
+   "time": "2026-11-10T16:22:44+05:30",
    "factors": [
-    "Foreign investment",
-    "Banking and liquidity"
+    "Heavyweight stocks",
+    "Corporate events"
    ],
    "factor_ids": [
-    18,
-    13
+    21,
+    31
    ],
-   "summary": "Foreign brokerage HSBC upgraded Indian equities to Overweight and reduced China to Neutral.\nBrokerages Citi and Jefferies also favoured Indian stocks over regional peers.\nBank credit in India grew 21 percent year-on-year in October.\nCorporate lending rose around 24 percent while small and medium business credit grew 25 percent.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "May help Nifty: Positive ratings from international brokerages can encourage foreign money into Indian stocks.",
-   "lean": "up",
-   "sectors": [
-    "Banks",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/hsbc-upgrades-india-to-overweight-cuts-china-to-neutral-in-asia-strategy-shift/article71682343.ece"
-    },
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/hsbc-upgrades-indian-equities-to-overweight-cuts-china-to-neutral-126110901244_1.html"
-    }
-   ]
-  },
-  {
-   "headline": "FPI investments in FAR G-Secs rise nearly ₹8,000 cr as rupee gains, bond yields ease",
-   "time": "2026-11-09T16:41:41+05:30",
-   "factors": [
-    "Indian bond market",
-    "Foreign investment",
-    "Rupee"
-   ],
-   "factor_ids": [
-    14,
-    18,
-    7
-   ],
-   "summary": "Foreign portfolio investors added nearly 8,000 crore rupees into specified Indian government bonds.\nThe yield [return paid] on 10-year government bonds fell to 7.178 percent from 7.315 percent.\nThe Indian rupee strengthened to 93.74 against the US dollar during the period.\nEasing bond yields reflected improved investor sentiment in Indian debt markets.",
+   "summary": "Bajaj Finance gave 5.74 crore warrants to its main owner Bajaj Finserv.\nThe total value of the deal is Rs 5,799 crore.\nThe price set for each warrant is Rs 1,010.\nBuyers paid 25 percent of the money now, and the rest is due later.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Falling government bond yields reduce interest costs for companies, which can boost bank and corporate profits.",
+   "impact": "May help Nifty: Extra money from main owners strengthens the balance sheet of a top Indian financial company.",
    "lean": "up",
    "sectors": [
-    "Banks",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/fpi-investments-in-far-g-secs-rise-nearly-8000-cr-as-rupee-gains-bond-yields-ease/article71682301.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Indian rupee breaks six-day winning streak on state banks' dollar bids",
-   "time": "2026-11-09T15:54:26+05:30",
-   "factors": [
-    "Rupee",
-    "US dollar"
-   ],
-   "factor_ids": [
-    7,
-    4
-   ],
-   "summary": "The Indian rupee ended its six-session winning streak on Monday.\nDollar purchases by state-run banks offset positive momentum from foreign inflows and lower oil prices.\nThe currency touched a six-month high of 93.69 per US dollar before closing slightly lower at 93.9275 per dollar.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "Unclear for Nifty: A pausing rupee has mixed effects, as it helps export-focused IT firms but increases costs for raw material importers.",
-   "lean": "unclear",
-   "sectors": [
-    "Information Technology",
-    "Pharmaceuticals",
-    "Oil & Gas"
+    "NBFC",
+    "Financials"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/forex/indian-rupee-breaks-six-day-winning-streak-on-state-banks-dollar-bids/articleshow/135678769.cms"
-    },
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/forex/indian-rupee-breaks-six-day-winning-streak-on-state-banks-dollar-bids/article71682202.ece"
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/bajaj-finance-issues-5-74-crore-warrants-to-promoter-for-rs-5799-crore/articleshow/135708439.cms"
     }
    ]
   },
   {
-   "headline": "Winter is coming! Voltas delivers strong Q2 results. Should you buy the Tata Group AC maker as cold winds rise?",
-   "time": "2026-11-09T16:07:31+05:30",
+   "headline": "PB Fintech: Retailers buy, FPIs turn wary in Q2; who got right end of deal?",
+   "time": "2026-11-11T07:14:22+05:30",
+   "factors": [
+    "Regulation",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    17,
+    20
+   ],
+   "summary": "PB Fintech shares dropped nearly 49 percent from September levels to Rs 953.80.\nThe fall happened after insurance regulator IRDAI suggested new rules for selling insurance.\nForeign investors cut their share holdings in the second quarter.\nSmall retail investors bought more shares during the same period.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Lower share prices and strict regulator rules for insurance distributors can hurt sentiment in digital financial stocks.",
+   "lean": "down",
+   "sectors": [
+    "Financial Services",
+    "Insurance"
+   ],
+   "unverified_figures": [
+    "49",
+    "953.80"
+   ],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/pb-fintech-retailers-buy-fpis-turn-wary-in-q2-who-got-right-end-of-deal-126111100075_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Higher input costs drag MRF Q2 net profit down 23%",
+   "time": "2026-11-11T06:30:09+05:30",
    "factors": [
     "Corporate earnings",
-    "Inflation and consumption"
+    "Other commodities"
    ],
    "factor_ids": [
     20,
-    11
+    9
    ],
-   "summary": "Appliance maker Voltas reported a 51.4 percent year-on-year rise in second-quarter net profit to 47.71 crore rupees.\nQuarterly revenue grew 15.3 percent to 2,706.57 crore rupees.\nRoom air conditioner sales led the revenue growth during the quarter.\nProject business revenues saw a decline.",
+   "summary": "Tyre maker MRF reported a 22.8 percent fall in net profit for the July to September quarter.\nOperating revenue grew by 17.4 percent to Rs 8,660.19 crore.\nExpenses went up significantly due to higher costs for raw materials.\nThe company announced a dividend of Rs 3 per share.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong earnings growth in consumer cooling products reflects healthy buyer demand during the festival season.",
-   "lean": "up",
+   "impact": "May hurt Nifty: Rising raw material costs hurting tyre maker profits could worry investors in auto component companies.",
+   "lean": "down",
    "sectors": [
-    "Consumer Durables"
+    "Automobiles",
+    "Auto Ancillaries"
    ],
    "unverified_figures": [],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/winter-is-coming-voltas-delivers-strong-q2-results-should-you-buy-the-tata-group-ac-maker-as-cold-winds-rise-11794212915132.html"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/higher-input-costs-drag-mrf-q2-net-profit-down-23/articleshow/135722166.cms"
+    }
+   ]
+  },
+  {
+   "headline": "NMDC in talks with Russia’s Rosatom to explore lithium mining and processing opportunities",
+   "time": "2026-11-10T16:10:00+05:30",
+   "factors": [
+    "Other commodities",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    9,
+    31
+   ],
+   "summary": "Government mining company NMDC is holding talks with Russian firm Rosatom.\nThe discussions are about finding and processing lithium together.\nLithium is a critical metal used in making electric vehicle batteries.\nIndia is trying to secure dependable sources of critical minerals.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Entry into electric vehicle battery minerals could improve future growth chances for state mining firms.",
+   "lean": "up",
+   "sectors": [
+    "Metals & Mining"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/nmdc-in-talks-with-russias-rosatom-to-explore-lithium-mining-and-processing-opportunities/article71685818.ece"
+    }
+   ]
+  },
+  {
+   "headline": "37,500 करोड़ रुपये की कोयला/लिग्नाइट सतह आधारित गैसीकरण परियोजनाओं को बढ़ावा देने की योजना का दूसरा चरण सम्‍पन्‍न; एनटीपीसी लिमिटेड की ओर से दो आवेदन प्राप्त, तीसरा चरण आज से आरम्‍भ",
+   "time": null,
+   "factors": [
+    "Government policy",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    15,
+    31
+   ],
+   "summary": "The government finished the second phase of a Rs 37,500 crore project for coal and lignite gasification.\nPower producer NTPC submitted two applications under this scheme.\nThe third phase of the government project started today.\nThe policy aims to promote cleaner coal technology in India.",
+   "confirmation": "Official source",
+   "impact": "May help Nifty: Government funding support for green coal projects helps major state power companies like NTPC.",
+   "lean": "up",
+   "sectors": [
+    "Power",
+    "Utilities"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334719"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "found",
-  "2": "none",
+  "1": "none",
+  "2": "found",
   "3": "none",
-  "4": "found",
+  "4": "none",
   "5": "unverified",
-  "6": "found",
-  "7": "found",
+  "6": "unverified",
+  "7": "none",
   "8": "found",
-  "9": "unverified",
+  "9": "found",
   "10": "none",
   "11": "found",
   "12": "none",
-  "13": "found",
-  "14": "found",
-  "15": "none",
+  "13": "none",
+  "14": "none",
+  "15": "found",
   "16": "none",
-  "17": "none",
+  "17": "found",
   "18": "found",
   "19": "none",
   "20": "found",
-  "21": "none",
+  "21": "found",
   "22": "none",
   "23": "none",
   "24": "unverified",
@@ -210,7 +261,7 @@
   "28": "unverified",
   "29": "unverified",
   "30": "unverified",
-  "31": "none",
+  "31": "found",
   "32": "none",
   "33": "unverified",
   "34": "unverified",
@@ -221,13 +272,14 @@
   "SEBI: 30 items skipped because no publish time was given",
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
-  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar."
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "Check figures 49, 953.80 (not found in the source text we read): PB Fintech: Retailers buy, FPIs turn wary in Q2; who got rig"
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 4,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
    "newest": "2026-11-09T18:55:00+05:30"
@@ -243,7 +295,7 @@
   "SEBI": {
    "ok": true,
    "total": 30,
-   "in_window": 2,
+   "in_window": 6,
    "no_time": 30,
    "fresh": true,
    "newest": null
@@ -251,7 +303,7 @@
   "US Federal Reserve": {
    "ok": true,
    "total": 20,
-   "in_window": 1,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
    "newest": "2026-11-10T02:30:00+05:30"
@@ -267,34 +319,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 15,
+   "in_window": 23,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-10T07:48:28+05:30"
+   "newest": "2026-11-11T07:39:13+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 25,
+   "in_window": 24,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-10T07:47:28+05:30"
+   "newest": "2026-11-11T07:51:52+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 6,
+   "in_window": 7,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-10T07:47:22+05:30"
+   "newest": "2026-11-11T07:59:40+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 16,
+   "in_window": 12,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-09T21:22:02+05:30"
+   "newest": "2026-11-10T21:41:33+05:30"
   }
  }
 }
