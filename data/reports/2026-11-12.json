@@ -1,0 +1,536 @@
+{
+ "status": "ok",
+ "title": "Indian Market News Brief — 12 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-12T08:13:00.122104+05:30",
+ "window_start": "2026-11-11T15:00:00+05:30",
+ "cutoff": "2026-11-12T07:30:00+05:30",
+ "quick_read": "Lower crude oil prices, a stronger rupee, and simple digital rules for overseas investors may help market confidence. However, slowing mutual fund inflows and troubles in global tech stocks may hurt stock prices. The total market impact of large bank share sales and stake exits remains unclear.",
+ "stories": [
+  {
+   "headline": "Bajaj Finance launches ₹11,700-crore share sale, sets floor price at ₹992.25",
+   "time": "2026-11-11T20:04:17+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    20,
+    21,
+    31
+   ],
+   "summary": "Bajaj Finance has launched a share sale to raise up to ₹11,700 crore ($1.25 billion) from large investors. The money will be used to pay back loans and financial obligations. The company reported a 26 percent yearly growth in total loan assets for the September quarter.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Raising fresh capital strengthens the balance sheet of this major stock.",
+   "lean": "up",
+   "sectors": [
+    "Finance",
+    "Banking"
+   ],
+   "unverified_figures": [
+    "1.25"
+   ],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/bajaj-finance-launches-11700-crore-share-sale-sets-floor-price-at-99225/article71690436.ece"
+    },
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/bajaj-finance-launches-11-700-crore-qip-at-5-discount-to-closing-price-126111101488_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "India equity mutual fund fund inflows cool as stocks sink to 18-month low",
+   "time": "2026-11-11T15:16:36+05:30",
+   "factors": [
+    "Inflation and consumption",
+    "Domestic investment"
+   ],
+   "factor_ids": [
+    11,
+    19
+   ],
+   "summary": "Net money flowing into Indian equity mutual funds dropped by 14 percent in October to ₹32,994 crore. Investments into mid-sized and small-company funds slowed down as investors turned cautious. Monthly systematic investment plan (SIP) collections stayed steady above ₹32,000 crore.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Reduced money coming into mutual funds means lower domestic buying support for stocks.",
+   "lean": "down",
+   "sectors": [
+    "Financial Services",
+    "Mutual Funds"
+   ],
+   "unverified_figures": [
+    "32000",
+    "32994"
+   ],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/india-equity-mutual-fund-fund-inflows-cool-as-stocks-sink-to-18-month-low-11794390045561.html"
+    }
+   ]
+  },
+  {
+   "headline": "MSCI Rejig: Adani Green, LIC, Coforge, Meesho shares set to enter India Standard Index; ICICI Life, PI Industries out?",
+   "time": "2026-11-11T15:49:55+05:30",
+   "factors": [
+    "Foreign investment",
+    "Heavyweight stocks",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    18,
+    21,
+    31
+   ],
+   "summary": "Adani Green Energy, LIC, Coforge, and Meesho are expected to join the MSCI Global Standard Index in November 2026. This move could bring in about $1.7 billion of foreign investment. Meanwhile, ICICI Prudential Life Insurance and PI Industries may be removed, potentially causing $263 million in stock sales.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Fresh foreign buying in the newly added big stocks could lift overall market sentiment.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Information Technology",
+    "Renewable Energy"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/msci-rejig-adani-green-lic-coforge-meesho-shares-set-to-enter-india-standard-index-icici-life-pi-industries-out-11794390119879.html"
+    }
+   ]
+  },
+  {
+   "headline": "More investors stopped SIPs than started new ones in October",
+   "time": "2026-11-11T15:51:49+05:30",
+   "factors": [
+    "Domestic investment",
+    "Investor psychology"
+   ],
+   "factor_ids": [
+    19,
+    36
+   ],
+   "summary": "More investors stopped their monthly automatic investments (SIPs) than started new ones in October. The SIP cancellation ratio reached a six-month high of 116 percent. However, total monthly investment amounts remained above ₹32,000 crore.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: A rise in stopped regular investments shows that small investors are growing cautious.",
+   "lean": "down",
+   "sectors": [
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/sip-stoppage-ratio-october-2026-hits-18-month-high-amfi-data-11794386284354.html"
+    }
+   ]
+  },
+  {
+   "headline": "Rupee closes at seven-month high of 93.69 as FPI inflows, lower crude prices boost sentiment",
+   "time": "2026-11-11T21:47:09+05:30",
+   "factors": [
+    "Rupee",
+    "Crude oil",
+    "Foreign investment"
+   ],
+   "factor_ids": [
+    7,
+    8,
+    18
+   ],
+   "summary": "The Indian rupee closed at 93.69 against the US dollar, reaching its strongest level in seven months. The currency gained strength due to steady foreign investments into Indian shares and falling crude oil prices.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: A stronger Indian currency and lower fuel import costs make local stocks more attractive.",
+   "lean": "up",
+   "sectors": [
+    "Foreign Exchange",
+    "Macroeconomy"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-closes-at-seven-month-high-of-9369-as-fpi-inflows-lower-crude-prices-boost-sentiment/article71689839.ece"
+    },
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-12-november-2026/article71689385.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Fairfax Financial likely to exit IIFL Finance, sources say",
+   "time": "2026-11-11T18:39:37+05:30",
+   "factors": [
+    "Foreign investment",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    18,
+    31
+   ],
+   "summary": "Canada's Fairfax Financial Holdings plans to sell its nearly 11 percent stake in IIFL Finance. The stake is valued at around ₹3,000 crore ($320 million). Fairfax intends to use these funds to buy a major stake in IDBI Bank from the Indian government.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Banking",
+    "Finance"
+   ],
+   "unverified_figures": [
+    "3000"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/fairfax-financial-likely-to-exit-iifl-finance-sources-say/articleshow/135738516.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Crude oil prices may fall to $75 by December as West Asia tensions ease",
+   "time": "2026-11-11T21:26:57+05:30",
+   "factors": [
+    "Crude oil",
+    "Inflation and consumption"
+   ],
+   "factor_ids": [
+    8,
+    11
+   ],
+   "summary": "Market experts expect global crude oil prices to drop toward $75 per barrel by December. This anticipated fall is linked to reduced political tensions in West Asia.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Cheaper oil cuts import expenses for India and reduces cost pressures for many manufacturing companies.",
+   "lean": "up",
+   "sectors": [
+    "Oil & Gas",
+    "Paints",
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-prices-may-fall-to-75-by-december-as-west-asia-tensions-ease/article71690797.ece"
+    }
+   ]
+  },
+  {
+   "headline": "India to switch bonds worth 250 billion rupees next week",
+   "time": "2026-11-11T19:43:38+05:30",
+   "factors": [
+    "RBI monetary policy",
+    "Indian bond market",
+    "Government policy"
+   ],
+   "factor_ids": [
+    12,
+    14,
+    15
+   ],
+   "summary": "The Reserve Bank of India will hold an auction on November 16 to switch government bonds worth ₹25,000 crore. Short-term bonds maturing between 2027 and 2029 will be exchanged for long-term bonds maturing up to 2062. This step helps the government manage its debt repayment schedule.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Little effect on Nifty: This is a standard debt adjustment by the central bank and mainly affects bond market participants.",
+   "lean": "little",
+   "sectors": [
+    "Banking",
+    "Government Bonds"
+   ],
+   "unverified_figures": [
+    "25000"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/india-to-switch-bonds-worth-250-billion-rupees-next-week/articleshow/135740426.cms"
+    }
+   ]
+  },
+  {
+   "headline": "BSE's F&O segment faces technical glitch",
+   "time": "2026-11-11T20:23:57+05:30",
+   "factors": [
+    "Market structure"
+   ],
+   "factor_ids": [
+    30
+   ],
+   "summary": "The BSE futures and options trading segment experienced a technical glitch on Wednesday, disrupting live price updates for brokers. Brokerage firm Zerodha confirmed the problem was fixed by 2:36 PM.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Little effect on Nifty: Brief technical disruptions cause temporary difficulties for active traders but do not change company values.",
+   "lean": "little",
+   "sectors": [
+    "Exchanges",
+    "Stockbroking"
+   ],
+   "unverified_figures": [
+    "36"
+   ],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/bses-fo-segment-faces-technical-glitch/article71690234.ece"
+    }
+   ]
+  },
+  {
+   "headline": "London Aluminum Market Faces Biggest Supply Squeeze in Decades",
+   "time": "2026-11-12T00:16:15+05:30",
+   "factors": [
+    "Other commodities"
+   ],
+   "factor_ids": [
+    9
+   ],
+   "summary": "Aluminum buyers on the London Metal Exchange are facing a severe supply shortage as available warehouse stocks have dropped sharply. Most of the remaining metal is currently held by just two large trading firms.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Higher global aluminum prices can increase sales revenues and profits for Indian metal producers.",
+   "lean": "up",
+   "sectors": [
+    "Metals & Mining"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/london-aluminum-market-faces-biggest-supply-squeeze-in-decades-11794422775412.html"
+    }
+   ]
+  },
+  {
+   "headline": "Global Market Today: Asian stocks mixed as Nvidia turmoil hits AI-linked shares",
+   "time": "2026-11-12T07:03:51+05:30",
+   "factors": [
+    "Global markets",
+    "Geopolitics and trade"
+   ],
+   "factor_ids": [
+    1,
+    6
+   ],
+   "summary": "US technology stocks fell after shares of Nvidia dropped nearly 10 percent in late trading. The company board met to discuss leadership concerns and potential US restrictions on chip sales to China.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Weakness in global technology giants could create selling pressure on Indian IT service companies.",
+   "lean": "down",
+   "sectors": [
+    "Information Technology"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-us-stock-futures-fall-as-nvidia-turmoil-deepens/articleshow/135751953.cms"
+    }
+   ]
+  },
+  {
+   "headline": "NRIs can complete investment KYC from abroad starting Dec 3: What changes?",
+   "time": "2026-11-11T17:38:09+05:30",
+   "factors": [
+    "Regulation",
+    "Foreign investment"
+   ],
+   "factor_ids": [
+    17,
+    18
+   ],
+   "summary": "Non-resident Indians (NRIs) can complete their investment identity verification process online from abroad starting December 3. SEBI removed the rule that required overseas investors to be physically present in India for digital KYC.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Simpler rules make it easier for foreign-based Indian investors to invest money into local markets.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Stockbroking"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/nris-can-complete-investment-kyc-from-abroad-starting-dec-3-what-changes-126111101128_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Realty firms' land acquisition falls 56% to 1,445 acres in Jan-Sep: Anarock",
+   "time": "2026-11-11T17:40:24+05:30",
+   "factors": [
+    "GDP and growth",
+    "Inflation and consumption"
+   ],
+   "factor_ids": [
+    10,
+    11
+   ],
+   "summary": "Land purchases by Indian real estate developers dropped 56 percent to 1,445 acres during the first nine months of 2026. Developers are acting cautiously due to high land costs and are choosing joint development deals instead of outright purchases.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Reduced land purchases indicate real estate builders are slowing down new project expansions.",
+   "lean": "down",
+   "sectors": [
+    "Real Estate",
+    "Construction"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/realty-firms-land-acquisition-falls-56-to-1445-acres-in-jan-sep-anarock/articleshow/135736891.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Yes Bank bondholders press for compliance with Supreme Court's AT-1 order",
+   "time": "2026-11-11T22:25:06+05:30",
+   "factors": [
+    "Banking and liquidity",
+    "Regulation"
+   ],
+   "factor_ids": [
+    13,
+    17
+   ],
+   "summary": "Yes Bank bondholders have filed a legal petition in the Supreme Court asking it to enforce an order restoring ₹8,400 crore of written-off AT-1 bonds. The court had earlier ruled against the bank's decision to cancel these bonds.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: If Yes Bank is forced to restore the canceled bonds, it could create a sudden financial strain on the bank.",
+   "lean": "down",
+   "sectors": [
+    "Banking"
+   ],
+   "unverified_figures": [
+    "8400"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/yes-bank-bondholders-press-for-compliance-with-supreme-courts-at-1-order/articleshow/135744450.cms"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "found",
+  "2": "none",
+  "3": "none",
+  "4": "none",
+  "5": "unverified",
+  "6": "found",
+  "7": "found",
+  "8": "found",
+  "9": "found",
+  "10": "found",
+  "11": "found",
+  "12": "found",
+  "13": "found",
+  "14": "found",
+  "15": "found",
+  "16": "none",
+  "17": "found",
+  "18": "found",
+  "19": "found",
+  "20": "found",
+  "21": "found",
+  "22": "none",
+  "23": "none",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "unverified",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "found",
+  "31": "found",
+  "32": "none",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "found"
+ },
+ "gaps": [
+  "SEBI: 30 items skipped because no publish time was given",
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "Removed AI text with trading language: Fairfax Financial likely to exit IIFL Finance, sources say",
+  "Check figures 1.25 (not found in the source text we read): Bajaj Finance launches ₹11,700-crore share sale, sets floor ",
+  "Check figures 32000, 32994 (not found in the source text we read): India equity mutual fund fund inflows cool as stocks sink to",
+  "Check figures 3000 (not found in the source text we read): Fairfax Financial likely to exit IIFL Finance, sources say",
+  "Check figures 25000 (not found in the source text we read): India to switch bonds worth 250 billion rupees next week",
+  "Check figures 36 (not found in the source text we read): BSE's F&O segment faces technical glitch",
+  "Check figures 8400 (not found in the source text we read): Yes Bank bondholders press for compliance with Supreme Court"
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 2,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-11T18:10:00+05:30"
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 1,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-11T17:00:00+05:30"
+  },
+  "SEBI": {
+   "ok": true,
+   "total": 30,
+   "in_window": 7,
+   "no_time": 30,
+   "fresh": true,
+   "newest": null
+  },
+  "US Federal Reserve": {
+   "ok": true,
+   "total": 20,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-10T02:30:00+05:30"
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 20,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 23,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-12T07:24:50+05:30"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 28,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-12T07:20:28+05:30"
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 6,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-12T07:51:10+05:30"
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 31,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-12T07:57:53+05:30"
+  }
+ }
+}
