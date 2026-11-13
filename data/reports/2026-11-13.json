@@ -1,0 +1,410 @@
+{
+ "status": "ok",
+ "title": "Indian Market News Brief — 13 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-13T08:09:59.749164+05:30",
+ "window_start": "2026-11-12T15:00:00+05:30",
+ "cutoff": "2026-11-13T07:30:00+05:30",
+ "quick_read": "Strong foreign investment buying and upcoming state-owned company listings may support Indian markets. On the other hand, rising retail inflation, lower monthly mutual fund additions, and a weaker rupee could create pressure. Global weakness in technology stocks adds uncertainty.",
+ "stories": [
+  {
+   "headline": "October retail inflation surge may weigh on housing demand, raise rate hike concerns: Knight Frank, PHDCCI",
+   "time": "2026-11-12T21:39:52+05:30",
+   "factors": [
+    "Inflation and consumption",
+    "RBI monetary policy"
+   ],
+   "factor_ids": [
+    11,
+    12
+   ],
+   "summary": "India's retail inflation rose to 6.09 per cent in October.\nIndustry bodies warned this could reduce household spending on items such as housing.\nHigher inflation also increases expectations of interest rate hikes by the Reserve Bank of India.\nRising interest rates make loans more expensive for individuals and businesses.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Higher inflation and potential interest rate increases may slow company earnings growth and make loans costlier.",
+   "lean": "down",
+   "sectors": [
+    "Banking",
+    "Housing",
+    "Consumer Goods"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/october-retail-inflation-surge-may-weigh-on-housing-demand-raise-rate-hike-concerns-knight-frank-phdcci/articleshow/135776096.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Foreign inflows lift Indian stocks' dollar returns above rupee gains as currency rebounds",
+   "time": "2026-11-12T17:32:25+05:30",
+   "factors": [
+    "Foreign investment",
+    "GDP and growth"
+   ],
+   "factor_ids": [
+    18,
+    10
+   ],
+   "summary": "Foreign portfolio investors bought Indian shares worth 60,698 crore rupees in the first 11 days of November.\nThis is the highest monthly foreign buying since December 2023.\nThe strong inflows helped India become the fifth-largest stock market in the world.\nFalling crude oil prices also helped boost market sentiment.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Large investments by foreign funds bring fresh money into Indian shares and support market growth.",
+   "lean": "up",
+   "sectors": [
+    "Financials",
+    "Broad Market"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/foreign-inflows-lift-indian-stocks-dollar-returns-above-rupee-gains-as-currency-rebounds-11794465568691.html"
+    }
+   ]
+  },
+  {
+   "headline": "Nvidia stock plunges 14% to over one-year low as Jensen Huang quits amid affair; market cap falls below $4 trillion",
+   "time": "2026-11-12T20:09:38+05:30",
+   "factors": [
+    "Global markets",
+    "China and global growth"
+   ],
+   "factor_ids": [
+    1,
+    5
+   ],
+   "summary": "Nvidia Chief Executive Officer Jensen Huang resigned from his post.\nNvidia shares plunged over 14 per cent following the announcement.\nThe drop wiped out 300 billion dollars in market value and affected other technology companies worldwide.\nAn interim chief executive officer has been appointed while a permanent successor is sought.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Sharp drops in global technology stocks could create caution among investors in Indian software companies.",
+   "lean": "down",
+   "sectors": [
+    "Information Technology"
+   ],
+   "unverified_figures": [
+    "300"
+   ],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/nvidia-stock-plunges-14-to-over-one-year-low-as-jensen-huang-quits-market-cap-falls-below-4-trillion-11794493911909.html"
+    }
+   ]
+  },
+  {
+   "headline": "UPI MDR rollout after Diwali: What it means for Paytm, MobiKwik and Pine Labs | What investors should know",
+   "time": "2026-11-12T17:19:09+05:30",
+   "factors": [
+    "Government policy",
+    "Regulation"
+   ],
+   "factor_ids": [
+    15,
+    17
+   ],
+   "summary": "A new fee framework for UPI merchant payments above 2,000 rupees is expected to take effect.\nTransactions above this amount will generally attract a 0.4 per cent fee.\nThis change aims to provide digital payment companies with a steady revenue stream.\nPaytm recently reported a September quarter profit of 226 crore rupees.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Earning regular fee income on payments could improve profits for digital payment and financial technology firms.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Technology"
+   ],
+   "unverified_figures": [
+    "226"
+   ],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/upi-mdr-rollout-after-diwali-what-it-means-for-paytm-mobikwik-and-pine-labs-what-investors-should-know-11794477959612.html"
+    }
+   ]
+  },
+  {
+   "headline": "India's Next Billion-Dollar IPO? Coal India subsidiary Mahanadi Coalfields in line after Jio, NSE - key things to know",
+   "time": "2026-11-12T15:16:13+05:30",
+   "factors": [
+    "Corporate events",
+    "Government policy"
+   ],
+   "factor_ids": [
+    31,
+    15
+   ],
+   "summary": "Coal India subsidiary Mahanadi Coalfields is preparing for an initial public offering to raise up to 1 billion dollars.\nMarket regulator SEBI gave its observation letter on November 4.\nCoal India plans to sell a 10 per cent stake through an offer for sale.\nThe listing is expected in late November or early December.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Energy",
+    "Mining"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/ipo/indias-next-billion-dollar-ipo-coal-india-subsidiary-mahanadi-coalfields-in-line-after-jio-nse-key-things-to-know-11794470804131.html"
+    }
+   ]
+  },
+  {
+   "headline": "Zee Entertainment approves Rs 600-crore share buyback at Rs 91 apiece; promoters to stay out",
+   "time": "2026-11-12T17:16:29+05:30",
+   "factors": [
+    "Corporate events",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    31,
+    20
+   ],
+   "summary": "Zee Entertainment approved a share buyback worth 600 crore rupees.\nThe buyback price is fixed at 91 rupees per share, a 24 per cent premium over its latest closing price.\nThe company set November 25 as the record date.\nCompany promoters will not participate in the buyback.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Share buybacks at a higher price return money to shareholders and show corporate confidence.",
+   "lean": "up",
+   "sectors": [
+    "Media & Entertainment"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/zee-entertainment-approves-rs-600-crore-share-buyback-at-rs-91-apiece-promoters-to-stay-out/articleshow/135767979.cms"
+    }
+   ]
+  },
+  {
+   "headline": "भारी उद्योग मंत्रालय को पीएलआईएसीसी योजना के अंतर्गत 10 गीगावॉट उन्नत रसायन सेल विनिर्माण क्षमता के लिए 22 निविदाएं प्राप्त हुई",
+   "time": null,
+   "factors": [
+    "Government policy",
+    "GDP and growth"
+   ],
+   "factor_ids": [
+    15,
+    10
+   ],
+   "summary": "The Ministry of Heavy Industries received 22 tenders under its manufacturing scheme.\nThe bidding covers 10 gigawatt-hours of advanced chemistry cell battery manufacturing capacity.\nThis program comes under the government's Production Linked Incentive scheme.",
+   "confirmation": "Official source",
+   "impact": "May help Nifty: Government incentives for battery manufacturing support long-term investment in auto parts and clean energy.",
+   "lean": "up",
+   "sectors": [
+    "Automobiles",
+    "Clean Energy"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335618"
+    }
+   ]
+  },
+  {
+   "headline": "Page Industries shares plunge 13% as higher RM costs hit Q2 profitability; can festive demand drive a recovery?",
+   "time": "2026-11-12T17:29:19+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Inflation and consumption"
+   ],
+   "factor_ids": [
+    20,
+    11
+   ],
+   "summary": "Page Industries reported a 4 per cent year-on-year increase in quarterly net profit to 202.5 crore rupees.\nRevenue rose 11.5 per cent to 1,439.6 crore rupees.\nHigher raw material costs weighed on profit margins, causing the stock to fall sharply.\nThe company declared a dividend of 150 rupees per share.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Large dividend payouts benefit investors, but higher raw material costs remain a concern for manufacturing profits.",
+   "lean": "unclear",
+   "sectors": [
+    "Consumer Goods",
+    "Textiles"
+   ],
+   "unverified_figures": [
+    "150"
+   ],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/page-industries-shares-plunge-13-as-higher-rm-costs-hit-q2-profitability-can-festive-demand-drive-a-recovery-11794483364778.html"
+    }
+   ]
+  },
+  {
+   "headline": "Oct SIP openings at 18-month low, closures highest since April 2025",
+   "time": "2026-11-12T18:41:52+05:30",
+   "factors": [
+    "Domestic investment",
+    "Inflation and consumption"
+   ],
+   "factor_ids": [
+    19,
+    11
+   ],
+   "summary": "New monthly Systematic Investment Plan account openings fell to an 18-month low in October.\nTotal active SIP accounts dropped from 108.9 million to 108 million.\nAccount closures reached their highest level since April 2025.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Slower domestic investment flows mean less regular retail money entering Indian stock funds.",
+   "lean": "down",
+   "sectors": [
+    "Financial Services",
+    "Asset Management"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/mutual-fund/sip-openings-hit-18-month-low-in-october-closures-rise-to-18-month-high-126111201475_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Rupee falls 33 paise to close at 94.04 against US dollar",
+   "time": "2026-11-12T16:29:12+05:30",
+   "factors": [
+    "Rupee",
+    "Crude oil"
+   ],
+   "factor_ids": [
+    7,
+    8
+   ],
+   "summary": "The Indian rupee fell 35 paise to close at 94.04 against the US dollar.\nDuring the day, the currency moved between a high of 93.62 and a low of 94.06.\nHigher oil prices and inflation worries put pressure on the Indian currency.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: A weaker currency makes imported items like raw oil more expensive for local companies.",
+   "lean": "down",
+   "sectors": [
+    "Forex",
+    "Oil & Gas"
+   ],
+   "unverified_figures": [
+    "35"
+   ],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-falls-33-paise-to-close-at-9404-against-us-dollar/article71693317.ece"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "found",
+  "2": "none",
+  "3": "none",
+  "4": "none",
+  "5": "found",
+  "6": "unverified",
+  "7": "found",
+  "8": "found",
+  "9": "unverified",
+  "10": "found",
+  "11": "found",
+  "12": "found",
+  "13": "none",
+  "14": "none",
+  "15": "found",
+  "16": "none",
+  "17": "found",
+  "18": "found",
+  "19": "found",
+  "20": "found",
+  "21": "none",
+  "22": "none",
+  "23": "none",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "unverified",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "unverified",
+  "31": "found",
+  "32": "none",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "none"
+ },
+ "gaps": [
+  "SEBI: 30 items skipped because no publish time was given",
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "Removed AI text with trading language: India's Next Billion-Dollar IPO? Coal India subsidiary Mahan",
+  "Check figures 300 (not found in the source text we read): Nvidia stock plunges 14% to over one-year low as Jensen Huan",
+  "Check figures 226 (not found in the source text we read): UPI MDR rollout after Diwali: What it means for Paytm, MobiK",
+  "Check figures 150 (not found in the source text we read): Page Industries shares plunge 13% as higher RM costs hit Q2 ",
+  "Check figures 35 (not found in the source text we read): Rupee falls 33 paise to close at 94.04 against US dollar"
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 2,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-12T19:05:00+05:30"
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-11T17:00:00+05:30"
+  },
+  "SEBI": {
+   "ok": true,
+   "total": 30,
+   "in_window": 10,
+   "no_time": 30,
+   "fresh": true,
+   "newest": null
+  },
+  "US Federal Reserve": {
+   "ok": true,
+   "total": 20,
+   "in_window": 3,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-13T00:00:00+05:30"
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 20,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 19,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-13T07:33:28+05:30"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 32,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-13T07:51:10+05:30"
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 6,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-13T08:01:20+05:30"
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 20,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-13T07:17:57+05:30"
+  }
+ }
+}

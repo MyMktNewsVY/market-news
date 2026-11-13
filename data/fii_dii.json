@@ -3,16 +3,16 @@
   {
    "who": "FII",
    "direction": "bought",
-   "amount": 53739.0,
-   "headline": "FPIs turn net buyers; pour Rs 53,739 crore in D-Street in Nov so far",
-   "outlet": "Economic Times Markets",
-   "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-turn-net-buyers-pour-rs-53739-crore-in-d-street-in-nov-so-far/articleshow/135708381.cms",
-   "published": "2026-11-10T16:19:34+05:30"
+   "amount": 60698.0,
+   "headline": "Foreign inflows lift Indian stocks' dollar returns above rupee gains as currency rebounds",
+   "outlet": "Mint Markets",
+   "url": "https://www.livemint.com/market/foreign-inflows-lift-indian-stocks-dollar-returns-above-rupee-gains-as-currency-rebounds-11794465568691.html",
+   "published": "2026-11-12T17:32:25+05:30"
   }
  ],
  "status": "not_verified",
  "source": "NSE provisional cash market (Rs crore)",
- "updated": "2026-11-12T08:13:41.594313+05:30",
+ "updated": "2026-11-13T08:12:06.763628+05:30",
  "latest": null,
  "history": [],
  "note": "NSE data could not be retrieved this run (HTTP Error 403: Forbidden)."
