@@ -1,0 +1,357 @@
+{
+ "status": "ok",
+ "title": "Indian Market News Brief — 14 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-14T08:11:23.713727+05:30",
+ "window_start": "2026-11-13T15:00:00+05:30",
+ "cutoff": "2026-11-14T07:30:00+05:30",
+ "quick_read": "Rising inflation in India and high crude oil prices may put pressure on the stock market. Strong export growth and a rally in heavyweight Reliance Industries provide support. Weakness in US technology stocks and upcoming large public share sales create a mixed picture.",
+ "stories": [
+  {
+   "headline": "Sensex today | Stock Market Highlights: Markets snap 3-day rally; Sensex drops 318 points, Nifty slips below 25,150",
+   "time": "2026-11-13T16:22:05+05:30",
+   "factors": [
+    "Inflation and consumption",
+    "RBI monetary policy",
+    "Indian bond market"
+   ],
+   "factor_ids": [
+    11,
+    12,
+    14
+   ],
+   "summary": "Retail inflation in India rose to 6.09 percent in October.\nThis rate crossed the central bank's target limit.\nGovernment 10-year bond yields rose to 7.3079 percent.\nBenchmark indices Sensex and Nifty fell on Friday after a three-day rally.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: High inflation creates worries that the central bank might increase interest rates, which makes loans costlier for businesses.",
+   "lean": "down",
+   "sectors": [
+    "Banking",
+    "Automobiles",
+    "Real Estate"
+   ],
+   "unverified_figures": [
+    "10",
+    "7.3079"
+   ],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-13-november-2026/article71693403.ece"
+    }
+   ]
+  },
+  {
+   "headline": "अप्रैल-अक्टूबर 2026-27 के दौरान कुल निर्यात (वस्तु और सेवाएं) 568.84 बिलियन अमेरिकी डॉलर होने का अनुमान है, जबकि अप्रैल-अक्टूबर 2025-26 में यह 487.59 बिलियन अमेरिकी डॉलर था, यह 16.66 प्रतिशत की अनुमानित वृद्धि दर्शाता है",
+   "time": null,
+   "factors": [
+    "GDP and growth",
+    "External balances"
+   ],
+   "factor_ids": [
+    10,
+    32
+   ],
+   "summary": "India's total exports of goods and services reached 568.84 billion US dollars from April to October 2026.\nThis is higher than the 487.59 billion US dollars recorded in the same period last year.\nThis represents an estimated growth of 16.66 percent.\nThe figures were published in an official government release.",
+   "confirmation": "Official source",
+   "impact": "May help Nifty: Strong growth in export earnings brings more revenue to Indian companies and supports the economy.",
+   "lean": "up",
+   "sectors": [
+    "IT",
+    "Pharmaceuticals",
+    "Textiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335992"
+    }
+   ]
+  },
+  {
+   "headline": "Rupee falls 8 paise to close at 94.20 against US dollar",
+   "time": "2026-11-13T16:20:59+05:30",
+   "factors": [
+    "Rupee",
+    "Crude oil",
+    "External balances"
+   ],
+   "factor_ids": [
+    7,
+    8,
+    32
+   ],
+   "summary": "The Indian rupee fell by 8 paise to close at 94.20 against the US dollar.\nDuring the day, the rupee traded between 94.05 and 94.28.\nRising global crude oil prices put pressure on the currency.\nIndia's monthly trade deficit in goods reached its highest level of the year.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: A weaker rupee increases the cost of imported goods like crude oil, which can raise expenses for many industries.",
+   "lean": "down",
+   "sectors": [
+    "Oil & Gas",
+    "Automobiles",
+    "Paints"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-falls-8-paise-to-close-at-9420-against-us-dollar/article71697645.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs",
+   "time": "2026-11-13T17:54:01+05:30",
+   "factors": [
+    "Corporate events",
+    "Government policy"
+   ],
+   "factor_ids": [
+    31,
+    15
+   ],
+   "summary": "Market regulator SEBI approved public share sale (IPO) plans for Razorpay and Sembcorp Green Infra.\nRazorpay aims to raise 5,000 to 6,000 crore rupees to expand its business.\nSembcorp Green Infra plans to raise 3,750 crore rupees for renewable energy projects.\nBoth companies received official approval letters recently.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "Unclear for Nifty: Large new share offerings attract fresh investor interest, but they can also pull cash away from existing market stocks.",
+   "lean": "unclear",
+   "sectors": [
+    "Financial Services",
+    "Power"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms"
+    },
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/temasek-backed-sembcorp-green-infra-receives-sebi-nod-for-3750-cripo/article71698730.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Reliance Industries shares rebound 15% in November, add ₹2.38 lakh crore in market value; what's changed?",
+   "time": "2026-11-13T21:09:36+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Reliance Industries shares rebounded 15 percent during the month of November.\nThe company added 2.38 lakh crore rupees to its total market value.\nThe share price recovery followed strong second-quarter financial results.\nReliance is one of the largest stocks in the Nifty index.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Because Reliance carries a large weight in the index, a rise in its stock price directly pulls the Nifty higher.",
+   "lean": "up",
+   "sectors": [
+    "Oil & Gas",
+    "Telecom",
+    "Retail"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/reliance-industries-shares-rebound-15-in-november-add-rs-2-38-lakh-crore-in-market-value-whats-changed-11794580881169.html"
+    }
+   ]
+  },
+  {
+   "headline": "Nifty PSU Bank logs biggest weekly surge in 7 months; PNB, Bank of India, Bank of Baroda among top performers",
+   "time": "2026-11-13T16:19:00+05:30",
+   "factors": [
+    "Banking and liquidity",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    13,
+    20
+   ],
+   "summary": "Public sector bank stocks rallied for a third consecutive week.\nThe Nifty PSU Bank index climbed 8 percent to hit its highest level since March.\nPunjab National Bank surged 13.3 percent to 143 rupees per share.\nBank of India and Bank of Baroda were also top gainers in the sector.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong gains in government bank shares boost overall investor confidence and lift the broader banking index.",
+   "lean": "up",
+   "sectors": [
+    "Banking"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/nifty-psu-bank-logs-biggest-weekly-surge-in-two-years-pnb-bank-of-india-bank-of-baroda-among-top-performers-11794563569958.html"
+    }
+   ]
+  },
+  {
+   "headline": "US stocks: US stocks reverse early gains as Nvidia turmoil hits tech sector",
+   "time": "2026-11-13T20:15:46+05:30",
+   "factors": [
+    "Global markets",
+    "China and global growth"
+   ],
+   "factor_ids": [
+    1,
+    5
+   ],
+   "summary": "US technology stocks fell as shares of Nvidia dropped over 4 percent.\nThe Nasdaq index dropped 1.42 percent and the S&P 500 fell nearly 1 percent.\nInvestors cited worries over high technology stock valuations and inflation.\nSofter producer inflation numbers failed to stop the market selloff.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Weakness in American technology shares often leads to cautious selling in Indian IT companies.",
+   "lean": "down",
+   "sectors": [
+    "IT"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-after-soft-producer-prices-data/articleshow/135807296.cms"
+    }
+   ]
+  },
+  {
+   "headline": "YES Bank files SC review plea over AT-1 bonds: What does it mean for investors after stock's 15% rebound?",
+   "time": "2026-11-13T23:35:31+05:30",
+   "factors": [
+    "Banking and liquidity",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    13,
+    31
+   ],
+   "summary": "YES Bank filed a review petition in the Supreme Court of India.\nThe bank is challenging a court order regarding 8,415 crore rupees of AT-1 bonds.\nThe previous court ruling was against the bank writing down these bonds.\nThe bond issue directly impacts the bank's capital structure.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Resolution of this legal case will clear financial uncertainty for YES Bank, though the court outcome remains uncertain.",
+   "lean": "unclear",
+   "sectors": [
+    "Banking"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/yes-bank-files-sc-review-plea-over-at-1-bonds-what-does-it-mean-for-investors-after-stocks-15-rebound-11794591968232.html"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "found",
+  "2": "none",
+  "3": "none",
+  "4": "none",
+  "5": "found",
+  "6": "unverified",
+  "7": "found",
+  "8": "found",
+  "9": "unverified",
+  "10": "found",
+  "11": "found",
+  "12": "found",
+  "13": "found",
+  "14": "found",
+  "15": "found",
+  "16": "none",
+  "17": "none",
+  "18": "none",
+  "19": "none",
+  "20": "found",
+  "21": "found",
+  "22": "none",
+  "23": "none",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "unverified",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "unverified",
+  "31": "found",
+  "32": "found",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "none"
+ },
+ "gaps": [
+  "SEBI: 30 items skipped because no publish time was given",
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "Check figures 10, 7.3079 (not found in the source text we read): Sensex today | Stock Market Highlights: Markets snap 3-day r"
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 5,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-13T17:50:00+05:30"
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-11T17:00:00+05:30"
+  },
+  "SEBI": {
+   "ok": true,
+   "total": 30,
+   "in_window": 17,
+   "no_time": 30,
+   "fresh": true,
+   "newest": null
+  },
+  "US Federal Reserve": {
+   "ok": true,
+   "total": 20,
+   "in_window": 1,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-14T02:45:00+05:30"
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 20,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 15,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-13T21:58:14+05:30"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 21,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-14T07:00:14+05:30"
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 5,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-13T23:33:06+05:30"
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 17,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-14T05:47:52+05:30"
+  }
+ }
+}
