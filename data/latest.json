@@ -1,173 +1,312 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 15 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-15T08:13:24.413232+05:30",
- "window_start": "2026-11-14T15:00:00+05:30",
- "cutoff": "2026-11-15T07:30:00+05:30",
- "quick_read": "New public share offerings and strong earnings from some industrial firms may support market confidence. At the same time, legal disputes over bank bonds and weak earnings from mining companies create doubts. Overall, mixed news across different sectors is likely to keep market movements balanced.",
+ "title": "Indian Market News Brief — 16 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-16T08:17:20.603279+05:30",
+ "window_start": "2026-11-15T15:00:00+05:30",
+ "cutoff": "2026-11-16T07:30:00+05:30",
+ "quick_read": "Strong buying by foreign investors and positive ratings for India may support stock prices. However, high food prices and tensions in the Middle East could worry investors. Important company updates in the US will also keep global markets cautious.",
  "stories": [
   {
-   "headline": "Yes Bank moves SC seeking review of order on writing off of Rs 8,415 cr AT-1 bonds",
-   "time": "2026-11-14T16:40:38+05:30",
+   "headline": "Sensex, Nifty cheer as Bulls, FPIs back in Indian stock market; pump in over ₹84k cr in Nov so far - More rally ahead?",
+   "time": "2026-11-15T16:27:55+05:30",
    "factors": [
-    "Banking and liquidity",
-    "Regulation",
-    "Corporate events"
+    "Foreign investment",
+    "Corporate earnings",
+    "Heavyweight stocks"
    ],
    "factor_ids": [
-    13,
-    17,
-    31
+    18,
+    20,
+    21
    ],
-   "summary": "Yes Bank has asked the Supreme Court to review an order passed on October 15.\nThat order supported a High Court decision stopping the bank from writing off Rs 8,415 crore of AT-1 bonds.\nThe High Court had ruled that the bank administrator lacked authority to cancel the bonds.\nThese bonds were cancelled during the financial emergency faced by the bank earlier.",
+   "summary": "Foreign portfolio investors bought shares worth ₹84,291 crore in Indian stock markets during November. This large buying helped the Sensex and Nifty continue their recovery. Analysts said earnings growth and reasonable valuations attracted this money into Indian markets.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Banks and financial companies may face pressure if courts force them to repay old bond money.",
-   "lean": "down",
+   "impact": "May help Nifty: Strong buying by foreign investors brings cash into major companies, which can push stock market prices higher.",
+   "lean": "up",
    "sectors": [
-    "Banking",
-    "Financial Services"
+    "Banks",
+    "Information Technology",
+    "Fast Moving Consumer Goods"
    ],
    "unverified_figures": [],
    "sources": [
     {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/bonds/yes-bank-moves-sc-seeking-review-of-order-on-writing-off-of-rs-8415-cr-at-1-bonds/articleshow/135830873.cms"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/sensex-nifty-cheer-as-bulls-fpis-back-in-indian-stock-market-pump-in-over-rs-84k-cr-in-nov-so-far-more-rally-ahead-11794736253974.html"
     }
    ]
   },
   {
-   "headline": "Mahanadi Coalfields files RHP for proposed IPO worth nearly Rs 9,500 crore",
-   "time": "2026-11-14T15:42:53+05:30",
+   "headline": "Coal India's Mahanadi Coalfields IPO: Stage set for launch, price band tomorrow; GMP, allotment, listing, other details",
+   "time": "2026-11-15T15:05:41+05:30",
    "factors": [
-    "Corporate earnings",
-    "Corporate events",
-    "Government policy"
+    "Government policy",
+    "Heavyweight stocks",
+    "Corporate events"
    ],
    "factor_ids": [
-    20,
-    31,
-    15
+    15,
+    21,
+    31
    ],
-   "summary": "Mahanadi Coalfields has filed paper work for an initial share sale worth about Rs 9,500 crore.\nParent firm Coal India plans to sell 66.18 crore shares, representing a 10 percent stake in the unit.\nThe final execution of the sale depends on regulatory approvals and market conditions.",
+   "summary": "Coal India's major subsidiary, Mahanadi Coalfields, will open its share sale to the public from 19 to 23 November. Parent company Coal India will sell up to 66.18 crore shares to raise about ₹9,500 crore. The exact share price range will be announced soon.",
    "confirmation": "Single source, not independently confirmed",
    "impact": "Explanation withheld.",
    "lean": "unclear",
    "sectors": [
     "Metals & Mining",
-    "PSU"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-files-rhp-for-proposed-ipo-worth-nearly-rs-9500-crore/articleshow/135829640.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Tata Sons Listing: Noel Tata decodes why there should be no tinkering; what he said at Hindustan Times Leadership Summit",
-   "time": "2026-11-14T16:38:41+05:30",
-   "factors": [
-    "Regulation",
-    "Corporate events",
-    "Government policy"
-   ],
-   "factor_ids": [
-    17,
-    31,
-    15
-   ],
-   "summary": "Noel Tata spoke about rules around mandatory stock market listing for Tata Sons.\nHe stated that listing could shift the group focus to shareholder gains over community work.\nHe said Tata Trusts will engage with regulators to protect the current way of running the business.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Shares of Tata Group companies may see mixed reactions as uncertainty remains over listing rules.",
-   "lean": "unclear",
-   "sectors": [
-    "Holding Companies",
-    "Conglomerates"
+    "Power"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/tata-sons-listing-noel-tata-decodes-why-there-should-be-no-tinkering-what-he-said-at-hindustan-times-leadership-summit-11794643211510.html"
+     "url": "https://www.livemint.com/market/ipo/coal-indias-mahanadi-coalfields-ipo-stage-set-for-launch-price-band-tomorrow-gmp-allotment-listing-other-details-11794731994241.html"
     }
    ]
   },
   {
-   "headline": "Dividend king PSU stock: Down 23% in 6 months! Nuvama sees 42% upside; target price, rationale",
-   "time": "2026-11-14T19:41:10+05:30",
+   "headline": "Standard Chartered turns overweight on India; Neutral on global equities and fixed income",
+   "time": "2026-11-15T19:08:40+05:30",
+   "factors": [
+    "Foreign investment",
+    "Valuation"
+   ],
+   "factor_ids": [
+    18,
+    22
+   ],
+   "summary": "Global bank Standard Chartered has upgraded its stance on Indian shares to overweight. This means the bank expects Indian stocks to perform better than others. It keeps a neutral view on global shares overall.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Financial Services",
+    "Broad Market"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/standard-chartered-turns-overweight-on-india-neutral-on-global-equities-and-fixed-income/article71704821.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Buzzing stocks on November 16: Pricol, ONGC, BEL, Dr Reddy’s, VA Tech Wabag and more",
+   "time": "2026-11-16T07:10:27+05:30",
    "factors": [
     "Corporate earnings",
-    "Heavyweight stocks"
+    "Corporate events"
    ],
    "factor_ids": [
     20,
-    21
+    31
    ],
-   "summary": "NMDC reported a 3 percent year-over-year drop in second quarter core profit to Rs 19.4 billion.\nThe reported earnings came in below market expectations.\nThe stock fell 1.76 percent to Rs 69.90 after the announcement.",
+   "summary": "ONGC is taking over the disputed Cambay offshore oilfield block, while Bharat Electronics Limited secured new orders. Dr Reddy's received updates from the US health regulator, and Pricol saw a major share stake sale.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Lower profit from major mining companies could push down metal and government-owned stocks.",
+   "impact": "May help Nifty: Good business updates and new project wins can boost investor confidence in these specific company shares.",
+   "lean": "up",
+   "sectors": [
+    "Oil & Gas",
+    "Capital Goods",
+    "Pharmaceuticals"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/buzzing-stocks-on-november-16-pricol-ongc-bel-dr-reddys-va-tech-wabag-and-more/article71705452.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Will inflation, Iran tension spook the market bulls? Jefferies, HSBC answer",
+   "time": "2026-11-16T07:20:26+05:30",
+   "factors": [
+    "Geopolitics and trade",
+    "Crude oil"
+   ],
+   "factor_ids": [
+    6,
+    8
+   ],
+   "summary": "Financial experts at Jefferies named rising political tensions around Iran as the single biggest threat to Indian share markets. They warned that conflict could affect market growth and returns compared to other regions.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Conflicts in the Middle East can make crude oil costlier, which hurts Indian companies by raising their transportation and raw material costs.",
    "lean": "down",
    "sectors": [
-    "Metals & Mining"
+    "Oil & Gas",
+    "Paints",
+    "Airlines",
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/will-inflation-iran-tension-spook-the-market-bulls-jefferies-hsbc-answer-126111500228_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Wall Street Week Ahead: Nvidia earnings, Anthropic IPO, Federal Reserve minutes, retail sales - Top things to watch",
+   "time": "2026-11-16T00:02:58+05:30",
+   "factors": [
+    "Global markets",
+    "US monetary policy"
+   ],
+   "factor_ids": [
+    1,
+    2
+   ],
+   "summary": "Global markets are waiting for computer chip maker Nvidia's earnings report on Tuesday to judge artificial intelligence demand. Investors will also look at official meeting notes from the US Federal Reserve and US store sales data.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: US central bank updates and global technology earnings can shift international investor mood, affecting Indian tech shares.",
+   "lean": "unclear",
+   "sectors": [
+    "Information Technology"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/dividend-king-psu-stock-down-23-in-6-months-nuvama-sees-42-upside-target-price-rationale-11794660044292.html"
+     "url": "https://www.livemint.com/market/stock-market-news/wall-street-week-ahead-nvidia-earnings-anthropic-ipo-federal-reserve-minutes-retail-sales-top-things-to-watch-11794763105921.html"
     }
    ]
   },
   {
-   "headline": "RHI Magnesita Q2 net profit jumps 62 pc to over Rs 62 cr",
-   "time": "2026-11-14T16:39:54+05:30",
+   "headline": "PSU dividend this week Nov 16-20: Cochin Shipyard, Power Finance Corp, SCI to Oil India - Check record dates and returns",
+   "time": "2026-11-15T15:44:11+05:30",
    "factors": [
-    "Corporate earnings"
+    "Corporate earnings",
+    "Corporate events"
    ],
    "factor_ids": [
-    20
+    20,
+    31
    ],
-   "summary": "RHI Magnesita reported a 62 percent increase in second quarter profit to over Rs 62 crore.\nTotal income rose modestly to Rs 1,038.26 crore for the July to September period.\nTotal company expenses fell to Rs 953.06 crore compared to the previous year.",
+   "summary": "Four government-owned companies have set dividend cutoff dates this week. Cochin Shipyard and Shipping Corporation of India set theirs for November 16, Power Finance Corporation for November 17, and Oil India for November 20. Payouts range from ₹3 to ₹7 per share.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Solid profit growth in manufacturing supply companies indicates healthy business activity.",
+   "impact": "May help Nifty: Cash payouts from profits give direct money back to shareholders, making these stock names attractive to income investors.",
    "lean": "up",
    "sectors": [
+    "Power",
+    "Oil & Gas",
     "Capital Goods",
-    "Manufacturing"
+    "Logistics"
    ],
    "unverified_figures": [],
    "sources": [
     {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/rhi-magnesita-q2-net-profit-jumps-62-pc-to-over-rs-62-cr/articleshow/135830890.cms"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/psu-dividend-this-week-nov-16-20-cochin-shipyard-power-finance-corp-sci-to-oil-india-check-record-dates-and-returns-11794735494353.html"
+    }
+   ]
+  },
+  {
+   "headline": "Wholesale wheat prices show no signs of cooling despite FCI selling 2 lakh tonnes past few weeks",
+   "time": "2026-11-15T22:05:47+05:30",
+   "factors": [
+    "Inflation and consumption",
+    "Government policy"
+   ],
+   "factor_ids": [
+    11,
+    15
+   ],
+   "summary": "Wholesale wheat prices in India remain high despite the government selling 2 lakh tonnes of stock in recent weeks. Food companies are buying this government wheat and selling it to traders because open market prices are higher.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Fast Moving Consumer Goods",
+    "Consumer Durables"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/economy/wholesale-wheat-prices-show-no-signs-of-cooling-despite-fci-selling-2-lakh-tonnes-past-few-weeks/article71701976.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Sebi to issue AI guidelines for capital markets soon, focus on investor protection and human oversight",
+   "time": "2026-11-15T16:10:04+05:30",
+   "factors": [
+    "Regulation",
+    "Market structure"
+   ],
+   "factor_ids": [
+    17,
+    30
+   ],
+   "summary": "Market regulator SEBI plans to introduce guidelines on using artificial intelligence in capital markets. The rules will focus on protecting investors, requiring clear safety disclosures, ensuring human decision-making oversight, and strengthening computer network safety.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Little effect on Nifty: Rules making trading technology safer help market system health over time but do not change daily share prices directly.",
+   "lean": "little",
+   "sectors": [
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/sebi-to-issue-ai-guidelines-for-capital-markets-soon-focus-on-investor-protection-and-human-oversight-11794737481977.html"
+    }
+   ]
+  },
+  {
+   "headline": "Mahindra’s electric three-wheeler business eyes IPO in 18 months",
+   "time": "2026-11-16T03:27:48+05:30",
+   "factors": [
+    "Government policy",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    15,
+    31
+   ],
+   "summary": "Mahindra's electric three-wheeler division aims to sell its shares to the public on the stock market within 18 months. The chief executive said the exact timing will depend on business growth and funding needs.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/mahindras-electric-three-wheeler-business-eyes-ipo-in-18-months/article71705958.ece"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "none",
-  "2": "none",
+  "1": "found",
+  "2": "found",
   "3": "none",
   "4": "none",
   "5": "unverified",
-  "6": "unverified",
+  "6": "found",
   "7": "none",
-  "8": "none",
+  "8": "found",
   "9": "unverified",
   "10": "none",
-  "11": "none",
+  "11": "found",
   "12": "none",
-  "13": "found",
+  "13": "none",
   "14": "none",
   "15": "found",
   "16": "none",
   "17": "found",
-  "18": "none",
+  "18": "found",
   "19": "none",
   "20": "found",
   "21": "found",
-  "22": "none",
+  "22": "found",
   "23": "none",
   "24": "unverified",
   "25": "unverified",
@@ -175,7 +314,7 @@
   "27": "unverified",
   "28": "unverified",
   "29": "unverified",
-  "30": "unverified",
+  "30": "found",
   "31": "found",
   "32": "none",
   "33": "unverified",
@@ -187,7 +326,10 @@
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Removed AI text with trading language: Mahanadi Coalfields files RHP for proposed IPO worth nearly "
+  "Removed AI text with trading language: Coal India's Mahanadi Coalfields IPO: Stage set for launch, ",
+  "Removed AI text with trading language: Standard Chartered turns overweight on India; Neutral on glo",
+  "Removed AI text with trading language: Wholesale wheat prices show no signs of cooling despite FCI ",
+  "Removed AI text with trading language: Mahindra’s electric three-wheeler business eyes IPO in 18 mo"
  ],
  "sources_checked": {
   "RBI press releases": {
@@ -233,7 +375,7 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 4,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
    "newest": "2026-11-14T16:40:38+05:30"
@@ -241,26 +383,26 @@
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 9,
+   "in_window": 23,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-15T07:34:11+05:30"
+   "newest": "2026-11-16T07:43:17+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 0,
+   "in_window": 2,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-14T09:10:30+05:30"
+   "newest": "2026-11-16T08:00:10+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 6,
+   "in_window": 9,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-14T22:04:57+05:30"
+   "newest": "2026-11-16T08:14:40+05:30"
   }
  }
 }
