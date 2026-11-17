@@ -1,239 +1,182 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 16 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-16T08:17:20.603279+05:30",
- "window_start": "2026-11-15T15:00:00+05:30",
- "cutoff": "2026-11-16T07:30:00+05:30",
- "quick_read": "Strong buying by foreign investors and positive ratings for India may support stock prices. However, high food prices and tensions in the Middle East could worry investors. Important company updates in the US will also keep global markets cautious.",
+ "title": "Indian Market News Brief — 17 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-17T08:16:39.884089+05:30",
+ "window_start": "2026-11-16T15:00:00+05:30",
+ "cutoff": "2026-11-17T07:30:00+05:30",
+ "quick_read": "Foreign money coming into India and falling crude oil prices are supporting Indian stocks. However, high inflation news, rising bond yields, and new export taxes on fuel and steel could create pressure. Market regulator Sebi's proposals to simplify rules for foreign investors may help bring in more money.",
  "stories": [
   {
-   "headline": "Sensex, Nifty cheer as Bulls, FPIs back in Indian stock market; pump in over ₹84k cr in Nov so far - More rally ahead?",
-   "time": "2026-11-15T16:27:55+05:30",
+   "headline": "Sebi may propose raising FPI beneficial ownership threshold to 25%; plans consultation paper",
+   "time": "2026-11-16T15:51:12+05:30",
    "factors": [
-    "Foreign investment",
-    "Corporate earnings",
-    "Heavyweight stocks"
+    "Regulation",
+    "Foreign investment"
    ],
    "factor_ids": [
-    18,
-    20,
-    21
+    17,
+    18
    ],
-   "summary": "Foreign portfolio investors bought shares worth ₹84,291 crore in Indian stock markets during November. This large buying helped the Sensex and Nifty continue their recovery. Analysts said earnings growth and reasonable valuations attracted this money into Indian markets.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong buying by foreign investors brings cash into major companies, which can push stock market prices higher.",
+   "summary": "Market regulator Sebi plans to increase the ownership limit for foreign portfolio investors from 10 percent to 25 percent. Sebi will issue a paper soon to collect suggestions from market participants. The change aims to simplify rules and align India with global standards.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Easier rules for foreign investors may attract more foreign money into Indian equity markets.",
    "lean": "up",
    "sectors": [
-    "Banks",
-    "Information Technology",
-    "Fast Moving Consumer Goods"
+    "Financial Services"
    ],
    "unverified_figures": [],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/sensex-nifty-cheer-as-bulls-fpis-back-in-indian-stock-market-pump-in-over-rs-84k-cr-in-nov-so-far-more-rally-ahead-11794736253974.html"
-    }
-   ]
-  },
-  {
-   "headline": "Coal India's Mahanadi Coalfields IPO: Stage set for launch, price band tomorrow; GMP, allotment, listing, other details",
-   "time": "2026-11-15T15:05:41+05:30",
-   "factors": [
-    "Government policy",
-    "Heavyweight stocks",
-    "Corporate events"
-   ],
-   "factor_ids": [
-    15,
-    21,
-    31
-   ],
-   "summary": "Coal India's major subsidiary, Mahanadi Coalfields, will open its share sale to the public from 19 to 23 November. Parent company Coal India will sell up to 66.18 crore shares to raise about ₹9,500 crore. The exact share price range will be announced soon.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Explanation withheld.",
-   "lean": "unclear",
-   "sectors": [
-    "Metals & Mining",
-    "Power"
-   ],
-   "unverified_figures": [],
-   "sources": [
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-may-propose-raising-fpi-beneficial-ownership-threshold-to-25-plans-consultation-paper/articleshow/135883637.cms"
+    },
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/ipo/coal-indias-mahanadi-coalfields-ipo-stage-set-for-launch-price-band-tomorrow-gmp-allotment-listing-other-details-11794731994241.html"
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/sebi-may-propose-raising-fpi-beneficial-ownership-threshold-to-25-126111601237_1.html"
     }
    ]
   },
   {
-   "headline": "Standard Chartered turns overweight on India; Neutral on global equities and fixed income",
-   "time": "2026-11-15T19:08:40+05:30",
+   "headline": "Rupee rises, volatility ebbs as equity inflows blunt global headwinds",
+   "time": "2026-11-16T15:49:15+05:30",
    "factors": [
+    "Rupee",
     "Foreign investment",
-    "Valuation"
+    "Price and volume"
    ],
    "factor_ids": [
+    7,
     18,
-    22
+    27
    ],
-   "summary": "Global bank Standard Chartered has upgraded its stance on Indian shares to overweight. This means the bank expects Indian stocks to perform better than others. It keeps a neutral view on global shares overall.",
+   "summary": "The Indian rupee rose 0.3 percent to 93.9225 against the US dollar. Foreign investors brought nearly 10 billion US dollars into Indian equity markets in November. The Nifty 50 index climbed 0.6 percent, supported by lower crude oil prices.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Explanation withheld.",
-   "lean": "unclear",
-   "sectors": [
-    "Financial Services",
-    "Broad Market"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/standard-chartered-turns-overweight-on-india-neutral-on-global-equities-and-fixed-income/article71704821.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Buzzing stocks on November 16: Pricol, ONGC, BEL, Dr Reddy’s, VA Tech Wabag and more",
-   "time": "2026-11-16T07:10:27+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Corporate events"
-   ],
-   "factor_ids": [
-    20,
-    31
-   ],
-   "summary": "ONGC is taking over the disputed Cambay offshore oilfield block, while Bharat Electronics Limited secured new orders. Dr Reddy's received updates from the US health regulator, and Pricol saw a major share stake sale.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Good business updates and new project wins can boost investor confidence in these specific company shares.",
+   "impact": "May help Nifty: Strong foreign fund buying and a firmer rupee support market sentiment.",
    "lean": "up",
    "sectors": [
-    "Oil & Gas",
-    "Capital Goods",
-    "Pharmaceuticals"
+    "Nifty 50"
    ],
    "unverified_figures": [],
    "sources": [
     {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/buzzing-stocks-on-november-16-pricol-ongc-bel-dr-reddys-va-tech-wabag-and-more/article71705452.ece"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rises-volatility-ebbs-as-equity-inflows-blunt-global-headwinds/articleshow/135883543.cms"
     }
    ]
   },
   {
-   "headline": "Will inflation, Iran tension spook the market bulls? Jefferies, HSBC answer",
-   "time": "2026-11-16T07:20:26+05:30",
+   "headline": "India raises export duty on diesel and aviation turbine fuel",
+   "time": "2026-11-17T04:46:18+05:30",
    "factors": [
-    "Geopolitics and trade",
-    "Crude oil"
+    "Crude oil",
+    "Inflation and consumption",
+    "Government policy"
    ],
    "factor_ids": [
-    6,
-    8
+    8,
+    11,
+    15
    ],
-   "summary": "Financial experts at Jefferies named rising political tensions around Iran as the single biggest threat to Indian share markets. They warned that conflict could affect market growth and returns compared to other regions.",
+   "summary": "The Indian government increased export taxes on diesel and aviation turbine fuel. Retail inflation reached 6.09 percent and wholesale inflation hit 12.3 percent in October. The government modified duties to manage local supplies and control inflation.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Conflicts in the Middle East can make crude oil costlier, which hurts Indian companies by raising their transportation and raw material costs.",
+   "impact": "May hurt Nifty: Higher export duties may reduce profit margins for oil refining and aviation companies.",
    "lean": "down",
    "sectors": [
     "Oil & Gas",
-    "Paints",
-    "Airlines",
-    "Automobiles"
+    "Aviation"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/india-raises-export-duty-on-diesel-and-aviation-turbine-fuel/article71709576.ece"
+    }
+   ]
+  },
+  {
+   "headline": "EU imposes up to 9.5% anti-dumping duties on Indian steelmakers",
+   "time": "2026-11-16T22:38:51+05:30",
+   "factors": [
+    "Geopolitics and trade",
+    "Government policy"
+   ],
+   "factor_ids": [
+    6,
+    15
+   ],
+   "summary": "The European Union imposed anti-dumping import duties of up to 9.5 percent on Indian steelmakers. The decision followed an official investigation into steel pricing practices. The tax applies to steel shipments originating from five countries including India.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Additional import taxes in Europe could lower export earnings for Indian steel producers.",
+   "lean": "down",
+   "sectors": [
+    "Metals & Mining"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/eu-imposes-up-to-95-anti-dumping-duties-on-indian-steelmakers/article71709244.ece"
+    }
+   ]
+  },
+  {
+   "headline": "India bonds dip as elevated inflation fuels rate hike expectations",
+   "time": "2026-11-16T17:30:15+05:30",
+   "factors": [
+    "Inflation and consumption",
+    "RBI monetary policy",
+    "Indian bond market"
+   ],
+   "factor_ids": [
+    11,
+    12,
+    14
+   ],
+   "summary": "Indian government bond prices fell and benchmark yields rose amid selling pressure. High inflation data triggered expectations of interest rate hikes by the RBI and the US Fed. Indian bond yield movements mirrored the trend in US government bonds.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Rising bond yields and expectations of higher interest rates can increase borrowing costs for companies.",
+   "lean": "down",
+   "sectors": [
+    "Banks",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-dip-as-elevated-inflation-fuels-rate-hike-expectations/articleshow/135888382.cms"
+    }
+   ]
+  },
+  {
+   "headline": "FinMin examining suggestions for changes in equity capital gains tax: CBDT",
+   "time": "2026-11-16T15:55:34+05:30",
+   "factors": [
+    "Government policy",
+    "Regulation"
+   ],
+   "factor_ids": [
+    15,
+    17
+   ],
+   "summary": "The Finance Ministry is reviewing suggestions on capital gains tax on stocks ahead of Union Budget 2027-28. Central Board of Direct Taxes Chairman Ravi Agrawal confirmed pre-budget inputs are under study. Meanwhile, economists have advised keeping the capital gains tax unchanged.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Investors will wait for the final budget announcement to see if stock tax rules change.",
+   "lean": "unclear",
+   "sectors": [
+    "Nifty 50"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/will-inflation-iran-tension-spook-the-market-bulls-jefferies-hsbc-answer-126111500228_1.html"
+     "url": "https://www.business-standard.com/markets/news/finmin-examining-suggestions-for-changes-in-equity-capital-gains-tax-cbdt-126111601256_1.html"
     }
    ]
   },
   {
-   "headline": "Wall Street Week Ahead: Nvidia earnings, Anthropic IPO, Federal Reserve minutes, retail sales - Top things to watch",
-   "time": "2026-11-16T00:02:58+05:30",
-   "factors": [
-    "Global markets",
-    "US monetary policy"
-   ],
-   "factor_ids": [
-    1,
-    2
-   ],
-   "summary": "Global markets are waiting for computer chip maker Nvidia's earnings report on Tuesday to judge artificial intelligence demand. Investors will also look at official meeting notes from the US Federal Reserve and US store sales data.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: US central bank updates and global technology earnings can shift international investor mood, affecting Indian tech shares.",
-   "lean": "unclear",
-   "sectors": [
-    "Information Technology"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/wall-street-week-ahead-nvidia-earnings-anthropic-ipo-federal-reserve-minutes-retail-sales-top-things-to-watch-11794763105921.html"
-    }
-   ]
-  },
-  {
-   "headline": "PSU dividend this week Nov 16-20: Cochin Shipyard, Power Finance Corp, SCI to Oil India - Check record dates and returns",
-   "time": "2026-11-15T15:44:11+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Corporate events"
-   ],
-   "factor_ids": [
-    20,
-    31
-   ],
-   "summary": "Four government-owned companies have set dividend cutoff dates this week. Cochin Shipyard and Shipping Corporation of India set theirs for November 16, Power Finance Corporation for November 17, and Oil India for November 20. Payouts range from ₹3 to ₹7 per share.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Cash payouts from profits give direct money back to shareholders, making these stock names attractive to income investors.",
-   "lean": "up",
-   "sectors": [
-    "Power",
-    "Oil & Gas",
-    "Capital Goods",
-    "Logistics"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/psu-dividend-this-week-nov-16-20-cochin-shipyard-power-finance-corp-sci-to-oil-india-check-record-dates-and-returns-11794735494353.html"
-    }
-   ]
-  },
-  {
-   "headline": "Wholesale wheat prices show no signs of cooling despite FCI selling 2 lakh tonnes past few weeks",
-   "time": "2026-11-15T22:05:47+05:30",
-   "factors": [
-    "Inflation and consumption",
-    "Government policy"
-   ],
-   "factor_ids": [
-    11,
-    15
-   ],
-   "summary": "Wholesale wheat prices in India remain high despite the government selling 2 lakh tonnes of stock in recent weeks. Food companies are buying this government wheat and selling it to traders because open market prices are higher.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Explanation withheld.",
-   "lean": "unclear",
-   "sectors": [
-    "Fast Moving Consumer Goods",
-    "Consumer Durables"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/economy/wholesale-wheat-prices-show-no-signs-of-cooling-despite-fci-selling-2-lakh-tonnes-past-few-weeks/article71701976.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Sebi to issue AI guidelines for capital markets soon, focus on investor protection and human oversight",
-   "time": "2026-11-15T16:10:04+05:30",
+   "headline": "Sebi sets up expert panel to review IPO, FPO and capital-raising norms",
+   "time": "2026-11-16T17:53:42+05:30",
    "factors": [
     "Regulation",
     "Market structure"
@@ -242,80 +185,196 @@
     17,
     30
    ],
-   "summary": "Market regulator SEBI plans to introduce guidelines on using artificial intelligence in capital markets. The rules will focus on protecting investors, requiring clear safety disclosures, ensuring human decision-making oversight, and strengthening computer network safety.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Little effect on Nifty: Rules making trading technology safer help market system health over time but do not change daily share prices directly.",
-   "lean": "little",
+   "summary": "Market regulator Sebi established an expert panel headed by Ashish Chauhan to review capital-raising rules. The committee will examine eligibility, pricing, and lock-in requirements for IPOs and public offers. The goal is to make fundraising simpler for businesses.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Simplified listing norms could encourage more companies to raise capital from the stock market.",
+   "lean": "up",
    "sectors": [
     "Financial Services"
    ],
    "unverified_figures": [],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/sebi-to-issue-ai-guidelines-for-capital-markets-soon-focus-on-investor-protection-and-human-oversight-11794737481977.html"
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/sebi-sets-up-expert-panel-to-review-ipo-fpo-and-capital-raising-norms-126111601512_1.html"
+    },
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-forms-panel-to-simplify-capital-raising-rules/articleshow/135889803.cms"
+    },
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-sets-up-sub-group-under-pmac-to-review-key-ipo-norms-nses-chauhan-to-head-panel/articleshow/135890467.cms"
     }
    ]
   },
   {
-   "headline": "Mahindra’s electric three-wheeler business eyes IPO in 18 months",
-   "time": "2026-11-16T03:27:48+05:30",
+   "headline": "BSE gets US regulator's approval to offer BANKEX futures",
+   "time": "2026-11-16T20:31:21+05:30",
    "factors": [
-    "Government policy",
-    "Corporate events"
+    "Regulation",
+    "Foreign investment",
+    "Market structure"
    ],
    "factor_ids": [
-    15,
-    31
+    17,
+    18,
+    30
    ],
-   "summary": "Mahindra's electric three-wheeler division aims to sell its shares to the public on the stock market within 18 months. The chief executive said the exact timing will depend on business growth and funding needs.",
+   "summary": "The US market regulator granted approval to BSE to offer Bankex futures contracts. The decision allows institutional investors in the United States to trade Indian banking derivatives. Trading will follow domestic market guidelines.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Explanation withheld.",
-   "lean": "unclear",
+   "impact": "May help Nifty: US institutional participation in Indian banking sector contracts could increase trading volume.",
+   "lean": "up",
    "sectors": [
-    "Automobiles"
+    "Banks",
+    "Financial Services"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/mahindras-electric-three-wheeler-business-eyes-ipo-in-18-months/article71705958.ece"
+     "url": "https://www.thehindubusinessline.com/markets/bse-gets-us-regulators-approval-to-offer-bankex-futures/article71708666.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Oil slips on supply surplus outlook despite Gulf tensions",
+   "time": "2026-11-17T07:21:03+05:30",
+   "factors": [
+    "Crude oil"
+   ],
+   "factor_ids": [
+    8
+   ],
+   "summary": "Crude oil prices fell as supply forecasts indicated an excess of oil in global markets. Middle East crude exports are recovering despite ongoing military tensions. The International Energy Agency expects oil production to outstrip demand.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Cheaper crude oil helps lower India's import bills and supports profitability for fuel-using companies.",
+   "lean": "up",
+   "sectors": [
+    "Oil & Gas",
+    "Automobiles",
+    "Paints"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-slips-on-supply-surplus-outlook-despite-gulf-tensions/articleshow/135907255.cms"
+    }
+   ]
+  },
+  {
+   "headline": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+   "time": "2026-11-17T07:22:42+05:30",
+   "factors": [
+    "US monetary policy",
+    "US dollar"
+   ],
+   "factor_ids": [
+    2,
+    4
+   ],
+   "summary": "The US dollar index reached a 19-month high of 103.66. Strong US inflation figures led traders to bet on interest rate hikes by the US Federal Reserve. A global decline in technology and artificial intelligence stocks also weighed on market sentiment.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: A stronger US dollar can trigger foreign capital outflows from emerging markets like India.",
+   "lean": "down",
+   "sectors": [
+    "Nifty 50",
+    "IT Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-hits-19-month-peak-on-fed-hike-bets-aussie-dips/articleshow/135907267.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Pharma stocks under pressure; Laurus, Sai Life, Divi's slide up to 10%",
+   "time": "2026-11-16T15:14:05+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Sector rotation"
+   ],
+   "factor_ids": [
+    20,
+    23
+   ],
+   "summary": "The Nifty Pharma index fell 1.8 percent, making it the biggest loser among sector indices while Nifty 50 rose 0.3 percent. Shares of pharma producers Laurus, Sai Life, and Divi's dropped up to 10 percent during trading.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Sharp drops in pharmaceutical stocks could drag down sectoral indices and overall market performance.",
+   "lean": "down",
+   "sectors": [
+    "Pharmaceuticals"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/pharma-stocks-under-pressure-laurus-sai-life-divi-s-slide-up-to-10-126111601200_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "RBI to conduct 2-day Variable Rate Reverse Repo (VRRR) auction under LAF on November 17, 2026",
+   "time": "2026-11-16T19:25:00+05:30",
+   "factors": [
+    "RBI monetary policy",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    12,
+    13
+   ],
+   "summary": "The Reserve Bank of India announced a 2-day auction to withdraw ₹50,000 crore from commercial banks under its liquidity facility. The auction takes place on November 17, 2026. The move follows RBI's review of current cash conditions in the banking system.",
+   "confirmation": "Official source",
+   "impact": "Little effect on Nifty: Routine short-term cash management by the central bank generally has low impact on daily stock trading.",
+   "lean": "little",
+   "sectors": [
+    "Banks"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63984"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "found",
+  "1": "none",
   "2": "found",
   "3": "none",
-  "4": "none",
+  "4": "found",
   "5": "unverified",
   "6": "found",
-  "7": "none",
+  "7": "found",
   "8": "found",
   "9": "unverified",
   "10": "none",
   "11": "found",
-  "12": "none",
-  "13": "none",
-  "14": "none",
+  "12": "found",
+  "13": "found",
+  "14": "found",
   "15": "found",
   "16": "none",
   "17": "found",
   "18": "found",
   "19": "none",
   "20": "found",
-  "21": "found",
-  "22": "found",
-  "23": "none",
+  "21": "none",
+  "22": "none",
+  "23": "found",
   "24": "unverified",
   "25": "unverified",
   "26": "unverified",
-  "27": "unverified",
+  "27": "found",
   "28": "unverified",
   "29": "unverified",
   "30": "found",
-  "31": "found",
+  "31": "none",
   "32": "none",
   "33": "unverified",
   "34": "unverified",
@@ -325,20 +384,16 @@
  "gaps": [
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
-  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Removed AI text with trading language: Coal India's Mahanadi Coalfields IPO: Stage set for launch, ",
-  "Removed AI text with trading language: Standard Chartered turns overweight on India; Neutral on glo",
-  "Removed AI text with trading language: Wholesale wheat prices show no signs of cooling despite FCI ",
-  "Removed AI text with trading language: Mahindra’s electric three-wheeler business eyes IPO in 18 mo"
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar."
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 0,
+   "in_window": 2,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-13T17:50:00+05:30"
+   "newest": "2026-11-16T19:25:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
@@ -375,34 +430,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 0,
+   "in_window": 28,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-14T16:40:38+05:30"
+   "newest": "2026-11-17T07:36:13+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 23,
+   "in_window": 24,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-16T07:43:17+05:30"
+   "newest": "2026-11-17T08:00:21+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 2,
+   "in_window": 10,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-16T08:00:10+05:30"
+   "newest": "2026-11-17T07:57:58+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 9,
+   "in_window": 22,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-16T08:14:40+05:30"
+   "newest": "2026-11-17T07:53:49+05:30"
   }
  }
 }
