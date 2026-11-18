@@ -1,399 +1,308 @@
 {
- "status": "ok",
- "title": "Indian Market News Brief — 17 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-17T08:16:39.884089+05:30",
- "window_start": "2026-11-16T15:00:00+05:30",
- "cutoff": "2026-11-17T07:30:00+05:30",
- "quick_read": "Foreign money coming into India and falling crude oil prices are supporting Indian stocks. However, high inflation news, rising bond yields, and new export taxes on fuel and steel could create pressure. Market regulator Sebi's proposals to simplify rules for foreign investors may help bring in more money.",
+ "status": "partial",
+ "title": "Indian Market News Brief — 18 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-18T08:14:47.595886+05:30",
+ "window_start": "2026-11-17T15:00:00+05:30",
+ "cutoff": "2026-11-18T07:30:00+05:30",
+ "quick_read": "AI summary not available for this run.",
  "stories": [
   {
-   "headline": "Sebi may propose raising FPI beneficial ownership threshold to 25%; plans consultation paper",
-   "time": "2026-11-16T15:51:12+05:30",
-   "factors": [
-    "Regulation",
-    "Foreign investment"
-   ],
-   "factor_ids": [
-    17,
-    18
-   ],
-   "summary": "Market regulator Sebi plans to increase the ownership limit for foreign portfolio investors from 10 percent to 25 percent. Sebi will issue a paper soon to collect suggestions from market participants. The change aims to simplify rules and align India with global standards.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "May help Nifty: Easier rules for foreign investors may attract more foreign money into Indian equity markets.",
-   "lean": "up",
-   "sectors": [
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-may-propose-raising-fpi-beneficial-ownership-threshold-to-25-plans-consultation-paper/articleshow/135883637.cms"
-    },
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/sebi-may-propose-raising-fpi-beneficial-ownership-threshold-to-25-126111601237_1.html"
-    }
-   ]
-  },
-  {
-   "headline": "Rupee rises, volatility ebbs as equity inflows blunt global headwinds",
-   "time": "2026-11-16T15:49:15+05:30",
-   "factors": [
-    "Rupee",
-    "Foreign investment",
-    "Price and volume"
-   ],
-   "factor_ids": [
-    7,
-    18,
-    27
-   ],
-   "summary": "The Indian rupee rose 0.3 percent to 93.9225 against the US dollar. Foreign investors brought nearly 10 billion US dollars into Indian equity markets in November. The Nifty 50 index climbed 0.6 percent, supported by lower crude oil prices.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong foreign fund buying and a firmer rupee support market sentiment.",
-   "lean": "up",
-   "sectors": [
-    "Nifty 50"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rises-volatility-ebbs-as-equity-inflows-blunt-global-headwinds/articleshow/135883543.cms"
-    }
-   ]
-  },
-  {
-   "headline": "India raises export duty on diesel and aviation turbine fuel",
-   "time": "2026-11-17T04:46:18+05:30",
-   "factors": [
-    "Crude oil",
-    "Inflation and consumption",
-    "Government policy"
-   ],
-   "factor_ids": [
-    8,
-    11,
-    15
-   ],
-   "summary": "The Indian government increased export taxes on diesel and aviation turbine fuel. Retail inflation reached 6.09 percent and wholesale inflation hit 12.3 percent in October. The government modified duties to manage local supplies and control inflation.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Higher export duties may reduce profit margins for oil refining and aviation companies.",
-   "lean": "down",
-   "sectors": [
-    "Oil & Gas",
-    "Aviation"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/commodities/india-raises-export-duty-on-diesel-and-aviation-turbine-fuel/article71709576.ece"
-    }
-   ]
-  },
-  {
-   "headline": "EU imposes up to 9.5% anti-dumping duties on Indian steelmakers",
-   "time": "2026-11-16T22:38:51+05:30",
-   "factors": [
-    "Geopolitics and trade",
-    "Government policy"
-   ],
-   "factor_ids": [
-    6,
-    15
-   ],
-   "summary": "The European Union imposed anti-dumping import duties of up to 9.5 percent on Indian steelmakers. The decision followed an official investigation into steel pricing practices. The tax applies to steel shipments originating from five countries including India.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Additional import taxes in Europe could lower export earnings for Indian steel producers.",
-   "lean": "down",
-   "sectors": [
-    "Metals & Mining"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/commodities/eu-imposes-up-to-95-anti-dumping-duties-on-indian-steelmakers/article71709244.ece"
-    }
-   ]
-  },
-  {
-   "headline": "India bonds dip as elevated inflation fuels rate hike expectations",
-   "time": "2026-11-16T17:30:15+05:30",
-   "factors": [
-    "Inflation and consumption",
-    "RBI monetary policy",
-    "Indian bond market"
-   ],
-   "factor_ids": [
-    11,
-    12,
-    14
-   ],
-   "summary": "Indian government bond prices fell and benchmark yields rose amid selling pressure. High inflation data triggered expectations of interest rate hikes by the RBI and the US Fed. Indian bond yield movements mirrored the trend in US government bonds.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Rising bond yields and expectations of higher interest rates can increase borrowing costs for companies.",
-   "lean": "down",
-   "sectors": [
-    "Banks",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-dip-as-elevated-inflation-fuels-rate-hike-expectations/articleshow/135888382.cms"
-    }
-   ]
-  },
-  {
-   "headline": "FinMin examining suggestions for changes in equity capital gains tax: CBDT",
-   "time": "2026-11-16T15:55:34+05:30",
-   "factors": [
-    "Government policy",
-    "Regulation"
-   ],
-   "factor_ids": [
-    15,
-    17
-   ],
-   "summary": "The Finance Ministry is reviewing suggestions on capital gains tax on stocks ahead of Union Budget 2027-28. Central Board of Direct Taxes Chairman Ravi Agrawal confirmed pre-budget inputs are under study. Meanwhile, economists have advised keeping the capital gains tax unchanged.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Investors will wait for the final budget announcement to see if stock tax rules change.",
-   "lean": "unclear",
-   "sectors": [
-    "Nifty 50"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/finmin-examining-suggestions-for-changes-in-equity-capital-gains-tax-cbdt-126111601256_1.html"
-    }
-   ]
-  },
-  {
-   "headline": "Sebi sets up expert panel to review IPO, FPO and capital-raising norms",
-   "time": "2026-11-16T17:53:42+05:30",
-   "factors": [
-    "Regulation",
-    "Market structure"
-   ],
-   "factor_ids": [
-    17,
-    30
-   ],
-   "summary": "Market regulator Sebi established an expert panel headed by Ashish Chauhan to review capital-raising rules. The committee will examine eligibility, pricing, and lock-in requirements for IPOs and public offers. The goal is to make fundraising simpler for businesses.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "May help Nifty: Simplified listing norms could encourage more companies to raise capital from the stock market.",
-   "lean": "up",
-   "sectors": [
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/sebi-sets-up-expert-panel-to-review-ipo-fpo-and-capital-raising-norms-126111601512_1.html"
-    },
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-forms-panel-to-simplify-capital-raising-rules/articleshow/135889803.cms"
-    },
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-sets-up-sub-group-under-pmac-to-review-key-ipo-norms-nses-chauhan-to-head-panel/articleshow/135890467.cms"
-    }
-   ]
-  },
-  {
-   "headline": "BSE gets US regulator's approval to offer BANKEX futures",
-   "time": "2026-11-16T20:31:21+05:30",
-   "factors": [
-    "Regulation",
-    "Foreign investment",
-    "Market structure"
-   ],
-   "factor_ids": [
-    17,
-    18,
-    30
-   ],
-   "summary": "The US market regulator granted approval to BSE to offer Bankex futures contracts. The decision allows institutional investors in the United States to trade Indian banking derivatives. Trading will follow domestic market guidelines.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: US institutional participation in Indian banking sector contracts could increase trading volume.",
-   "lean": "up",
-   "sectors": [
-    "Banks",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/bse-gets-us-regulators-approval-to-offer-bankex-futures/article71708666.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Oil slips on supply surplus outlook despite Gulf tensions",
-   "time": "2026-11-17T07:21:03+05:30",
-   "factors": [
-    "Crude oil"
-   ],
-   "factor_ids": [
-    8
-   ],
-   "summary": "Crude oil prices fell as supply forecasts indicated an excess of oil in global markets. Middle East crude exports are recovering despite ongoing military tensions. The International Energy Agency expects oil production to outstrip demand.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Cheaper crude oil helps lower India's import bills and supports profitability for fuel-using companies.",
-   "lean": "up",
-   "sectors": [
-    "Oil & Gas",
-    "Automobiles",
-    "Paints"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-slips-on-supply-surplus-outlook-despite-gulf-tensions/articleshow/135907255.cms"
-    }
-   ]
-  },
-  {
-   "headline": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
-   "time": "2026-11-17T07:22:42+05:30",
-   "factors": [
-    "US monetary policy",
-    "US dollar"
-   ],
-   "factor_ids": [
-    2,
-    4
-   ],
-   "summary": "The US dollar index reached a 19-month high of 103.66. Strong US inflation figures led traders to bet on interest rate hikes by the US Federal Reserve. A global decline in technology and artificial intelligence stocks also weighed on market sentiment.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: A stronger US dollar can trigger foreign capital outflows from emerging markets like India.",
-   "lean": "down",
-   "sectors": [
-    "Nifty 50",
-    "IT Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-hits-19-month-peak-on-fed-hike-bets-aussie-dips/articleshow/135907267.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Pharma stocks under pressure; Laurus, Sai Life, Divi's slide up to 10%",
-   "time": "2026-11-16T15:14:05+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Sector rotation"
-   ],
-   "factor_ids": [
-    20,
-    23
-   ],
-   "summary": "The Nifty Pharma index fell 1.8 percent, making it the biggest loser among sector indices while Nifty 50 rose 0.3 percent. Shares of pharma producers Laurus, Sai Life, and Divi's dropped up to 10 percent during trading.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Sharp drops in pharmaceutical stocks could drag down sectoral indices and overall market performance.",
-   "lean": "down",
-   "sectors": [
-    "Pharmaceuticals"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/pharma-stocks-under-pressure-laurus-sai-life-divi-s-slide-up-to-10-126111601200_1.html"
-    }
-   ]
-  },
-  {
-   "headline": "RBI to conduct 2-day Variable Rate Reverse Repo (VRRR) auction under LAF on November 17, 2026",
-   "time": "2026-11-16T19:25:00+05:30",
-   "factors": [
-    "RBI monetary policy",
-    "Banking and liquidity"
-   ],
-   "factor_ids": [
-    12,
-    13
-   ],
-   "summary": "The Reserve Bank of India announced a 2-day auction to withdraw ₹50,000 crore from commercial banks under its liquidity facility. The auction takes place on November 17, 2026. The move follows RBI's review of current cash conditions in the banking system.",
+   "headline": "Result of Yield/Price Based Auction of State Government Securities",
+   "time": "2026-11-17T15:05:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Sr. No State Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Andhra Pradesh 1000 1000 95.24/8.1280 Re-issue of 7.68% Andhra Pradesh SGS 2051, issued on July 29, 2026 2. Goa* 100 - - Re-issue of 7.80% Goa SGS 2037, issued on September 16, 2026 3. Karnataka 2000 2000 7.89 08 4. Madhya Pradesh 1000 1000 100.26/7.6892 Re-issue of 7.77% Madhya Prades",
    "confirmation": "Official source",
-   "impact": "Little effect on Nifty: Routine short-term cash management by the central bank generally has low impact on daily stock trading.",
-   "lean": "little",
-   "sectors": [
-    "Banks"
-   ],
-   "unverified_figures": [],
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
    "sources": [
     {
      "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63984"
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63987"
+    },
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63989"
+    }
+   ]
+  },
+  {
+   "headline": "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Nagar Sahakari Bank Ltd., Etawah – Extension of Period",
+   "time": "2026-11-17T15:15:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Nagar Sahakari Bank Ltd., Etawah, vide Directive No. LKO.DOS.SED.No.S29/12-03-000/2026-2027 dated May 15, 2026, for a period of six months up to close of business on November 18, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to furthe",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63988"
+    }
+   ]
+  },
+  {
+   "headline": "Premature redemption under Sovereign Gold Bond (SGB) Scheme - Redemption Price for premature redemption of SGB 2020-21 Series VIII due on November 18, 2026",
+   "time": "2026-11-17T18:00:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "In terms of GOI notification F.No. 4(4)-B(W&M)/2020 dated October 09, 2020 (SGB 2020-21 Series VIII - Issue date November 18, 2020) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be o",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63990"
+    }
+   ]
+  },
+  {
+   "headline": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 18, 2026",
+   "time": "2026-11-17T19:05:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, November 18, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 9:30 AM to 10:00 AM November 19, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Rele",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63991"
+    }
+   ]
+  },
+  {
+   "headline": "सीएसआईआर-एसईआरसी एवं सीएमसी में हिंदी पखवाड़ा समारोह–2026 का समापन एवं पुरस्कार वितरण",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337677"
+    }
+   ]
+  },
+  {
+   "headline": "आईएफएफआई 2026 में हिमालयी क्षितिज की चमक: लद्दाखी और कश्मीरी कहानियाँ बनीं आकर्षण का केंद्र",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337692"
+    }
+   ]
+  },
+  {
+   "headline": "दूरसंचार (प्रसारण और केबल) सेवाओं के डीआरएम-आधारित डिजिटल एड्रेसेबल सिस्टम ऑडिट मैनुअल, 2026 मसौदा पर हितधारकों से टिप्पणियां जमा करने की अंतिम तिथि बढ़ाई गई",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337683"
+    }
+   ]
+  },
+  {
+   "headline": "एपीडा (APEDA) ने वाराणसी से मेडागास्कर के लिए बिस्कुट की पहली खेप के निर्यात में मदद की",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337669"
+    }
+   ]
+  },
+  {
+   "headline": "दिल्ली-एनसीआर में वायु गुणवत्ता में सुधार के बाद सीएक्यूएम ने ग्रैप के तीसरे चरण के प्रतिबंध हटाए, दूसरे चरण के उपाय जारी रहेंगे",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337679"
+    }
+   ]
+  },
+  {
+   "headline": "सामाजिक न्याय और अधिकारिता मंत्रालय का 45वें भारतीय अंतरराष्ट्रीय व्यापार मेले 2026 में मंडप",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337682"
+    }
+   ]
+  },
+  {
+   "headline": "भारत कम-कार्बन की ओर परिवर्तन को गति देने, निवेश आकर्षित करने और घरेलू क्षमताओं को सुदृढ़ करने के लिए जापान के साथ संयुक्त ऋण तंत्र का लाभ उठाएगा: अंताल्या (तुर्किये) में सीओपी31 में श्री भूपेंद्र यादव",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337641"
+    }
+   ]
+  },
+  {
+   "headline": "परिणामों की सूची: प्रधानमंत्री की मनीला, फिलीपींस यात्रा (16–17 नवंबर, 2026)",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337644"
+    }
+   ]
+  },
+  {
+   "headline": "केंद्रीय वाणिज्य और उद्योग मंत्री श्री पीयूष गोयल द्विपक्षीय आर्थिक साझेदारी को मजबूत करने के लिए 17-18 नवंबर 2026 को इटली की आधिकारिक यात्रा करेंगे",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337625"
+    }
+   ]
+  },
+  {
+   "headline": "“खेत बचाओ अभियान” के तहत पंजाब के समराला पहुंचे केंद्रीय कृषि मंत्री श्री शिवराज सिंह चौहान, कहा- दिल्ली में बैठकर नहीं, खेतों में जाकर बनेगी किसानों की योजना",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337605"
+    }
+   ]
+  },
+  {
+   "headline": "डॉ. राजेश शर्मा ने एनसीवीईटी में कार्यकारी सदस्य के रूप में कार्यभार संभाला",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337618"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "none",
-  "2": "found",
-  "3": "none",
-  "4": "found",
+  "1": "unverified",
+  "2": "unverified",
+  "3": "unverified",
+  "4": "unverified",
   "5": "unverified",
-  "6": "found",
-  "7": "found",
-  "8": "found",
+  "6": "unverified",
+  "7": "unverified",
+  "8": "unverified",
   "9": "unverified",
-  "10": "none",
-  "11": "found",
-  "12": "found",
-  "13": "found",
-  "14": "found",
-  "15": "found",
-  "16": "none",
-  "17": "found",
-  "18": "found",
-  "19": "none",
-  "20": "found",
-  "21": "none",
-  "22": "none",
-  "23": "found",
+  "10": "unverified",
+  "11": "unverified",
+  "12": "unverified",
+  "13": "unverified",
+  "14": "unverified",
+  "15": "unverified",
+  "16": "unverified",
+  "17": "unverified",
+  "18": "unverified",
+  "19": "unverified",
+  "20": "unverified",
+  "21": "unverified",
+  "22": "unverified",
+  "23": "unverified",
   "24": "unverified",
   "25": "unverified",
   "26": "unverified",
-  "27": "found",
+  "27": "unverified",
   "28": "unverified",
   "29": "unverified",
-  "30": "found",
-  "31": "none",
-  "32": "none",
+  "30": "unverified",
+  "31": "unverified",
+  "32": "unverified",
   "33": "unverified",
   "34": "unverified",
   "35": "unverified",
-  "36": "none"
+  "36": "unverified"
  },
  "gaps": [
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
-  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar."
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "AI summaries unavailable this run. Showing headlines only."
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 2,
+   "in_window": 5,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-16T19:25:00+05:30"
+   "newest": "2026-11-17T19:05:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
@@ -430,34 +339,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 28,
+   "in_window": 19,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-17T07:36:13+05:30"
+   "newest": "2026-11-18T07:40:25+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 24,
+   "in_window": 27,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-17T08:00:21+05:30"
+   "newest": "2026-11-18T06:39:19+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 10,
+   "in_window": 6,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-17T07:57:58+05:30"
+   "newest": "2026-11-18T08:01:56+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 22,
+   "in_window": 19,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-17T07:53:49+05:30"
+   "newest": "2026-11-18T07:47:22+05:30"
   }
  }
 }
