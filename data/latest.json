@@ -1,7 +1,7 @@
 {
  "status": "partial",
  "title": "Indian Market News Brief — 18 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-18T08:14:47.595886+05:30",
+ "generated_at": "2026-11-18T08:59:38.168668+05:30",
  "window_start": "2026-11-17T15:00:00+05:30",
  "cutoff": "2026-11-18T07:30:00+05:30",
  "quick_read": "AI summary not available for this run.",
@@ -350,7 +350,7 @@
    "in_window": 27,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-18T06:39:19+05:30"
+   "newest": "2026-11-18T08:13:46+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
@@ -358,7 +358,7 @@
    "in_window": 6,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-18T08:01:56+05:30"
+   "newest": "2026-11-18T08:38:34+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
