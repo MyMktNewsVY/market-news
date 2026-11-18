@@ -1,72 +1,218 @@
 {
- "status": "partial",
+ "status": "ok",
  "title": "Indian Market News Brief — 18 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-18T08:59:38.168668+05:30",
+ "generated_at": "2026-11-18T15:03:49.882571+05:30",
  "window_start": "2026-11-17T15:00:00+05:30",
  "cutoff": "2026-11-18T07:30:00+05:30",
- "quick_read": "AI summary not available for this run.",
+ "quick_read": "Strong company profits and continuous foreign investments may help the stock market stay positive. Lower oil prices are also helping reduce costs for businesses and lower borrowing worries. However, possible central bank actions to absorb extra cash and government plans to limit borrowed stock trading could slow down gains.",
  "stories": [
   {
-   "headline": "Result of Yield/Price Based Auction of State Government Securities",
-   "time": "2026-11-17T15:05:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Sr. No State Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Andhra Pradesh 1000 1000 95.24/8.1280 Re-issue of 7.68% Andhra Pradesh SGS 2051, issued on July 29, 2026 2. Goa* 100 - - Re-issue of 7.80% Goa SGS 2037, issued on September 16, 2026 3. Karnataka 2000 2000 7.89 08 4. Madhya Pradesh 1000 1000 100.26/7.6892 Re-issue of 7.77% Madhya Prades",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "India Inc logs best quarterly profit growth in four years, fuelling market revival hopes",
+   "time": "2026-11-17T15:20:16+05:30",
+   "factors": [
+    "GDP and growth",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    10,
+    20
+   ],
+   "summary": "Nifty 50 companies recorded a 19% to 27% rise in net profit for the September quarter. This marks the strongest quarterly profit growth for Indian companies in four years.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Broad Market",
+    "Corporate"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63987"
-    },
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63989"
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/companies/india-inc-logs-best-quarterly-profit-growth-in-four-years-fuelling-market-revival-hopes/article71711023.ece"
     }
    ]
   },
   {
-   "headline": "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – Nagar Sahakari Bank Ltd., Etawah – Extension of Period",
-   "time": "2026-11-17T15:15:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "The Reserve Bank of India issued Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 to Nagar Sahakari Bank Ltd., Etawah, vide Directive No. LKO.DOS.SED.No.S29/12-03-000/2026-2027 dated May 15, 2026, for a period of six months up to close of business on November 18, 2026. The Reserve Bank of India is satisfied that in the public interest, it is necessary to furthe",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Sebi may limit leveraged stock bets to curb volatility: Report",
+   "time": "2026-11-17T15:37:02+05:30",
+   "factors": [
+    "Regulation",
+    "Derivatives positioning"
+   ],
+   "factor_ids": [
+    17,
+    28
+   ],
+   "summary": "Market regulator SEBI is considering limits on stock purchases made with borrowed money. This step is being discussed because stock bets funded by short-term loans have reached record levels.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Restricting the use of borrowed money for stock trading could reduce overall market trading and slow down short-term price gains.",
+   "lean": "down",
+   "sectors": [
+    "Capital Markets",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63988"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-may-limit-leveraged-stock-bets-to-curb-volatility-report/articleshow/135920460.cms"
     }
    ]
   },
   {
-   "headline": "Premature redemption under Sovereign Gold Bond (SGB) Scheme - Redemption Price for premature redemption of SGB 2020-21 Series VIII due on November 18, 2026",
-   "time": "2026-11-17T18:00:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "In terms of GOI notification F.No. 4(4)-B(W&M)/2020 dated October 09, 2020 (SGB 2020-21 Series VIII - Issue date November 18, 2020) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be o",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Robust inflows, pullback in shorts lift rupee to seven-month peak",
+   "time": "2026-11-17T16:13:17+05:30",
+   "factors": [
+    "Rupee",
+    "Foreign investment"
+   ],
+   "factor_ids": [
+    7,
+    18
+   ],
+   "summary": "The Indian rupee rose to a seven-month high of 93.47 against the US dollar. The rise was driven by strong foreign investments totaling $10 billion into Indian markets this month.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: A stronger rupee reduces the import bill for Indian companies, though it may slightly reduce earnings for software and export firms.",
+   "lean": "up",
+   "sectors": [
+    "Foreign Exchange",
+    "Imports"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63990"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/robust-inflows-pullback-in-shorts-lift-rupee-to-seven-month-peak/articleshow/135921416.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Indian bonds surge after oil slide eases aggressive rate hike concerns",
+   "time": "2026-11-17T17:32:23+05:30",
+   "factors": [
+    "Crude oil",
+    "Indian bond market"
+   ],
+   "factor_ids": [
+    8,
+    14
+   ],
+   "summary": "Indian government bond prices rose and interest rates dropped after crude oil prices fell. Lower oil prices have reduced fears that interest rates might need to be raised sharply.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Lower oil prices reduce expenses for many industries and lower general cost pressures across the economy.",
+   "lean": "up",
+   "sectors": [
+    "Oil & Gas",
+    "Banking",
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-surge-after-oil-slide-eases-aggressive-rate-hike-concerns/articleshow/135924727.cms"
+    }
+   ]
+  },
+  {
+   "headline": "TCS vs Infosys: Better IT stock to buy amid anti-AI trade buzz | Experts' views, target price, stop-loss, rationale",
+   "time": "2026-11-17T16:27:49+05:30",
+   "factors": [
+    "Foreign investment",
+    "Sector rotation"
+   ],
+   "factor_ids": [
+    18,
+    23
+   ],
+   "summary": "Foreign investors are shifting funds out of expensive foreign artificial intelligence companies and moving into Indian IT service companies as a safer option.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Increased foreign buying in large IT stocks could lift the technology sector and support the broader index.",
+   "lean": "up",
+   "sectors": [
+    "Information Technology"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/tcs-vs-infosys-better-it-stock-to-buy-amid-anti-ai-trade-buzz-experts-views-target-price-stop-loss-rationale-11794910515731.html"
+    }
+   ]
+  },
+  {
+   "headline": "JSW Steel CEO flags Chinese exports, trade barriers as key challenges",
+   "time": "2026-11-17T15:27:31+05:30",
+   "factors": [
+    "Geopolitics and trade",
+    "Other commodities"
+   ],
+   "factor_ids": [
+    6,
+    9
+   ],
+   "summary": "The head of JSW Steel warned that cheap steel imports from China are hurting local producers. Indian steelmakers are asking the government for protection against these low-cost imports.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Cheaper foreign steel forces local companies to lower their prices, which can reduce profits for Indian steel manufacturers.",
+   "lean": "down",
+   "sectors": [
+    "Steel",
+    "Metals"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/jsw-steel-ceo-flags-chinese-exports-trade-barriers-as-key-challenges/article71710797.ece"
+    }
+   ]
+  },
+  {
+   "headline": "BlackRock raises its stake in Axis Bank to 5%",
+   "time": "2026-11-17T19:58:06+05:30",
+   "factors": [
+    "Foreign investment",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    18,
+    21
+   ],
+   "summary": "Global investment firm BlackRock raised its ownership stake in Axis Bank to 5 percent after buying additional shares from the open market.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Increased share purchases by large international investment firms can build confidence in major Indian banking stocks.",
+   "lean": "up",
+   "sectors": [
+    "Banking"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/blackrock-raises-its-stake-in-axis-bank-to-5/articleshow/135929469.cms"
     }
    ]
   },
   {
    "headline": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 18, 2026",
    "time": "2026-11-17T19:05:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, November 18, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 9:30 AM to 10:00 AM November 19, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Rele",
+   "factors": [
+    "RBI monetary policy",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    12,
+    13
+   ],
+   "summary": "The Reserve Bank of India announced a one-day auction to temporarily remove ₹50,000 crore of extra cash from the banking system.",
    "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "Little effect on Nifty: This is a routine move by the central bank to manage daily cash levels in commercial banks.",
+   "lean": "little",
+   "sectors": [
+    "Banking"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
      "name": "RBI press releases",
@@ -75,225 +221,108 @@
    ]
   },
   {
-   "headline": "सीएसआईआर-एसईआरसी एवं सीएमसी में हिंदी पखवाड़ा समारोह–2026 का समापन एवं पुरस्कार वितरण",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Sebi aligns margin requirements for agri, non-agri commodity derivatives",
+   "time": "2026-11-17T19:52:19+05:30",
+   "factors": [
+    "Regulation"
+   ],
+   "factor_ids": [
+    17
+   ],
+   "summary": "Market regulator SEBI aligned deposit rules for agricultural and non-agricultural commodity trading starting December 1 to lower costs for traders.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "Unclear for Nifty: Making commodity trading easier helps market brokers, but it has very little direct effect on main stock index prices.",
+   "lean": "unclear",
+   "sectors": [
+    "Commodities",
+    "Capital Markets"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337677"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/commodities/sebi-aligns-margin-requirements-for-agri-non-agri-commodity-derivatives-11794920785221.html"
+    },
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-lowers-margin-requirements-for-agri-derivatives-contracts/articleshow/135929718.cms"
+    },
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/sebi-revises-minimum-margin-norms-for-commodity-derivatives/article71712951.ece"
     }
    ]
   },
   {
-   "headline": "आईएफएफआई 2026 में हिमालयी क्षितिज की चमक: लद्दाखी और कश्मीरी कहानियाँ बनीं आकर्षण का केंद्र",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Eicher Motors jumps 3%, stock top gainer in Nifty Auto; brokerages upbeat",
+   "time": "2026-11-17T15:03:54+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Eicher Motors stock rose 3% as analysts highlighted that its Royal Enfield motorcycle division is well placed to gain from growing demand for premium two-wheelers.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong sales of expensive motorcycles can boost revenues and profit margins for major auto companies.",
+   "lean": "up",
+   "sectors": [
+    "Automobiles"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337692"
-    }
-   ]
-  },
-  {
-   "headline": "दूरसंचार (प्रसारण और केबल) सेवाओं के डीआरएम-आधारित डिजिटल एड्रेसेबल सिस्टम ऑडिट मैनुअल, 2026 मसौदा पर हितधारकों से टिप्पणियां जमा करने की अंतिम तिथि बढ़ाई गई",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337683"
-    }
-   ]
-  },
-  {
-   "headline": "एपीडा (APEDA) ने वाराणसी से मेडागास्कर के लिए बिस्कुट की पहली खेप के निर्यात में मदद की",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337669"
-    }
-   ]
-  },
-  {
-   "headline": "दिल्ली-एनसीआर में वायु गुणवत्ता में सुधार के बाद सीएक्यूएम ने ग्रैप के तीसरे चरण के प्रतिबंध हटाए, दूसरे चरण के उपाय जारी रहेंगे",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337679"
-    }
-   ]
-  },
-  {
-   "headline": "सामाजिक न्याय और अधिकारिता मंत्रालय का 45वें भारतीय अंतरराष्ट्रीय व्यापार मेले 2026 में मंडप",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337682"
-    }
-   ]
-  },
-  {
-   "headline": "भारत कम-कार्बन की ओर परिवर्तन को गति देने, निवेश आकर्षित करने और घरेलू क्षमताओं को सुदृढ़ करने के लिए जापान के साथ संयुक्त ऋण तंत्र का लाभ उठाएगा: अंताल्या (तुर्किये) में सीओपी31 में श्री भूपेंद्र यादव",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337641"
-    }
-   ]
-  },
-  {
-   "headline": "परिणामों की सूची: प्रधानमंत्री की मनीला, फिलीपींस यात्रा (16–17 नवंबर, 2026)",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337644"
-    }
-   ]
-  },
-  {
-   "headline": "केंद्रीय वाणिज्य और उद्योग मंत्री श्री पीयूष गोयल द्विपक्षीय आर्थिक साझेदारी को मजबूत करने के लिए 17-18 नवंबर 2026 को इटली की आधिकारिक यात्रा करेंगे",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337625"
-    }
-   ]
-  },
-  {
-   "headline": "“खेत बचाओ अभियान” के तहत पंजाब के समराला पहुंचे केंद्रीय कृषि मंत्री श्री शिवराज सिंह चौहान, कहा- दिल्ली में बैठकर नहीं, खेतों में जाकर बनेगी किसानों की योजना",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337605"
-    }
-   ]
-  },
-  {
-   "headline": "डॉ. राजेश शर्मा ने एनसीवीईटी में कार्यकारी सदस्य के रूप में कार्यभार संभाला",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2337618"
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/eicher-motors-jumps-3-stock-top-gainer-in-nifty-auto-brokerages-upbeat-126111700622_1.html"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "unverified",
-  "2": "unverified",
-  "3": "unverified",
-  "4": "unverified",
+  "1": "none",
+  "2": "none",
+  "3": "none",
+  "4": "none",
   "5": "unverified",
-  "6": "unverified",
-  "7": "unverified",
-  "8": "unverified",
-  "9": "unverified",
-  "10": "unverified",
-  "11": "unverified",
-  "12": "unverified",
-  "13": "unverified",
-  "14": "unverified",
-  "15": "unverified",
-  "16": "unverified",
-  "17": "unverified",
-  "18": "unverified",
-  "19": "unverified",
-  "20": "unverified",
-  "21": "unverified",
-  "22": "unverified",
-  "23": "unverified",
+  "6": "found",
+  "7": "found",
+  "8": "found",
+  "9": "found",
+  "10": "found",
+  "11": "none",
+  "12": "found",
+  "13": "found",
+  "14": "found",
+  "15": "none",
+  "16": "none",
+  "17": "found",
+  "18": "found",
+  "19": "none",
+  "20": "found",
+  "21": "found",
+  "22": "none",
+  "23": "found",
   "24": "unverified",
   "25": "unverified",
   "26": "unverified",
   "27": "unverified",
-  "28": "unverified",
+  "28": "found",
   "29": "unverified",
   "30": "unverified",
-  "31": "unverified",
-  "32": "unverified",
+  "31": "none",
+  "32": "none",
   "33": "unverified",
   "34": "unverified",
   "35": "unverified",
-  "36": "unverified"
+  "36": "none"
  },
  "gaps": [
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "AI summaries unavailable this run. Showing headlines only."
+  "Removed AI text with trading language: India Inc logs best quarterly profit growth in four years, f"
  ],
  "sources_checked": {
   "RBI press releases": {
@@ -302,7 +331,7 @@
    "in_window": 5,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-17T19:05:00+05:30"
+   "newest": "2026-11-18T14:40:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
@@ -339,18 +368,18 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 19,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-18T07:40:25+05:30"
+   "newest": "2026-11-18T12:54:58+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 27,
+   "in_window": 18,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-18T08:13:46+05:30"
+   "newest": "2026-11-18T14:44:37+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
@@ -358,7 +387,7 @@
    "in_window": 6,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-18T08:38:34+05:30"
+   "newest": "2026-11-18T14:47:58+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
@@ -366,7 +395,7 @@
    "in_window": 19,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-18T07:47:22+05:30"
+   "newest": "2026-11-18T14:18:00+05:30"
   }
  }
 }
