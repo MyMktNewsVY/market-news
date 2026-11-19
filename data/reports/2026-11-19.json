@@ -1,36 +1,291 @@
 {
- "status": "partial",
+ "status": "ok",
  "title": "Indian Market News Brief — 19 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-19T08:15:06.211358+05:30",
+ "generated_at": "2026-11-19T08:59:32.609779+05:30",
  "window_start": "2026-11-18T15:00:00+05:30",
  "cutoff": "2026-11-19T07:30:00+05:30",
- "quick_read": "AI summary not available for this run.",
+ "quick_read": "Record foreign investor buying of over 1 lakh crore rupees in November may support Indian shares. However, US Federal Reserve signals of possible interest rate increases and a stronger US dollar could hurt market mood. How rising domestic bond yields balance against strong bank earnings remains unclear.",
  "stories": [
   {
-   "headline": "Premature redemption under Sovereign Gold Bond (SGB) Scheme - Redemption Price for premature redemption of SGB 2020-21 Series II due on November 19, 2026",
-   "time": "2026-11-18T17:55:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "In terms of GOI notification F.No. 4(4)-B(W&M)/2020 dated April 13, 2020 (SGB 2020-21 Series II - Issue date May 19, 2020) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on Novembe",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "FPI stock-buying tops ₹1 trillion in November, highest-ever monthly inflow",
+   "time": "2026-11-18T22:17:18+05:30",
+   "factors": [
+    "Foreign investment",
+    "Valuation",
+    "Crude oil"
+   ],
+   "factor_ids": [
+    18,
+    22,
+    8
+   ],
+   "summary": "Foreign portfolio investors pumped over 1 lakh crore rupees into Indian shares in November. This marks their highest-ever monthly buying in the domestic market. The buying ended a 16-month selling streak that ran from July 2025 to October 2026. Cheaper stock valuations and softer crude oil prices drove the inflows. The rising market also attracted additional foreign money.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Huge foreign cash inflows may support large-cap benchmark shares and lift overall market sentiment.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Energy",
+    "Automobiles"
+   ],
+   "unverified_figures": [
+    "16",
+    "2025",
+    "2026"
+   ],
    "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63996"
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/fpi-stock-buying-tops-1-trillion-in-november-highest-ever-monthly-inflow-126111801263_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike",
+   "time": "2026-11-19T00:55:40+05:30",
+   "factors": [
+    "US monetary policy",
+    "Global markets",
+    "US dollar"
+   ],
+   "factor_ids": [
+    2,
+    1,
+    4
+   ],
+   "summary": "Federal Reserve minutes showed US policymakers focused on inflation risks during their October meeting. While interest rates were kept steady, officials discussed the need for a possible half-percentage-point rate increase. Policymakers worry that price rises are not slowing down fast enough. The US central bank faces heated debates ahead of its December meeting.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Higher US interest rates can pull foreign funds away from emerging markets like India and pressure domestic shares.",
+   "lean": "down",
+   "sectors": [
+    "Information Technology",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-policymakers-focused-on-inflation-risks-in-october-with-some-seeing-need-for-bigger-rate-hike/articleshow/135970652.cms"
+    }
+   ]
+  },
+  {
+   "headline": "PSBs' net profit rises 17% to Rs 1.10 lakh cr in H1 FY27; business crosses Rs 300 lakh crore",
+   "time": "2026-11-18T19:52:28+05:30",
+   "factors": [
+    "Banking and liquidity",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    13,
+    20
+   ],
+   "summary": "Public sector banks reported a 16.9 percent rise in net profit to 1.10 lakh crore rupees in the first half of the financial year. Total business surpassed 301.6 lakh crore rupees. Gross bad loans fell to 1.69 percent. The numbers reflect strong health across state-owned lenders.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong profitability and cleaner balance sheets could lift state-run banking stocks.",
+   "lean": "up",
+   "sectors": [
+    "Public Sector Banks"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/psbs-net-profit-rises-17-to-rs-1-10-lakh-cr-in-h1-fy27-business-crosses-rs-300-lakh-crore/articleshow/135965650.cms"
+    }
+   ]
+  },
+  {
+   "headline": "India bonds reverse intraday gains to end lower as profit booking takes center stage",
+   "time": "2026-11-18T17:22:22+05:30",
+   "factors": [
+    "Indian bond market",
+    "Inflation and consumption",
+    "RBI monetary policy"
+   ],
+   "factor_ids": [
+    14,
+    11,
+    12
+   ],
+   "summary": "Indian government bonds gave up earlier gains as traders took profits. The 10-year benchmark bond yield rose to 7.2858 percent. Rising retail inflation has raised concerns that the Reserve Bank of India might hike rates in December. Oil price movements also guided bond market movements.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Higher borrowing costs across the economy could hurt corporate profits and slow down loan growth.",
+   "lean": "down",
+   "sectors": [
+    "Banks",
+    "Home Finance",
+    "Real Estate"
+   ],
+   "unverified_figures": [
+    "10"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-reverse-intraday-gains-to-end-lower-as-profit-booking-takes-center-stage/articleshow/135962385.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Nvidia shares gain 3% in premarket after Q3 results, upbeat forecast top estimates: Is the AI rally back on track?",
+   "time": "2026-11-18T18:15:48+05:30",
+   "factors": [
+    "Global markets",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    1,
+    20
+   ],
+   "summary": "Nvidia shares jumped 3 percent in US premarket trading after quarterly earnings beat estimates. Revenue and profit more than doubled from a year earlier. The chipmaker gave an upbeat revenue forecast of 130 billion dollars. The strong numbers revived optimism around artificial intelligence spending.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong tech earnings in the US may lift Indian software exporter stocks on better global demand hopes.",
+   "lean": "up",
+   "sectors": [
+    "Information Technology"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/nvidia-shares-gain-3-in-premarket-after-q3-results-upbeat-forecast-top-estimates-is-the-ai-rally-back-on-track-11795005376675.html"
+    }
+   ]
+  },
+  {
+   "headline": "Goldman Sachs upgrades India to overweight, sets Nifty target of 28,500",
+   "time": "2026-11-18T18:46:26+05:30",
+   "factors": [
+    "Foreign investment",
+    "Valuation"
+   ],
+   "factor_ids": [
+    18,
+    22
+   ],
+   "summary": "Goldman Sachs raised its rating on Indian equities to overweight. The brokerage set a target of 28,500 for the Nifty index. It noted that India lagged behind other Asian markets by 83 percentage points between mid-2024 and late-2026. The firm expects Indian stocks to catch up after this underperformance.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Positive views from global brokerages could encourage more foreign institutional buying into Indian blue-chip stocks.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Energy",
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/goldman-sachs-upgrades-india-to-overweight-sets-nifty-target-of-28500/article71715754.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Rupee ends flat after hitting seven-month high as firmer dollar offsets inflows",
+   "time": "2026-11-18T15:55:00+05:30",
+   "factors": [
+    "Rupee",
+    "US dollar",
+    "Foreign investment"
+   ],
+   "factor_ids": [
+    7,
+    4,
+    18
+   ],
+   "summary": "The Indian rupee settled flat after briefly touching a seven-month high on Wednesday. Strong foreign portfolio investments provided support to the domestic currency. However, a stronger US dollar index limited further gains. The dollar climbed 0.2 percent on expectations of faster US interest rate increases.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: A stable currency helps import costs, but dollar strength limits gains for broader emerging market assets.",
+   "lean": "unclear",
+   "sectors": [
+    "Oil and Gas",
+    "Automobiles",
+    "Information Technology"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-ends-flat-after-hitting-seven-month-high-as-firmer-dollar-offsets-inflows/articleshow/135959732.cms"
+    }
+   ]
+  },
+  {
+   "headline": "SpiceJet board approves plan to raise up to ₹5,500 crore amid cash crunch",
+   "time": "2026-11-18T18:29:41+05:30",
+   "factors": [
+    "Corporate events",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    31,
+    20
+   ],
+   "summary": "SpiceJet's board cleared a plan to raise up to 5,500 crore rupees through shares and other securities. The airline faces unpaid dues, delayed salaries and flight disruptions. The carrier plans to rebuild its fleet and improve flight reliability. Its shares hit the five percent upper limit for six straight days.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "Little effect on Nifty: While helpful for the airline, SpiceJet is not part of the main benchmark index.",
+   "lean": "little",
+   "sectors": [
+    "Aviation"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/industry/aviation/spicejet-board-approves-plan-to-raise-up-to-5-500-crore-amid-cash-crunch-126111801099_1.html"
+    },
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/multibagger-penny-stock-kalind-board-approves-fundraising-plan-to-raise-up-to-rs-500-crore-via-rights-issue-11795010763415.html"
+    }
+   ]
+  },
+  {
+   "headline": "Gold imports may fall to $40 bn in FY27 on duty hike: Commerce Secy",
+   "time": "2026-11-18T18:38:35+05:30",
+   "factors": [
+    "External balances",
+    "Government policy"
+   ],
+   "factor_ids": [
+    32,
+    15
+   ],
+   "summary": "India's gold imports may decline to 40 billion dollars in the current financial year. This is down from roughly 72 billion dollars in the prior fiscal period. Commerce Secretary Rajesh Agrawal said import duty increases implemented in May have slowed shipments. Lower gold purchases help narrow India's trade deficit.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Lower trade deficits support the rupee, which can reduce imported inflation risks for the broader economy.",
+   "lean": "up",
+   "sectors": [
+    "Gems and Jewellery"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/gold-imports-may-fall-to-40-bn-in-fy27-on-duty-hike-commerce-secy-126111800948_1.html"
     }
    ]
   },
   {
    "headline": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 19, 2026",
    "time": "2026-11-18T19:00:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Thursday, November 19, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 10:30 AM to 11:00 AM November 20, 2026 (Friday) 2. The operational guidelines for the auction as given in the Reserve Bank’s Press Releas",
+   "factors": [
+    "Banking and liquidity",
+    "RBI monetary policy"
+   ],
+   "factor_ids": [
+    13,
+    12
+   ],
+   "summary": "The Reserve Bank of India announced an auction to absorb excess cash from banks. The central bank set a 50,000 crore rupee limit for an overnight reverse repo window on November 19. The move follows an assessment of current money supply conditions in the banking system.",
    "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "impact": "Little effect on Nifty: Daily central bank operations manage temporary bank cash levels without major long-term stock market shifts.",
+   "lean": "little",
+   "sectors": [
+    "Banks"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
      "name": "RBI press releases",
@@ -39,238 +294,82 @@
    ]
   },
   {
-   "headline": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-   "time": "2026-11-19T00:30:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Dalmia Bharat to consider share buyback at Nov 23 board meeting",
+   "time": "2026-11-18T20:58:41+05:30",
+   "factors": [
+    "Corporate events"
+   ],
+   "factor_ids": [
+    31
+   ],
+   "summary": "Dalmia Bharat announced its board will meet on November 23 to evaluate a share buyback plan. The company is India's fourth-largest cement manufacturer. Details on buyback price and size will be considered at the meeting. The firm also aims to expand production capacity to 75 million tonnes by FY28.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Little effect on Nifty: Dalmia Bharat's buyback will affect its own shares but has negligible impact on the Nifty index.",
+   "lean": "little",
+   "sectors": [
+    "Cement and Construction Materials"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "US Federal Reserve",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalmia-bharat-to-consider-share-buyback-at-nov-23-board-meeting/articleshow/135966836.cms"
     }
    ]
   },
   {
-   "headline": "प्रधानमंत्री ने महामहिम वेल्स के राजकुमार और राजकुमारी से मुलाकात की",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric",
+   "time": "2026-11-19T01:34:01+05:30",
+   "factors": [
+    "Other commodities",
+    "US monetary policy",
+    "US dollar"
+   ],
+   "factor_ids": [
+    9,
+    2,
+    4
+   ],
+   "summary": "Gold prices fell to a 14-month low due to higher US bond yields and a rising US dollar. Statements from US Federal Reserve officials pointing to more rate hikes pushed precious metals down. Gold dropped over 3 percent during the decline.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Falling gold prices can hurt gold-loan companies as underlying loan collateral values decrease.",
+   "lean": "down",
+   "sectors": [
+    "Non-Banking Financial Companies"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338196"
-    }
-   ]
-  },
-  {
-   "headline": "केरलम के मुख्यमंत्री ने प्रधानमंत्री से मुलाकात की",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338182"
-    }
-   ]
-  },
-  {
-   "headline": "भारत ने पेरिस समझौते के अंतर्गत दूसरे 'ग्लोबल स्टॉकटेक' (जीएसटी-2) को खुला, पारदर्शी और न्यायसंगत बनाने का आह्वान किया; अंताल्या (तुर्किये) में आयोजित कॉप 31 में जलवायु वित्त और प्रौद्योगिकी हस्तांतरण के लिए जवाबदेही तय करने पर बल दिया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338166"
-    }
-   ]
-  },
-  {
-   "headline": "लोक सभा अध्यक्ष ने वडनगर स्थित ऐतिहासिक श्री हटकेश्वर महादेव मंदिर में आयोजित विश्व शांति महायज्ञ में भाग लिया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338145"
-    }
-   ]
-  },
-  {
-   "headline": "उपराष्ट्रपति श्री सी.पी. राधाकृष्णन ने केंद्रीय स्वास्थ्य मंत्री श्री जे.पी.नड्डा की उपस्थिति में वीएमएमसी और सफदरजंग अस्पताल के 8वें दीक्षांत समारोह को संबोधित किया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338175"
-    }
-   ]
-  },
-  {
-   "headline": "प्रधानमंत्री 19 नवंबर को सामाजिक न्याय और अधिकारिता विभाग के सम्मेलन के समापन सत्र में भाग लेंगे",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338171"
-    }
-   ]
-  },
-  {
-   "headline": "केंद्रीय स्वास्थ्य सचिव पुण्य सलिला श्रीवास्तव ने नए एम्स के कार्यकारी निदेशकों के साथ संस्थागत प्रदर्शन का आकलन करने व स्वास्थ्य सेवा डिलीवरी को मजबूत करने के लिए समीक्षा बैठक की",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338177"
-    }
-   ]
-  },
-  {
-   "headline": "भारत के कम्युनिटी सीड बैंक (सीएसबी) को मज़बूत करना: डायवर्सिफ़ार्म-इंडिया ने 652 सीएसबी की मैपिंग की और नई कैपेसिटी-बिल्डिंग मैनुअल जारी की",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338172"
-    }
-   ]
-  },
-  {
-   "headline": "डीओएसईएल के सचिव ने दिव्यांग व्यक्तियों के अधिकारों पर संयुक्त राष्ट्र के विशेष दूत के साथ एक संवाद सत्र की अध्यक्षता की",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338162"
-    }
-   ]
-  },
-  {
-   "headline": "45वें आईआईटीएफ 2026 में सामाजिक न्याय और अधिकारिता मंत्रालय के मंडप में कुल ₹ 29.56 लाख की बिक्री हुई; ग्राहकों की बढ़ती दिलचस्पी से कारीगरों के लिए आर्थिक अवसर बढ़े",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338164"
-    }
-   ]
-  },
-  {
-   "headline": "केंद्रीय आयुष मंत्री श्री प्रतापराव जाधव ने बुर्किना फासो के मंत्री और वहां के राष्ट्रपति के विशेष सलाहकार महामहिम श्री रोजर बारो से मुलाकात की",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338146"
-    }
-   ]
-  },
-  {
-   "headline": "उपराष्ट्रपति ने नई दिल्ली में वर्धमान महावीर मेडिकल कॉलेज और सफदरजंग अस्पताल के रजत जयंती समारोह और 8वें वार्षिक दीक्षांत समारोह में भाग लिया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2338134"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/gold-drops-to-14-month-low-as-dollar-yields-rise-on-hawkish-fed-rhetoric-11795032242167.html"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "unverified",
-  "2": "unverified",
-  "3": "unverified",
-  "4": "unverified",
+  "1": "found",
+  "2": "found",
+  "3": "none",
+  "4": "found",
   "5": "unverified",
   "6": "unverified",
-  "7": "unverified",
-  "8": "unverified",
-  "9": "unverified",
-  "10": "unverified",
-  "11": "unverified",
-  "12": "unverified",
-  "13": "unverified",
-  "14": "unverified",
-  "15": "unverified",
-  "16": "unverified",
-  "17": "unverified",
-  "18": "unverified",
-  "19": "unverified",
-  "20": "unverified",
-  "21": "unverified",
-  "22": "unverified",
-  "23": "unverified",
+  "7": "found",
+  "8": "found",
+  "9": "found",
+  "10": "none",
+  "11": "found",
+  "12": "found",
+  "13": "found",
+  "14": "found",
+  "15": "found",
+  "16": "none",
+  "17": "none",
+  "18": "found",
+  "19": "none",
+  "20": "found",
+  "21": "none",
+  "22": "found",
+  "23": "none",
   "24": "unverified",
   "25": "unverified",
   "26": "unverified",
@@ -278,19 +377,19 @@
   "28": "unverified",
   "29": "unverified",
   "30": "unverified",
-  "31": "unverified",
-  "32": "unverified",
+  "31": "found",
+  "32": "found",
   "33": "unverified",
   "34": "unverified",
   "35": "unverified",
-  "36": "unverified"
+  "36": "none"
  },
  "gaps": [
-  "Source unavailable: US Federal Reserve",
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "AI summaries unavailable this run. Showing headlines only."
+  "Check figures 16, 2025, 2026 (not found in the source text we read): FPI stock-buying tops ₹1 trillion in November, highest-ever ",
+  "Check figures 10 (not found in the source text we read): India bonds reverse intraday gains to end lower as profit bo"
  ],
  "sources_checked": {
   "RBI press releases": {
@@ -318,8 +417,12 @@
    "newest": null
   },
   "US Federal Reserve": {
-   "ok": false,
-   "error": "HTTP Error 404: Not Found"
+   "ok": true,
+   "total": 20,
+   "in_window": 1,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-19T00:30:00+05:30"
   },
   "PIB (Govt of India)": {
    "ok": true,
@@ -335,7 +438,7 @@
    "in_window": 23,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-19T07:55:30+05:30"
+   "newest": "2026-11-19T08:02:49+05:30"
   },
   "Mint Markets": {
    "ok": true,
@@ -343,7 +446,7 @@
    "in_window": 25,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-19T08:03:18+05:30"
+   "newest": "2026-11-19T08:38:34+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
@@ -351,15 +454,15 @@
    "in_window": 12,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-19T07:59:37+05:30"
+   "newest": "2026-11-19T08:50:21+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 22,
+   "in_window": 21,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-19T07:13:39+05:30"
+   "newest": "2026-11-19T08:34:51+05:30"
   }
  }
 }
