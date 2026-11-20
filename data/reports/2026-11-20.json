@@ -1,0 +1,375 @@
+{
+ "status": "ok",
+ "title": "Indian Market News Brief — 20 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-20T08:15:54.583131+05:30",
+ "window_start": "2026-11-19T15:00:00+05:30",
+ "cutoff": "2026-11-20T07:30:00+05:30",
+ "quick_read": "Record buying by foreign investors and positive rating upgrades by global investment firms may support Indian markets. Higher government defense spending plans could also help manufacturing companies. However, a sharp fall in US tech stocks and a strong US dollar could hurt market sentiment.",
+ "stories": [
+  {
+   "headline": "FPIs pour record ₹84K cr in 1st half of Nov; financials, auto rake in most",
+   "time": "2026-11-19T20:19:33+05:30",
+   "factors": [
+    "Foreign investment",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    18,
+    13
+   ],
+   "summary": "Foreign portfolio investors bought a record ₹84,291 crore worth of Indian shares during the first half of November. Financial services companies attracted more than half of these total investments. Telecom, automobile, and IT stocks also received substantial overseas funds after months of foreign selling.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Large investments by foreign funds bring extra cash into big Indian stocks and can lift market sentiment.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Automobiles",
+    "IT",
+    "Telecom"
+   ],
+   "unverified_figures": [
+    "84291"
+   ],
+   "sources": [
+    {
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/fpis-pour-record-84k-cr-in-1st-half-of-nov-financials-auto-rake-in-most-126111901252_1.html"
+    }
+   ]
+  },
+  {
+   "headline": "Goldman Sachs turns bullish on India stock market, upgrades rating to Overweight; sets Nifty target of 28,500",
+   "time": "2026-11-19T20:19:55+05:30",
+   "factors": [
+    "Foreign investment",
+    "Valuation"
+   ],
+   "factor_ids": [
+    18,
+    22
+   ],
+   "summary": "Global firm Goldman Sachs upgraded its rating on Indian stocks to 'Overweight'. It set a target of 28,500 for the Nifty 50 index for December 2027. The firm cited expected growth in company earnings, strong local demand, and returning foreign investment.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Upgrades from major international investment firms often encourage foreign investors to put more money into Indian stocks.",
+   "lean": "up",
+   "sectors": [
+    "Nifty 50"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/goldman-sachs-turns-bullish-on-india-stock-market-upgrades-rating-to-overweight-sets-nifty-target-of-28500-11795099232497.html"
+    }
+   ]
+  },
+  {
+   "headline": "Stock market outlook today,20 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+   "time": "2026-11-20T06:43:18+05:30",
+   "factors": [
+    "Global markets",
+    "Price and volume"
+   ],
+   "factor_ids": [
+    1,
+    27
+   ],
+   "summary": "Asian stock markets traded lower on Friday morning following a steep decline in US technology shares overnight. Early trade indicators from GIFT Nifty pointed to a lower opening for Indian benchmarks. This comes after the Nifty 50 and Sensex gained over 1% on Thursday.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Broad Market"
+   ],
+   "unverified_figures": [
+    "50"
+   ],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-outlook-today-20-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cues-11795135137736.html"
+    }
+   ]
+  },
+  {
+   "headline": "Paytm, Pine Labs, MobiKwik shares tumble up to 9% on MDR delay concerns: Should investors stay away from fintech stocks?",
+   "time": "2026-11-19T17:58:16+05:30",
+   "factors": [
+    "Regulation",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    17,
+    31
+   ],
+   "summary": "Shares of fintech companies Paytm, Pine Labs, and MobiKwik fell up to 9%. Reports indicated that India may delay imposing merchant fees on high-value UPI digital payments. The plan was earlier scheduled for implementation in mid-October.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Postponing payment fees prevents digital payment firms from earning immediate extra revenue, which lowers profit expectations.",
+   "lean": "down",
+   "sectors": [
+    "Financial Services",
+    "Information Technology"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/paytm-pine-labs-mobikwik-shares-tumble-up-to-9-on-mdr-delay-concerns-should-investors-stay-away-from-fintech-stocks-11795088843361.html"
+    }
+   ]
+  },
+  {
+   "headline": "Beyond BEL and HAL: L&T, Bharat Forge, BEML among 5 defence stocks that could benefit from proposed 20% capex boost",
+   "time": "2026-11-19T19:05:31+05:30",
+   "factors": [
+    "Government policy",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    15,
+    31
+   ],
+   "summary": "The Defence Ministry has requested a 20% increase in capital spending for the 2027-28 fiscal year. Equipment manufacturers including HAL, BEL, L&T, BEML, and Bharat Forge are expected to benefit from potential future government orders.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Higher planned government expenditure can result in fresh long-term business orders for defense equipment makers.",
+   "lean": "up",
+   "sectors": [
+    "Capital Goods",
+    "Defense"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/beyond-bel-and-hal-l-t-bharat-forge-beml-bel-among-6-defence-stocks-to-benefit-from-centres-proposed-20-capex-11795089244463.html"
+    }
+   ]
+  },
+  {
+   "headline": "RBI to conduct 3-day Variable Rate Repo (VRR) auction under LAF on November 20, 2026",
+   "time": "2026-11-19T19:00:00+05:30",
+   "factors": [
+    "RBI monetary policy",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    12,
+    13
+   ],
+   "summary": "The Reserve Bank of India announced a 3-day Variable Rate Repo auction on November 20, 2026. The central bank will lend up to ₹50,000 crore to commercial banks. This operation aims to manage temporary cash requirements in the banking system.",
+   "confirmation": "Official source",
+   "impact": "May help Nifty: Short-term cash injections by the central bank help commercial banks lend money easily and maintain financial stability.",
+   "lean": "up",
+   "sectors": [
+    "Banking"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64003"
+    }
+   ]
+  },
+  {
+   "headline": "Dollar near 19-month peak as AI jitters sap risk appetite",
+   "time": "2026-11-20T07:26:39+05:30",
+   "factors": [
+    "US monetary policy",
+    "US dollar"
+   ],
+   "factor_ids": [
+    2,
+    4
+   ],
+   "summary": "The US dollar traded near a 19-month peak as investors sought safer assets amid tech market drops. Inflation figures in the US raised expectations that the Federal Reserve might increase interest rates in December.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: A rising US dollar and potential US interest rate hikes can trigger capital outflows from emerging stock markets like India.",
+   "lean": "down",
+   "sectors": [
+    "Broad Market"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-near-19-month-peak-as-ai-jitters-sap-risk-appetite/articleshow/136009931.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Rupee extends rally to close 5 paise higher at 93.36 against US dollar",
+   "time": "2026-11-19T16:33:00+05:30",
+   "factors": [
+    "US dollar",
+    "Rupee"
+   ],
+   "factor_ids": [
+    4,
+    7
+   ],
+   "summary": "The Indian rupee gained 5 paise to close at 93.36 against the US dollar. Currency strength was backed by foreign fund inflows and buying activity in domestic equity markets. A temporary easing of the US dollar also supported the rupee.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: A stronger rupee lowers national import costs and makes Indian assets more attractive to foreign fund managers.",
+   "lean": "up",
+   "sectors": [
+    "Broad Market"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-extends-rally-to-close-5-paise-higher-at-9336-against-us-dollar/article71719784.ece"
+    }
+   ]
+  },
+  {
+   "headline": "India’s crude oil demand to grow at 3% annually till 2035: IEA",
+   "time": "2026-11-19T21:42:00+05:30",
+   "factors": [
+    "Crude oil",
+    "GDP and growth"
+   ],
+   "factor_ids": [
+    8,
+    10
+   ],
+   "summary": "The International Energy Agency projects India's crude oil demand to expand by 3% annually until 2035. Rising needs from transport, aviation, petrochemicals, and manufacturing industries will drive total oil consumption.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Growing fuel usage signals expanding factory and travel activity, but higher oil imports increase corporate operating expenses.",
+   "lean": "unclear",
+   "sectors": [
+    "Oil & Gas",
+    "Aviation",
+    "Petrochemicals"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/indias-crude-oil-demand-to-grow-at-3-annually-till-2035-iea/article71719490.ece"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "found",
+  "2": "found",
+  "3": "none",
+  "4": "found",
+  "5": "unverified",
+  "6": "unverified",
+  "7": "found",
+  "8": "found",
+  "9": "unverified",
+  "10": "found",
+  "11": "none",
+  "12": "found",
+  "13": "found",
+  "14": "none",
+  "15": "found",
+  "16": "none",
+  "17": "found",
+  "18": "found",
+  "19": "none",
+  "20": "none",
+  "21": "none",
+  "22": "found",
+  "23": "none",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "found",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "unverified",
+  "31": "found",
+  "32": "none",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "none"
+ },
+ "gaps": [
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "Removed AI text with trading language: Stock market outlook today,20 Nov:Sensex, Nifty prediction-D",
+  "Check figures 84291 (not found in the source text we read): FPIs pour record ₹84K cr in 1st half of Nov; financials, aut",
+  "Check figures 50 (not found in the source text we read): Stock market outlook today,20 Nov:Sensex, Nifty prediction-D"
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 4,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-19T19:05:00+05:30"
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-11T17:00:00+05:30"
+  },
+  "SEBI": {
+   "ok": true,
+   "total": 0,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": null
+  },
+  "US Federal Reserve": {
+   "ok": true,
+   "total": 20,
+   "in_window": 1,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-19T21:30:00+05:30"
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 20,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 22,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-20T07:49:44+05:30"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 24,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-20T08:00:36+05:30"
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 8,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-20T08:01:15+05:30"
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 22,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-20T07:59:27+05:30"
+  }
+ }
+}

@@ -4,15 +4,24 @@
    "who": "FII",
    "direction": "bought",
    "amount": 84291.0,
-   "headline": "Sensex, Nifty cheer as Bulls, FPIs back in Indian stock market; pump in over ₹84k cr in Nov so far - More rally ahead?",
-   "outlet": "Mint Markets",
-   "url": "https://www.livemint.com/market/stock-market-news/sensex-nifty-cheer-as-bulls-fpis-back-in-indian-stock-market-pump-in-over-rs-84k-cr-in-nov-so-far-more-rally-ahead-11794736253974.html",
-   "published": "2026-11-15T16:27:55+05:30"
+   "headline": "FPIs pour record ₹84K cr in 1st half of Nov; financials, auto rake in most",
+   "outlet": "Business Standard Markets",
+   "url": "https://www.business-standard.com/markets/news/fpis-pour-record-84k-cr-in-1st-half-of-nov-financials-auto-rake-in-most-126111901252_1.html",
+   "published": "2026-11-19T20:19:33+05:30"
+  },
+  {
+   "who": "FII",
+   "direction": "bought",
+   "amount": 45960.0,
+   "headline": "FPIs buy ₹45,960 crore in a week, surpassing October’s total equity outflows",
+   "outlet": "BusinessLine Markets",
+   "url": "https://www.thehindubusinessline.com/markets/fpis-buy-45960-crore-in-a-week-surpassing-octobers-total-equity-outflows/article71719365.ece",
+   "published": "2026-11-19T15:19:11+05:30"
   }
  ],
  "status": "not_verified",
  "source": "NSE provisional cash market (Rs crore)",
- "updated": "2026-11-19T09:05:37.668762+05:30",
+ "updated": "2026-11-20T08:16:33.910038+05:30",
  "latest": null,
  "history": [],
  "note": "NSE data could not be retrieved this run (HTTP Error 403: Forbidden)."
