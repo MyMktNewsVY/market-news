@@ -1,153 +1,257 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 20 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-20T08:15:54.583131+05:30",
- "window_start": "2026-11-19T15:00:00+05:30",
- "cutoff": "2026-11-20T07:30:00+05:30",
- "quick_read": "Record buying by foreign investors and positive rating upgrades by global investment firms may support Indian markets. Higher government defense spending plans could also help manufacturing companies. However, a sharp fall in US tech stocks and a strong US dollar could hurt market sentiment.",
+ "title": "Indian Market News Brief — 21 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-21T08:14:05.618986+05:30",
+ "window_start": "2026-11-20T15:00:00+05:30",
+ "cutoff": "2026-11-21T07:30:00+05:30",
+ "quick_read": "Record foreign investment and strong company profits may help Indian stocks rise. Falling crude oil prices and a stronger rupee also help lower costs for many Indian businesses. However, a stronger rupee could hurt IT company profits, and a sharp global selloff in US tech stocks creates uncertain market conditions.",
  "stories": [
   {
-   "headline": "FPIs pour record ₹84K cr in 1st half of Nov; financials, auto rake in most",
-   "time": "2026-11-19T20:19:33+05:30",
+   "headline": "FPIs make strong comeback, invest record ₹1.22 lakh cr in Indian equities in Nov",
+   "time": "2026-11-20T21:00:40+05:30",
    "factors": [
     "Foreign investment",
-    "Banking and liquidity"
+    "Corporate earnings"
    ],
    "factor_ids": [
     18,
-    13
+    20
    ],
-   "summary": "Foreign portfolio investors bought a record ₹84,291 crore worth of Indian shares during the first half of November. Financial services companies attracted more than half of these total investments. Telecom, automobile, and IT stocks also received substantial overseas funds after months of foreign selling.",
+   "summary": "Foreign investors bought a record ₹1.22 lakh crore of Indian shares in November. This strong buying comes after heavy foreign selling between late 2024 and October 2026. The inflows helped Indian benchmark stock indexes reach nine-month highs.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Large investments by foreign funds bring extra cash into big Indian stocks and can lift market sentiment.",
+   "impact": "May help Nifty: Heavy buying by overseas funds brings fresh money into large Indian stocks and pushes share prices higher.",
    "lean": "up",
    "sectors": [
     "Financial Services",
-    "Automobiles",
-    "IT",
-    "Telecom"
+    "Broad Market"
    ],
    "unverified_figures": [
-    "84291"
+    "2024",
+    "2026"
    ],
    "sources": [
     {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/fpis-pour-record-84k-cr-in-1st-half-of-nov-financials-auto-rake-in-most-126111901252_1.html"
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/fpis-make-strong-comeback-invest-record-122-lakh-cr-in-indian-equities-in-nov/article71724929.ece"
     }
    ]
   },
   {
-   "headline": "Goldman Sachs turns bullish on India stock market, upgrades rating to Overweight; sets Nifty target of 28,500",
-   "time": "2026-11-19T20:19:55+05:30",
+   "headline": "Sebi proposes easing disclosure rules for foreign funds",
+   "time": "2026-11-20T20:15:39+05:30",
    "factors": [
-    "Foreign investment",
-    "Valuation"
+    "Regulation",
+    "Foreign investment"
    ],
    "factor_ids": [
-    18,
-    22
+    17,
+    18
    ],
-   "summary": "Global firm Goldman Sachs upgraded its rating on Indian stocks to 'Overweight'. It set a target of 28,500 for the Nifty 50 index for December 2027. The firm cited expected growth in company earnings, strong local demand, and returning foreign investment.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Upgrades from major international investment firms often encourage foreign investors to put more money into Indian stocks.",
+   "summary": "SEBI has proposed removing extra disclosure rules for foreign portfolio investors. The market regulator noted that these strict rules do not match global habits. The change aims to prevent foreign investors from avoiding Indian equity markets.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Simpler paperwork and easier compliance make it more appealing for foreign funds to invest in Indian stock markets.",
    "lean": "up",
    "sectors": [
-    "Nifty 50"
+    "Financial Services"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/goldman-sachs-turns-bullish-on-india-stock-market-upgrades-rating-to-overweight-sets-nifty-target-of-28500-11795099232497.html"
+     "url": "https://www.livemint.com/market/sebi-proposes-easing-disclosure-rules-for-foreign-funds-11795183389431.html"
+    },
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/sebi-proposes-scrapping-additional-disclosure-framework-for-foreign-investors/article71725278.ece"
     }
    ]
   },
   {
-   "headline": "Stock market outlook today,20 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
-   "time": "2026-11-20T06:43:18+05:30",
+   "headline": "Sharp rupee appreciation may cut IT firms' FY27 earnings by up to 13%: Report",
+   "time": "2026-11-20T15:06:14+05:30",
    "factors": [
-    "Global markets",
-    "Price and volume"
+    "Rupee",
+    "Corporate earnings"
    ],
    "factor_ids": [
-    1,
-    27
+    7,
+    20
    ],
-   "summary": "Asian stock markets traded lower on Friday morning following a steep decline in US technology shares overnight. Early trade indicators from GIFT Nifty pointed to a lower opening for Indian benchmarks. This comes after the Nifty 50 and Sensex gained over 1% on Thursday.",
+   "summary": "A report indicates that a stronger rupee could cut Indian IT companies' profit earnings by up to 13% in FY27. Firms with large business in Europe face the biggest risk to their profit margins. Finding new ways to cut business costs has become harder for these companies.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: IT companies collect most of their sales in foreign money, so a stronger rupee reduces their earnings when converted back to Indian rupees.",
+   "lean": "down",
+   "sectors": [
+    "Information Technology"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/sharp-rupee-appreciation-may-cut-it-firms-fy27-earnings-by-up-to-13-report/articleshow/136021296.cms"
+    }
+   ]
+  },
+  {
+   "headline": "India Inc. posts strongest earnings quarter since late 2023, full-year growth seen at 14%",
+   "time": "2026-11-20T15:43:26+05:30",
+   "factors": [
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    20
+   ],
+   "summary": "India Inc delivered its best quarterly profit results since late 2023. About 67% of companies tracked by HSBC matched or beat analyst estimates. Full-year profit growth for Indian businesses is estimated at 14%.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Growing company profits give investors confidence to pay higher prices for shares.",
+   "lean": "up",
+   "sectors": [
+    "Broad Market"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/india-inc-posts-strongest-earnings-quarter-since-late-2023-full-year-growth-seen-at-14/article71723898.ece"
+    }
+   ]
+  },
+  {
+   "headline": "BSE Sensex rejig: Shriram Finance to replace Trent; Which stocks are entering and exiting other BSE indices? Check list",
+   "time": "2026-11-20T18:44:55+05:30",
+   "factors": [
+    "Heavyweight stocks",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    21,
+    31
+   ],
+   "summary": "Shriram Finance will enter the 30-stock BSE Sensex index on December 21, 2026, replacing Trent. In addition, five companies including Punjab National Bank and Havells India will exit the BSE 100 index.",
    "confirmation": "Single source, not independently confirmed",
    "impact": "Explanation withheld.",
    "lean": "unclear",
    "sectors": [
-    "Broad Market"
+    "Financial Services",
+    "Consumer Goods"
    ],
-   "unverified_figures": [
-    "50"
-   ],
+   "unverified_figures": [],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-outlook-today-20-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cues-11795135137736.html"
+     "url": "https://www.livemint.com/market/stock-market-news/bse-sensex-rejig-shriram-finance-to-replace-trent-which-stocks-are-entering-and-exiting-other-bse-indices-check-full-11795179927182.html"
     }
    ]
   },
   {
-   "headline": "Paytm, Pine Labs, MobiKwik shares tumble up to 9% on MDR delay concerns: Should investors stay away from fintech stocks?",
-   "time": "2026-11-19T17:58:16+05:30",
+   "headline": "Rupee soars to 7-month high against the dollar, strengthens below 93 level",
+   "time": "2026-11-20T18:58:04+05:30",
    "factors": [
-    "Regulation",
-    "Corporate events"
+    "Rupee",
+    "Crude oil"
    ],
    "factor_ids": [
-    17,
-    31
+    7,
+    8
    ],
-   "summary": "Shares of fintech companies Paytm, Pine Labs, and MobiKwik fell up to 9%. Reports indicated that India may delay imposing merchant fees on high-value UPI digital payments. The plan was earlier scheduled for implementation in mid-October.",
+   "summary": "The Indian rupee rose to a seven-month high against the US dollar, settling near 92.67. At the same time, crude oil prices fell for a third straight week due to steady supplies from West Asia. Government loan yields softened alongside lower oil prices.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Postponing payment fees prevents digital payment firms from earning immediate extra revenue, which lowers profit expectations.",
-   "lean": "down",
+   "impact": "May help Nifty: Lower oil prices reduce import bills for India, helping lower costs for transportation, paints, and chemical companies.",
+   "lean": "up",
    "sectors": [
-    "Financial Services",
+    "Oil and Gas",
+    "Paints",
+    "Logistics"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/money-and-banking/rupee-soars-to-7-month-high-against-the-dollar-strengthens-below-93-level/article71724707.ece"
+    }
+   ]
+  },
+  {
+   "headline": "HDFC Bank shares recover 22% in Nov, adds ₹2.38 lakh crore in market value. What's fuelling the rebound?",
+   "time": "2026-11-20T19:26:40+05:30",
+   "factors": [
+    "Heavyweight stocks",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    21,
+    13
+   ],
+   "summary": "HDFC Bank shares surged 22% during November, adding ₹2.38 lakh crore to its overall value. Better quarterly performance and easing management concerns helped restore investor confidence. Despite this jump, the stock remains down 14% for the year 2026.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: HDFC Bank is a heavyweight stock in the index, so a rise in its share price directly lifts the main index.",
+   "lean": "up",
+   "sectors": [
+    "Banks"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-shares-recover-22-in-nov-adds-rs-2-38-lakh-crore-in-market-value-whats-fuelling-the-rebound-11795182150085.html"
+    }
+   ]
+  },
+  {
+   "headline": "Nasdaq 100 sinks 5.6% in worst week since Covid, S&P 500 corrects to 3.7% as investors sell off AI, tech stocks",
+   "time": "2026-11-21T07:06:43+05:30",
+   "factors": [
+    "Global markets",
+    "China and global growth"
+   ],
+   "factor_ids": [
+    1,
+    5
+   ],
+   "summary": "US technology shares suffered a sharp drop as investors sold off artificial intelligence stocks. The Nasdaq 100 dropped 5.6% in its worst weekly performance since March 2020. Concerns over slow data center construction and high valuations triggered the selloff.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Weakness in global tech shares could weigh on Indian IT stocks, but global funds moving away from US tech might redirect money into Indian blue-chip shares.",
+   "lean": "unclear",
+   "sectors": [
     "Information Technology"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/paytm-pine-labs-mobikwik-shares-tumble-up-to-9-on-mdr-delay-concerns-should-investors-stay-away-from-fintech-stocks-11795088843361.html"
+     "url": "https://www.livemint.com/market/stock-market-news/us-stock-markets-nasdaq-100-5-6-pc-worst-week-since-covid-2020-s-p-500-3-7-pc-correction-investors-sell-off-ai-tech-11795223650589.html"
     }
    ]
   },
   {
-   "headline": "Beyond BEL and HAL: L&T, Bharat Forge, BEML among 5 defence stocks that could benefit from proposed 20% capex boost",
-   "time": "2026-11-19T19:05:31+05:30",
+   "headline": "Forex reserves decline by $14 billion to $705 billion amid valuation effects, gold price decline",
+   "time": "2026-11-20T20:47:31+05:30",
    "factors": [
-    "Government policy",
-    "Corporate events"
+    "External balances",
+    "US dollar"
    ],
    "factor_ids": [
-    15,
-    31
+    32,
+    4
    ],
-   "summary": "The Defence Ministry has requested a 20% increase in capital spending for the 2027-28 fiscal year. Equipment manufacturers including HAL, BEL, L&T, BEML, and Bharat Forge are expected to benefit from potential future government orders.",
+   "summary": "India's foreign exchange reserves dropped by $14 billion to reach $705 billion. The Reserve Bank of India attributed the fall to a stronger US dollar and lower gold prices, which reduced the overall calculated value of the reserves.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Higher planned government expenditure can result in fresh long-term business orders for defense equipment makers.",
-   "lean": "up",
+   "impact": "May hurt Nifty: A drop in foreign reserves slightly reduces the central bank's reserve safety cushion to control sudden currency fluctuations.",
+   "lean": "down",
    "sectors": [
-    "Capital Goods",
-    "Defense"
+    "Broad Market"
    ],
    "unverified_figures": [],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/beyond-bel-and-hal-l-t-bharat-forge-beml-bel-among-6-defence-stocks-to-benefit-from-centres-proposed-20-capex-11795089244463.html"
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/money-and-banking/forex-reserves-decline-by-14-billion-to-705-billion-amid-valuation-effects-gold-price-decline/article71725300.ece"
     }
    ]
   },
   {
-   "headline": "RBI to conduct 3-day Variable Rate Repo (VRR) auction under LAF on November 20, 2026",
-   "time": "2026-11-19T19:00:00+05:30",
+   "headline": "RBI to conduct 4-day Variable Rate Repo (VRR) auction under LAF on November 23, 2026",
+   "time": "2026-11-20T19:25:00+05:30",
    "factors": [
     "RBI monetary policy",
     "Banking and liquidity"
@@ -156,135 +260,55 @@
     12,
     13
    ],
-   "summary": "The Reserve Bank of India announced a 3-day Variable Rate Repo auction on November 20, 2026. The central bank will lend up to ₹50,000 crore to commercial banks. This operation aims to manage temporary cash requirements in the banking system.",
+   "summary": "The Reserve Bank of India announced a four-day short-term auction to inject ₹50,000 crore into commercial banks on November 23, 2026. This step was taken after reviewing current money conditions in the banking system.",
    "confirmation": "Official source",
-   "impact": "May help Nifty: Short-term cash injections by the central bank help commercial banks lend money easily and maintain financial stability.",
+   "impact": "May help Nifty: Supplying short-term cash to commercial banks helps them handle daily business needs smoothly without facing cash shortages.",
    "lean": "up",
    "sectors": [
-    "Banking"
+    "Banks"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64003"
-    }
-   ]
-  },
-  {
-   "headline": "Dollar near 19-month peak as AI jitters sap risk appetite",
-   "time": "2026-11-20T07:26:39+05:30",
-   "factors": [
-    "US monetary policy",
-    "US dollar"
-   ],
-   "factor_ids": [
-    2,
-    4
-   ],
-   "summary": "The US dollar traded near a 19-month peak as investors sought safer assets amid tech market drops. Inflation figures in the US raised expectations that the Federal Reserve might increase interest rates in December.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: A rising US dollar and potential US interest rate hikes can trigger capital outflows from emerging stock markets like India.",
-   "lean": "down",
-   "sectors": [
-    "Broad Market"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-near-19-month-peak-as-ai-jitters-sap-risk-appetite/articleshow/136009931.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Rupee extends rally to close 5 paise higher at 93.36 against US dollar",
-   "time": "2026-11-19T16:33:00+05:30",
-   "factors": [
-    "US dollar",
-    "Rupee"
-   ],
-   "factor_ids": [
-    4,
-    7
-   ],
-   "summary": "The Indian rupee gained 5 paise to close at 93.36 against the US dollar. Currency strength was backed by foreign fund inflows and buying activity in domestic equity markets. A temporary easing of the US dollar also supported the rupee.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: A stronger rupee lowers national import costs and makes Indian assets more attractive to foreign fund managers.",
-   "lean": "up",
-   "sectors": [
-    "Broad Market"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-extends-rally-to-close-5-paise-higher-at-9336-against-us-dollar/article71719784.ece"
-    }
-   ]
-  },
-  {
-   "headline": "India’s crude oil demand to grow at 3% annually till 2035: IEA",
-   "time": "2026-11-19T21:42:00+05:30",
-   "factors": [
-    "Crude oil",
-    "GDP and growth"
-   ],
-   "factor_ids": [
-    8,
-    10
-   ],
-   "summary": "The International Energy Agency projects India's crude oil demand to expand by 3% annually until 2035. Rising needs from transport, aviation, petrochemicals, and manufacturing industries will drive total oil consumption.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Growing fuel usage signals expanding factory and travel activity, but higher oil imports increase corporate operating expenses.",
-   "lean": "unclear",
-   "sectors": [
-    "Oil & Gas",
-    "Aviation",
-    "Petrochemicals"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/commodities/indias-crude-oil-demand-to-grow-at-3-annually-till-2035-iea/article71719490.ece"
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64016"
     }
    ]
   }
  ],
  "factor_status": {
   "1": "found",
-  "2": "found",
+  "2": "none",
   "3": "none",
   "4": "found",
-  "5": "unverified",
+  "5": "found",
   "6": "unverified",
   "7": "found",
   "8": "found",
   "9": "unverified",
-  "10": "found",
+  "10": "none",
   "11": "none",
   "12": "found",
   "13": "found",
   "14": "none",
-  "15": "found",
+  "15": "none",
   "16": "none",
   "17": "found",
   "18": "found",
   "19": "none",
-  "20": "none",
-  "21": "none",
-  "22": "found",
+  "20": "found",
+  "21": "found",
+  "22": "none",
   "23": "none",
   "24": "unverified",
   "25": "unverified",
   "26": "unverified",
-  "27": "found",
+  "27": "unverified",
   "28": "unverified",
   "29": "unverified",
   "30": "unverified",
   "31": "found",
-  "32": "none",
+  "32": "found",
   "33": "unverified",
   "34": "unverified",
   "35": "unverified",
@@ -294,18 +318,17 @@
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Removed AI text with trading language: Stock market outlook today,20 Nov:Sensex, Nifty prediction-D",
-  "Check figures 84291 (not found in the source text we read): FPIs pour record ₹84K cr in 1st half of Nov; financials, aut",
-  "Check figures 50 (not found in the source text we read): Stock market outlook today,20 Nov:Sensex, Nifty prediction-D"
+  "Removed AI text with trading language: BSE Sensex rejig: Shriram Finance to replace Trent; Which st",
+  "Check figures 2024, 2026 (not found in the source text we read): FPIs make strong comeback, invest record ₹1.22 lakh cr in In"
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 4,
+   "in_window": 6,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-19T19:05:00+05:30"
+   "newest": "2026-11-20T19:45:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
@@ -326,10 +349,10 @@
   "US Federal Reserve": {
    "ok": true,
    "total": 20,
-   "in_window": 1,
+   "in_window": 2,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-19T21:30:00+05:30"
+   "newest": "2026-11-21T02:45:00+05:30"
   },
   "PIB (Govt of India)": {
    "ok": true,
@@ -342,10 +365,10 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 22,
+   "in_window": 6,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-20T07:49:44+05:30"
+   "newest": "2026-11-20T20:39:36+05:30"
   },
   "Mint Markets": {
    "ok": true,
@@ -353,15 +376,15 @@
    "in_window": 24,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-20T08:00:36+05:30"
+   "newest": "2026-11-21T07:06:43+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 8,
+   "in_window": 10,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-20T08:01:15+05:30"
+   "newest": "2026-11-20T22:58:17+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
@@ -369,7 +392,7 @@
    "in_window": 22,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-20T07:59:27+05:30"
+   "newest": "2026-11-20T21:42:52+05:30"
   }
  }
 }
