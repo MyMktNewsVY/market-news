@@ -1,331 +1,310 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 21 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-21T08:14:05.618986+05:30",
- "window_start": "2026-11-20T15:00:00+05:30",
- "cutoff": "2026-11-21T07:30:00+05:30",
- "quick_read": "Record foreign investment and strong company profits may help Indian stocks rise. Falling crude oil prices and a stronger rupee also help lower costs for many Indian businesses. However, a stronger rupee could hurt IT company profits, and a sharp global selloff in US tech stocks creates uncertain market conditions.",
+ "title": "Indian Market News Brief — 22 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-22T14:54:52.773838+05:30",
+ "window_start": "2026-11-21T15:00:00+05:30",
+ "cutoff": "2026-11-22T07:30:00+05:30",
+ "quick_read": "Strong foreign buying and gains in banking and IT shares may help the Indian market. However, sharp falls in US stock markets and global technology shares may hurt investor confidence. Lower metal prices and falling gold rates create an unclear situation for commodity stocks.",
  "stories": [
   {
-   "headline": "FPIs make strong comeback, invest record ₹1.22 lakh cr in Indian equities in Nov",
-   "time": "2026-11-20T21:00:40+05:30",
+   "headline": "Nifty eyes 26,200 as rally strengthens; 6 sectors signal outperformance",
+   "time": "2026-11-21T15:09:05+05:30",
    "factors": [
     "Foreign investment",
-    "Corporate earnings"
+    "Heavyweight stocks",
+    "Technical trends",
+    "Price and volume"
    ],
    "factor_ids": [
     18,
-    20
+    21,
+    24,
+    27
    ],
-   "summary": "Foreign investors bought a record ₹1.22 lakh crore of Indian shares in November. This strong buying comes after heavy foreign selling between late 2024 and October 2026. The inflows helped Indian benchmark stock indexes reach nine-month highs.",
+   "summary": "The Nifty index rose 2.61% last week and gained 656 points.\nForeign investors bought Indian shares in large amounts.\nBanking, IT, and financial service stocks led the rise.\nMarket charts show a price barrier between 25,950 and 26,200 points.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Heavy buying by overseas funds brings fresh money into large Indian stocks and pushes share prices higher.",
+   "impact": "May help Nifty: Strong foreign buying and gains in big company shares may keep market sentiment positive.",
    "lean": "up",
    "sectors": [
-    "Financial Services",
-    "Broad Market"
+    "Banking",
+    "IT",
+    "Financial Services"
    ],
-   "unverified_figures": [
-    "2024",
-    "2026"
-   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/fpis-make-strong-comeback-invest-record-122-lakh-cr-in-indian-equities-in-nov/article71724929.ece"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-eyes-26200-as-rally-strengthens-6-sectors-signal-outperformance/articleshow/136050218.cms"
     }
    ]
   },
   {
-   "headline": "Sebi proposes easing disclosure rules for foreign funds",
-   "time": "2026-11-20T20:15:39+05:30",
+   "headline": "PSU vs Private banks: Who is powering Nifty Bank's record-high rally after 5% surge? SBI, HDFC, AU, Canara target price",
+   "time": "2026-11-21T17:00:51+05:30",
    "factors": [
-    "Regulation",
-    "Foreign investment"
+    "Banking and liquidity",
+    "Corporate earnings",
+    "Heavyweight stocks"
    ],
    "factor_ids": [
-    17,
-    18
+    13,
+    20,
+    21
    ],
-   "summary": "SEBI has proposed removing extra disclosure rules for foreign portfolio investors. The market regulator noted that these strict rules do not match global habits. The change aims to prevent foreign investors from avoiding Indian equity markets.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "May help Nifty: Simpler paperwork and easier compliance make it more appealing for foreign funds to invest in Indian stock markets.",
+   "summary": "Bank stocks saw a sharp rise during November.\nThe Nifty Bank index jumped nearly 16% this month to a record high of 64,485 on November 20.\nGovernment and private bank share prices both increased significantly.\nExperts said high loan demand and strong bank lending helped this rise.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong growth in bank lending and bank share prices can push the overall stock market higher.",
    "lean": "up",
    "sectors": [
+    "Banking",
     "Financial Services"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/sebi-proposes-easing-disclosure-rules-for-foreign-funds-11795183389431.html"
-    },
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/sebi-proposes-scrapping-additional-disclosure-framework-for-foreign-investors/article71725278.ece"
+     "url": "https://www.livemint.com/market/stock-market-news/psu-vs-private-banks-who-is-powering-nifty-banks-record-high-rally-after-5-surge-sbi-hdfc-au-canara-target-price-11795255387777.html"
     }
    ]
   },
   {
-   "headline": "Sharp rupee appreciation may cut IT firms' FY27 earnings by up to 13%: Report",
-   "time": "2026-11-20T15:06:14+05:30",
+   "headline": "US Market Outlook: Indices plunge deeply",
+   "time": "2026-11-21T21:52:29+05:30",
    "factors": [
-    "Rupee",
-    "Corporate earnings"
+    "Global markets"
    ],
    "factor_ids": [
-    7,
-    20
+    1
    ],
-   "summary": "A report indicates that a stronger rupee could cut Indian IT companies' profit earnings by up to 13% in FY27. Firms with large business in Europe face the biggest risk to their profit margins. Finding new ways to cut business costs has become harder for these companies.",
+   "summary": "United States stock market indexes fell sharply last week.\nThe steep drop pushed major US market indexes below key price levels.\nAmerican tech and main shares faced heavy selling.\nGlobal investors were cautious about future interest rates.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: IT companies collect most of their sales in foreign money, so a stronger rupee reduces their earnings when converted back to Indian rupees.",
+   "impact": "May hurt Nifty: Falling US stock markets can lower investor confidence in Indian markets as well.",
    "lean": "down",
    "sectors": [
-    "Information Technology"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/forex/sharp-rupee-appreciation-may-cut-it-firms-fy27-earnings-by-up-to-13-report/articleshow/136021296.cms"
-    }
-   ]
-  },
-  {
-   "headline": "India Inc. posts strongest earnings quarter since late 2023, full-year growth seen at 14%",
-   "time": "2026-11-20T15:43:26+05:30",
-   "factors": [
-    "Corporate earnings"
-   ],
-   "factor_ids": [
-    20
-   ],
-   "summary": "India Inc delivered its best quarterly profit results since late 2023. About 67% of companies tracked by HSBC matched or beat analyst estimates. Full-year profit growth for Indian businesses is estimated at 14%.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Growing company profits give investors confidence to pay higher prices for shares.",
-   "lean": "up",
-   "sectors": [
-    "Broad Market"
+    "Global Markets"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/india-inc-posts-strongest-earnings-quarter-since-late-2023-full-year-growth-seen-at-14/article71723898.ece"
+     "url": "https://www.thehindubusinessline.com/portfolio/technical-analysis/us-market-outlook-indices-plunge-deeply/article71727495.ece"
     }
    ]
   },
   {
-   "headline": "BSE Sensex rejig: Shriram Finance to replace Trent; Which stocks are entering and exiting other BSE indices? Check list",
-   "time": "2026-11-20T18:44:55+05:30",
+   "headline": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
+   "time": "2026-11-21T15:17:13+05:30",
    "factors": [
-    "Heavyweight stocks",
-    "Corporate events"
+    "Other commodities",
+    "Corporate earnings"
    ],
    "factor_ids": [
-    21,
-    31
+    9,
+    20
    ],
-   "summary": "Shriram Finance will enter the 30-stock BSE Sensex index on December 21, 2026, replacing Trent. In addition, five companies including Punjab National Bank and Havells India will exit the BSE 100 index.",
+   "summary": "Prices of base metals dropped in global markets.\nIndian metal shares came under selling pressure as a result.\nStocks like Hindalco, NALCO, Vedanta Aluminium, and Hindustan Zinc fell.\nResearch firm Systematix expects long-term profit growth for these companies.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Cheaper global metals lower profits for metal producers, which can pull down metal stock prices.",
+   "lean": "down",
+   "sectors": [
+    "Metals",
+    "Mining"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html"
+    }
+   ]
+  },
+  {
+   "headline": "Gold, silver price crash: DSP Mutual Fund turns bullish on bullion, reveals new buying strategy; check price levels",
+   "time": "2026-11-21T16:50:08+05:30",
+   "factors": [
+    "US monetary policy",
+    "Other commodities",
+    "Investor psychology"
+   ],
+   "factor_ids": [
+    2,
+    9,
+    36
+   ],
+   "summary": "Gold prices fell to their lowest level in 14 months.\nThis was the biggest weekly drop for gold in eight months.\nConcerns over US interest rates and tech stock selling caused the drop.\nDSP Mutual Fund is slowly buying gold as prices fall.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Lower gold prices may shift investor money into stocks, though falling asset prices can cause general worry.",
+   "lean": "unclear",
+   "sectors": [
+    "Precious Metals",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/commodities/gold-silver-price-crash-dsp-mutual-fund-turns-bullish-on-bullion-reveals-new-buying-strategy-check-price-levels-11795252615511.html"
+    }
+   ]
+  },
+  {
+   "headline": "Max Healthcare, Fortis, Apollo, Aster: Hospital stocks steal show on D-Street with up to 14% rally - Buy now or wait?",
+   "time": "2026-11-21T20:26:47+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    20,
+    21
+   ],
+   "summary": "Hospital company shares jumped up to 14% over five trading days.\nShares of Apollo Hospitals, Fortis, Max Healthcare, and Aster DM all rose.\nMarket participants expect strong corporate profits and solid growth prospects.\nResearch firms maintained positive ratings on top hospital shares.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Rising share prices in healthcare companies can support gains in the broader market.",
+   "lean": "up",
+   "sectors": [
+    "Healthcare",
+    "Hospitals"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/max-healthcare-fortis-apollo-aster-hospital-stocks-steal-show-on-d-street-with-up-to-14-rally-buy-now-or-wait-11795262811423.html"
+    }
+   ]
+  },
+  {
+   "headline": "Taiwan Widens Short Sale Curbs After Shares Plunge on AI Concern",
+   "time": "2026-11-21T15:34:30+05:30",
+   "factors": [
+    "Global markets",
+    "Geopolitics and trade"
+   ],
+   "factor_ids": [
+    1,
+    6
+   ],
+   "summary": "Taiwan placed limits on short selling to stop falling share prices.\nTaiwan's main stock market index suffered its worst weekly fall in 35 years.\nGlobal investors sold technology shares due to artificial intelligence concerns.\nTaiwan's government also stepped in to buy local shares directly.",
    "confirmation": "Single source, not independently confirmed",
    "impact": "Explanation withheld.",
    "lean": "unclear",
    "sectors": [
-    "Financial Services",
-    "Consumer Goods"
+    "Global Markets",
+    "Technology"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/bse-sensex-rejig-shriram-finance-to-replace-trent-which-stocks-are-entering-and-exiting-other-bse-indices-check-full-11795179927182.html"
+     "url": "https://www.livemint.com/market/taiwan-widens-short-sale-curbs-after-shares-plunge-on-ai-concern-11795255471195.html"
     }
    ]
   },
   {
-   "headline": "Rupee soars to 7-month high against the dollar, strengthens below 93 level",
-   "time": "2026-11-20T18:58:04+05:30",
+   "headline": "Dividend jackpot in chemicals: Indo Borax, GOCL and Bayer CropScience offer yields of up to 10% | Check details",
+   "time": "2026-11-21T21:43:09+05:30",
    "factors": [
-    "Rupee",
-    "Crude oil"
+    "Corporate earnings",
+    "Corporate events"
    ],
    "factor_ids": [
-    7,
-    8
+    20,
+    31
    ],
-   "summary": "The Indian rupee rose to a seven-month high against the US dollar, settling near 92.67. At the same time, crude oil prices fell for a third straight week due to steady supplies from West Asia. Government loan yields softened alongside lower oil prices.",
+   "summary": "Specialty chemical companies announced high cash dividend payouts to investors.\nIndo Borax offered a high dividend yield of 10.3% with ₹40 per share.\nGOCL Corporation declared ₹30 per share in dividends.\nBayer CropScience announced a dividend of ₹150 per share.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Lower oil prices reduce import bills for India, helping lower costs for transportation, paints, and chemical companies.",
+   "impact": "May help Nifty: High cash payouts make chemical shares attractive and can lift sector stock prices.",
    "lean": "up",
    "sectors": [
-    "Oil and Gas",
-    "Paints",
-    "Logistics"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/money-and-banking/rupee-soars-to-7-month-high-against-the-dollar-strengthens-below-93-level/article71724707.ece"
-    }
-   ]
-  },
-  {
-   "headline": "HDFC Bank shares recover 22% in Nov, adds ₹2.38 lakh crore in market value. What's fuelling the rebound?",
-   "time": "2026-11-20T19:26:40+05:30",
-   "factors": [
-    "Heavyweight stocks",
-    "Banking and liquidity"
-   ],
-   "factor_ids": [
-    21,
-    13
-   ],
-   "summary": "HDFC Bank shares surged 22% during November, adding ₹2.38 lakh crore to its overall value. Better quarterly performance and easing management concerns helped restore investor confidence. Despite this jump, the stock remains down 14% for the year 2026.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: HDFC Bank is a heavyweight stock in the index, so a rise in its share price directly lifts the main index.",
-   "lean": "up",
-   "sectors": [
-    "Banks"
+    "Chemicals"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-shares-recover-22-in-nov-adds-rs-2-38-lakh-crore-in-market-value-whats-fuelling-the-rebound-11795182150085.html"
+     "url": "https://www.livemint.com/market/stock-market-news/dividend-jackpot-in-chemicals-indo-borax-gocl-and-bayer-cropscience-offer-yields-of-up-to-10-check-details-11795277367660.html"
     }
    ]
   },
   {
-   "headline": "Nasdaq 100 sinks 5.6% in worst week since Covid, S&P 500 corrects to 3.7% as investors sell off AI, tech stocks",
-   "time": "2026-11-21T07:06:43+05:30",
+   "headline": "Mahanadi CoalFields IPO GMP Check: Down 92% from ₹9.25 to ₹0.7, issue struggles to attract bids- Subscribe or avoid?",
+   "time": "2026-11-21T15:56:10+05:30",
    "factors": [
-    "Global markets",
-    "China and global growth"
+    "Domestic investment",
+    "Corporate events"
    ],
    "factor_ids": [
-    1,
-    5
+    19,
+    31
    ],
-   "summary": "US technology shares suffered a sharp drop as investors sold off artificial intelligence stocks. The Nasdaq 100 dropped 5.6% in its worst weekly performance since March 2020. Concerns over slow data center construction and high valuations triggered the selloff.",
+   "summary": "Mahanadi Coalfields launched an initial public offer of ₹8,981 crore.\nThe offer remained undersubscribed after two days of bidding.\nIts expected listing price premium fell 92% to ₹0.70 per share.\nBrokerages cited good cash flow but weak immediate investor demand.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Weakness in global tech shares could weigh on Indian IT stocks, but global funds moving away from US tech might redirect money into Indian blue-chip shares.",
-   "lean": "unclear",
+   "impact": "Little effect on Nifty: Poor response to one company share sale usually does not change the main stock index.",
+   "lean": "little",
    "sectors": [
-    "Information Technology"
+    "Coal",
+    "Mining",
+    "Primary Market"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/us-stock-markets-nasdaq-100-5-6-pc-worst-week-since-covid-2020-s-p-500-3-7-pc-correction-investors-sell-off-ai-tech-11795223650589.html"
-    }
-   ]
-  },
-  {
-   "headline": "Forex reserves decline by $14 billion to $705 billion amid valuation effects, gold price decline",
-   "time": "2026-11-20T20:47:31+05:30",
-   "factors": [
-    "External balances",
-    "US dollar"
-   ],
-   "factor_ids": [
-    32,
-    4
-   ],
-   "summary": "India's foreign exchange reserves dropped by $14 billion to reach $705 billion. The Reserve Bank of India attributed the fall to a stronger US dollar and lower gold prices, which reduced the overall calculated value of the reserves.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: A drop in foreign reserves slightly reduces the central bank's reserve safety cushion to control sudden currency fluctuations.",
-   "lean": "down",
-   "sectors": [
-    "Broad Market"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/money-and-banking/forex-reserves-decline-by-14-billion-to-705-billion-amid-valuation-effects-gold-price-decline/article71725300.ece"
-    }
-   ]
-  },
-  {
-   "headline": "RBI to conduct 4-day Variable Rate Repo (VRR) auction under LAF on November 23, 2026",
-   "time": "2026-11-20T19:25:00+05:30",
-   "factors": [
-    "RBI monetary policy",
-    "Banking and liquidity"
-   ],
-   "factor_ids": [
-    12,
-    13
-   ],
-   "summary": "The Reserve Bank of India announced a four-day short-term auction to inject ₹50,000 crore into commercial banks on November 23, 2026. This step was taken after reviewing current money conditions in the banking system.",
-   "confirmation": "Official source",
-   "impact": "May help Nifty: Supplying short-term cash to commercial banks helps them handle daily business needs smoothly without facing cash shortages.",
-   "lean": "up",
-   "sectors": [
-    "Banks"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64016"
+     "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-check-down-92-from-rs-9-25-to-rs-0-7-issue-struggles-to-attract-bids-subscribe-or-avoid-11795252154826.html"
     }
    ]
   }
  ],
  "factor_status": {
   "1": "found",
-  "2": "none",
+  "2": "found",
   "3": "none",
-  "4": "found",
-  "5": "found",
-  "6": "unverified",
-  "7": "found",
-  "8": "found",
-  "9": "unverified",
+  "4": "none",
+  "5": "unverified",
+  "6": "found",
+  "7": "none",
+  "8": "none",
+  "9": "found",
   "10": "none",
   "11": "none",
-  "12": "found",
+  "12": "none",
   "13": "found",
   "14": "none",
   "15": "none",
   "16": "none",
-  "17": "found",
+  "17": "none",
   "18": "found",
-  "19": "none",
+  "19": "found",
   "20": "found",
   "21": "found",
   "22": "none",
   "23": "none",
-  "24": "unverified",
+  "24": "found",
   "25": "unverified",
   "26": "unverified",
-  "27": "unverified",
+  "27": "found",
   "28": "unverified",
   "29": "unverified",
   "30": "unverified",
   "31": "found",
-  "32": "found",
+  "32": "none",
   "33": "unverified",
   "34": "unverified",
   "35": "unverified",
-  "36": "none"
+  "36": "found"
  },
  "gaps": [
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Removed AI text with trading language: BSE Sensex rejig: Shriram Finance to replace Trent; Which st",
-  "Check figures 2024, 2026 (not found in the source text we read): FPIs make strong comeback, invest record ₹1.22 lakh cr in In"
+  "Removed AI text with trading language: Taiwan Widens Short Sale Curbs After Shares Plunge on AI Con"
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 6,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
    "newest": "2026-11-20T19:45:00+05:30"
@@ -349,7 +328,7 @@
   "US Federal Reserve": {
    "ok": true,
    "total": 20,
-   "in_window": 2,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
    "newest": "2026-11-21T02:45:00+05:30"
@@ -365,34 +344,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 6,
+   "in_window": 1,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-20T20:39:36+05:30"
+   "newest": "2026-11-22T13:51:09+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 24,
+   "in_window": 11,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-21T07:06:43+05:30"
+   "newest": "2026-11-22T14:34:50+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 10,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-20T22:58:17+05:30"
+   "newest": "2026-11-22T14:12:49+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 22,
+   "in_window": 6,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-20T21:42:52+05:30"
+   "newest": "2026-11-22T12:13:59+05:30"
   }
  }
 }
