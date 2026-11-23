@@ -1,110 +1,107 @@
 {
  "status": "ok",
- "title": "Indian Market News Brief — 22 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-22T14:54:52.773838+05:30",
- "window_start": "2026-11-21T15:00:00+05:30",
- "cutoff": "2026-11-22T07:30:00+05:30",
- "quick_read": "Strong foreign buying and gains in banking and IT shares may help the Indian market. However, sharp falls in US stock markets and global technology shares may hurt investor confidence. Lower metal prices and falling gold rates create an unclear situation for commodity stocks.",
+ "title": "Indian Market News Brief — 23 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-23T15:51:00.733394+05:30",
+ "window_start": "2026-11-22T15:00:00+05:30",
+ "cutoff": "2026-11-23T07:30:00+05:30",
+ "quick_read": "Higher opening signals from regional trading and lower oil prices may help the Indian stock market. Weak business growth in IT companies and expected interest rate increases in the US may hurt market mood. Large new share sales coming to the market make the overall impact on main market funds unclear.",
  "stories": [
   {
-   "headline": "Nifty eyes 26,200 as rally strengthens; 6 sectors signal outperformance",
-   "time": "2026-11-21T15:09:05+05:30",
+   "headline": "Gift Nifty signals 175-point gap-up open for Indian markets despite weak global cues",
+   "time": "2026-11-23T07:14:23+05:30",
    "factors": [
-    "Foreign investment",
-    "Heavyweight stocks",
-    "Technical trends",
+    "Global markets",
+    "Crude oil",
     "Price and volume"
    ],
    "factor_ids": [
-    18,
-    21,
-    24,
+    1,
+    8,
     27
    ],
-   "summary": "The Nifty index rose 2.61% last week and gained 656 points.\nForeign investors bought Indian shares in large amounts.\nBanking, IT, and financial service stocks led the rise.\nMarket charts show a price barrier between 25,950 and 26,200 points.",
+   "summary": "Gift Nifty shows a strong opening signal of 175 points higher for Indian stock markets.\nThe coming trading week will be shorter because markets remain closed on Tuesday.\nForeign investor trading activity will guide market direction.\nCrude oil price movements and Indian currency changes will also affect trading.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong foreign buying and gains in big company shares may keep market sentiment positive.",
+   "impact": "May help Nifty: Higher starting signals may bring early buying in top company shares.",
    "lean": "up",
    "sectors": [
-    "Banking",
-    "IT",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-eyes-26200-as-rally-strengthens-6-sectors-signal-outperformance/articleshow/136050218.cms"
-    }
-   ]
-  },
-  {
-   "headline": "PSU vs Private banks: Who is powering Nifty Bank's record-high rally after 5% surge? SBI, HDFC, AU, Canara target price",
-   "time": "2026-11-21T17:00:51+05:30",
-   "factors": [
-    "Banking and liquidity",
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    13,
-    20,
-    21
-   ],
-   "summary": "Bank stocks saw a sharp rise during November.\nThe Nifty Bank index jumped nearly 16% this month to a record high of 64,485 on November 20.\nGovernment and private bank share prices both increased significantly.\nExperts said high loan demand and strong bank lending helped this rise.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong growth in bank lending and bank share prices can push the overall stock market higher.",
-   "lean": "up",
-   "sectors": [
-    "Banking",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/psu-vs-private-banks-who-is-powering-nifty-banks-record-high-rally-after-5-surge-sbi-hdfc-au-canara-target-price-11795255387777.html"
-    }
-   ]
-  },
-  {
-   "headline": "US Market Outlook: Indices plunge deeply",
-   "time": "2026-11-21T21:52:29+05:30",
-   "factors": [
-    "Global markets"
-   ],
-   "factor_ids": [
-    1
-   ],
-   "summary": "United States stock market indexes fell sharply last week.\nThe steep drop pushed major US market indexes below key price levels.\nAmerican tech and main shares faced heavy selling.\nGlobal investors were cautious about future interest rates.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Falling US stock markets can lower investor confidence in Indian markets as well.",
-   "lean": "down",
-   "sectors": [
-    "Global Markets"
+    "Broad Market"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/portfolio/technical-analysis/us-market-outlook-indices-plunge-deeply/article71727495.ece"
+     "url": "https://www.thehindubusinessline.com/markets/gift-nifty-signals-175-point-gap-up-open-for-indian-markets-despite-weak-global-cues/article71733203.ece"
     }
    ]
   },
   {
-   "headline": "Hindalco vs NALCO vs Vedanta Aluminium vs Hindustan Zinc: Which metal stocks to buy for good returns? Target, SL",
-   "time": "2026-11-21T15:17:13+05:30",
+   "headline": "Indian IT’s growth revival remains elusive despite better Q2",
+   "time": "2026-11-23T06:30:27+05:30",
    "factors": [
-    "Other commodities",
-    "Corporate earnings"
+    "Corporate earnings",
+    "Heavyweight stocks"
    ],
    "factor_ids": [
-    9,
-    20
+    20,
+    21
    ],
-   "summary": "Prices of base metals dropped in global markets.\nIndian metal shares came under selling pressure as a result.\nStocks like Hindalco, NALCO, Vedanta Aluminium, and Hindustan Zinc fell.\nResearch firm Systematix expects long-term profit growth for these companies.",
+   "summary": "Indian technology companies reported slightly better second-quarter financial results.\nHowever, getting new business deals remains difficult for these firms.\nClients are spending money carefully and taking longer to give orders.\nRevenue conversion from existing deals is staying slow.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Cheaper global metals lower profits for metal producers, which can pull down metal stock prices.",
+   "impact": "May hurt Nifty: IT company shares may face selling pressure as slow deal conversion hurts future profit expectations.",
+   "lean": "down",
+   "sectors": [
+    "IT"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/mark-to-market/indian-it-sector-growth-outlook-ai-revenue-infosys-tcs-wipro-11795328533948.html"
+    }
+   ]
+  },
+  {
+   "headline": "Crude oil futures brace for OPEC+ output decision amid supply glut concerns: Analysts",
+   "time": "2026-11-22T16:30:27+05:30",
+   "factors": [
+    "Crude oil",
+    "Event calendar"
+   ],
+   "factor_ids": [
+    8,
+    35
+   ],
+   "summary": "Crude oil futures are moving ahead of an upcoming OPEC+ meeting of oil producing countries.\nMarket analysts say global oil supply is currently higher than buyer demand.\nIndian stock markets will remain closed on Tuesday for Guru Nanak Jayanti.\nTraders are watching oil reports from US energy agencies.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Cheaper crude oil helps lower costs for Indian companies and reduces the national import bill.",
+   "lean": "up",
+   "sectors": [
+    "Oil & Gas",
+    "Paints",
+    "Automobiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/crude-oil-futures-brace-for-opec-output-decision-amid-supply-glut-concerns-analysts/articleshow/136072428.cms"
+    }
+   ]
+  },
+  {
+   "headline": "Gold, silver, copper, aluminium, platinum to zinc: Why are metal prices crashing to multi-month lows? Key reasons",
+   "time": "2026-11-22T20:01:47+05:30",
+   "factors": [
+    "US dollar",
+    "Other commodities"
+   ],
+   "factor_ids": [
+    4,
+    9
+   ],
+   "summary": "Prices of major metals like gold, silver, copper, and aluminium have dropped significantly.\nGold prices fell close to a 14-month low level.\nSilver prices touched their lowest point since September 2025.\nA stronger US dollar and expectations of US interest rate hikes led to this drop.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Metal producing companies may lose profits due to lower selling prices of copper, aluminium, and steel.",
    "lean": "down",
    "sectors": [
     "Metals",
@@ -114,144 +111,146 @@
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/hindalco-vs-nalco-vs-vedanta-aluminium-vs-hindustan-zinc-which-metal-stocks-to-buy-for-good-returns-target-sl-11795248944730.html"
+     "url": "https://www.livemint.com/market/commodities/gold-silver-copper-aluminium-platinum-to-zinc-why-are-metal-prices-crashing-to-multi-month-lows-key-reasons-11795357679178.html"
     }
    ]
   },
   {
-   "headline": "Gold, silver price crash: DSP Mutual Fund turns bullish on bullion, reveals new buying strategy; check price levels",
-   "time": "2026-11-21T16:50:08+05:30",
+   "headline": "Fed officials are chatting up a storm. Investors are in the dark about their plans.",
+   "time": "2026-11-23T06:34:59+05:30",
    "factors": [
     "US monetary policy",
-    "Other commodities",
-    "Investor psychology"
+    "Inflation and consumption"
    ],
    "factor_ids": [
     2,
-    9,
-    36
+    11
    ],
-   "summary": "Gold prices fell to their lowest level in 14 months.\nThis was the biggest weekly drop for gold in eight months.\nConcerns over US interest rates and tech stock selling caused the drop.\nDSP Mutual Fund is slowly buying gold as prices fall.",
+   "summary": "Officials at the US central bank are giving speeches about economic policy.\nThey are almost certain to raise interest rates next month to lower inflation.\nHowever, investors do not know the exact size of the upcoming rate increase.\nThe lack of clear information keeps global investors guessing.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Lower gold prices may shift investor money into stocks, though falling asset prices can cause general worry.",
+   "impact": "May hurt Nifty: Higher US interest rates may prompt foreign investors to move money out of Indian shares.",
+   "lean": "down",
+   "sectors": [
+    "Broad Market",
+    "Foreign Investment"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/fed-officials-are-chatting-up-a-storm-investors-are-in-the-dark-about-their-plans-11795395816841.html"
+    }
+   ]
+  },
+  {
+   "headline": "IPO Street set for year-end revival; 29 firms eye ₹42,000 crore as sentiment improves",
+   "time": "2026-11-22T17:15:39+05:30",
+   "factors": [
+    "Foreign investment",
+    "Domestic investment"
+   ],
+   "factor_ids": [
+    18,
+    19
+   ],
+   "summary": "About 29 Indian companies are preparing to raise 42,000 crore rupees through new share sales.\nIndian stock markets have stayed steady despite heavy selling in foreign markets recently.\nInvestor confidence in the domestic market is showing signs of recovery.\nMany companies are aiming to list their shares before the end of the year.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Large new share offerings bring fresh options for investors but may divert cash away from existing shares.",
    "lean": "unclear",
    "sectors": [
-    "Precious Metals",
+    "Primary Market",
     "Financial Services"
    ],
    "unverified_figures": [],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/commodities/gold-silver-price-crash-dsp-mutual-fund-turns-bullish-on-bullion-reveals-new-buying-strategy-check-price-levels-11795252615511.html"
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/ipo-street-set-for-year-end-revival-29-firms-eye-42000-crore-as-sentiment-improves/article71731112.ece"
     }
    ]
   },
   {
-   "headline": "Max Healthcare, Fortis, Apollo, Aster: Hospital stocks steal show on D-Street with up to 14% rally - Buy now or wait?",
-   "time": "2026-11-21T20:26:47+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    20,
-    21
-   ],
-   "summary": "Hospital company shares jumped up to 14% over five trading days.\nShares of Apollo Hospitals, Fortis, Max Healthcare, and Aster DM all rose.\nMarket participants expect strong corporate profits and solid growth prospects.\nResearch firms maintained positive ratings on top hospital shares.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Rising share prices in healthcare companies can support gains in the broader market.",
-   "lean": "up",
-   "sectors": [
-    "Healthcare",
-    "Hospitals"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/max-healthcare-fortis-apollo-aster-hospital-stocks-steal-show-on-d-street-with-up-to-14-rally-buy-now-or-wait-11795262811423.html"
-    }
-   ]
-  },
-  {
-   "headline": "Taiwan Widens Short Sale Curbs After Shares Plunge on AI Concern",
-   "time": "2026-11-21T15:34:30+05:30",
+   "headline": "Asia’s Stock Rescue Efforts Gather Pace After Wall Street Plunge",
+   "time": "2026-11-22T18:21:21+05:30",
    "factors": [
     "Global markets",
+    "China and global growth",
     "Geopolitics and trade"
    ],
    "factor_ids": [
     1,
+    5,
     6
    ],
-   "summary": "Taiwan placed limits on short selling to stop falling share prices.\nTaiwan's main stock market index suffered its worst weekly fall in 35 years.\nGlobal investors sold technology shares due to artificial intelligence concerns.\nTaiwan's government also stepped in to buy local shares directly.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Explanation withheld.",
-   "lean": "unclear",
-   "sectors": [
-    "Global Markets",
-    "Technology"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/taiwan-widens-short-sale-curbs-after-shares-plunge-on-ai-concern-11795255471195.html"
-    }
-   ]
-  },
-  {
-   "headline": "Dividend jackpot in chemicals: Indo Borax, GOCL and Bayer CropScience offer yields of up to 10% | Check details",
-   "time": "2026-11-21T21:43:09+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Corporate events"
-   ],
-   "factor_ids": [
-    20,
-    31
-   ],
-   "summary": "Specialty chemical companies announced high cash dividend payouts to investors.\nIndo Borax offered a high dividend yield of 10.3% with ₹40 per share.\nGOCL Corporation declared ₹30 per share in dividends.\nBayer CropScience announced a dividend of ₹150 per share.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: High cash payouts make chemical shares attractive and can lift sector stock prices.",
+   "summary": "Governments in China, Taiwan, and South Korea are taking steps to support falling stock markets.\nChina is easing rules for trading shares with borrowed money.\nTaiwan and South Korea are introducing emergency market support measures.\nThese actions follow a sharp fall in US stock markets last Friday.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Government support in big Asian countries could calm global investor fears and stabilize regional markets.",
    "lean": "up",
    "sectors": [
-    "Chemicals"
+    "Broad Market"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/dividend-jackpot-in-chemicals-indo-borax-gocl-and-bayer-cropscience-offer-yields-of-up-to-10-check-details-11795277367660.html"
+     "url": "https://www.livemint.com/market/asias-stock-rescue-efforts-gather-pace-after-wall-street-plunge-11795351882145.html"
+    },
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/asia-steps-up-stock-rescue-efforts-after-wall-street-rout/articleshow/136086374.cms"
     }
    ]
   },
   {
-   "headline": "Mahanadi CoalFields IPO GMP Check: Down 92% from ₹9.25 to ₹0.7, issue struggles to attract bids- Subscribe or avoid?",
-   "time": "2026-11-21T15:56:10+05:30",
+   "headline": "New Sebi proposal could flip fates of key men at NSE, BSE",
+   "time": "2026-11-22T15:08:47+05:30",
    "factors": [
-    "Domestic investment",
-    "Corporate events"
+    "Regulation",
+    "Market structure"
    ],
    "factor_ids": [
-    19,
-    31
+    17,
+    30
    ],
-   "summary": "Mahanadi Coalfields launched an initial public offer of ₹8,981 crore.\nThe offer remained undersubscribed after two days of bidding.\nIts expected listing price premium fell 92% to ₹0.70 per share.\nBrokerages cited good cash flow but weak immediate investor demand.",
+   "summary": "Market regulator SEBI has proposed new tenure rules for top leaders of stock exchanges.\nThe proposal changes age limits to fixed term limits for managing directors.\nUnder the proposed rule, the NSE chief might be barred from another term because of his past tenure at BSE.\nThe BSE chief could be allowed to continue his term longer.",
    "confirmation": "Single source, not independently confirmed",
-   "impact": "Little effect on Nifty: Poor response to one company share sale usually does not change the main stock index.",
+   "impact": "Little effect on Nifty: Leadership tenure rules at exchanges alter management setup but do not directly change company earnings.",
    "lean": "little",
    "sectors": [
-    "Coal",
-    "Mining",
-    "Primary Market"
+    "Financial Exchanges"
    ],
    "unverified_figures": [],
    "sources": [
     {
      "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-check-down-92-from-rs-9-25-to-rs-0-7-issue-struggles-to-attract-bids-subscribe-or-avoid-11795252154826.html"
+     "url": "https://www.livemint.com/market/nse-bse-chief-tenure-rules-sebi-proposal-11795333434935.html"
+    }
+   ]
+  },
+  {
+   "headline": "Stock Market Live Updates | Closing Bell: Sensex crashes 1,484 pts, Nifty ends below 25,350; Axis Bank slides 4%, Hindalco 3%",
+   "time": "2026-11-23T07:13:21+05:30",
+   "factors": [
+    "Heavyweight stocks",
+    "Price and volume"
+   ],
+   "factor_ids": [
+    21,
+    27
+   ],
+   "summary": "This item contains only a headline with no further detailed text.\nIt states that the Sensex dropped by 1,484 points and Nifty closed below 25,350.\nShares of Axis Bank fell by 4 percent during the session.\nShares of Hindalco dropped by 3 percent.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Little effect on Nifty: Past market drops reported in old headlines have already been reflected in current share prices.",
+   "lean": "little",
+   "sectors": [
+    "Banking",
+    "Metals"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-maruti-adani-energy-share-price-23-november-2026/liveblog/136086783.cms"
     }
    ]
   }
@@ -260,45 +259,44 @@
   "1": "found",
   "2": "found",
   "3": "none",
-  "4": "none",
-  "5": "unverified",
+  "4": "found",
+  "5": "found",
   "6": "found",
   "7": "none",
-  "8": "none",
+  "8": "found",
   "9": "found",
   "10": "none",
-  "11": "none",
+  "11": "found",
   "12": "none",
-  "13": "found",
+  "13": "none",
   "14": "none",
   "15": "none",
   "16": "none",
-  "17": "none",
+  "17": "found",
   "18": "found",
   "19": "found",
   "20": "found",
   "21": "found",
   "22": "none",
   "23": "none",
-  "24": "found",
+  "24": "unverified",
   "25": "unverified",
   "26": "unverified",
   "27": "found",
   "28": "unverified",
   "29": "unverified",
-  "30": "unverified",
-  "31": "found",
+  "30": "found",
+  "31": "none",
   "32": "none",
   "33": "unverified",
   "34": "unverified",
-  "35": "unverified",
-  "36": "found"
+  "35": "found",
+  "36": "none"
  },
  "gaps": [
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
-  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Removed AI text with trading language: Taiwan Widens Short Sale Curbs After Shares Plunge on AI Con"
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar."
  ],
  "sources_checked": {
   "RBI press releases": {
@@ -307,7 +305,7 @@
    "in_window": 0,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-20T19:45:00+05:30"
+   "newest": "2026-11-23T15:05:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
@@ -344,34 +342,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 1,
+   "in_window": 8,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-22T13:51:09+05:30"
+   "newest": "2026-11-23T15:25:49+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 11,
+   "in_window": 4,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-22T14:34:50+05:30"
+   "newest": "2026-11-23T15:38:52+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 0,
+   "in_window": 1,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-22T14:12:49+05:30"
+   "newest": "2026-11-23T15:21:57+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 6,
+   "in_window": 5,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-22T12:13:59+05:30"
+   "newest": "2026-11-23T15:13:56+05:30"
   }
  }
 }
