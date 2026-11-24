@@ -1,319 +1,328 @@
 {
- "status": "ok",
- "title": "Indian Market News Brief — 23 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-23T15:51:00.733394+05:30",
- "window_start": "2026-11-22T15:00:00+05:30",
- "cutoff": "2026-11-23T07:30:00+05:30",
- "quick_read": "Higher opening signals from regional trading and lower oil prices may help the Indian stock market. Weak business growth in IT companies and expected interest rate increases in the US may hurt market mood. Large new share sales coming to the market make the overall impact on main market funds unclear.",
+ "status": "partial",
+ "title": "Indian Market News Brief — 24 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-24T17:32:06.266881+05:30",
+ "window_start": "2026-11-23T15:00:00+05:30",
+ "cutoff": "2026-11-24T07:30:00+05:30",
+ "quick_read": "AI summary not available for this run.",
  "stories": [
   {
-   "headline": "Gift Nifty signals 175-point gap-up open for Indian markets despite weak global cues",
-   "time": "2026-11-23T07:14:23+05:30",
-   "factors": [
-    "Global markets",
-    "Crude oil",
-    "Price and volume"
-   ],
-   "factor_ids": [
-    1,
-    8,
-    27
-   ],
-   "summary": "Gift Nifty shows a strong opening signal of 175 points higher for Indian stock markets.\nThe coming trading week will be shorter because markets remain closed on Tuesday.\nForeign investor trading activity will guide market direction.\nCrude oil price movements and Indian currency changes will also affect trading.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Higher starting signals may bring early buying in top company shares.",
-   "lean": "up",
-   "sectors": [
-    "Broad Market"
-   ],
-   "unverified_figures": [],
+   "headline": "Result of Yield/Price Based Auction of State Government Securities",
+   "time": "2026-11-23T15:05:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Assam 1000 1000 98.00/7.9615 Re-issue of 7.66% Assam SGS 2036, issued on June 17, 2026 2. Bihar* 1000 941.919 101.51/7.9390 Re-issue of 8.18% Bihar SGS 2035, issued on October 28, 2026 2000 2000 97.86/8.0932 Re-issue of 7.84% Bihar SGS 2041, issued on May 27, 2026 3. Chhattisgarh @ ",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
    "sources": [
     {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/gift-nifty-signals-175-point-gap-up-open-for-indian-markets-despite-weak-global-cues/article71733203.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Indian IT’s growth revival remains elusive despite better Q2",
-   "time": "2026-11-23T06:30:27+05:30",
-   "factors": [
-    "Corporate earnings",
-    "Heavyweight stocks"
-   ],
-   "factor_ids": [
-    20,
-    21
-   ],
-   "summary": "Indian technology companies reported slightly better second-quarter financial results.\nHowever, getting new business deals remains difficult for these firms.\nClients are spending money carefully and taking longer to give orders.\nRevenue conversion from existing deals is staying slow.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: IT company shares may face selling pressure as slow deal conversion hurts future profit expectations.",
-   "lean": "down",
-   "sectors": [
-    "IT"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/mark-to-market/indian-it-sector-growth-outlook-ai-revenue-infosys-tcs-wipro-11795328533948.html"
-    }
-   ]
-  },
-  {
-   "headline": "Crude oil futures brace for OPEC+ output decision amid supply glut concerns: Analysts",
-   "time": "2026-11-22T16:30:27+05:30",
-   "factors": [
-    "Crude oil",
-    "Event calendar"
-   ],
-   "factor_ids": [
-    8,
-    35
-   ],
-   "summary": "Crude oil futures are moving ahead of an upcoming OPEC+ meeting of oil producing countries.\nMarket analysts say global oil supply is currently higher than buyer demand.\nIndian stock markets will remain closed on Tuesday for Guru Nanak Jayanti.\nTraders are watching oil reports from US energy agencies.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Cheaper crude oil helps lower costs for Indian companies and reduces the national import bill.",
-   "lean": "up",
-   "sectors": [
-    "Oil & Gas",
-    "Paints",
-    "Automobiles"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/commodities/crude-oil-futures-brace-for-opec-output-decision-amid-supply-glut-concerns-analysts/articleshow/136072428.cms"
-    }
-   ]
-  },
-  {
-   "headline": "Gold, silver, copper, aluminium, platinum to zinc: Why are metal prices crashing to multi-month lows? Key reasons",
-   "time": "2026-11-22T20:01:47+05:30",
-   "factors": [
-    "US dollar",
-    "Other commodities"
-   ],
-   "factor_ids": [
-    4,
-    9
-   ],
-   "summary": "Prices of major metals like gold, silver, copper, and aluminium have dropped significantly.\nGold prices fell close to a 14-month low level.\nSilver prices touched their lowest point since September 2025.\nA stronger US dollar and expectations of US interest rate hikes led to this drop.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Metal producing companies may lose profits due to lower selling prices of copper, aluminium, and steel.",
-   "lean": "down",
-   "sectors": [
-    "Metals",
-    "Mining"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/commodities/gold-silver-copper-aluminium-platinum-to-zinc-why-are-metal-prices-crashing-to-multi-month-lows-key-reasons-11795357679178.html"
-    }
-   ]
-  },
-  {
-   "headline": "Fed officials are chatting up a storm. Investors are in the dark about their plans.",
-   "time": "2026-11-23T06:34:59+05:30",
-   "factors": [
-    "US monetary policy",
-    "Inflation and consumption"
-   ],
-   "factor_ids": [
-    2,
-    11
-   ],
-   "summary": "Officials at the US central bank are giving speeches about economic policy.\nThey are almost certain to raise interest rates next month to lower inflation.\nHowever, investors do not know the exact size of the upcoming rate increase.\nThe lack of clear information keeps global investors guessing.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Higher US interest rates may prompt foreign investors to move money out of Indian shares.",
-   "lean": "down",
-   "sectors": [
-    "Broad Market",
-    "Foreign Investment"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/fed-officials-are-chatting-up-a-storm-investors-are-in-the-dark-about-their-plans-11795395816841.html"
-    }
-   ]
-  },
-  {
-   "headline": "IPO Street set for year-end revival; 29 firms eye ₹42,000 crore as sentiment improves",
-   "time": "2026-11-22T17:15:39+05:30",
-   "factors": [
-    "Foreign investment",
-    "Domestic investment"
-   ],
-   "factor_ids": [
-    18,
-    19
-   ],
-   "summary": "About 29 Indian companies are preparing to raise 42,000 crore rupees through new share sales.\nIndian stock markets have stayed steady despite heavy selling in foreign markets recently.\nInvestor confidence in the domestic market is showing signs of recovery.\nMany companies are aiming to list their shares before the end of the year.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: Large new share offerings bring fresh options for investors but may divert cash away from existing shares.",
-   "lean": "unclear",
-   "sectors": [
-    "Primary Market",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/ipo-street-set-for-year-end-revival-29-firms-eye-42000-crore-as-sentiment-improves/article71731112.ece"
-    }
-   ]
-  },
-  {
-   "headline": "Asia’s Stock Rescue Efforts Gather Pace After Wall Street Plunge",
-   "time": "2026-11-22T18:21:21+05:30",
-   "factors": [
-    "Global markets",
-    "China and global growth",
-    "Geopolitics and trade"
-   ],
-   "factor_ids": [
-    1,
-    5,
-    6
-   ],
-   "summary": "Governments in China, Taiwan, and South Korea are taking steps to support falling stock markets.\nChina is easing rules for trading shares with borrowed money.\nTaiwan and South Korea are introducing emergency market support measures.\nThese actions follow a sharp fall in US stock markets last Friday.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "May help Nifty: Government support in big Asian countries could calm global investor fears and stabilize regional markets.",
-   "lean": "up",
-   "sectors": [
-    "Broad Market"
-   ],
-   "unverified_figures": [],
-   "sources": [
-    {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/asias-stock-rescue-efforts-gather-pace-after-wall-street-plunge-11795351882145.html"
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64024"
     },
     {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/asia-steps-up-stock-rescue-efforts-after-wall-street-rout/articleshow/136086374.cms"
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64027"
     }
    ]
   },
   {
-   "headline": "New Sebi proposal could flip fates of key men at NSE, BSE",
-   "time": "2026-11-22T15:08:47+05:30",
-   "factors": [
-    "Regulation",
-    "Market structure"
-   ],
-   "factor_ids": [
-    17,
-    30
-   ],
-   "summary": "Market regulator SEBI has proposed new tenure rules for top leaders of stock exchanges.\nThe proposal changes age limits to fixed term limits for managing directors.\nUnder the proposed rule, the NSE chief might be barred from another term because of his past tenure at BSE.\nThe BSE chief could be allowed to continue his term longer.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Little effect on Nifty: Leadership tenure rules at exchanges alter management setup but do not directly change company earnings.",
-   "lean": "little",
-   "sectors": [
-    "Financial Exchanges"
-   ],
-   "unverified_figures": [],
+   "headline": "RBI releases 2026 list of Domestic Systemically Important Banks (D-SIBs)",
+   "time": "2026-11-23T16:30:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "State Bank of India, HDFC Bank, and ICICI Bank continue to be identified as Domestic Systemically Important Banks (D-SIBs) under the same bucketing structure as in the 2025 list of D-SIBs . The additional Common Equity Tier 1 (CET1) requirement for these D-SIBs will be in addition to the capital conservation buffer. The list of D-SIBs is as follows: Bucket Banks Additional Common Equity Tier 1 req",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/nse-bse-chief-tenure-rules-sebi-proposal-11795333434935.html"
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64025"
     }
    ]
   },
   {
-   "headline": "Stock Market Live Updates | Closing Bell: Sensex crashes 1,484 pts, Nifty ends below 25,350; Axis Bank slides 4%, Hindalco 3%",
-   "time": "2026-11-23T07:13:21+05:30",
-   "factors": [
-    "Heavyweight stocks",
-    "Price and volume"
-   ],
-   "factor_ids": [
-    21,
-    27
-   ],
-   "summary": "This item contains only a headline with no further detailed text.\nIt states that the Sensex dropped by 1,484 points and Nifty closed below 25,350.\nShares of Axis Bank fell by 4 percent during the session.\nShares of Hindalco dropped by 3 percent.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Little effect on Nifty: Past market drops reported in old headlines have already been reflected in current share prices.",
-   "lean": "little",
-   "sectors": [
-    "Banking",
-    "Metals"
-   ],
-   "unverified_figures": [],
+   "headline": "RBI issues Draft Amendment Directions for ‘Preventive Safeguards for Electronic Banking Transactions (EBTs)’",
+   "time": "2026-11-23T16:35:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "The Reserve Bank had issued the Amendment Directions dated June 24, 2026 on ‘ Customer Protection in Fraudulent Electronic Banking Transactions ’ which, inter alia, strengthened the existing framework for limiting liability of customers in unauthorised Electronic Banking Transactions (EBTs). While the revised framework primarily addresses customer liability in the event of fraudulent EBTs, a need ",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
    "sources": [
     {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-maruti-adani-energy-share-price-23-november-2026/liveblog/136086783.cms"
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64026"
+    }
+   ]
+  },
+  {
+   "headline": "Reserve Bank (Securitisation Transactions) Amendment Directions, 2026",
+   "time": "2026-11-23T17:00:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "The Reserve Bank of India had, on July 27, 2026 , issued the Draft (Securitisation Transactions) Amendment Directions for stakeholder feedback. 2. Feedback received on the draft Directions has been examined and consequent modifications, as deemed appropriate, have been suitably incorporated in the final Directions. A statement on the feedback received on the draft Directions is provided in the Ann",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64028"
+    },
+    {
+     "name": "RBI notifications",
+     "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13756&Mode=0"
+    },
+    {
+     "name": "RBI notifications",
+     "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13755&Mode=0"
+    }
+   ]
+  },
+  {
+   "headline": "Auction of Government of India Dated Securities",
+   "time": "2026-11-23T17:45:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Government of India (GoI) has announced the sale (re-issue) of four dated securities for a notified amount of ₹33,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (₹ Crore) GoI specific Notification Auction Date Settlement Date 1 6.20% GS 2029 Aug 17, 2029 9,000 F.No.4(1)-B(W&M)/2026 dated November 23, 2026 November 27, 2026 (Friday) November 30, 2026 (Monda",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64029"
+    }
+   ]
+  },
+  {
+   "headline": "Premature redemption under Sovereign Gold Bond (SGB) Scheme - Redemption Price for premature redemption of SGB 2021-22 Series I due on November 25, 2026",
+   "time": "2026-11-23T18:10:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "In terms of GOI notification F. No. 4(5)-B(W&M)/2021 dated May 12, 2021 (SGB 2021-22 Series I - Issue date May 25, 2021) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on November ",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64030"
+    }
+   ]
+  },
+  {
+   "headline": "Governor, Reserve Bank of India meets Chairpersons and Managing Directors & Chief Executive Officers of select UCBs and Industry Representatives in Mumbai on November 23, 2026",
+   "time": "2026-11-23T19:15:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "As part of the Reserve Bank of India's continued engagement with regulated entities, the Governor today met in Mumbai with the Chairpersons and Managing Directors & Chief Executive Officers (MDs & CEOs) of select Urban Cooperative Banks (UCBs) across different tiers. Representatives of the National Urban Cooperative Finance and Development Corporation Limited and the National Federation of Urban C",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64031"
+    },
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64032"
+    }
+   ]
+  },
+  {
+   "headline": "RBI to conduct Overnight Variable Rate Repo (VRR) auction under LAF on November 25, 2026",
+   "time": "2026-11-23T19:25:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Wednesday, November 25, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 09:30 AM to 10:00 AM November 26, 2026 (Thursday) 2. The operational guidelines for the auction will be same as given in Reserve",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64033"
+    }
+   ]
+  },
+  {
+   "headline": "धरती की सेहत सुधारने और किसानों की आय बढ़ाने पंजाब के खेतों में पहुंचे केंद्रीय कृषि मंत्री श्री शिवराज सिंह चौहान",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340820"
+    }
+   ]
+  },
+  {
+   "headline": "प्रधानमंत्री श्री नरेन्द्र मोदी ने एक लेख साझा किया है, जिसमें कौशल विकास पर भारत के बढ़ते ध्यान और कौशल विकास को करियर के एक पसंदीदा विकल्प के रूप में स्थापित करने का उल्लेख किया गया है",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340827"
+    }
+   ]
+  },
+  {
+   "headline": "57वें इफ्फी में मराठी फिल्म आदि अनंत अलग-अलग पीढ़ियों के रिश्तों, प्यार और देखभाल करने की वास्तविकताओं को दर्शाती है",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340831"
+    }
+   ]
+  },
+  {
+   "headline": "बिहार के पटना में ‘राष्ट्रीय दुग्ध दिवस 2026’ मनाया जाएगा; इस अवसर पर कई महत्वपूर्ण पहल का शुभारंभ और डेयरी एवं पशुधन से जुड़ी प्रमुख बुनियादी ढांचा परियोजनाओं का लोकार्पण किया जाएगा",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340828"
+    }
+   ]
+  },
+  {
+   "headline": "IFFI 2026 : अनोखे सिनेमाई अंदाज़ के ज़रिए इंसानी जज़्बातों की पड़ताल करती है 'द ब्लैक सी’",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340834"
+    }
+   ]
+  },
+  {
+   "headline": "श्री गुरु नानक देव जी के प्रकाश पर्व पर उपराष्ट्रपति श्री सी. पी. राधाकृष्णन गुरुद्वारा रकाब गंज साहिब गए",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340788"
+    }
+   ]
+  },
+  {
+   "headline": "नक्सल-मुक्त भारत",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340786"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "found",
-  "2": "found",
-  "3": "none",
-  "4": "found",
-  "5": "found",
-  "6": "found",
-  "7": "none",
-  "8": "found",
-  "9": "found",
-  "10": "none",
-  "11": "found",
-  "12": "none",
-  "13": "none",
-  "14": "none",
-  "15": "none",
-  "16": "none",
-  "17": "found",
-  "18": "found",
-  "19": "found",
-  "20": "found",
-  "21": "found",
-  "22": "none",
-  "23": "none",
+  "1": "unverified",
+  "2": "unverified",
+  "3": "unverified",
+  "4": "unverified",
+  "5": "unverified",
+  "6": "unverified",
+  "7": "unverified",
+  "8": "unverified",
+  "9": "unverified",
+  "10": "unverified",
+  "11": "unverified",
+  "12": "unverified",
+  "13": "unverified",
+  "14": "unverified",
+  "15": "unverified",
+  "16": "unverified",
+  "17": "unverified",
+  "18": "unverified",
+  "19": "unverified",
+  "20": "unverified",
+  "21": "unverified",
+  "22": "unverified",
+  "23": "unverified",
   "24": "unverified",
   "25": "unverified",
   "26": "unverified",
-  "27": "found",
+  "27": "unverified",
   "28": "unverified",
   "29": "unverified",
-  "30": "found",
-  "31": "none",
-  "32": "none",
+  "30": "unverified",
+  "31": "unverified",
+  "32": "unverified",
   "33": "unverified",
   "34": "unverified",
-  "35": "found",
-  "36": "none"
+  "35": "unverified",
+  "36": "unverified"
  },
  "gaps": [
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
-  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar."
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "AI summaries unavailable this run. Showing headlines only."
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 0,
+   "in_window": 10,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-23T15:05:00+05:30"
+   "newest": "2026-11-23T19:25:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
    "total": 10,
-   "in_window": 0,
+   "in_window": 4,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-11T17:00:00+05:30"
+   "newest": "2026-11-23T17:00:00+05:30"
   },
   "SEBI": {
    "ok": true,
@@ -342,34 +351,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 8,
+   "in_window": 9,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-23T15:25:49+05:30"
+   "newest": "2026-11-24T17:09:37+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 4,
+   "in_window": 16,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-23T15:38:52+05:30"
+   "newest": "2026-11-24T17:16:36+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 1,
+   "in_window": 10,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-23T15:21:57+05:30"
+   "newest": "2026-11-24T13:40:51+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 5,
+   "in_window": 22,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-23T15:13:56+05:30"
+   "newest": "2026-11-24T17:24:04+05:30"
   }
  }
 }
