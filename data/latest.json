@@ -1,157 +1,29 @@
 {
  "status": "partial",
- "title": "Indian Market News Brief — 24 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-24T18:23:58.726000+05:30",
- "window_start": "2026-11-23T15:00:00+05:30",
- "cutoff": "2026-11-24T07:30:00+05:30",
+ "title": "Indian Market News Brief — 25 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-25T16:24:49.196385+05:30",
+ "window_start": "2026-11-24T15:00:00+05:30",
+ "cutoff": "2026-11-25T07:30:00+05:30",
  "quick_read": "AI summary not available for this run.",
  "stories": [
   {
-   "headline": "Result of Yield/Price Based Auction of State Government Securities",
-   "time": "2026-11-23T15:05:00+05:30",
+   "headline": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+   "time": "2026-11-25T00:30:00+05:30",
    "factors": [],
    "factor_ids": [],
-   "summary": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Assam 1000 1000 98.00/7.9615 Re-issue of 7.66% Assam SGS 2036, issued on June 17, 2026 2. Bihar* 1000 941.919 101.51/7.9390 Re-issue of 8.18% Bihar SGS 2035, issued on October 28, 2026 2000 2000 97.86/8.0932 Re-issue of 7.84% Bihar SGS 2041, issued on May 27, 2026 3. Chhattisgarh @ ",
+   "summary": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
    "confirmation": "Official source",
    "impact": "AI explanation not available for this story.",
    "sectors": [],
    "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64024"
-    },
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64027"
+     "name": "US Federal Reserve",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm"
     }
    ]
   },
   {
-   "headline": "RBI releases 2026 list of Domestic Systemically Important Banks (D-SIBs)",
-   "time": "2026-11-23T16:30:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "State Bank of India, HDFC Bank, and ICICI Bank continue to be identified as Domestic Systemically Important Banks (D-SIBs) under the same bucketing structure as in the 2025 list of D-SIBs . The additional Common Equity Tier 1 (CET1) requirement for these D-SIBs will be in addition to the capital conservation buffer. The list of D-SIBs is as follows: Bucket Banks Additional Common Equity Tier 1 req",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64025"
-    }
-   ]
-  },
-  {
-   "headline": "RBI issues Draft Amendment Directions for ‘Preventive Safeguards for Electronic Banking Transactions (EBTs)’",
-   "time": "2026-11-23T16:35:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "The Reserve Bank had issued the Amendment Directions dated June 24, 2026 on ‘ Customer Protection in Fraudulent Electronic Banking Transactions ’ which, inter alia, strengthened the existing framework for limiting liability of customers in unauthorised Electronic Banking Transactions (EBTs). While the revised framework primarily addresses customer liability in the event of fraudulent EBTs, a need ",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64026"
-    }
-   ]
-  },
-  {
-   "headline": "Reserve Bank (Securitisation Transactions) Amendment Directions, 2026",
-   "time": "2026-11-23T17:00:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "The Reserve Bank of India had, on July 27, 2026 , issued the Draft (Securitisation Transactions) Amendment Directions for stakeholder feedback. 2. Feedback received on the draft Directions has been examined and consequent modifications, as deemed appropriate, have been suitably incorporated in the final Directions. A statement on the feedback received on the draft Directions is provided in the Ann",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64028"
-    },
-    {
-     "name": "RBI notifications",
-     "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13756&Mode=0"
-    },
-    {
-     "name": "RBI notifications",
-     "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13755&Mode=0"
-    }
-   ]
-  },
-  {
-   "headline": "Auction of Government of India Dated Securities",
-   "time": "2026-11-23T17:45:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Government of India (GoI) has announced the sale (re-issue) of four dated securities for a notified amount of ₹33,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (₹ Crore) GoI specific Notification Auction Date Settlement Date 1 6.20% GS 2029 Aug 17, 2029 9,000 F.No.4(1)-B(W&M)/2026 dated November 23, 2026 November 27, 2026 (Friday) November 30, 2026 (Monda",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64029"
-    }
-   ]
-  },
-  {
-   "headline": "Premature redemption under Sovereign Gold Bond (SGB) Scheme - Redemption Price for premature redemption of SGB 2021-22 Series I due on November 25, 2026",
-   "time": "2026-11-23T18:10:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "In terms of GOI notification F. No. 4(5)-B(W&M)/2021 dated May 12, 2021 (SGB 2021-22 Series I - Issue date May 25, 2021) on Sovereign Gold Bond Scheme, premature redemption of Gold Bond may be permitted after fifth year from the date of issue of such Gold Bond on the date on which interest is payable. Accordingly, the next due date of premature redemption of the above tranche shall be on November ",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64030"
-    }
-   ]
-  },
-  {
-   "headline": "Governor, Reserve Bank of India meets Chairpersons and Managing Directors & Chief Executive Officers of select UCBs and Industry Representatives in Mumbai on November 23, 2026",
-   "time": "2026-11-23T19:15:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "As part of the Reserve Bank of India's continued engagement with regulated entities, the Governor today met in Mumbai with the Chairpersons and Managing Directors & Chief Executive Officers (MDs & CEOs) of select Urban Cooperative Banks (UCBs) across different tiers. Representatives of the National Urban Cooperative Finance and Development Corporation Limited and the National Federation of Urban C",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64031"
-    },
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64032"
-    }
-   ]
-  },
-  {
-   "headline": "RBI to conduct Overnight Variable Rate Repo (VRR) auction under LAF on November 25, 2026",
-   "time": "2026-11-23T19:25:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Wednesday, November 25, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 09:30 AM to 10:00 AM November 26, 2026 (Thursday) 2. The operational guidelines for the auction will be same as given in Reserve",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64033"
-    }
-   ]
-  },
-  {
-   "headline": "धरती की सेहत सुधारने और किसानों की आय बढ़ाने पंजाब के खेतों में पहुंचे केंद्रीय कृषि मंत्री श्री शिवराज सिंह चौहान",
+   "headline": "प्रधानमंत्री ने देश के कार्यबल के लिए सामाजिक सुरक्षा के दायरे में विस्तार को रेखांकित करने वाला लेख साझा किया",
    "time": null,
    "factors": [],
    "factor_ids": [],
@@ -162,12 +34,12 @@
    "sources": [
     {
      "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340820"
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341172"
     }
    ]
   },
   {
-   "headline": "प्रधानमंत्री श्री नरेन्द्र मोदी ने एक लेख साझा किया है, जिसमें कौशल विकास पर भारत के बढ़ते ध्यान और कौशल विकास को करियर के एक पसंदीदा विकल्प के रूप में स्थापित करने का उल्लेख किया गया है",
+   "headline": "आईएफएफआई 2026 में ‘क्रिएटिव माइंड्स ऑफ टुमॉरो’ के छठे संस्करण में उभरती फिल्म निर्माण प्रतिभाओं का प्रदर्शन",
    "time": null,
    "factors": [],
    "factor_ids": [],
@@ -178,12 +50,12 @@
    "sources": [
     {
      "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340827"
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341221"
     }
    ]
   },
   {
-   "headline": "57वें इफ्फी में मराठी फिल्म आदि अनंत अलग-अलग पीढ़ियों के रिश्तों, प्यार और देखभाल करने की वास्तविकताओं को दर्शाती है",
+   "headline": "डीपीआईआईटी ने विशेष अभियान 6 का समापन किया, स्वच्छता और लंबित मामलों के निपटान में उल्लेखनीय उपलब्धियां हासिल कीं",
    "time": null,
    "factors": [],
    "factor_ids": [],
@@ -194,12 +66,12 @@
    "sources": [
     {
      "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340831"
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341157"
     }
    ]
   },
   {
-   "headline": "बिहार के पटना में ‘राष्ट्रीय दुग्ध दिवस 2026’ मनाया जाएगा; इस अवसर पर कई महत्वपूर्ण पहल का शुभारंभ और डेयरी एवं पशुधन से जुड़ी प्रमुख बुनियादी ढांचा परियोजनाओं का लोकार्पण किया जाएगा",
+   "headline": "प्रधानमंत्री ने निरंतर सुधार और निवेश के माध्यम से विकसित भारत@2047 की दिशा में भारत की यात्रा को रेखांकित करने वाला लेख साझा किया",
    "time": null,
    "factors": [],
    "factor_ids": [],
@@ -210,12 +82,12 @@
    "sources": [
     {
      "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340828"
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341120"
     }
    ]
   },
   {
-   "headline": "IFFI 2026 : अनोखे सिनेमाई अंदाज़ के ज़रिए इंसानी जज़्बातों की पड़ताल करती है 'द ब्लैक सी’",
+   "headline": "प्रधानमंत्री श्री नरेन्द्र मोदी ने भारत की सभ्यतागत विरासत की वैश्विक सांस्कृतिक विमर्श को आकार देने में बढ़ती भूमिका को रेखांकित करने वाला लेख साझा किया",
    "time": null,
    "factors": [],
    "factor_ids": [],
@@ -226,12 +98,12 @@
    "sources": [
     {
      "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340834"
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341165"
     }
    ]
   },
   {
-   "headline": "श्री गुरु नानक देव जी के प्रकाश पर्व पर उपराष्ट्रपति श्री सी. पी. राधाकृष्णन गुरुद्वारा रकाब गंज साहिब गए",
+   "headline": "सेवा क्षेत्र के अनंतिम उत्पादक मूल्य सूचकांक (आधार वर्ष 2022-23)",
    "time": null,
    "factors": [],
    "factor_ids": [],
@@ -242,12 +114,12 @@
    "sources": [
     {
      "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340788"
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341112"
     }
    ]
   },
   {
-   "headline": "नक्सल-मुक्त भारत",
+   "headline": "राष्ट्रीय दुग्‍ध दिवस",
    "time": null,
    "factors": [],
    "factor_ids": [],
@@ -258,7 +130,119 @@
    "sources": [
     {
      "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340786"
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341162"
+    }
+   ]
+  },
+  {
+   "headline": "काशी तमिल संगमम 5.0",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341041"
+    }
+   ]
+  },
+  {
+   "headline": "प्रधानमंत्री श्री नरेन्द्र मोदी ने सर्वोच्च आध्यात्मिक प्राप्ति के मार्ग पर प्रकाश डालने वाला संस्कृत सुभाषितम् साझा किया",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341059"
+    }
+   ]
+  },
+  {
+   "headline": "प्रधानमंत्री ने वाराणसी में देव दीपावली की तस्वीरें साझा कीं",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341032"
+    }
+   ]
+  },
+  {
+   "headline": "“सिनेमा लोगों को जोड़ने का उत्सव है”: गुजराती फिल्म लालो – कृष्ण सदा सहायते ने इफ्फी 2026 में दर्शकों का दिल जीता",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341014"
+    }
+   ]
+  },
+  {
+   "headline": "एलिफेंट्स इन द फॉग’ सामाजिक स्वीकृति और बहिष्कार के विरोधाभास की पड़ताल करती है: निर्देशक अभिनाश बिक्रम शाह",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341030"
+    }
+   ]
+  },
+  {
+   "headline": "मिड-फेस्ट फिल्म ‘आई मैटर’ पहचान, अपनेपन और मानवता की अनेक परतों की पड़ताल करती है: आईएफएफआई 2026 में निर्देशक एलिना सरबन",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341018"
+    }
+   ]
+  },
+  {
+   "headline": "भारत की राष्‍ट्रपति कटक में बाली जात्रा महोत्सव 2026 में शामिल हुईं",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Headline only.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340950"
     }
    ]
   }
@@ -311,15 +295,15 @@
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 10,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-23T19:25:00+05:30"
+   "newest": "2026-11-25T15:50:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
    "total": 10,
-   "in_window": 4,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
    "newest": "2026-11-23T17:00:00+05:30"
@@ -335,10 +319,10 @@
   "US Federal Reserve": {
    "ok": true,
    "total": 20,
-   "in_window": 0,
+   "in_window": 1,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-21T02:45:00+05:30"
+   "newest": "2026-11-25T00:30:00+05:30"
   },
   "PIB (Govt of India)": {
    "ok": true,
@@ -351,34 +335,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 9,
+   "in_window": 13,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-24T18:09:55+05:30"
+   "newest": "2026-11-25T11:09:11+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 12,
+   "in_window": 13,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-24T18:01:45+05:30"
+   "newest": "2026-11-25T16:02:49+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 10,
+   "in_window": 2,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-24T13:40:51+05:30"
+   "newest": "2026-11-25T16:14:05+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 22,
+   "in_window": 8,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-24T17:44:05+05:30"
+   "newest": "2026-11-25T16:09:52+05:30"
   }
  }
 }
