@@ -1,295 +1,278 @@
 {
- "status": "partial",
+ "status": "ok",
  "title": "Indian Market News Brief — 25 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-25T16:24:49.196385+05:30",
+ "generated_at": "2026-11-25T17:10:33.182057+05:30",
  "window_start": "2026-11-24T15:00:00+05:30",
  "cutoff": "2026-11-25T07:30:00+05:30",
- "quick_read": "AI summary not available for this run.",
+ "quick_read": "Expectations of a smaller interest rate hike by the central bank and strong private equity investment in financial companies may support the market. However, sharp price drops in global technology stocks and fears of slowing foreign money inflows could create pressure. New rules offering guaranteed returns for gas pipelines provide positive news for energy companies.",
  "stories": [
   {
-   "headline": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
-   "time": "2026-11-25T00:30:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "A 50 bps jumbo rate hike can lead to financial stability concerns, hurt growth: Report",
+   "time": "2026-11-24T18:08:23+05:30",
+   "factors": [
+    "RBI monetary policy",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    12,
+    13
+   ],
+   "summary": "Economists at State Bank of India expect the Reserve Bank of India to raise interest rates by 0.25 percentage points. They previously expected a larger 0.50 percentage point increase. The economists said a larger rate hike could hurt economic growth and financial stability. The central bank rate setting panel meets from December 2 to December 4.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: A smaller interest rate hike means borrowing costs will rise less than expected, which could help banks and housing finance companies.",
+   "lean": "up",
+   "sectors": [
+    "Banking",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "US Federal Reserve",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/a-50-bps-jumbo-rate-hike-can-lead-to-financial-stability-concerns-hurt-growth-report/articleshow/136130764.cms"
     }
    ]
   },
   {
-   "headline": "प्रधानमंत्री ने देश के कार्यबल के लिए सामाजिक सुरक्षा के दायरे में विस्तार को रेखांकित करने वाला लेख साझा किया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Dalal Street may face test from AI trade revival",
+   "time": "2026-11-25T06:00:26+05:30",
+   "factors": [
+    "Foreign investment",
+    "Global markets"
+   ],
+   "factor_ids": [
+    18,
+    1
+   ],
+   "summary": "Market experts stated that foreign investors moved money into Indian stocks during the recent sell-off in global technology shares. If global stock markets recover, foreign investors might reduce their money coming into India. This could slow down foreign capital coming into Indian markets.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Broad Market",
+    "Information Technology"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341172"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/nvidia-ai-stocks-rally-impact-sensex-nifty-11795513010920.html"
     }
    ]
   },
   {
-   "headline": "आईएफएफआई 2026 में ‘क्रिएटिव माइंड्स ऑफ टुमॉरो’ के छठे संस्करण में उभरती फिल्म निर्माण प्रतिभाओं का प्रदर्शन",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "PE/VC investments in India surge to USD 8.7 billion in October, highest monthly level in five years: EY-IVCA report",
+   "time": "2026-11-24T19:17:50+05:30",
+   "factors": [
+    "Foreign investment",
+    "Domestic investment"
+   ],
+   "factor_ids": [
+    18,
+    19
+   ],
+   "summary": "Private equity and venture capital investments in India reached 8.7 billion US dollars in October 2026. This is the highest monthly investment total in five years. Eight large deals made up 7.3 billion US dollars of this amount. Financial services attracted the largest share, getting 5.9 billion US dollars.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Strong private investment into Indian financial companies shows high confidence from large global investors.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Banking"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341221"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/pe/vc-investments-in-india-surge-to-usd-8-7-billion-in-october-highest-monthly-level-in-five-years-ey-ivca-report/articleshow/136132831.cms"
     }
    ]
   },
   {
-   "headline": "डीपीआईआईटी ने विशेष अभियान 6 का समापन किया, स्वच्छता और लंबित मामलों के निपटान में उल्लेखनीय उपलब्धियां हासिल कीं",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "PNGRB proposes 14% assured returns to attract investment in natural gas pipelines",
+   "time": "2026-11-24T18:56:30+05:30",
+   "factors": [
+    "Government policy",
+    "Regulation"
+   ],
+   "factor_ids": [
+    15,
+    17
+   ],
+   "summary": "Petroleum and Natural Gas Regulatory Board proposed a 14 percent assured return for natural gas pipelines. The move aims to lower investment risks in gas transport infrastructure. The proposed rule also seeks to encourage lower costs and better pipeline use.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Oil & Gas",
+    "Utilities"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341157"
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/pngrb-proposes-14-assured-returns-to-attract-investment-in-natural-gas-pipelines/article71738560.ece"
     }
    ]
   },
   {
-   "headline": "प्रधानमंत्री ने निरंतर सुधार और निवेश के माध्यम से विकसित भारत@2047 की दिशा में भारत की यात्रा को रेखांकित करने वाला लेख साझा किया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "US markets slide, Asian markets rebound as Nvidia rally fizzles out",
+   "time": "2026-11-24T22:28:55+05:30",
+   "factors": [
+    "Global markets",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    1,
+    20
+   ],
+   "summary": "US technology shares declined as the price surge in chip maker Nvidia lost momentum. The Nasdaq index fell 1.5 percent while Nvidia shares dropped 4.7 percent. Meanwhile, Asian stock markets showed mixed trends, with South Korea's main index jumping 6.3 percent.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May hurt Nifty: Price falls in US technology companies can make investors cautious about Indian IT stocks.",
+   "lean": "down",
+   "sectors": [
+    "Information Technology"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341120"
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/us-markets-slide-asian-markets-rebound-as-nvidia-rally-fizzles-out-126112401181_1.html"
+    },
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/us-stocks-slide-as-nvidia-rally-fizzles-out-dollar-falls-11795561223195.html"
     }
    ]
   },
   {
-   "headline": "प्रधानमंत्री श्री नरेन्द्र मोदी ने भारत की सभ्यतागत विरासत की वैश्विक सांस्कृतिक विमर्श को आकार देने में बढ़ती भूमिका को रेखांकित करने वाला लेख साझा किया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Shift in pension and insurance money to equities dampens long-term G-sec demand: RBI DG",
+   "time": "2026-11-24T18:09:55+05:30",
+   "factors": [
+    "Banking and liquidity",
+    "Indian bond market"
+   ],
+   "factor_ids": [
+    13,
+    14
+   ],
+   "summary": "A Deputy Governor at the Reserve Bank of India said insurance firms and pension funds are investing more money into stock markets instead of government bonds. This shift has slightly reduced the demand for long-term government bonds. The official noted this creates challenges for the stability of the government bond market.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: More pension funds buying stocks provides direct market support, but reduced demand for government bonds could cause wider economic concerns.",
+   "lean": "unclear",
+   "sectors": [
+    "Financial Services",
+    "Banking"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341165"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/shift-in-pension-and-insurance-money-to-equities-dampens-long-term-g-sec-demand-rbi-dg/articleshow/136130860.cms"
     }
    ]
   },
   {
-   "headline": "सेवा क्षेत्र के अनंतिम उत्पादक मूल्य सूचकांक (आधार वर्ष 2022-23)",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Stock market outlook today,25 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+   "time": "2026-11-25T06:40:55+05:30",
+   "factors": [
+    "Price and volume",
+    "Technical trends"
+   ],
+   "factor_ids": [
+    27,
+    24
+   ],
+   "summary": "Indian stock market indices Sensex and Nifty saw sharp daily drops of over 1.7 percent recently. Investors sold shares across banking, financial services, and metal companies to take profits. Analysts noted that key support levels for the Nifty index sit near the 25,000 mark.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Heavy profit selling across key sectors shows weak short-term market sentiment.",
+   "lean": "down",
+   "sectors": [
+    "Banking",
+    "Metals"
+   ],
+   "unverified_figures": [
+    "1.7"
+   ],
    "sources": [
     {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341112"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-25-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cues-11795566965791.html"
     }
    ]
   },
   {
-   "headline": "राष्ट्रीय दुग्‍ध दिवस",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "South Indian Bank shares in focus as RBI approves SBI Mutual Fund to acquire up to 9.99% stake; stock up 612% in 5 years",
+   "time": "2026-11-24T19:21:37+05:30",
+   "factors": [
+    "Regulation",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    17,
+    31
+   ],
+   "summary": "The Reserve Bank of India approved a proposal by SBI Mutual Fund to buy up to a 9.99 percent stake in South Indian Bank. The approval is subject to meeting regulatory rules. South Indian Bank recently reported higher quarterly profit and income.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Banking"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341162"
-    }
-   ]
-  },
-  {
-   "headline": "काशी तमिल संगमम 5.0",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341041"
-    }
-   ]
-  },
-  {
-   "headline": "प्रधानमंत्री श्री नरेन्द्र मोदी ने सर्वोच्च आध्यात्मिक प्राप्ति के मार्ग पर प्रकाश डालने वाला संस्कृत सुभाषितम् साझा किया",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341059"
-    }
-   ]
-  },
-  {
-   "headline": "प्रधानमंत्री ने वाराणसी में देव दीपावली की तस्वीरें साझा कीं",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341032"
-    }
-   ]
-  },
-  {
-   "headline": "“सिनेमा लोगों को जोड़ने का उत्सव है”: गुजराती फिल्म लालो – कृष्ण सदा सहायते ने इफ्फी 2026 में दर्शकों का दिल जीता",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341014"
-    }
-   ]
-  },
-  {
-   "headline": "एलिफेंट्स इन द फॉग’ सामाजिक स्वीकृति और बहिष्कार के विरोधाभास की पड़ताल करती है: निर्देशक अभिनाश बिक्रम शाह",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341030"
-    }
-   ]
-  },
-  {
-   "headline": "मिड-फेस्ट फिल्म ‘आई मैटर’ पहचान, अपनेपन और मानवता की अनेक परतों की पड़ताल करती है: आईएफएफआई 2026 में निर्देशक एलिना सरबन",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341018"
-    }
-   ]
-  },
-  {
-   "headline": "भारत की राष्‍ट्रपति कटक में बाली जात्रा महोत्सव 2026 में शामिल हुईं",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Headline only.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "PIB (Govt of India)",
-     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2340950"
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/south-indian-bank-shares-in-focus-as-rbi-approves-sbi-mutual-fund-to-acquire-up-to-9-99-stake-stock-up-612-in-5-years-11795526894476.html"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "unverified",
-  "2": "unverified",
-  "3": "unverified",
-  "4": "unverified",
+  "1": "found",
+  "2": "none",
+  "3": "none",
+  "4": "none",
   "5": "unverified",
   "6": "unverified",
-  "7": "unverified",
-  "8": "unverified",
+  "7": "none",
+  "8": "none",
   "9": "unverified",
-  "10": "unverified",
-  "11": "unverified",
-  "12": "unverified",
-  "13": "unverified",
-  "14": "unverified",
-  "15": "unverified",
-  "16": "unverified",
-  "17": "unverified",
-  "18": "unverified",
-  "19": "unverified",
-  "20": "unverified",
-  "21": "unverified",
-  "22": "unverified",
-  "23": "unverified",
-  "24": "unverified",
+  "10": "none",
+  "11": "none",
+  "12": "found",
+  "13": "found",
+  "14": "found",
+  "15": "found",
+  "16": "none",
+  "17": "found",
+  "18": "found",
+  "19": "found",
+  "20": "found",
+  "21": "none",
+  "22": "none",
+  "23": "none",
+  "24": "found",
   "25": "unverified",
   "26": "unverified",
-  "27": "unverified",
+  "27": "found",
   "28": "unverified",
   "29": "unverified",
   "30": "unverified",
-  "31": "unverified",
-  "32": "unverified",
+  "31": "found",
+  "32": "none",
   "33": "unverified",
   "34": "unverified",
   "35": "unverified",
-  "36": "unverified"
+  "36": "none"
  },
  "gaps": [
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "AI summaries unavailable this run. Showing headlines only."
+  "Removed AI text with trading language: Dalal Street may face test from AI trade revival",
+  "Removed AI text with trading language: PNGRB proposes 14% assured returns to attract investment in ",
+  "Removed AI text with trading language: South Indian Bank shares in focus as RBI approves SBI Mutual",
+  "Check figures 1.7 (not found in the source text we read): Stock market outlook today,25 Nov:Sensex, Nifty prediction-D"
  ],
  "sources_checked": {
   "RBI press releases": {
@@ -338,15 +321,15 @@
    "in_window": 13,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-25T11:09:11+05:30"
+   "newest": "2026-11-25T16:23:26+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 13,
+   "in_window": 11,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-25T16:02:49+05:30"
+   "newest": "2026-11-25T17:06:54+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
@@ -362,7 +345,7 @@
    "in_window": 8,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-25T16:09:52+05:30"
+   "newest": "2026-11-25T17:03:06+05:30"
   }
  }
 }
