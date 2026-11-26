@@ -1,7 +1,7 @@
 {
  "status": "partial",
  "title": "Indian Market News Brief — 26 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-26T15:59:38.746208+05:30",
+ "generated_at": "2026-11-26T16:56:53.233489+05:30",
  "window_start": "2026-11-25T15:00:00+05:30",
  "cutoff": "2026-11-26T07:30:00+05:30",
  "quick_read": "AI summary not available for this run.",
@@ -11,7 +11,7 @@
    "time": "2026-11-25T15:00:00+05:30",
    "factors": [],
    "factor_ids": [],
-   "summary": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹8,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.5541 (YTM: 5.8846%) 96.8472 (YTM: 6.5288%) 93.7906 (YTM: 6.6387%) III. Total Face Value Accepted ₹4,729.750 Crore ₹8,000 Crore ₹7,000 Crore Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1561",
+   "summary": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹8,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.5541 (YTM: 5.8846%) 96.8472 (YTM: 6.5288%) 93.7906 (YTM: 6.6387%) III. Total Face Value Acc",
    "confirmation": "Official source",
    "impact": "AI explanation not available for this story.",
    "sectors": [],
@@ -308,10 +308,10 @@
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 5,
+   "in_window": 4,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-26T12:15:00+05:30"
+   "newest": "2026-11-26T16:25:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
@@ -351,15 +351,15 @@
    "in_window": 20,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-26T10:54:36+05:30"
+   "newest": "2026-11-26T16:06:16+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 8,
+   "in_window": 5,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-26T15:33:29+05:30"
+   "newest": "2026-11-26T16:48:02+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
@@ -375,7 +375,7 @@
    "in_window": 31,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-26T15:25:08+05:30"
+   "newest": "2026-11-26T16:13:26+05:30"
   }
  }
 }
