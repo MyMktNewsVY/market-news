@@ -1,287 +1,317 @@
 {
- "status": "ok",
- "title": "Indian Market News Brief — 25 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-25T17:10:33.182057+05:30",
- "window_start": "2026-11-24T15:00:00+05:30",
- "cutoff": "2026-11-25T07:30:00+05:30",
- "quick_read": "Expectations of a smaller interest rate hike by the central bank and strong private equity investment in financial companies may support the market. However, sharp price drops in global technology stocks and fears of slowing foreign money inflows could create pressure. New rules offering guaranteed returns for gas pipelines provide positive news for energy companies.",
+ "status": "partial",
+ "title": "Indian Market News Brief — 26 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-26T15:59:38.746208+05:30",
+ "window_start": "2026-11-25T15:00:00+05:30",
+ "cutoff": "2026-11-26T07:30:00+05:30",
+ "quick_read": "AI summary not available for this run.",
  "stories": [
   {
-   "headline": "A 50 bps jumbo rate hike can lead to financial stability concerns, hurt growth: Report",
-   "time": "2026-11-24T18:08:23+05:30",
-   "factors": [
-    "RBI monetary policy",
-    "Banking and liquidity"
-   ],
-   "factor_ids": [
-    12,
-    13
-   ],
-   "summary": "Economists at State Bank of India expect the Reserve Bank of India to raise interest rates by 0.25 percentage points. They previously expected a larger 0.50 percentage point increase. The economists said a larger rate hike could hurt economic growth and financial stability. The central bank rate setting panel meets from December 2 to December 4.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: A smaller interest rate hike means borrowing costs will rise less than expected, which could help banks and housing finance companies.",
-   "lean": "up",
-   "sectors": [
-    "Banking",
-    "Financial Services"
-   ],
-   "unverified_figures": [],
+   "headline": "91-Day, 182-Day and 364-Day T-Bill Auction Result: Cut-off",
+   "time": "2026-11-25T15:00:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹8,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.5541 (YTM: 5.8846%) 96.8472 (YTM: 6.5288%) 93.7906 (YTM: 6.6387%) III. Total Face Value Accepted ₹4,729.750 Crore ₹8,000 Crore ₹7,000 Crore Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1561",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
    "sources": [
     {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/a-50-bps-jumbo-rate-hike-can-lead-to-financial-stability-concerns-hurt-growth-report/articleshow/136130764.cms"
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64039"
     }
    ]
   },
   {
-   "headline": "Dalal Street may face test from AI trade revival",
-   "time": "2026-11-25T06:00:26+05:30",
-   "factors": [
-    "Foreign investment",
-    "Global markets"
-   ],
-   "factor_ids": [
-    18,
-    1
-   ],
-   "summary": "Market experts stated that foreign investors moved money into Indian stocks during the recent sell-off in global technology shares. If global stock markets recover, foreign investors might reduce their money coming into India. This could slow down foreign capital coming into Indian markets.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Explanation withheld.",
-   "lean": "unclear",
-   "sectors": [
-    "Broad Market",
-    "Information Technology"
-   ],
-   "unverified_figures": [],
+   "headline": "Treasury Bills: Full Auction Result",
+   "time": "2026-11-25T15:50:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 8,000 8,000 7,000 II. Competitive Bids Received (i) Number 93 87 135 (ii) Amount 17,354.750 23,728.750 21,835.000 III. Cut-off price (₹) / Yield 98.5541 96.8472 93.7906 (YTM: 5.8846%) (YTM: 6.5288%) (YTM: 6.6387%) IV. Competitive Bids Accepted (i) Number 35 16 45 (ii) Amount 4,329.750 7,600.000 6,650.000 V. Partial Allot",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/nvidia-ai-stocks-rally-impact-sensex-nifty-11795513010920.html"
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64040"
     }
    ]
   },
   {
-   "headline": "PE/VC investments in India surge to USD 8.7 billion in October, highest monthly level in five years: EY-IVCA report",
-   "time": "2026-11-24T19:17:50+05:30",
-   "factors": [
-    "Foreign investment",
-    "Domestic investment"
-   ],
-   "factor_ids": [
-    18,
-    19
-   ],
-   "summary": "Private equity and venture capital investments in India reached 8.7 billion US dollars in October 2026. This is the highest monthly investment total in five years. Eight large deals made up 7.3 billion US dollars of this amount. Financial services attracted the largest share, getting 5.9 billion US dollars.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May help Nifty: Strong private investment into Indian financial companies shows high confidence from large global investors.",
-   "lean": "up",
-   "sectors": [
-    "Financial Services",
-    "Banking"
-   ],
-   "unverified_figures": [],
+   "headline": "RBI Bulletin – November 2026",
+   "time": "2026-11-25T17:55:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Today, the Reserve Bank released the November 2026 issue of its monthly Bulletin. The Bulletin includes six speeches, four articles and current statistics. The four articles are: I. State of the Economy; II. Shifting Drivers of Imported Inflation: COVID-19 Pandemic to the West Asia Conflict; III. Performance of the NBFC Sector during 2025-26: A Review; and IV. Disentangling the Impact of US Moneta",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
    "sources": [
     {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/pe/vc-investments-in-india-surge-to-usd-8-7-billion-in-october-highest-monthly-level-in-five-years-ey-ivca-report/articleshow/136132831.cms"
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64041"
     }
    ]
   },
   {
-   "headline": "PNGRB proposes 14% assured returns to attract investment in natural gas pipelines",
-   "time": "2026-11-24T18:56:30+05:30",
-   "factors": [
-    "Government policy",
-    "Regulation"
-   ],
-   "factor_ids": [
-    15,
-    17
-   ],
-   "summary": "Petroleum and Natural Gas Regulatory Board proposed a 14 percent assured return for natural gas pipelines. The move aims to lower investment risks in gas transport infrastructure. The proposed rule also seeks to encourage lower costs and better pipeline use.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Explanation withheld.",
-   "lean": "unclear",
-   "sectors": [
-    "Oil & Gas",
-    "Utilities"
-   ],
-   "unverified_figures": [],
+   "headline": "47th Half-Yearly Report on Management of Foreign Exchange Reserves: April – September 2026",
+   "time": "2026-11-25T18:05:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "It may be recalled that in February 2004 , the Reserve Bank initiated the practice of compiling half-yearly reports on the management of foreign exchange reserves and making them public to promote greater transparency and enhance disclosure in the management of the country’s foreign exchange reserves. In this connection, Reserve Bank of India has today released the 47th Half-Yearly Report on Manag",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
    "sources": [
     {
-     "name": "BusinessLine Markets",
-     "url": "https://www.thehindubusinessline.com/markets/commodities/pngrb-proposes-14-assured-returns-to-attract-investment-in-natural-gas-pipelines/article71738560.ece"
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64042"
     }
    ]
   },
   {
-   "headline": "US markets slide, Asian markets rebound as Nvidia rally fizzles out",
-   "time": "2026-11-24T22:28:55+05:30",
-   "factors": [
-    "Global markets",
-    "Corporate earnings"
-   ],
-   "factor_ids": [
-    1,
-    20
-   ],
-   "summary": "US technology shares declined as the price surge in chip maker Nvidia lost momentum. The Nasdaq index fell 1.5 percent while Nvidia shares dropped 4.7 percent. Meanwhile, Asian stock markets showed mixed trends, with South Korea's main index jumping 6.3 percent.",
-   "confirmation": "Confirmed by 2 or more outlets",
-   "impact": "May hurt Nifty: Price falls in US technology companies can make investors cautious about Indian IT stocks.",
-   "lean": "down",
-   "sectors": [
-    "Information Technology"
-   ],
-   "unverified_figures": [],
+   "headline": "RBI to conduct Overnight Variable Rate Repo (VRR) auction under LAF on November 26, 2026",
+   "time": "2026-11-25T19:20:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Thursday, November 26, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 1 09:30 AM to 10:00 AM November 27, 2026 (Friday) 2. The operational guidelines for the auction will be same as given in Reserve Ba",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
    "sources": [
     {
-     "name": "Business Standard Markets",
-     "url": "https://www.business-standard.com/markets/news/us-markets-slide-asian-markets-rebound-as-nvidia-rally-fizzles-out-126112401181_1.html"
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64043"
+    }
+   ]
+  },
+  {
+   "headline": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+   "time": "2026-11-26T01:30:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "US Federal Reserve",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm"
+    }
+   ]
+  },
+  {
+   "headline": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+   "time": "2026-11-26T01:30:00+05:30",
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "US Federal Reserve",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm"
+    }
+   ]
+  },
+  {
+   "headline": "Adjudication Order in the matter of Vanita Krishnakant Gandhi",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Adjudication Order in the matter of Vanita Krishnakant Gandhi",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-vanita-krishnakant-gandhi_105859.html"
     },
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/us-stocks-slide-as-nvidia-rally-fizzles-out-dollar-falls-11795561223195.html"
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-intelligent-money-managers-private-limited_105879.html"
     }
    ]
   },
   {
-   "headline": "Shift in pension and insurance money to equities dampens long-term G-sec demand: RBI DG",
-   "time": "2026-11-24T18:09:55+05:30",
-   "factors": [
-    "Banking and liquidity",
-    "Indian bond market"
-   ],
-   "factor_ids": [
-    13,
-    14
-   ],
-   "summary": "A Deputy Governor at the Reserve Bank of India said insurance firms and pension funds are investing more money into stock markets instead of government bonds. This shift has slightly reduced the demand for long-term government bonds. The official noted this creates challenges for the stability of the government bond market.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Unclear for Nifty: More pension funds buying stocks provides direct market support, but reduced demand for government bonds could cause wider economic concerns.",
-   "lean": "unclear",
-   "sectors": [
-    "Financial Services",
-    "Banking"
-   ],
-   "unverified_figures": [],
+   "headline": "Adjudication Order in the matter of investigation in the Financial Statements of Lloyds Enterprises Limited",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Adjudication Order in the matter of investigation in the Financial Statements of Lloyds Enterprises Limited",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
    "sources": [
     {
-     "name": "Economic Times Markets",
-     "url": "https://economictimes.indiatimes.com/markets/bonds/shift-in-pension-and-insurance-money-to-equities-dampens-long-term-g-sec-demand-rbi-dg/articleshow/136130860.cms"
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-investigation-in-the-financial-statements-of-lloyds-enterprises-limited_105858.html"
     }
    ]
   },
   {
-   "headline": "Stock market outlook today,25 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
-   "time": "2026-11-25T06:40:55+05:30",
-   "factors": [
-    "Price and volume",
-    "Technical trends"
-   ],
-   "factor_ids": [
-    27,
-    24
-   ],
-   "summary": "Indian stock market indices Sensex and Nifty saw sharp daily drops of over 1.7 percent recently. Investors sold shares across banking, financial services, and metal companies to take profits. Analysts noted that key support levels for the Nifty index sit near the 25,000 mark.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "May hurt Nifty: Heavy profit selling across key sectors shows weak short-term market sentiment.",
-   "lean": "down",
-   "sectors": [
-    "Banking",
-    "Metals"
-   ],
-   "unverified_figures": [
-    "1.7"
-   ],
+   "headline": "Half-yearly review of -Significant Indices- under SEBI (Index Providers) Regulations, 2024",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Half-yearly review of -Significant Indices- under SEBI (Index Providers) Regulations, 2024",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-25-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-cues-11795566965791.html"
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/half-yearly-review-of-significant-indices-under-sebi-index-providers-regulations-2024_105853.html"
     }
    ]
   },
   {
-   "headline": "South Indian Bank shares in focus as RBI approves SBI Mutual Fund to acquire up to 9.99% stake; stock up 612% in 5 years",
-   "time": "2026-11-24T19:21:37+05:30",
-   "factors": [
-    "Regulation",
-    "Corporate events"
-   ],
-   "factor_ids": [
-    17,
-    31
-   ],
-   "summary": "The Reserve Bank of India approved a proposal by SBI Mutual Fund to buy up to a 9.99 percent stake in South Indian Bank. The approval is subject to meeting regulatory rules. South Indian Bank recently reported higher quarterly profit and income.",
-   "confirmation": "Single source, not independently confirmed",
-   "impact": "Explanation withheld.",
-   "lean": "unclear",
-   "sectors": [
-    "Banking"
-   ],
-   "unverified_figures": [],
+   "headline": "Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
    "sources": [
     {
-     "name": "Mint Markets",
-     "url": "https://www.livemint.com/market/stock-market-news/south-indian-bank-shares-in-focus-as-rbi-approves-sbi-mutual-fund-to-acquire-up-to-9-99-stake-stock-up-612-in-5-years-11795526894476.html"
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/simplification-of-client-on-boarding-and-rationalisation-of-risk-management-framework-at-kyc-registration-agencies_105839.html"
+    }
+   ]
+  },
+  {
+   "headline": "Caution to investors regarding impersonation of SEBI registered intermediaries on closed user groups of social media platforms",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Caution to investors regarding impersonation of SEBI registered intermediaries on closed user groups of social media platforms",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/caution-to-investors-regarding-impersonation-of-sebi-registered-intermediaries-on-closed-user-groups-of-social-media-platforms_105944.html"
+    }
+   ]
+  },
+  {
+   "headline": "Advisory Regarding Unregulated Pre-listing Premium often called as Grey Market Premium (GMP) for Upcoming Initial Public Offers (IPOs)",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Advisory Regarding Unregulated Pre-listing Premium often called as Grey Market Premium (GMP) for Upcoming Initial Public Offers (IPOs)",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/advisory-regarding-unregulated-pre-listing-premium-often-called-as-grey-market-premium-gmp-for-upcoming-initial-public-offers-ipos-_105942.html"
+    }
+   ]
+  },
+  {
+   "headline": "Release Order – Unickon Securities Pvt. Ltd. [Defaulter] (PAN: AAPFS5325P) in the matter of Unickon Securities Pvt. Ltd.: under Certificate No. 5163 of 2022.",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Release Order – Unickon Securities Pvt. Ltd. [Defaulter] (PAN: AAPFS5325P) in the matter of Unickon Securities Pvt. Ltd.: under Certificate No. 5163 of 2022.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/release-order-unickon-securities-pvt-ltd-defaulter-pan-aapfs5325p-in-the-matter-of-unickon-securities-pvt-ltd-under-certificate-no-5163-of-2022-_105925.html"
+    },
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/completion-of-recovery-certificate-no-5163-of-2022-dated-july-15-2022-issued-to-unickon-securities-pvt-ltd-defaulter-pan-aapfs5325p-in-the-matter-of-unickon-securities-pvt-ltd-_105919.html"
+    }
+   ]
+  },
+  {
+   "headline": "Release Order – Unicon Securities Pvt. Ltd. [Defaulter] (PAN: AAPFS5325P) in the matter of Ashutosh Paper Mills Limited: under Certificate No. 3834 of 2021.",
+   "time": null,
+   "factors": [],
+   "factor_ids": [],
+   "summary": "Release Order – Unicon Securities Pvt. Ltd. [Defaulter] (PAN: AAPFS5325P) in the matter of Ashutosh Paper Mills Limited: under Certificate No. 3834 of 2021.",
+   "confirmation": "Official source",
+   "impact": "AI explanation not available for this story.",
+   "sectors": [],
+   "sources": [
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/release-order-unicon-securities-pvt-ltd-defaulter-pan-aapfs5325p-in-the-matter-of-ashutosh-paper-mills-limited-under-certificate-no-3834-of-2021-_105923.html"
+    },
+    {
+     "name": "SEBI",
+     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/completion-of-recovery-certificate-no-3834-of-2021-dated-june-16-2021-issued-to-unicon-securities-pvt-ltd-defaulter-pan-aapfs5325p-in-the-matter-of-ashutosh-paper-mills-limited-_105917.html"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "found",
-  "2": "none",
-  "3": "none",
-  "4": "none",
+  "1": "unverified",
+  "2": "unverified",
+  "3": "unverified",
+  "4": "unverified",
   "5": "unverified",
   "6": "unverified",
-  "7": "none",
-  "8": "none",
+  "7": "unverified",
+  "8": "unverified",
   "9": "unverified",
-  "10": "none",
-  "11": "none",
-  "12": "found",
-  "13": "found",
-  "14": "found",
-  "15": "found",
-  "16": "none",
-  "17": "found",
-  "18": "found",
-  "19": "found",
-  "20": "found",
-  "21": "none",
-  "22": "none",
-  "23": "none",
-  "24": "found",
+  "10": "unverified",
+  "11": "unverified",
+  "12": "unverified",
+  "13": "unverified",
+  "14": "unverified",
+  "15": "unverified",
+  "16": "unverified",
+  "17": "unverified",
+  "18": "unverified",
+  "19": "unverified",
+  "20": "unverified",
+  "21": "unverified",
+  "22": "unverified",
+  "23": "unverified",
+  "24": "unverified",
   "25": "unverified",
   "26": "unverified",
-  "27": "found",
+  "27": "unverified",
   "28": "unverified",
   "29": "unverified",
   "30": "unverified",
-  "31": "found",
-  "32": "none",
+  "31": "unverified",
+  "32": "unverified",
   "33": "unverified",
   "34": "unverified",
   "35": "unverified",
-  "36": "none"
+  "36": "unverified"
  },
  "gaps": [
+  "SEBI: 30 items skipped because no publish time was given",
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "Removed AI text with trading language: Dalal Street may face test from AI trade revival",
-  "Removed AI text with trading language: PNGRB proposes 14% assured returns to attract investment in ",
-  "Removed AI text with trading language: South Indian Bank shares in focus as RBI approves SBI Mutual",
-  "Check figures 1.7 (not found in the source text we read): Stock market outlook today,25 Nov:Sensex, Nifty prediction-D"
+  "AI summaries unavailable this run. Showing headlines only."
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 0,
+   "in_window": 5,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-25T15:50:00+05:30"
+   "newest": "2026-11-26T12:15:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
@@ -289,23 +319,23 @@
    "in_window": 0,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-23T17:00:00+05:30"
+   "newest": "2026-11-26T11:15:00+05:30"
   },
   "SEBI": {
    "ok": true,
-   "total": 0,
-   "in_window": 0,
-   "no_time": 0,
+   "total": 30,
+   "in_window": 30,
+   "no_time": 30,
    "fresh": true,
    "newest": null
   },
   "US Federal Reserve": {
    "ok": true,
    "total": 20,
-   "in_window": 1,
+   "in_window": 2,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-25T00:30:00+05:30"
+   "newest": "2026-11-26T01:30:00+05:30"
   },
   "PIB (Govt of India)": {
    "ok": true,
@@ -318,34 +348,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 13,
+   "in_window": 20,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-25T16:23:26+05:30"
+   "newest": "2026-11-26T10:54:36+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 11,
+   "in_window": 8,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-25T17:06:54+05:30"
+   "newest": "2026-11-26T15:33:29+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 2,
+   "in_window": 7,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-25T16:14:05+05:30"
+   "newest": "2026-11-26T15:14:58+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 8,
+   "in_window": 31,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-25T17:03:06+05:30"
+   "newest": "2026-11-26T15:25:08+05:30"
   }
  }
 }
