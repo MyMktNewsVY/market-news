@@ -1,317 +1,370 @@
 {
- "status": "partial",
- "title": "Indian Market News Brief — 26 Nov 2026 — Nifty 50",
- "generated_at": "2026-11-26T16:56:53.233489+05:30",
- "window_start": "2026-11-25T15:00:00+05:30",
- "cutoff": "2026-11-26T07:30:00+05:30",
- "quick_read": "AI summary not available for this run.",
+ "status": "ok",
+ "title": "Indian Market News Brief — 27 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-27T16:03:47.350927+05:30",
+ "window_start": "2026-11-26T15:00:00+05:30",
+ "cutoff": "2026-11-27T07:30:00+05:30",
+ "quick_read": "Rising crude oil prices and a weaker rupee may pressure company profits and push up expenses. Strong gains in major IT shares and new trading approvals for exchanges may offer support. Lower crop production estimates and legal issues for major banks create uncertainty for domestic growth.",
  "stories": [
   {
-   "headline": "91-Day, 182-Day and 364-Day T-Bill Auction Result: Cut-off",
-   "time": "2026-11-25T15:00:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "T-Bill 91-Day 182-Day 364-Day I. Total Face Value Notified ₹8,000 Crore ₹8,000 Crore ₹7,000 Crore II. Cut-off Price (₹) and Implicit Yield at Cut-Off Price 98.5541 (YTM: 5.8846%) 96.8472 (YTM: 6.5288%) 93.7906 (YTM: 6.6387%) III. Total Face Value Acc",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Spike in oil prices partly reverses rupee rally, forward premiums surge",
+   "time": "2026-11-26T16:06:16+05:30",
+   "factors": [
+    "Crude oil",
+    "Rupee",
+    "Inflation and consumption",
+    "Indian bond market"
+   ],
+   "factor_ids": [
+    8,
+    7,
+    11,
+    14
+   ],
+   "summary": "Brent crude oil price went above $96 per barrel.\nThe Indian rupee fell 24 paise to settle at 92.44 against the US dollar.\nRetail inflation in India stayed above the central bank limit of 6% in October.\nHigher oil prices increase import bill and inflation risks for India.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: High crude oil prices and a weaker rupee make imported goods costlier, which can hurt profits of manufacturing and oil-using companies.",
+   "lean": "down",
+   "sectors": [
+    "Oil & Gas",
+    "Paints",
+    "Automobiles",
+    "Consumer Goods"
+   ],
+   "unverified_figures": [
+    "24",
+    "92.44"
+   ],
    "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64039"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/spike-in-oil-prices-partly-reverses-rupee-rally-forward-premiums-surge/articleshow/136188127.cms"
     }
    ]
   },
   {
-   "headline": "Treasury Bills: Full Auction Result",
-   "time": "2026-11-25T15:50:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "(Amount in ₹ crore) Auction Results 91-Day 182-Day 364-Day I. Notified Amount 8,000 8,000 7,000 II. Competitive Bids Received (i) Number 93 87 135 (ii) Amount 17,354.750 23,728.750 21,835.000 III. Cut-off price (₹) / Yield 98.5541 96.8472 93.7906 (YTM: 5.8846%) (YTM: 6.5288%) (YTM: 6.6387%) IV. Competitive Bids Accepted (i) Number 35 16 45 (ii) Amount 4,329.750 7,600.000 6,650.000 V. Partial Allot",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "SC asks HDFC Bank, three others to ok staff prosecution",
+   "time": "2026-11-27T01:32:16+05:30",
+   "factors": [
+    "Banking and liquidity",
+    "Regulation",
+    "Heavyweight stocks",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    13,
+    17,
+    21,
+    31
+   ],
+   "summary": "Supreme Court ordered four financial institutions to grant permission to prosecute their staff.\nThe entities include HDFC Bank, ICICI Bank, Sammaan Capital, and PNB Housing Finance.\nThe order relates to alleged fraudulent subvention schemes with real estate developers.\nHomebuyers faced loan recovery demands even when builders failed to meet commitments.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Banking and housing finance stocks may face selling pressure due to legal actions against employees and concerns over bad real estate loans.",
+   "lean": "down",
+   "sectors": [
+    "Banks",
+    "Housing Finance",
+    "Real Estate"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64040"
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sc-asks-hdfc-bank-three-others-to-ok-staff-prosecution/articleshow/136206787.cms"
     }
    ]
   },
   {
-   "headline": "RBI Bulletin – November 2026",
-   "time": "2026-11-25T17:55:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Today, the Reserve Bank released the November 2026 issue of its monthly Bulletin. The Bulletin includes six speeches, four articles and current statistics. The four articles are: I. State of the Economy; II. Shifting Drivers of Imported Inflation: COVID-19 Pandemic to the West Asia Conflict; III. Performance of the NBFC Sector during 2025-26: A Review; and IV. Disentangling the Impact of US Moneta",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "India’s kharif foodgrains estimate 5% lower on weather woes",
+   "time": "2026-11-26T20:20:40+05:30",
+   "factors": [
+    "GDP and growth",
+    "Inflation and consumption",
+    "Seasonal factors"
+   ],
+   "factor_ids": [
+    10,
+    11,
+    34
+   ],
+   "summary": "Kharif foodgrain production is estimated to be 5% lower due to bad weather.\nRice production is expected to decline by 2.3%.\nFarmers faced challenges like low rainfall, dry spells, cyclones, and floods.\nThe details were shared by Agriculture Minister Shivraj Singh Chouhan.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Lower food production can push up food prices, leaving households with less money to spend on other consumer products.",
+   "lean": "down",
+   "sectors": [
+    "Consumer Goods",
+    "Agriculture",
+    "Retail"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64041"
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/economy/indias-kharif-foodgrains-estimate-5-lower-on-weather-woes/article71745520.ece"
     }
    ]
   },
   {
-   "headline": "47th Half-Yearly Report on Management of Foreign Exchange Reserves: April – September 2026",
-   "time": "2026-11-25T18:05:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "It may be recalled that in February 2004 , the Reserve Bank initiated the practice of compiling half-yearly reports on the management of foreign exchange reserves and making them public to promote greater transparency and enhance disclosure in the management of the country’s foreign exchange reserves. In this connection, Reserve Bank of India has today released the 47th Half-Yearly Report on Manag",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "NSE receives RBI's approval to launch corporate bond index futures",
+   "time": "2026-11-26T18:49:09+05:30",
+   "factors": [
+    "Indian bond market",
+    "Regulation",
+    "Market structure"
+   ],
+   "factor_ids": [
+    14,
+    17,
+    30
+   ],
+   "summary": "National Stock Exchange received approval from RBI to launch corporate bond index futures.\nThese exchange-traded contracts will let investors manage risk in corporate debt portfolios.\nTraders can use these contracts to take positions on interest rates and debt valuations.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Stock exchange companies may see higher trading volume and fee income from new derivative products.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services",
+    "Capital Markets"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64042"
-    }
-   ]
-  },
-  {
-   "headline": "RBI to conduct Overnight Variable Rate Repo (VRR) auction under LAF on November 26, 2026",
-   "time": "2026-11-25T19:20:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Thursday, November 26, 2026, as under: Sl. No. Notified Amount (₹ crore) Tenor (day) Window Timing Date of Reversal 1 75,000 1 09:30 AM to 10:00 AM November 27, 2026 (Friday) 2. The operational guidelines for the auction will be same as given in Reserve Ba",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "RBI press releases",
-     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64043"
-    }
-   ]
-  },
-  {
-   "headline": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
-   "time": "2026-11-26T01:30:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "US Federal Reserve",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm"
-    }
-   ]
-  },
-  {
-   "headline": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
-   "time": "2026-11-26T01:30:00+05:30",
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "US Federal Reserve",
-     "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm"
-    }
-   ]
-  },
-  {
-   "headline": "Adjudication Order in the matter of Vanita Krishnakant Gandhi",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Adjudication Order in the matter of Vanita Krishnakant Gandhi",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-vanita-krishnakant-gandhi_105859.html"
+     "name": "Business Standard Markets",
+     "url": "https://www.business-standard.com/markets/news/nse-receives-rbi-s-approval-to-launch-corporate-bond-index-futures-126112601165_1.html"
     },
     {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-intelligent-money-managers-private-limited_105879.html"
-    }
-   ]
-  },
-  {
-   "headline": "Adjudication Order in the matter of investigation in the Financial Statements of Lloyds Enterprises Limited",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Adjudication Order in the matter of investigation in the Financial Statements of Lloyds Enterprises Limited",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/adjudication-order-in-the-matter-of-investigation-in-the-financial-statements-of-lloyds-enterprises-limited_105858.html"
-    }
-   ]
-  },
-  {
-   "headline": "Half-yearly review of -Significant Indices- under SEBI (Index Providers) Regulations, 2024",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Half-yearly review of -Significant Indices- under SEBI (Index Providers) Regulations, 2024",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/half-yearly-review-of-significant-indices-under-sebi-index-providers-regulations-2024_105853.html"
-    }
-   ]
-  },
-  {
-   "headline": "Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/simplification-of-client-on-boarding-and-rationalisation-of-risk-management-framework-at-kyc-registration-agencies_105839.html"
-    }
-   ]
-  },
-  {
-   "headline": "Caution to investors regarding impersonation of SEBI registered intermediaries on closed user groups of social media platforms",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Caution to investors regarding impersonation of SEBI registered intermediaries on closed user groups of social media platforms",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/caution-to-investors-regarding-impersonation-of-sebi-registered-intermediaries-on-closed-user-groups-of-social-media-platforms_105944.html"
-    }
-   ]
-  },
-  {
-   "headline": "Advisory Regarding Unregulated Pre-listing Premium often called as Grey Market Premium (GMP) for Upcoming Initial Public Offers (IPOs)",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Advisory Regarding Unregulated Pre-listing Premium often called as Grey Market Premium (GMP) for Upcoming Initial Public Offers (IPOs)",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/advisory-regarding-unregulated-pre-listing-premium-often-called-as-grey-market-premium-gmp-for-upcoming-initial-public-offers-ipos-_105942.html"
-    }
-   ]
-  },
-  {
-   "headline": "Release Order – Unickon Securities Pvt. Ltd. [Defaulter] (PAN: AAPFS5325P) in the matter of Unickon Securities Pvt. Ltd.: under Certificate No. 5163 of 2022.",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Release Order – Unickon Securities Pvt. Ltd. [Defaulter] (PAN: AAPFS5325P) in the matter of Unickon Securities Pvt. Ltd.: under Certificate No. 5163 of 2022.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
-   "sources": [
-    {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/release-order-unickon-securities-pvt-ltd-defaulter-pan-aapfs5325p-in-the-matter-of-unickon-securities-pvt-ltd-under-certificate-no-5163-of-2022-_105925.html"
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/nse-gets-rbi-nod-to-launch-corporate-bond-index-futures/article71746922.ece"
     },
     {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/completion-of-recovery-certificate-no-5163-of-2022-dated-july-15-2022-issued-to-unickon-securities-pvt-ltd-defaulter-pan-aapfs5325p-in-the-matter-of-unickon-securities-pvt-ltd-_105919.html"
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/nse-secures-rbi-approval-for-corporate-bond-index-futures/article71747109.ece"
     }
    ]
   },
   {
-   "headline": "Release Order – Unicon Securities Pvt. Ltd. [Defaulter] (PAN: AAPFS5325P) in the matter of Ashutosh Paper Mills Limited: under Certificate No. 3834 of 2021.",
-   "time": null,
-   "factors": [],
-   "factor_ids": [],
-   "summary": "Release Order – Unicon Securities Pvt. Ltd. [Defaulter] (PAN: AAPFS5325P) in the matter of Ashutosh Paper Mills Limited: under Certificate No. 3834 of 2021.",
-   "confirmation": "Official source",
-   "impact": "AI explanation not available for this story.",
-   "sectors": [],
+   "headline": "Can Trump's tariffs fast-track India-US trade deal? Jefferies decodes — KEI, Welspun, Cipla, SRF, other stocks to watch",
+   "time": "2026-11-26T16:48:02+05:30",
+   "factors": [
+    "Geopolitics and trade",
+    "Government policy",
+    "External balances"
+   ],
+   "factor_ids": [
+    6,
+    15,
+    32
+   ],
+   "summary": "Jefferies report highlights potential impacts of US trade policies on Indian goods.\nA bilateral trade deal between India and the US could reduce US tariffs from 25% to 17%.\nExporters of chemicals, textiles, and capital goods have high exposure to the US market.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Lower potential tariffs could benefit export companies, but final trade policy decisions between the two countries are still pending.",
+   "lean": "unclear",
+   "sectors": [
+    "Chemicals",
+    "Textiles",
+    "Capital Goods"
+   ],
+   "unverified_figures": [],
    "sources": [
     {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/release-order-unicon-securities-pvt-ltd-defaulter-pan-aapfs5325p-in-the-matter-of-ashutosh-paper-mills-limited-under-certificate-no-3834-of-2021-_105923.html"
-    },
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/can-trumps-tariffs-fast-track-india-us-trade-deal-jefferies-decodes-kei-welspun-cipla-srf-other-stocks-to-watch-11795689679046.html"
+    }
+   ]
+  },
+  {
+   "headline": "Gold loan growth slows as falling gold prices push lenders into collection mode",
+   "time": "2026-11-26T20:41:46+05:30",
+   "factors": [
+    "Other commodities",
+    "Banking and liquidity",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    9,
+    13,
+    20
+   ],
+   "summary": "Gold prices dropped nearly 19% from their peak levels seen in January.\nGrowth in gold loans slowed down across financial companies.\nLoan-to-value ratios rose above previous levels due to falling collateral value.\nLenders have shifted focus towards collecting pending dues from borrowers.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Gold finance companies and banks offering gold loans may experience slower profit growth and higher recovery challenges.",
+   "lean": "down",
+   "sectors": [
+    "Non-Banking Financial Companies (NBFC)",
+    "Banks"
+   ],
+   "unverified_figures": [],
+   "sources": [
     {
-     "name": "SEBI",
-     "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/completion-of-recovery-certificate-no-3834-of-2021-dated-june-16-2021-issued-to-unicon-securities-pvt-ltd-defaulter-pan-aapfs5325p-in-the-matter-of-ashutosh-paper-mills-limited-_105917.html"
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/gold/gold-loan-growth-slows-as-falling-gold-prices-push-lenders-into-collection-mode/article71746853.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Nifty IT jumps over 2% as HCLTech, Wipro, Infosys lead IT rally",
+   "time": "2026-11-26T16:29:20+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Heavyweight stocks",
+    "Sector rotation"
+   ],
+   "factor_ids": [
+    20,
+    21,
+    23
+   ],
+   "summary": "Nifty IT index rose over 2% driven by strong buying in major technology stocks.\nHCLTech share price gained 4.67% to reach ₹1,444.50.\nWipro shares increased 3.53% to ₹195.73.\nInfosys shares climbed 3.38% to ₹1,168.20.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Large IT companies have high weightage in the market index, so gains in IT shares provide strong support to the Nifty.",
+   "lean": "up",
+   "sectors": [
+    "Information Technology"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/nifty-it-jumps-over-2-as-hcltech-wipro-infosys-lead-it-rally/article71745930.ece"
+    }
+   ]
+  },
+  {
+   "headline": "RBI to conduct 3-day Variable Rate Repo (VRR) auction under LAF on November 27, 2026",
+   "time": "2026-11-26T19:25:00+05:30",
+   "factors": [
+    "RBI monetary policy",
+    "Banking and liquidity",
+    "Indian bond market"
+   ],
+   "factor_ids": [
+    12,
+    13,
+    14
+   ],
+   "summary": "Reserve Bank of India announced a 3-day Variable Rate Repo auction.\nThe central bank will offer ₹75,000 crore to commercial banks on November 27, 2026.\nThis short-term cash facility will be reversed on November 30, 2026.\nThe auction aims to manage short-term cash needs in the banking system.",
+   "confirmation": "Official source",
+   "impact": "May help Nifty: Providing short-term cash to commercial banks helps them meet daily payment needs without stress.",
+   "lean": "up",
+   "sectors": [
+    "Banks",
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "RBI press releases",
+     "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64051"
+    }
+   ]
+  },
+  {
+   "headline": "SEBI appoints forensic auditor to probe alleged ₹3,535-crore Coffee Day fund diversion",
+   "time": "2026-11-26T15:25:08+05:30",
+   "factors": [
+    "Regulation",
+    "Corporate earnings",
+    "Corporate events"
+   ],
+   "factor_ids": [
+    17,
+    20,
+    31
+   ],
+   "summary": "SEBI appointed a forensic auditor to inspect Coffee Day fund accounts.\nThe audit will investigate alleged fund diversion of ₹3,535 crore.\nThe auditor will trace bank accounts and final beneficiaries of the funds.\nThis action follows directions from a legal tribunal.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Little effect on Nifty: Regulatory investigation into a single company affects specific shares but does not impact the broader stock market.",
+   "lean": "little",
+   "sectors": [
+    "Hospitality",
+    "Consumer Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/stock-markets/sebi-appoints-forensic-auditor-to-probe-alleged-3535-crore-coffee-day-fund-diversion/article71745772.ece"
+    }
+   ]
+  },
+  {
+   "headline": "मंत्रिमंडल की मंजूरी के बाद भारतीय डाक 2,632 करोड़ रुपये के वित्तीय परिव्यय से अपने परिवर्तन की प्रक्रिया को तेज करने जा रहा है",
+   "time": null,
+   "factors": [
+    "Government policy"
+   ],
+   "factor_ids": [
+    15
+   ],
+   "summary": "Union Cabinet approved a transformation plan for Indian Post.\nThe government allocated a financial outlay of ₹2,632 crore for this initiative.\nThe funds will be used to speed up the modernization of postal operations.",
+   "confirmation": "Official source",
+   "impact": "Little effect on Nifty: Government spending on postal infrastructure is public expenditure with minimal direct financial impact on listed companies.",
+   "lean": "little",
+   "sectors": [
+    "Logistics",
+    "Government Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "PIB (Govt of India)",
+     "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2342300"
     }
    ]
   }
  ],
  "factor_status": {
-  "1": "unverified",
-  "2": "unverified",
-  "3": "unverified",
-  "4": "unverified",
+  "1": "none",
+  "2": "none",
+  "3": "none",
+  "4": "none",
   "5": "unverified",
-  "6": "unverified",
-  "7": "unverified",
-  "8": "unverified",
-  "9": "unverified",
-  "10": "unverified",
-  "11": "unverified",
-  "12": "unverified",
-  "13": "unverified",
-  "14": "unverified",
-  "15": "unverified",
-  "16": "unverified",
-  "17": "unverified",
-  "18": "unverified",
-  "19": "unverified",
-  "20": "unverified",
-  "21": "unverified",
-  "22": "unverified",
-  "23": "unverified",
+  "6": "found",
+  "7": "found",
+  "8": "found",
+  "9": "found",
+  "10": "found",
+  "11": "found",
+  "12": "found",
+  "13": "found",
+  "14": "found",
+  "15": "found",
+  "16": "none",
+  "17": "found",
+  "18": "none",
+  "19": "none",
+  "20": "found",
+  "21": "found",
+  "22": "none",
+  "23": "found",
   "24": "unverified",
   "25": "unverified",
   "26": "unverified",
   "27": "unverified",
   "28": "unverified",
   "29": "unverified",
-  "30": "unverified",
-  "31": "unverified",
-  "32": "unverified",
+  "30": "found",
+  "31": "found",
+  "32": "found",
   "33": "unverified",
-  "34": "unverified",
+  "34": "found",
   "35": "unverified",
-  "36": "unverified"
+  "36": "none"
  },
  "gaps": [
   "SEBI: 30 items skipped because no publish time was given",
   "PIB (Govt of India): 20 items skipped because no publish time was given",
   "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
   "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
-  "AI summaries unavailable this run. Showing headlines only."
+  "Check figures 24, 92.44 (not found in the source text we read): Spike in oil prices partly reverses rupee rally, forward pre"
  ],
  "sources_checked": {
   "RBI press releases": {
    "ok": true,
    "total": 10,
-   "in_window": 4,
+   "in_window": 3,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-26T16:25:00+05:30"
+   "newest": "2026-11-27T15:35:00+05:30"
   },
   "RBI notifications": {
    "ok": true,
@@ -332,7 +385,7 @@
   "US Federal Reserve": {
    "ok": true,
    "total": 20,
-   "in_window": 2,
+   "in_window": 0,
    "no_time": 0,
    "fresh": true,
    "newest": "2026-11-26T01:30:00+05:30"
@@ -348,34 +401,34 @@
   "Economic Times Markets": {
    "ok": true,
    "total": 50,
-   "in_window": 20,
+   "in_window": 9,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-26T16:06:16+05:30"
+   "newest": "2026-11-27T12:23:29+05:30"
   },
   "Mint Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 5,
+   "in_window": 13,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-26T16:48:02+05:30"
+   "newest": "2026-11-27T16:00:40+05:30"
   },
   "Business Standard Markets": {
    "ok": true,
    "total": 35,
-   "in_window": 7,
+   "in_window": 1,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-26T15:14:58+05:30"
+   "newest": "2026-11-27T14:56:00+05:30"
   },
   "BusinessLine Markets": {
    "ok": true,
    "total": 60,
-   "in_window": 31,
+   "in_window": 23,
    "no_time": 0,
    "fresh": true,
-   "newest": "2026-11-26T16:13:26+05:30"
+   "newest": "2026-11-27T15:45:37+05:30"
   }
  }
 }
