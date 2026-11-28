@@ -1,0 +1,409 @@
+{
+ "status": "ok",
+ "title": "Indian Market News Brief — 28 Nov 2026 — Nifty 50",
+ "generated_at": "2026-11-28T15:19:41.242981+05:30",
+ "window_start": "2026-11-27T15:00:00+05:30",
+ "cutoff": "2026-11-28T07:30:00+05:30",
+ "quick_read": "Evolving RBI cash rules for banks and easier registration for foreign funds may support domestic markets. Rising crude oil prices, a weaker rupee, and higher bond borrowing costs may keep pressure on stock prices. The impact of falling foreign exchange reserves and regulatory checks on corporate deals remains unclear.",
+ "stories": [
+  {
+   "headline": "RBI rolls back tighter daily CRR requirement as banking liquidity slips into deficit",
+   "time": "2026-11-27T18:14:02+05:30",
+   "factors": [
+    "RBI monetary policy",
+    "Banking and liquidity"
+   ],
+   "factor_ids": [
+    12,
+    13
+   ],
+   "summary": "RBI reversed its decision to increase the daily minimum Cash Reserve Ratio requirement from 90 percent to 99 percent. This rule change will take effect from December 1. The central bank took this action as cash supply in the banking system fell into a shortage.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Banks may have to keep less daily cash with the central bank, giving them more money to lend to customers.",
+   "lean": "up",
+   "sectors": [
+    "Banking"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/rbi-reverses-daily-crr-rule-as-bank-liquidity-tightens-11795780978865.html"
+    }
+   ]
+  },
+  {
+   "headline": "Stock market today: Sensex tumbles 1,000 points, Nifty drops 277 points as TCS, Infosys, Shriram Finance lead losses",
+   "time": "2026-11-27T16:48:48+05:30",
+   "factors": [
+    "Crude oil",
+    "Rupee",
+    "Heavyweight stocks",
+    "Global markets"
+   ],
+   "factor_ids": [
+    8,
+    7,
+    21,
+    1
+   ],
+   "summary": "The Nifty 50 index fell 1.07 percent and the Sensex dropped 1.20 percent on Friday. Technology and banking shares led the decline, with large stocks like TCS, Infosys, and HDFC Bank dragging the index down. Rising crude oil prices and profit-taking after a strong November rally contributed to the fall.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Weakness in key technology and banking shares along with higher crude oil prices could keep stock prices down.",
+   "lean": "down",
+   "sectors": [
+    "Information Technology",
+    "Banking"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-sensex-tumbles-1-000-points-nifty-drops-277-points-as-tcs-infosys-shriram-finance-lead-losses-11795774138976.html"
+    }
+   ]
+  },
+  {
+   "headline": "Five-day FPI onboarding, simpler disclosures: SEBI outlines major regulatory reforms",
+   "time": "2026-11-27T16:43:30+05:30",
+   "factors": [
+    "Regulation",
+    "Foreign investment"
+   ],
+   "factor_ids": [
+    17,
+    18
+   ],
+   "summary": "Market regulator SEBI plans to reduce the onboarding time for Foreign Portfolio Investors from several months to five business days. SEBI also proposed simplifying disclosure rules to match global standards. These regulatory measures aim to lower compliance costs and improve access for foreign funds.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Faster approvals and easier paperwork could encourage more foreign funds to invest in Indian shares.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/five-day-fpi-onboarding-simpler-disclosures-sebi-outlines-major-regulatory-reforms/article71750196.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Rupee nosedives 60 paise to settle at 92.98 against US dollar",
+   "time": "2026-11-27T16:27:11+05:30",
+   "factors": [
+    "Rupee",
+    "US dollar"
+   ],
+   "factor_ids": [
+    7,
+    4
+   ],
+   "summary": "The Indian rupee dropped 60 paise to close at 92.98 against the US dollar. A strong US dollar and a fall in domestic stock prices put pressure on the currency. Foreign fund inflows provided some support during the week.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: A falling rupee makes imported goods and oil costlier, which can pressure company profits and market mood.",
+   "lean": "down",
+   "sectors": [
+    "Broad Market"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/forex/rupee-nosedives-60-paise-to-settle-at-9298-against-us-dollar/article71750336.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Gokaldas Exports to Trident: Textile stocks gain up to 8% as global brands turn to India; what's the opportunity?",
+   "time": "2026-11-27T18:12:39+05:30",
+   "factors": [
+    "Corporate earnings",
+    "Geopolitics and trade"
+   ],
+   "factor_ids": [
+    20,
+    6
+   ],
+   "summary": "Shares of Indian textile companies rose up to 8 percent as global fashion brands shifted garment orders from Bangladesh. Gokaldas Exports saw its shares gain as much as 11 percent. The shift comes due to worker unrest and rising operational costs in Bangladesh.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May help Nifty: Increased garment orders from foreign buyers could boost revenues and profit margins for Indian textile firms.",
+   "lean": "up",
+   "sectors": [
+    "Textiles"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/gokaldas-exports-to-trident-textile-stocks-gain-up-to-8-as-global-brands-turn-to-india-whats-the-opportunity-11795782603918.html"
+    }
+   ]
+  },
+  {
+   "headline": "SEBI to look into Tata Steel-APL Apollo deal over minority shaeholder concerns",
+   "time": "2026-11-27T18:44:03+05:30",
+   "factors": [
+    "Regulation",
+    "Corporate events",
+    "Heavyweight stocks"
+   ],
+   "factor_ids": [
+    17,
+    31,
+    21
+   ],
+   "summary": "Market regulator SEBI is examining the deal between Tata Steel and APL Apollo due to concerns raised by minority shareholders. SEBI official Tuhin Kanta Pandey stated that investor protection is a key priority. Proxy advisers and institutional investors had previously raised concerns over the transaction.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "Unclear for Nifty: Regulatory scrutiny could create uncertainty for the stock prices of the involved companies in the near term.",
+   "lean": "unclear",
+   "sectors": [
+    "Metals & Mining",
+    "Industrial Products"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/companies/sebi-to-look-into-tata-steelapl-apollo-deal-over-minority-concerns/article71749659.ece"
+    },
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/tata-steel-apl-apollo-deal-under-sebi-scrutiny-what-chairman-tuhin-kanta-pandey-said-on-minority-shareholders-11795787306824.html"
+    }
+   ]
+  },
+  {
+   "headline": "India bonds slump as oil spike adds to RBI hike bets",
+   "time": "2026-11-27T17:24:01+05:30",
+   "factors": [
+    "Indian bond market",
+    "Crude oil",
+    "RBI monetary policy"
+   ],
+   "factor_ids": [
+    14,
+    8,
+    12
+   ],
+   "summary": "Indian government bond prices fell this week as crude oil prices rose and US bond yields moved higher. The benchmark 10-year Indian bond yield reached a weekly high of 7.2650 percent on Friday. Market participants expect higher oil prices to increase inflation concerns and spark central bank rate talk.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "May hurt Nifty: Higher bond yields increase borrowing costs across the economy, which can lower stock valuations.",
+   "lean": "down",
+   "sectors": [
+    "Banking",
+    "Financial Services"
+   ],
+   "unverified_figures": [
+    "10"
+   ],
+   "sources": [
+    {
+     "name": "Economic Times Markets",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-slump-as-oil-spike-adds-to-rbi-hike-bets/articleshow/136221243.cms"
+    }
+   ]
+  },
+  {
+   "headline": "India’s forex reserves fall by $4.44 billion to $700.90 billion, RBI data shows",
+   "time": "2026-11-27T18:13:14+05:30",
+   "factors": [
+    "External balances",
+    "Rupee"
+   ],
+   "factor_ids": [
+    32,
+    7
+   ],
+   "summary": "India's foreign exchange reserves fell by $4.44 billion to $700.90 billion, according to RBI data. This follows a $14.205 billion drop in the previous week. Reserves have continued to move down from their record peak recorded in September.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Unclear for Nifty: Declining foreign reserves may limit the central bank's capacity to smooth out sharp currency movements.",
+   "lean": "unclear",
+   "sectors": [
+    "Broad Market"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/forex/indias-forex-reserves-fall-by-444-billion-to-70090-billion-rbi-data-shows/article71750664.ece"
+    }
+   ]
+  },
+  {
+   "headline": "Zee Entertainment ₹600 crore buyback opens on December 1; what eligible shareholders need to know",
+   "time": "2026-11-27T22:40:38+05:30",
+   "factors": [
+    "Corporate events",
+    "Corporate earnings"
+   ],
+   "factor_ids": [
+    31,
+    20
+   ],
+   "summary": "Zee Entertainment announced that its ₹600 crore share buyback will open on December 1 and close on December 7. The company plans to buy back shares at ₹91 per share through a tender process. Promoters of the company will not participate in the buyback.",
+   "confirmation": "Single source, not independently confirmed",
+   "impact": "Explanation withheld.",
+   "lean": "unclear",
+   "sectors": [
+    "Media & Entertainment"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/stock-market-news/zee-entertainment-rs-600-crore-buyback-opens-on-december-1-what-eligible-shareholders-need-to-know-11795797877733.html"
+    }
+   ]
+  },
+  {
+   "headline": "SEBI allows FPIs to trade in physically settled commodity derivatives from June 2027",
+   "time": "2026-11-27T19:23:28+05:30",
+   "factors": [
+    "Regulation",
+    "Foreign investment",
+    "Other commodities"
+   ],
+   "factor_ids": [
+    17,
+    18,
+    9
+   ],
+   "summary": "SEBI will allow Foreign Portfolio Investors to trade in physically settled commodity derivative contracts starting June 2027. This marks a shift from the current cash-settled trading rules. New risk-management arrangements will govern foreign investor trading positions.",
+   "confirmation": "Confirmed by 2 or more outlets",
+   "impact": "May help Nifty: Allowing foreign investors into physical commodity contracts could increase trading volume and market participation over time.",
+   "lean": "up",
+   "sectors": [
+    "Financial Services"
+   ],
+   "unverified_figures": [],
+   "sources": [
+    {
+     "name": "BusinessLine Markets",
+     "url": "https://www.thehindubusinessline.com/markets/commodities/sebi-allows-fpis-to-trade-in-physically-settled-commodity-derivatives-from-june-2027/article71751009.ece"
+    },
+    {
+     "name": "Mint Markets",
+     "url": "https://www.livemint.com/market/sebi-allows-fpis-to-trade-physically-settled-non-agri-commodity-derivatives-11795786275549.html"
+    }
+   ]
+  }
+ ],
+ "factor_status": {
+  "1": "found",
+  "2": "none",
+  "3": "none",
+  "4": "found",
+  "5": "unverified",
+  "6": "found",
+  "7": "found",
+  "8": "found",
+  "9": "found",
+  "10": "none",
+  "11": "none",
+  "12": "found",
+  "13": "found",
+  "14": "found",
+  "15": "none",
+  "16": "none",
+  "17": "found",
+  "18": "found",
+  "19": "none",
+  "20": "found",
+  "21": "found",
+  "22": "none",
+  "23": "none",
+  "24": "unverified",
+  "25": "unverified",
+  "26": "unverified",
+  "27": "unverified",
+  "28": "unverified",
+  "29": "unverified",
+  "30": "unverified",
+  "31": "found",
+  "32": "found",
+  "33": "unverified",
+  "34": "unverified",
+  "35": "unverified",
+  "36": "none"
+ },
+ "gaps": [
+  "Source unavailable: SEBI",
+  "PIB (Govt of India): 20 items skipped because no publish time was given",
+  "SEBI/PIB items without a publish time are shown as new since the last run; time not provided by the source.",
+  "Not covered yet: India VIX, PCR, options and futures open interest, breadth and delivery data, exchange filings, heavyweight earnings calendar.",
+  "Removed AI text with trading language: Zee Entertainment ₹600 crore buyback opens on December 1; wh",
+  "Check figures 10 (not found in the source text we read): India bonds slump as oil spike adds to RBI hike bets"
+ ],
+ "sources_checked": {
+  "RBI press releases": {
+   "ok": true,
+   "total": 10,
+   "in_window": 7,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-27T20:45:00+05:30"
+  },
+  "RBI notifications": {
+   "ok": true,
+   "total": 10,
+   "in_window": 10,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-27T20:45:00+05:30"
+  },
+  "SEBI": {
+   "ok": false,
+   "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  "US Federal Reserve": {
+   "ok": true,
+   "total": 20,
+   "in_window": 0,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-26T01:30:00+05:30"
+  },
+  "PIB (Govt of India)": {
+   "ok": true,
+   "total": 20,
+   "in_window": 20,
+   "no_time": 20,
+   "fresh": true,
+   "newest": null
+  },
+  "Economic Times Markets": {
+   "ok": true,
+   "total": 50,
+   "in_window": 10,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-28T14:01:12+05:30"
+  },
+  "Mint Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 21,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-28T15:09:12+05:30"
+  },
+  "Business Standard Markets": {
+   "ok": true,
+   "total": 35,
+   "in_window": 8,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-28T12:54:49+05:30"
+  },
+  "BusinessLine Markets": {
+   "ok": true,
+   "total": 60,
+   "in_window": 24,
+   "no_time": 0,
+   "fresh": true,
+   "newest": "2026-11-28T14:42:33+05:30"
+  }
+ }
+}
